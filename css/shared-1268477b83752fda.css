@@ -1,0 +1,85 @@
+
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Inter,Segoe UI,Arial,sans-serif;background:#142d35;color:#172335}
+button{font:inherit;cursor:pointer}
+#world{position:fixed;inset:0;overflow:hidden;background:#142d35}
+.scene{position:absolute;inset:0;width:100vw;height:100vh;overflow:hidden}
+.scene>img{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;object-position:center}
+.directory{position:absolute;z-index:30;left:12px;top:12px;bottom:12px;width:188px;padding:10px;overflow-y:auto;scrollbar-width:none;border:1px solid rgba(255,255,255,.24);border-radius:17px;background:rgba(10,37,42,.24);backdrop-filter:blur(7px);box-shadow:0 14px 35px rgba(0,0,0,.24);color:#fff}
+.directory::-webkit-scrollbar{display:none}
+.place{font-size:15px;font-weight:950;line-height:1.1;margin:2px 2px 9px}
+.label{margin:7px 3px 3px;font-size:9px;font-weight:950;letter-spacing:.14em;color:rgba(255,255,255,.78)}
+.directory button{display:block;width:100%;margin:2px 0;padding:6px 8px;border:0;border-radius:10px;background:rgba(255,255,255,.10);color:#fff;text-align:left;font-size:11px;font-weight:850}
+.directory button:hover,.directory button.active{background:rgba(18,151,142,.78)}
+.main-directory{margin-bottom:8px!important;background:rgba(255,255,255,.18)!important;font-weight:950!important}
+.panel{position:absolute;z-index:28;right:18px;bottom:18px;width:34%;max-width:650px;max-height:48%;overflow:auto;scrollbar-width:none;padding:12px 14px;border:1px solid rgba(255,255,255,.38);border-radius:20px;background:rgba(255,252,242,.25);backdrop-filter:blur(4px);box-shadow:0 12px 30px rgba(20,30,40,.18)}
+.panel::-webkit-scrollbar{display:none}
+.kicker{font-size:10px;font-weight:950;letter-spacing:.13em;color:#7b4a23}
+.panel h2{margin:3px 0;font-size:clamp(18px,1.5vw,27px)}
+.panel p{font-size:12px;margin:5px 0 7px}
+.line{padding:9px 10px;border-radius:11px;background:rgba(255,255,255,.42);font-size:16px;font-weight:900}
+.translation{font-size:12px;margin:5px 0 7px}
+.actions{display:flex;gap:6px;margin-top:7px}
+.actions button,.challengeNext{border:0;border-radius:10px;padding:8px 10px;background:rgba(25,115,106,.94);color:#fff;font-size:11px;font-weight:900}
+.find{display:none;margin-top:8px;padding:9px 10px;border-radius:11px;background:rgba(255,255,255,.40);font-size:11px}
+.find.show{display:block}
+.count{font-size:9px;font-weight:950;letter-spacing:.12em;color:#7b4a23;margin-bottom:5px}
+.status{min-height:20px;margin:5px 0;font-weight:900}.hint{font-size:10px;color:#596174;margin:4px 0 7px}
+.hotspots{position:absolute;inset:0;z-index:22;pointer-events:none}
+.hotspot{position:absolute;transform:translate(-50%,-50%);border:0;border-radius:50%;background:transparent;opacity:.025;pointer-events:auto}
+.hotspot:hover,.hotspot:focus-visible{opacity:.52;outline:4px solid rgba(255,255,255,.95);outline-offset:-4px;background:rgba(18,151,142,.34)}
+/* Market hotspot map — mapped to the approved wide Market artwork. */
+[data-word="bee"]{left:26.0%;top:10.5%;width:11.0%;height:17.0%}
+[data-word="book"]{left:30.9%;top:16.5%;width:4.4%;height:7.5%}
+[data-word="lamp"]{left:20.6%;top:19.0%;width:2.8%;height:22.0%}
+[data-word="woman"]{left:26.5%;top:53.5%;width:7.0%;height:37.0%}
+[data-word="dog"]{left:21.5%;top:74.5%;width:6.0%;height:19.0%}
+[data-word="vegetables"]{left:32.5%;top:56.5%;width:14.5%;height:19.0%}
+[data-word="peppers"]{left:33.5%;top:41.0%;width:8.5%;height:14.0%}
+[data-word="garlic"]{left:30.3%;top:41.5%;width:3.2%;height:13.0%}
+[data-word="basket"]{left:48.5%;top:56.5%;width:4.5%;height:17.0%}
+[data-word="hat"]{left:48.2%;top:51.0%;width:4.0%;height:6.5%}
+[data-word="car"]{left:65.3%;top:52.5%;width:8.5%;height:13.0%}
+[data-word="shopper"]{left:59.3%;top:54.5%;width:5.0%;height:20.0%}
+[data-word="butcher"]{left:94.8%;top:48.0%;width:5.5%;height:19.0%}
+[data-word="meat"]{left:86.8%;top:37.0%;width:7.5%;height:24.0%}
+[data-word="fish"]{left:89.3%;top:67.0%;width:11.0%;height:10.0%}
+[data-word="palm"]{left:72.0%;top:12.0%;width:7.0%;height:27.0%}
+[data-word="mountain"]{left:52.0%;top:24.0%;width:24.0%;height:11.0%}
+[data-word="tower"]{left:57.0%;top:27.0%;width:4.0%;height:17.0%}
+[data-word="flowers"]{left:84.0%;top:9.0%;width:12.0%;height:16.0%}
+[data-word="awning"]{left:77.0%;top:26.0%;width:18.0%;height:12.0%}
+@media(max-width:850px){.directory{width:165px}.panel{right:12px;bottom:12px;width:42%}}
+
+/* Scene View: hide only the left activity directory and reveal the full scene. */
+.scene-view-toggle{display:block;width:100%;margin:0 0 8px 0;border:1px solid rgba(255,255,255,.55);border-radius:10px;padding:8px;background:rgba(255,255,255,.12);color:#fff;font-size:11px;font-weight:950;cursor:pointer}
+body.scene-view .directory,body.scene-view .panel,body.scene-view .tab-master-card{display:none!important}
+.return-panel-toggle{display:none;position:fixed;z-index:10000;left:16px;top:16px;width:auto;margin:0;padding:9px 13px;border:1px solid rgba(255,255,255,.72);border-radius:10px;background:rgba(10,37,42,.86);color:#fff;font-size:11px;font-weight:950;cursor:pointer;box-shadow:0 7px 20px rgba(0,0,0,.30)}
+body.scene-view .return-panel-toggle{display:block!important}
+
+
+
+.talkabee-forward-arrow{
+ position:fixed;z-index:10020;right:22px;top:18px;
+ width:62px;height:62px;border:2px solid rgba(255,255,255,.82);
+ border-radius:50%;
+ background:rgba(11,22,42,.20);
+ box-shadow:0 5px 16px rgba(0,0,0,.14);
+ backdrop-filter:blur(2px);
+ display:grid;place-items:center;
+ text-decoration:none;cursor:pointer;
+}
+.talkabee-forward-arrow::before{
+ content:"";
+ width:17px;height:17px;
+ border-top:5px solid #fff;
+ border-right:5px solid #fff;
+ transform:rotate(45deg) translate(-2px,2px);
+ filter:drop-shadow(0 1px 2px rgba(0,0,0,.35));
+}
+.talkabee-forward-arrow:hover,.talkabee-forward-arrow:focus-visible{
+ background:rgba(11,22,42,.34);
+ outline:3px solid rgba(255,255,255,.72);
+ outline-offset:2px;
+}
+

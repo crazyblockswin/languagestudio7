@@ -1,0 +1,9 @@
+/* Isolated panel typography pilot. Intentionally does not override positioning,
+   dimensions, opacity, transforms, drag handles, or visibility. */
+:root{--tab-pilot-control-font:12px;--tab-pilot-heading-font:19px}
+.panel.tab-pilot-panel h1{font-size:var(--tab-pilot-heading-font);line-height:1.1}
+.panel.tab-pilot-panel button:not(.tab-panel-size-controls button),
+.panel.tab-pilot-panel select{font-size:var(--tab-pilot-control-font);line-height:1.2}
+.panel.tab-pilot-panel .tab-panel-size-controls button{width:auto;min-width:0}
+/* Preserve original event hooks; harmonize only supporting label text. */
+.panel.tab-pilot-panel :is(label, .label, .section-label){line-height:1.2}

@@ -1,0 +1,17 @@
+
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101827;font-family:Arial,Helvetica,sans-serif}
+.world{position:fixed;inset:0;background:#101827;overflow:hidden}
+.scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
+.click{position:absolute;z-index:20;border:0;background:transparent;cursor:pointer;border-radius:14px;color:transparent;font-size:0}
+.click:focus-visible{outline:4px solid rgba(255,255,255,.95);outline-offset:-4px;background:rgba(255,215,90,.20)}
+#back{left:1.2%;top:9.2%;width:14.2%;height:7.3%}
+.activity{left:1.25%;width:14.2%;height:5.0%}.a1{top:28.4%}.a2{top:33.4%}.a3{top:38.5%}.a4{top:43.6%}.a5{top:48.6%}.a6{top:53.7%}.discovery{left:1.25%;top:58.1%;width:14.2%;height:5.2%}
+.challenge{left:1.25%;width:14.2%;height:4.4%}.c1{top:67.2%}.c2{top:71.6%}.c3{top:76.0%}.c4{top:80.4%}.c5{top:84.8%}.c6{top:89.2%}
+.script-mask{position:absolute;z-index:14;left:61.7%;top:61.2%;right:.8%;bottom:1.7%;border-radius:24px;background:#0d2b30;box-shadow:0 15px 35px rgba(0,0,0,.24)}
+.live-card{position:absolute;z-index:15;left:62.3%;top:65.6%;width:35.6%;height:28.3%;padding:18px 22px;color:#fff;border-radius:22px;background:#0d2b30;box-shadow:0 15px 35px rgba(0,0,0,.24);overflow:hidden}
+.kicker{font-size:clamp(10px,.9vw,15px);font-weight:950;letter-spacing:.12em;color:#ffe064}.live-card h1{font-size:clamp(18px,1.7vw,29px);margin:7px 0 8px;line-height:1.08}.prompt{font-size:clamp(10px,.9vw,15px);line-height:1.25;margin:0 0 8px}.target{font-size:clamp(18px,1.65vw,28px);font-weight:950;margin-top:3px}.translation{font-size:clamp(10px,.9vw,15px);margin-top:2px}.actions{display:flex;gap:9px;margin-top:10px;flex-wrap:wrap}.actions button{border:0;border-radius:10px;padding:9px 14px;font-weight:950;font-size:clamp(11px,.9vw,15px);cursor:pointer}.primary{background:#ffd45c;color:#2b2515}.actions button:not(.primary){background:#f6f7fa;color:#253047}
+.hotspot{display:block;position:absolute;z-index:30;transform:translate(-50%,-50%);width:5.2%;aspect-ratio:1/1;border:4px solid rgba(255,255,255,.94);border-radius:50%;background:rgba(255,195,55,.45);box-shadow:0 0 0 7px rgba(255,195,55,.18),0 8px 22px rgba(0,0,0,.28);cursor:pointer;animation:pulse 1.7s ease-in-out infinite}.discover .hotspot,.challenge-mode .hotspot.target-hotspot{display:block}.hotspot:hover{background:rgba(116,82,232,.55)}
+@keyframes pulse{50%{transform:translate(-50%,-50%) scale(1.08)}}
+#horse{left:24%;top:35%}#cow{left:43%;top:40%}#sheep{left:35%;top:48%}#goat{left:33%;top:59%}#pig{left:28%;top:68%}#dog{left:53%;top:64%}#rooster{left:82%;top:55%}#chicken{left:76%;top:60%}#rabbit{left:52%;top:88%}#squirrel{left:94%;top:47%}#bee{left:82%;top:14%}
+.status{font-weight:950;color:#ffe064;margin-top:8px;min-height:18px}
+@media(max-width:900px){.script-mask{left:59.3%;top:60.5%;right:.5%;bottom:1%}.live-card{left:60%;width:38%;padding:12px 14px}.actions{gap:5px}.actions button{padding:7px 9px}}

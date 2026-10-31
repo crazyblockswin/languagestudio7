@@ -1,0 +1,7 @@
+
+.tab-master-card .controls{display:flex!important;gap:8px!important;align-items:stretch!important;flex-wrap:nowrap!important}
+.tab-master-card .controls button{min-width:0!important;flex:1 1 0!important;white-space:nowrap!important;font-size:12px!important;padding:8px 5px!important}
+.tab-master-card .controls #nextChallenge,.tab-master-card .controls #nextPhrase{flex:1.4 1 0!important;font-size:12px!important;white-space:nowrap!important}
+.tab-master-card .controls button[hidden]{display:none!important}
+/* Do not reveal answers before a visitor finds the correct object. */
+body:not(.tb-hs-editing) .challenge-mode .hotspot.target:not(:hover):not(:focus-visible){opacity:0!important;background:transparent!important;outline:none!important;box-shadow:none!important}

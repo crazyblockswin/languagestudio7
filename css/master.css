@@ -1,0 +1,300 @@
+:root{--panel-width:300px;--panel-height:500px;--panel-font:18px;--panel-family:Arial,sans-serif;--script-width:575px;--script-height:220px;--script-font:30px;--script-family:Arial,sans-serif;--card-opacity:.88;--accent:#f2cb75}*{box-sizing:border-box}body{margin:0;background:#14283a;color:#fff;font:16px Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}header{background:#101c29;border-bottom:1px solid #53606b;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;padding:12px 20px}header strong{font-size:23px}nav{display:flex;gap:8px;flex-wrap:wrap}nav a,.btn{color:#fff;text-decoration:none;background:linear-gradient(#444d57,#1c242c 65%,#10151b);border:1px solid #090c10;border-radius:11px;box-shadow:inset 0 1px 2px #ffffff45,0 3px 5px #0007;padding:9px 13px;font-weight:bold}nav a[aria-current],.btn.gold{color:#192332;background:linear-gradient(#ffe8aa,#d6a854)}.btn:hover,nav a:hover{filter:brightness(1.2)}.btn:focus-visible,nav a:focus-visible,input:focus-visible{outline:2px solid #fbd77d;outline-offset:2px}.shell{display:flex;gap:14px;align-items:flex-start;padding:14px}.left-panel{flex:0 0 var(--panel-width);width:var(--panel-width);min-height:var(--panel-height);background:#243340;border:1px solid #8c9eac;border-radius:15px;padding:16px;font:var(--panel-font) var(--panel-family);box-shadow:0 10px 25px #0007}.left-panel h2{margin:0 0 14px;font-size:1.25em}.left-panel label{display:block;margin:10px 0 5px;font-weight:bold}.left-panel select,.left-panel button{width:100%;min-width:0;padding:9px;border-radius:9px;border:1px solid #7d8995}.left-panel select{background:#fff;color:#111}.left-panel button{background:#343e49;color:#fff;margin-top:8px}.left-panel button.selected{background:#cda959;color:#111}.scene-area{position:relative;min-width:0;flex:1;min-height:72vh;border:1px solid #566c7b;border-radius:14px;overflow:hidden;background:radial-gradient(ellipse at 65% 35%,#527b84,#254a5e 50%,#112636);}.scene{position:relative;width:100%;aspect-ratio:16/9;min-height:370px;background-size:cover;background-position:center;overflow:hidden}.scene-caption{position:absolute;top:16px;left:20px;pointer-events:none;text-shadow:0 2px 6px #000}.scene-caption h1{font-size:25px;margin:0}.demo-landscape{position:absolute;inset:0;pointer-events:none}.demo-landscape:before{content:'';position:absolute;left:0;right:0;bottom:0;height:37%;background:linear-gradient(#355d47,#1d4934)}.demo-landscape:after{content:'🌲      🏕️       🌲       🔥      🌲';position:absolute;bottom:13%;left:5%;right:0;font-size:clamp(38px,5vw,92px);white-space:pre;text-shadow:0 6px 12px #000}.hotspot{position:absolute;border:2px solid transparent;background:transparent;color:transparent;z-index:5;cursor:pointer}.hotspot:hover,.hotspot:focus-visible{border-color:#ffdb73;background:#ffdc7430}.hotspot.editing{border:2px dashed #6de3ff;background:#1bd2ff29;cursor:move}.hotspot.active{border:3px solid #ffdf7d;background:#f9df7d35}.overlay-image{position:absolute;object-fit:contain;z-index:4;user-select:none}.overlay-image.editing{outline:2px dashed #6de3ff;cursor:move}.card{position:absolute;z-index:9;top:72px;left:clamp(10px,18%,230px);width:min(var(--script-width),calc(100% - 24px));height:var(--script-height);min-height:0;max-height:calc(100% - 12px);overflow-y:auto;background:rgba(30,34,39,var(--card-opacity));border:2px solid #89949b;border-radius:18px;box-shadow:0 16px 38px #000a;padding:12px 16px 16px;font:var(--script-font) var(--script-family);overflow-wrap:anywhere}.card[hidden]{display:none}.card-head{display:flex;justify-content:space-between;align-items:center;gap:8px;cursor:grab;touch-action:none;border-bottom:1px solid #ffffff40;padding-bottom:7px;margin-bottom:10px}.card-head strong{font-size:.65em}.card-head .tools{display:flex;gap:5px}.card-head button{background:#303941;color:white;border:1px solid #aaa;border-radius:7px;padding:3px 8px;font-size:14px}.card .script-text{font-size:1em;line-height:1.28;margin:10px 0}.card .translation{font-size:.7em;color:#f5d58a}.card .controls{display:flex;gap:6px;flex-wrap:wrap}.card .controls button{background:#4b555e;color:white;border:1px solid #9b9b9b;border-radius:8px;padding:7px 10px;font-size:16px}.card .feedback{color:#a5ffd1;font-size:.75em;min-height:1.3em}.card-resize{position:absolute;right:0;bottom:0;padding:4px 8px;cursor:nwse-resize;touch-action:none;color:#f4d27c;font-size:17px}.studio{margin:12px 14px 25px;border:1px solid #8395a4;border-radius:15px;background:#202f3e;padding:16px}.studio h2{margin:0 0 12px}.studio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:15px}.studio fieldset{border:1px solid #6b8395;border-radius:12px;min-width:0;padding:12px}.studio legend{color:#f7d888;font-weight:bold}.studio label{display:block;margin:9px 0 4px;font-size:14px}.studio input,.studio select,.studio textarea{width:100%;padding:8px;background:#edf0f3;color:#111;border:1px solid #aeb9c4;border-radius:8px}.studio input[type=range]{padding:0}.studio .buttons{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.studio .buttons button{padding:8px 10px;background:#394f61;color:white;border:1px solid #849eb0;border-radius:8px}.studio .buttons button.primary{background:#d3a957;color:#171717}.status{color:#b9f6c6;min-height:20px;font-size:13px}.hint{font-size:13px;color:#c6d5e0;line-height:1.4}.footer{padding:10px 20px 25px;color:#aabac8;font-size:13px}.scene.edit-mode .hotspot{border:2px dashed #6de3ff;background:#1bd2ff29;cursor:move}.scene.edit-mode .overlay-image{outline:2px dashed #6de3ff;cursor:move}@media(max-width:850px){.shell{flex-direction:column}.left-panel{width:100%;flex:auto;min-height:var(--panel-height)}.scene-area{width:100%}.card{left:12px;top:75px}.scene{min-height:450px}}
+
+/* Shared navigation for every Adventure, no per-scene markup. */
+.scene-area{display:flex;flex-direction:column;min-width:0}
+.scene-area>.scene{flex:1;min-height:380px}
+.adventure-nav{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;padding:10px;background:#192632;color:#fff}
+.adventure-nav button,.adventure-nav a{border:1px solid #ad8540;border-radius:11px;padding:10px 15px;background:linear-gradient(#f5dda1,#cba153);color:#20242a;font-weight:700;text-decoration:none;cursor:pointer}
+.adventure-nav button:disabled{opacity:.4;cursor:not-allowed}
+#adventurePosition{font-size:13px;min-width:115px;text-align:center}
+
+/* V2 positioning editor: handles appear only in LOCAL edit mode. */
+.scene.edit-mode .hotspot{touch-action:none;min-width:8px;min-height:8px;z-index:12;}
+.scene.edit-mode .hotspot.active{border:3px solid #ffe26a;background:rgba(255,219,76,.24)}
+.tb-hotspot-resize{display:none;position:absolute;right:-9px;bottom:-9px;width:20px;height:20px;background:#00eaff;border:2px solid #061b26;border-radius:5px;cursor:nwse-resize;z-index:15;touch-action:none}
+.scene.edit-mode .hotspot .tb-hotspot-resize{display:block}
+.scene.edit-mode .hotspot:after{content:attr(aria-label);position:absolute;left:0;top:-23px;color:white;background:#0b2634;font:700 12px Arial,sans-serif;padding:2px 5px;white-space:nowrap;pointer-events:none}
+
+/* Talk A Bee 2.0: visitor Scene View — preserve live hotspots and sounds. */
+body.tb-scene-only header,body.tb-scene-only .left-panel,body.tb-scene-only .card,body.tb-scene-only .adventure-nav,body.tb-scene-only .studio,body.tb-scene-only footer{display:none!important}
+body.tb-scene-only .shell{display:block!important;margin:0!important;padding:0!important;width:100vw!important;max-width:none!important;height:100vh!important}
+body.tb-scene-only .scene-area{margin:0!important;padding:0!important;width:100vw!important;max-width:none!important;height:100vh!important}
+body.tb-scene-only #scene{position:relative!important;width:100vw!important;height:100vh!important;min-height:100vh!important;max-height:none!important;margin:0!important;border-radius:0!important}
+body.tb-scene-only #sceneViewReturn{display:block!important;position:fixed!important;top:16px!important;left:16px!important;z-index:2147483000!important;width:auto!important;padding:11px 15px!important;border-radius:12px!important;background:rgba(7,23,39,.78)!important;color:white!important;border:1px solid #fff!important;cursor:pointer!important}
+body.tb-scene-only #scene .scene-caption{display:none!important}
+body.tb-scene-only #scene.edit-mode .hotspot{opacity:0!important;outline:none!important;background:transparent!important}
+/* Master Studio floating editors and sound library */
+.tb-workspace-bar{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:12px 0;padding:10px;border:1px solid #777;border-radius:9px}
+.tb-workspace-bar button,.tb-sound-actions button{cursor:pointer;padding:7px 10px}
+.tb-floating{position:fixed!important;margin:0!important;max-width:calc(100vw - 12px);max-height:calc(100vh - 12px);min-width:270px;min-height:150px;overflow:auto;resize:both;background:#242b36!important;box-shadow:0 12px 45px #000b;border:2px solid #d6b55e!important;border-radius:12px;padding:12px!important;box-sizing:border-box}
+.tb-float-head{position:sticky;top:-12px;z-index:2;cursor:move;touch-action:none;background:#4b3d26;color:#fff;padding:10px;margin:-12px -12px 12px;font-size:13px;font-weight:bold;user-select:none}
+.tb-sound-library{margin:10px 0;padding:10px;border:1px solid #9b8b62;border-radius:8px}
+.tb-sound-library select,.tb-sound-library input{width:100%;box-sizing:border-box}
+.tb-sound-actions{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0}
+
+/* Independent dock controls: one panel floats at a time, on demand. */
+.studio-grid > fieldset > legend{white-space:normal}
+.tb-undock{margin-left:12px;padding:3px 9px;font-size:13px;cursor:pointer;vertical-align:middle;border-radius:7px}
+.tb-float-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.tb-dock-in-head{font-size:13px;padding:4px 9px;cursor:pointer}
+.tb-floating > legend .tb-undock{display:none}
+
+/* Global public dashboard, approved Forest Retreat two-row design */
+*{box-sizing:border-box}body{margin:0;min-width:0}body>header{padding:8px 12px!important;position:relative!important;z-index:30;background:#14212e!important}body>header nav{display:none!important}
+.tb-header-row{display:flex;align-items:center;gap:10px;width:100%;min-width:0;flex-wrap:nowrap;overflow:visible;padding:3px 4px}.tb-header-row+.tb-header-row{border-top:1px solid #394958;margin-top:5px;padding-top:8px}.tb-row-voice{justify-content:flex-start}.tb-row-nav{justify-content:flex-start}.tb-nav-end{display:flex;gap:6px;margin-left:auto;flex-shrink:0}
+.tb-logo{font-weight:800;color:#fff;text-decoration:none;white-space:nowrap;font-size:clamp(14px,1.35vw,21px);padding-right:5px}
+.tb-field{display:flex;flex-direction:column;gap:2px;color:#e3ebf4;font-size:11px;font-weight:700;min-width:0;flex:0 1 auto;margin:0!important}
+.tb-field span{line-height:1.1}.tb-field select{height:36px!important;min-height:36px!important;padding:4px 6px!important;margin:0!important;border-radius:7px!important;font-size:13px!important;max-width:100%;background:#f9fafb;color:#111}
+.tb-scenePicker{flex:1 1 230px;min-width:155px;max-width:340px}.tb-native,.tb-learn{flex:0 1 150px;min-width:100px}.tb-voiceMode{flex:0 1 190px;min-width:125px}.tb-voiceSelect{flex:0 1 190px;min-width:125px}
+.tb-header-row button{flex:0 0 auto!important;white-space:nowrap!important;margin:0!important;padding:8px 9px!important;font-size:13px!important;min-height:36px!important;border-radius:8px!important}
+.tb-header-row .tb-mode.selected{background:#e5b957!important;color:#16212d!important}.tb-header-row .tb-arrow{font-weight:900;min-width:35px}
+.shell{display:block!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;grid-template-columns:none!important}.scene-area{width:100%!important;max-width:none!important;margin:0!important;padding:0!important;min-width:0!important}
+.scene{width:100%!important;max-width:none!important;min-height:min(78vh,900px)!important;aspect-ratio:1508/856!important;background-position:center!important;background-size:cover!important;margin:0!important;border-radius:0!important}
+.tb-adventure-position{padding:5px 12px!important;text-align:center!important;background:#14212e!important;min-height:0!important}.tb-adventure-position button{display:none!important}.tb-adventure-position span{font-size:12px!important}.tb-status{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(max-width:1100px){.tb-header-row{gap:5px}.tb-logo{font-size:14px}.tb-field select{font-size:12px!important}.tb-header-row button{font-size:12px!important;padding:7px!important}}
+@media(max-width:700px){.tb-header-row{flex-wrap:wrap}.tb-nav-end{margin-left:0}.tb-scenePicker{max-width:none}.tb-logo{min-width:100%}}
+
+/* Compact two-row visitor header — Forest Retreat test only */
+body>header{padding:3px 10px!important}
+.tb-header-row{gap:7px;padding:1px 3px!important;min-height:0!important}
+.tb-header-row+.tb-header-row{margin-top:2px!important;padding-top:3px!important}
+.tb-field{gap:1px!important;font-size:10px!important;line-height:1!important}
+.tb-field span{line-height:1!important}
+.tb-field select{height:31px!important;min-height:31px!important;padding:2px 6px!important;font-size:12px!important;border-radius:6px!important}
+.tb-header-row button{min-height:31px!important;padding:5px 9px!important;font-size:12px!important;border-radius:7px!important}
+.tb-logo{font-size:17px!important;padding-right:4px!important}
+.tb-scenePicker{max-width:310px!important}
+@media(max-width:1100px){.tb-header-row{gap:5px!important}.tb-logo{font-size:14px!important}.tb-native,.tb-learn{min-width:90px}.tb-voiceMode,.tb-voiceSelect{min-width:115px}}
+
+/* Recessed charcoal cockpit dashboard — visitor-only test */
+body{background:#091117!important}
+body>header{
+ background:linear-gradient(160deg,#353d43 0%,#20282e 40%,#141c23 100%)!important;
+ border:1px solid #596b76!important;border-top:2px solid #7c929d!important;
+ border-bottom:3px solid #080e13!important;
+ box-shadow:inset 0 2px 1px #a3b6bd33,inset 0 -6px 14px #0009,0 6px 18px #0009!important;
+ padding:7px 12px 8px!important;border-radius:0 0 15px 15px!important;
+}
+.tb-header-row{gap:9px!important;padding:3px 5px!important}
+.tb-header-row+.tb-header-row{
+ border-top:1px solid #66747c66!important;margin-top:6px!important;padding-top:8px!important;
+ box-shadow:0 -1px 0 #050a0e88!important;
+}
+.tb-logo{color:#f2f5f5!important;text-shadow:0 2px 3px #000,0 0 10px #66c7db44!important;letter-spacing:.2px}
+.tb-field{color:#b9c9d1!important;text-shadow:0 1px 2px #000!important;letter-spacing:.3px}
+.tb-field select{
+ appearance:auto!important;background:linear-gradient(180deg,#10171d,#202b33)!important;
+ color:#f1f7fa!important;border:1px solid #506470!important;border-top-color:#0a1014!important;
+ border-radius:9px!important;box-shadow:inset 0 3px 7px #000c,inset 0 -1px 0 #a0c3d01c,0 1px 0 #8ca1aa33!important;
+ font-weight:700!important;height:35px!important;min-height:35px!important;
+}
+.tb-field select:focus-visible{outline:2px solid #8bd9e5!important;outline-offset:2px}
+.tb-field select option{background:#17232c;color:#fff}
+.tb-header-row button{
+ background:linear-gradient(180deg,#27343d,#172229)!important;color:#e9f3f6!important;
+ border:1px solid #526875!important;border-top-color:#17232a!important;
+ border-radius:9px!important;box-shadow:inset 0 3px 6px #000a,inset 0 -1px 1px #a1bac022,0 1px 0 #8da2ac30!important;
+ min-height:35px!important;padding:6px 12px!important;text-shadow:0 1px 2px #000!important;
+ transition:background .15s ease,box-shadow .15s ease!important;
+}
+.tb-header-row button:hover{background:linear-gradient(180deg,#344650,#22333c)!important;border-color:#7ba3b4!important}
+.tb-header-row .tb-mode.selected,.tb-header-row .tb-mode[aria-pressed="true"]{
+ background:linear-gradient(180deg,#8a651f,#b58a36)!important;color:#fff8e6!important;
+ border-color:#e2bb63!important;box-shadow:inset 0 3px 9px #3e2500bb,0 0 8px #edbb4a44!important;
+}
+.tb-header-row button:active{box-shadow:inset 0 5px 10px #000e!important;transform:translateY(1px)}
+.tb-header-row .tb-arrow{min-width:38px!important;color:#a8e7f2!important;font-size:18px!important;padding:4px 9px!important}
+.tb-nav-end{margin-left:auto!important}
+.scene{border-top:1px solid #50626b!important}
+@media(max-width:900px){body>header{padding:5px 7px 6px!important}.tb-header-row{gap:5px!important}.tb-header-row button{padding:5px 8px!important}.tb-field select{height:33px!important;min-height:33px!important}}
+
+/* Soft internal color glow: illumination lives INSIDE recessed dashboard wells. */
+.tb-native{--well-glow:rgba(60,211,241,.34);--well-edge:#3a96a8}
+.tb-learn{--well-glow:rgba(113,238,176,.31);--well-edge:#51ad83}
+.tb-voiceMode{--well-glow:rgba(167,133,255,.30);--well-edge:#8873c5}
+.tb-voiceSelect{--well-glow:rgba(255,181,91,.30);--well-edge:#b58b54}
+.tb-scenePicker{--well-glow:rgba(78,188,241,.27);--well-edge:#477f9a}
+.tb-field select{
+ border-color:var(--well-edge,#526875)!important;
+ background:linear-gradient(180deg,#101820 0%,#1b2830 100%)!important;
+ box-shadow:inset 0 3px 8px #000c,inset 0 -9px 22px var(--well-glow,rgba(91,176,208,.2)),inset 0 0 0 1px #ffffff08,0 1px 0 #8ca1aa26!important;
+ transition:box-shadow .18s ease,border-color .18s ease!important;
+}
+.tb-field select:hover,.tb-field select:focus-visible{
+ box-shadow:inset 0 3px 8px #000b,inset 0 -12px 28px var(--well-glow,rgba(91,176,208,.2)),0 0 0 1px var(--well-edge,#526875)!important;
+}
+.tb-header-row button{box-shadow:inset 0 3px 7px #000c,inset 0 -9px 18px rgba(75,174,205,.17),0 1px 0 #8da2ac30!important}
+.tb-header-row button:hover{box-shadow:inset 0 3px 7px #000c,inset 0 -12px 22px rgba(81,198,228,.32)!important}
+.tb-header-row .tb-mode.selected,.tb-header-row .tb-mode[aria-pressed="true"]{
+ background:linear-gradient(180deg,#3a2e1c,#5c431c)!important;
+ color:#fff4ce!important;border-color:#d6aa4f!important;
+ box-shadow:inset 0 3px 8px #160d03,inset 0 -12px 26px rgba(255,193,64,.62),inset 0 0 2px #ffe3a7!important;
+}
+.tb-header-row .tb-arrow{box-shadow:inset 0 3px 7px #000c,inset 0 -9px 18px rgba(80,198,227,.22)!important}
+@media(prefers-reduced-motion:reduce){.tb-field select,.tb-header-row button{transition:none!important}}
+
+/* Forest Retreat: substantially reduce vertical space between the two dashboard rows. */
+body>header{padding-top:3px!important;padding-bottom:4px!important}
+.tb-header-row{padding-top:0!important;padding-bottom:0!important}
+.tb-header-row+.tb-header-row{margin-top:0!important;padding-top:2px!important}
+.tb-row-voice{padding-bottom:0!important}
+.tb-row-nav{padding-top:2px!important}
+
+/* Global dashboard tuning: published via Master Studio settings. */
+.tb-header-row{gap:var(--dashboard-gap,10px)!important}
+.tb-header-row+.tb-header-row{margin-top:var(--dashboard-row-gap,0px)!important}
+.tb-header-row button,.tb-field select{font-size:var(--dashboard-font,13px)!important;min-height:var(--dashboard-control-height,35px)!important;height:var(--dashboard-control-height,35px)!important}
+body>header{padding-top:var(--dashboard-padding,3px)!important;padding-bottom:var(--dashboard-padding,3px)!important}
+body .shell{padding:0!important;display:block!important}
+body .left-panel{display:none!important}
+body .scene-area{width:100%;border-radius:0!important;min-height:0!important}
+body .adventure-nav{display:none!important}
+body .scene-area>.scene{min-height:380px}
+body.tb-scene-only .tb-header-row #sceneViewReturn{display:block!important}
+@media(max-width:950px){.tb-header-row{gap:5px!important}.tb-logo{font-size:14px!important}.tb-field{min-width:0!important}.tb-native,.tb-learn{flex-basis:115px!important}.tb-voiceMode,.tb-voiceSelect{flex-basis:150px!important}.tb-header-row button{padding-left:7px!important;padding-right:7px!important}.tb-scenePicker{min-width:125px!important}}
+@media(max-width:620px){.tb-header-row{flex-wrap:wrap!important}.tb-row-nav{row-gap:5px!important}.tb-nav-end{margin-left:0!important}}
+
+/* Keep dashboard controls stable when Adventure names change. */
+@media (min-width: 951px) {
+  .tb-header-row { min-width: 0; }
+  .tb-native, .tb-learn { flex: 0 0 150px !important; }
+  .tb-voiceMode, .tb-voiceSelect { flex: 0 0 190px !important; }
+  .tb-scenePicker { flex: 1 1 230px !important; min-width: 155px !important; }
+  .tb-field select { width: 100%; min-width: 0; }
+}
+
+/* Global script card: fit content, keep manual drag-resize available. */
+.card{height:auto;}
+.card .script-text{margin-bottom:0;}
+.card .translation{margin:8px 0 0;}
+.card .translation:empty,.card .feedback:empty{display:none;}
+.card .feedback{min-height:0;margin:8px 0 0;}
+.card .controls{margin-top:15px;}
+
+/* Talk A Bee character header: compact and responsive. */
+.tb-row-voice{position:relative!important;padding-right:65px!important}
+.tb-logo{display:inline-flex!important;align-items:center!important;gap:5px!important;flex:0 0 auto!important}
+.tb-header-teacher{height:46px;width:50px;object-fit:contain;flex-shrink:0;display:block}
+.tb-header-buzzkill{position:absolute;right:4px;top:50%;transform:translateY(-50%);height:48px;width:55px;object-fit:contain;pointer-events:none}
+@media(max-width:700px){.tb-row-voice{padding-right:0!important}.tb-header-buzzkill{right:4px;top:3px;transform:none;height:43px;width:47px}.tb-logo{padding-right:48px!important}.tb-header-teacher{height:40px;width:44px}}
+
+/* Selected-object editing: other hotspots remain invisible and interactive selection stays focused. */
+.scene.edit-mode .hotspot:not(.active){border-color:transparent!important;background:transparent!important;opacity:0!important;pointer-events:none!important}
+.scene.edit-mode .hotspot:not(.active)::after,.scene.edit-mode .hotspot:not(.active) .tb-hotspot-resize{display:none!important}
+.scene.edit-mode .hotspot.active{opacity:1!important;pointer-events:auto!important}
+.scene.edit-mode .overlay-image:not(.active){outline:none!important;pointer-events:none!important}
+.scene.edit-mode .overlay-image.active{outline:2px dashed #6de3ff!important;touch-action:none;cursor:move}
+.tb-overlay-resize{display:none;position:absolute;width:20px;height:20px;border:2px solid #061b26;border-radius:5px;background:#00eaff;cursor:nwse-resize;z-index:25;touch-action:none}
+.scene.edit-mode .tb-overlay-resize.active{display:block}
+
+/* Keep both dashboard rows visible while scrolling. */
+body:not(.tb-scene-only)>header {position:sticky!important;top:0!important;z-index:1000!important;}
+/* Retain dormant Scene View hooks without displaying visitor controls. */
+#sceneViewToggle {display:none!important;}
+
+/* Master Studio: independent header row sizing. Controlled by published master-settings.js. */
+body>header .tb-row-voice{min-height:var(--tb-top-row-height,0px)!important;align-items:center!important}
+body>header .tb-row-nav{min-height:var(--tb-bottom-row-height,0px)!important;align-items:center!important}
+body>header .tb-row-voice .tb-field select{font-size:var(--tb-top-font,13px)!important;height:var(--tb-top-control-height,35px)!important;min-height:var(--tb-top-control-height,35px)!important}
+body>header .tb-row-voice .tb-field>span{font-size:clamp(10px,calc(var(--tb-top-font,13px)*.8),28px)!important}
+body>header .tb-row-nav .tb-field select,body>header .tb-row-nav button{font-size:var(--tb-bottom-font,13px)!important;height:var(--tb-bottom-control-height,35px)!important;min-height:var(--tb-bottom-control-height,35px)!important}
+body>header .tb-row-nav .tb-unified-nav,body>header .tb-row-nav .tb-unified-nav>details{height:var(--tb-bottom-control-height,35px)!important;min-height:var(--tb-bottom-control-height,35px)!important}
+body>header .tb-row-nav .tb-unified-nav summary{font-size:var(--tb-bottom-font,13px)!important;height:var(--tb-bottom-control-height,35px)!important;min-height:var(--tb-bottom-control-height,35px)!important;display:flex!important;align-items:center!important}
+
+/* Header width controls. Zero uses the original automatic widths. */
+@media(min-width:951px){
+body>header .tb-row-voice .tb-field{width:var(--tb-top-dropdown-width,auto)!important;flex-basis:var(--tb-top-dropdown-width,auto)!important}
+body>header .tb-row-nav .tb-scenePicker{width:var(--tb-adventure-dropdown-width,auto)!important;flex-basis:var(--tb-adventure-dropdown-width,230px)!important}
+body>header .tb-row-nav .tb-mode{width:var(--tb-bottom-button-width,auto)!important}
+body>header .tb-row-nav .tb-unified-nav summary{width:var(--tb-bottom-button-width,auto)!important}
+}
+
+/* Tighter two-row dashboard: preserve Studio row-gap and height controls.
+   The earlier cockpit rule adds 2px top padding to the second row even
+   when dashboard row spacing is zero. Trim that padding and pull the
+   separator up by 3px for a subtle ~5px reduction. */
+body>header .tb-header-row+.tb-header-row{
+  padding-top:0!important;
+  margin-top:calc(var(--dashboard-row-gap,0px) - 3px)!important;
+}
+
+
+/* Visitor Adventures: fit the complete scene and footer in one viewport.
+   Editor pages keep their normal scrolling and sizing. */
+@media (min-width: 701px) and (min-height: 520px) {
+  body:not([data-editor="yes"]):not(.tb-scene-only) {
+    height: 100vh;
+    height: 100dvh;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  body:not([data-editor="yes"]):not(.tb-scene-only) > header,
+  body:not([data-editor="yes"]):not(.tb-scene-only) > footer,
+  body:not([data-editor="yes"]):not(.tb-scene-only) > .footer {
+    flex: 0 0 auto;
+  }
+  body:not([data-editor="yes"]):not(.tb-scene-only) > .shell {
+    flex: 1 1 0!important;
+    min-height: 0!important;
+    height: auto!important;
+    overflow: hidden;
+  }
+  body:not([data-editor="yes"]):not(.tb-scene-only) .scene-area {
+    height: 100%!important;
+    min-height: 0!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  body:not([data-editor="yes"]):not(.tb-scene-only) .scene-area > .scene {
+    flex: 0 1 auto!important;
+    width: 94%!important;
+    height: 100%!important;
+    max-width: 94%!important;
+    min-height: 0!important;
+    max-height: 100%!important;
+    aspect-ratio: auto!important;
+    background-size: cover!important;
+    background-position: center center!important;
+    margin: 0!important;
+  }
+}
+
+/* Preserve approved full-width 3% margins, and map hotspots to the same
+   percentage coordinates as the displayed background. */
+@media (min-width: 701px) and (min-height: 520px) {
+  body:not([data-editor="yes"]):not(.tb-scene-only) .scene-area > .scene {
+    width: 94%!important;
+    max-width: 94%!important;
+    height: 100%!important;
+    max-height: 100%!important;
+    aspect-ratio: auto!important;
+    background-size: 100% 100%!important;
+    background-position: center center!important;
+  }
+}
+
+/* TEST: Adventure viewer only — hide footer and preserve image proportions.
+   The scene's percentage-based hotspots continue to follow its image box. */
+@media (min-width: 701px) and (min-height: 520px) {
+  body[data-editor="no"]:not(.tb-scene-only) > footer,
+  body[data-editor="no"]:not(.tb-scene-only) > .footer {
+    display: none!important;
+  }
+  body[data-editor="no"]:not(.tb-scene-only) .scene-area {
+    container-type: size;
+  }
+  body[data-editor="no"]:not(.tb-scene-only) .scene-area > .scene {
+    flex: 0 0 auto!important;
+    width: min(94cqw, 176.168cqh)!important;
+    max-width: 94%!important;
+    height: auto!important;
+    max-height: 100%!important;
+    aspect-ratio: 1508 / 856!important;
+    background-size: 100% 100%!important;
+    background-position: center center!important;
+  }
+}

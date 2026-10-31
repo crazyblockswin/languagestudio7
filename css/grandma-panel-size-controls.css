@@ -1,0 +1,60 @@
+
+.tab-master-panel{
+  --tab-panel-scale:1;
+  width:195px!important;
+  min-width:195px!important;
+  max-width:195px!important;
+  background:rgba(13,25,45,.14)!important;
+}
+.tab-panel-size-controls{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:10px!important;
+  margin:3px 0 11px!important;
+  width:100%!important;
+}
+.tab-panel-size-controls #tabPanelMinus,
+.tab-panel-size-controls #tabPanelPlus{
+  width:28px!important;
+  min-width:28px!important;
+  height:28px!important;
+  margin:0!important;
+  padding:0!important;
+  display:grid!important;
+  place-items:center!important;
+  border:0!important;
+  border-radius:8px!important;
+  background:transparent!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  text-shadow:0 2px 4px rgba(0,0,0,.75)!important;
+  font:900 17px/1 Arial,sans-serif!important;
+  cursor:pointer!important;
+}
+.tab-panel-size-controls #tabPanelReset{
+  width:auto!important;
+  min-width:0!important;
+  height:28px!important;
+  margin:0!important;
+  padding:0 8px!important;
+  border:0!important;
+  border-radius:8px!important;
+  background:transparent!important;
+  color:#fff!important;
+  box-shadow:none!important;
+  text-shadow:0 2px 4px rgba(0,0,0,.75)!important;
+  font:900 9px/1 Arial,sans-serif!important;
+  cursor:pointer!important;
+}
+.tab-master-panel .activity-place,
+.tab-master-panel .place,
+.tab-master-panel h1,
+.tab-master-panel .title{font-size:calc(19px * var(--tab-panel-scale))!important}
+.tab-master-panel .activity-label,
+.tab-master-panel .label,
+.tab-master-panel label{font-size:calc(9.5px * var(--tab-panel-scale))!important}
+.tab-master-panel button:not(.tab-panel-size-controls button),
+.tab-master-panel select,
+.tab-master-panel a{font-size:calc(12px * var(--tab-panel-scale))!important}
+@media(max-width:760px){.tab-panel-size-controls{display:none!important}}

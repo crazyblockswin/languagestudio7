@@ -1,0 +1,36 @@
+/* Source: boardwalk-talkabee-boardwalk-card-readability-from-observation.css */
+
+/* Readability only: keep challenge logic, card geometry and editors unchanged.
+   Desktop card renders at 0.67 scale, so CSS sizes compensate visually. */
+.tab-master-card #status {
+  font-size:32px!important;
+  line-height:1.3!important;
+  font-weight:800!important;
+  min-height:0;
+  overflow-wrap:anywhere;
+}
+.tab-master-card .tab-card-tools button {
+  font-size:18px!important;
+  line-height:1.2!important;
+  padding:7px 11px!important;
+}
+@media(max-width:760px){
+  .tab-master-card #status{font-size:26px!important;}
+}
+
+
+/* Source: boardwalk-talkabee-boardwalk-auto-height-card.css */
+
+/* Grow naturally with the script, translated phrases and challenge feedback. */
+.tab-master-card {
+  height:auto!important;
+  max-height:none!important;
+  overflow:visible!important;
+  overflow-y:visible!important;
+  scrollbar-width:none!important;
+}
+.tab-master-card .word,.tab-master-card #prompt,.tab-master-card #status {
+  overflow-wrap:break-word;
+  white-space:normal;
+}
+

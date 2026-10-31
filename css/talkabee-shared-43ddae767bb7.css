@@ -1,0 +1,7 @@
+
+.card,.script,.tab-master-card{cursor:grab!important}
+.card:active,.script:active,.tab-master-card:active{cursor:grabbing!important}
+.card button,.card a,.card input,.card select,.card textarea,
+.script button,.script a,.script input,.script select,.script textarea,
+.tab-master-card button,.tab-master-card a,.tab-master-card input,.tab-master-card select,.tab-master-card textarea{cursor:pointer!important}
+.card input,.card textarea,.script input,.script textarea,.tab-master-card input,.tab-master-card textarea{cursor:text!important}

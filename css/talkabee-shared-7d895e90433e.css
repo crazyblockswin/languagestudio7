@@ -1,0 +1,28 @@
+
+/* Approved Basic Training 575px card and readable button sizing. */
+@media (min-width:761px){
+ .tab-master-card{width:575px!important;max-width:575px!important;min-width:0!important;}
+ .tab-master-card .controls{gap:10px!important;align-items:stretch!important;}
+ .tab-master-card .controls button,
+ .tab-master-card .controls #nextPhrase,
+ .tab-master-card .controls #nextChallenge{
+   font:900 19px/1.18 Arial,Helvetica,sans-serif!important;
+   padding:13px 8px!important;
+   min-height:51px!important;
+   white-space:nowrap!important;
+   flex:1 1 0!important;
+ }
+ .tab-master-card .controls #nextPhrase,
+ .tab-master-card .controls #nextChallenge{flex:1.1 1 0!important;}
+}
+@media (max-width:760px){
+ .tab-master-card .controls{flex-wrap:wrap!important;}
+ .tab-master-card .controls button,
+ .tab-master-card .controls #nextPhrase,
+ .tab-master-card .controls #nextChallenge{
+   font:900 17px/1.2 Arial,Helvetica,sans-serif!important;
+   padding:11px 7px!important;
+   min-height:46px!important;
+   flex:1 1 42%!important;
+ }
+}

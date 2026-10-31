@@ -1,0 +1,70 @@
+/* Shared box sizing; consolidated from adventure.css. */
+* { box-sizing: border-box; }
+
+/* Stage 11: one set of shared design tokens for the Adventure shell.
+   Values match Stage 10 exactly. Page-specific overrides still exist and
+   must be reviewed before all 47 Adventures can use a unified appearance. */
+:root{
+ --tab-panel-width:195px;
+ --tab-card-width:520px;
+ --tab-shell-radius:20px;
+ --tab-ui-font:Arial,Helvetica,sans-serif;
+ --tab-panel-font-size:12px;
+ --tab-control-font-size:14px;
+ --tab-panel-bg:rgba(7,23,39,.31);
+ --tab-control-bg:rgba(7,32,50,.54);
+ --tab-control-hover-bg:rgba(20,58,79,.70);
+ --tab-control-active-bg:rgba(78,69,219,.74);
+ --tab-panel-border:rgba(255,255,255,.28);
+ --tab-control-border:rgba(255,255,255,.38);
+ --tab-focus-ring:#ffe08a;
+}
+
+
+/* ONE literal Talk A Bee Adventure shell. Legacy classes remain only as JS hooks. */
+.tab-master-panel,.tab-master-panel *,.tab-master-card,.tab-master-card *{box-sizing:border-box}
+.tab-master-panel{
+ position:fixed!important;left:16px!important;top:16px!important;bottom:16px!important;right:auto!important;
+ width:var(--tab-panel-width)!important;min-width:var(--tab-panel-width)!important;max-width:var(--tab-panel-width)!important;height:auto!important;max-height:none!important;
+ margin:0!important;padding:14px!important;overflow-x:hidden!important;overflow-y:auto!important;
+ transform:none!important;scale:1!important;zoom:1!important;opacity:1!important;
+ border-radius:var(--tab-shell-radius)!important;border:1px solid var(--tab-panel-border)!important;
+ background:var(--tab-panel-bg)!important;box-shadow:0 12px 30px rgba(0,0,0,.24)!important;
+ backdrop-filter:blur(3px)!important;-webkit-backdrop-filter:blur(3px)!important;color:#fff!important;z-index:1000!important;
+ font-family:var(--tab-ui-font)!important;font-size:var(--tab-panel-font-size)!important;line-height:1.16!important;
+}
+.tab-master-panel .place,.tab-master-panel h1,.tab-master-panel .title{font-size:19px!important;line-height:1.08!important;font-weight:900!important;color:#fff!important;margin:4px 0 10px!important;text-shadow:0 2px 4px rgba(0,0,0,.55)!important}
+.tab-master-panel .label,.tab-master-panel label{font-size:11.5px!important;line-height:1.1!important;letter-spacing:.09em!important;font-weight:900!important;color:#fff!important;margin:9px 0 4px!important}
+.tab-master-panel button,.tab-master-panel select,.tab-master-panel a{
+ width:100%!important;max-width:100%!important;min-height:34px!important;height:auto!important;margin:4px 0!important;padding:8px 9px!important;
+ border-radius:12px!important;border:1px solid var(--tab-control-border)!important;background:var(--tab-control-bg)!important;color:#fff!important;
+ font:800 var(--tab-control-font-size)/1.16 var(--tab-ui-font)!important;text-align:left!important;text-decoration:none!important;white-space:normal!important;
+ transform:none!important;box-shadow:none!important;
+}
+.tab-master-panel select{white-space:nowrap!important;text-overflow:ellipsis!important;overflow:hidden!important}
+.tab-master-panel button:hover,.tab-master-panel a:hover{background:var(--tab-control-hover-bg)!important}
+.tab-master-panel .active,.tab-master-panel button.active{background:var(--tab-control-active-bg)!important;color:#fff!important}
+.tab-master-card{
+ position:fixed!important;left:50%!important;right:auto!important;bottom:16px!important;top:auto!important;
+ width:var(--tab-card-width)!important;min-width:var(--tab-card-width)!important;max-width:var(--tab-card-width)!important;height:auto!important;min-height:0!important;max-height:none!important;
+ margin:0!important;padding:14px 16px!important;overflow:visible!important;transform:translateX(-50%)!important;scale:1!important;zoom:1!important;opacity:1!important;
+ border-radius:var(--tab-shell-radius)!important;border:1px solid rgba(255,255,255,.30)!important;background:var(--tab-master-card-background, rgba(25,19,24,.38))!important;
+ box-shadow:0 12px 30px rgba(0,0,0,.28)!important;backdrop-filter:blur(5px)!important;-webkit-backdrop-filter:blur(5px)!important;
+ color:#fff!important;z-index:900!important;font-family:var(--tab-ui-font)!important;
+}
+.tab-master-card .kicker,.tab-master-card [class*="kicker"]{color:rgba(255,255,255,.94)!important;font-size:11px!important;line-height:1.1!important;font-weight:900!important;letter-spacing:.12em!important;text-shadow:0 1px 3px rgba(0,0,0,.78)!important;margin:0 0 7px!important}
+.tab-master-card h1,.tab-master-card h2{color:#fff!important;font-size:22px!important;line-height:1.08!important;margin:4px 0 7px!important;text-shadow:0 1px 3px rgba(0,0,0,.55)!important}
+.tab-master-card p,.tab-master-card .prompt,.tab-master-card .translation,.tab-master-card .tip{font-size:13px!important;line-height:1.25!important;margin:4px 0 7px!important;color:#fff!important}
+.tab-master-card .line,.tab-master-card .target,.tab-master-card #line,.tab-master-card #target{font-size:20px!important;line-height:1.12!important;font-weight:900!important;margin:7px 0!important;color:#fff!important}
+.tab-master-card .actions,.tab-master-card [class*="actions"]{display:flex!important;align-items:center!important;gap:8px!important;flex-wrap:nowrap!important;margin-top:8px!important}
+.tab-master-card .actions button,.tab-master-card [class*="actions"] button,.tab-master-card>button{width:auto!important;min-width:0!important;height:auto!important;padding:9px 13px!important;margin:0!important;border-radius:12px!important;font:900 13px/1 Arial,Helvetica,sans-serif!important;white-space:nowrap!important}
+@media(max-width:760px){.tab-master-panel{left:10px!important;top:10px!important;bottom:10px!important;width:190px!important;min-width:190px!important;max-width:190px!important;padding:11px!important}.tab-master-card{width:min(520px,calc(100vw - 24px))!important;min-width:0!important;bottom:10px!important;padding:12px!important}}
+
+/* Shared keyboard navigation and readable focus treatment.
+   Does not change normal mouse/touch appearance or Adventure behavior. */
+.tab-master-panel :is(button, select, a, input, textarea):focus-visible,
+.tab-master-card :is(button, select, a, input, textarea):focus-visible {
+ outline:3px solid var(--tab-focus-ring)!important;
+ outline-offset:2px!important;
+ box-shadow:0 0 0 5px rgba(5,20,35,.75)!important;
+}

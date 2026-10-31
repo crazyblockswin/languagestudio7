@@ -1,0 +1,89 @@
+/* Source: grandma-grandpa-legacy-01.css */
+
+
+html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,Helvetica,sans-serif;background:#17243a;color:#15223a}
+button,select{font:inherit}
+#homeWorld{background:#17243a}
+.home-scene{position:absolute;inset:0;width:100vw;height:100vh;overflow:hidden;background-image:url("../images/grandma-grandpas-place.jpg");background-size:cover;background-position:center center;background-repeat:no-repeat}
+.scene-main-image{display:none!important}
+.scene-hotspots{position:absolute;inset:0;z-index:20;pointer-events:none}
+.home-hotspot{position:absolute;transform:translate(-50%,-50%);width:52px;height:52px;border:0;border-radius:50%;color:transparent}
+.home-hotspot.show{display:block}
+.home-hotspot.show:hover,.home-hotspot.show:focus-visible{outline:3px solid rgba(255,255,255,.95);background:rgba(50,190,180,.28)}
+
+.activity-panel{position:absolute;z-index:60;left:18px;top:18px;bottom:18px;width:270px;padding:14px;border-radius:28px;overflow-y:auto;scrollbar-width:none;background:rgba(13,25,45,.28);border:1px solid rgba(255,255,255,.28);box-shadow:0 12px 30px rgba(0,0,0,.18);backdrop-filter:blur(8px)}
+.activity-panel::-webkit-scrollbar{display:none}
+.activity-back,.activity-peek,.home-nav,.home-challenge-nav{width:100%;border:1px solid rgba(255,255,255,.18);border-radius:15px;background:rgba(20,30,48,.40);color:#fff;font-weight:900;text-align:left;padding:10px 11px;margin:3px 0;cursor:pointer;text-shadow:0 1px 2px #0006}
+.activity-back,.activity-peek{padding:12px}
+.activity-place{font-size:25px;line-height:1.05;color:#fff;font-weight:950;margin:10px 7px 14px;text-shadow:0 2px 4px #0008}
+.activity-label{font-size:11px;letter-spacing:.16em;color:#fff;font-weight:950;margin:12px 7px 5px}
+.activity-divider{height:1px;background:#ffffff35;margin:10px 2px}
+.home-nav.active,.home-challenge-nav.active{background:rgba(22,163,157,.86)}
+.home-challenge-nav.done{box-shadow:inset 0 0 0 2px rgba(90,220,160,.7)}
+.home-control-label{display:block;color:#fff;font-size:10px;font-weight:950;letter-spacing:.08em;margin:6px 6px 3px;text-transform:uppercase}
+.home-control-select{width:100%;padding:9px 10px;margin-bottom:5px;border:0;border-radius:12px;background:rgba(255,255,255,.92);color:#26334b;font-weight:850}
+
+.home-panel{position:absolute;z-index:50;right:24px;bottom:22px;width:455px;padding:13px 15px;border-radius:22px;background:rgba(247,242,232,.14);border:1px solid rgba(255,255,255,.30);box-shadow:0 9px 24px rgba(0,0,0,.10);backdrop-filter:blur(4px)}
+.home-kicker{font-size:10px;letter-spacing:.16em;font-weight:950;color:#9b612e;margin-bottom:3px}
+.home-panel h2{font-size:20px;line-height:1.06;margin:2px 0 4px}
+.home-panel p{font-size:13px;line-height:1.22;margin:3px 0 7px}
+.home-wordline{display:flex;gap:6px;flex-wrap:wrap;padding:7px;margin:6px 0;border-radius:15px;background:rgba(255,255,255,.16)}
+.home-word{border:1px solid #ffffff80;border-radius:12px;background:rgba(255,255,255,.84);color:#17243a;font-size:15px;font-weight:900;padding:8px 10px;cursor:pointer}
+.home-word.speaking{outline:3px solid #5f46e8}
+.home-translation{font-size:13px;font-weight:850;margin:5px 0}
+.home-actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.home-actions button,.home-nextphrase,.home-challenge-next{border:0;border-radius:13px;background:rgba(255,255,255,.90);color:#423768;font-weight:900;padding:8px 10px;cursor:pointer}
+.home-actions .primary{background:#6144e5;color:#fff}
+.home-nextrow{display:flex;align-items:center;justify-content:space-between;margin-top:7px}
+.home-progress{font-size:11px;font-weight:900;color:#fff;text-shadow:0 1px 2px #0007}
+.home-list{display:none}
+.home-find{display:none;margin-top:7px;padding:10px;border-radius:14px;background:rgba(255,255,255,.28)}
+.home-find.show{display:block}
+.home-challenge-count{font-size:10px;font-weight:950;letter-spacing:.12em}
+.home-find-status{font-weight:900;margin-top:5px}
+.challenge-next-hint{font-size:11px;margin:5px 0}
+.home-challenge-next{display:none}.home-challenge-next.show{display:inline-block}
+
+
+.activity-restore{display:none;position:absolute;z-index:80;left:18px;top:18px;border:1px solid #ffffff60;border-radius:15px;padding:11px 14px;background:rgba(15,25,42,.48);color:#fff;font-weight:900;cursor:pointer;backdrop-filter:blur(7px)}
+#homeWorld.activity-collapsed .activity-panel{display:none}
+#homeWorld.activity-collapsed .home-panel{display:none}
+#homeWorld.activity-collapsed .activity-restore{display:block}
+
+@media(max-width:850px){
+ .activity-panel{width:240px}
+ .home-panel{width:390px;right:12px;bottom:12px}
+}
+
+
+/* Source: grandma-grandpa-grandparents-direct-viewport-background.css */
+
+html,body,#homeWorld,#homeScene{
+  width:100vw!important;height:100vh!important;
+  min-width:100vw!important;min-height:100vh!important;
+  max-width:none!important;max-height:none!important;
+  margin:0!important;padding:0!important;
+}
+#homeWorld{position:fixed!important;inset:0!important;overflow:hidden!important}
+#homeScene{
+  position:absolute!important;inset:0!important;
+  background-image:url("../images/grandma-grandpas-place.jpg")!important;
+  background-size:cover!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
+#homeSceneImage{display:none!important}
+
+
+/* Source: grandma-grandpa-talkabee-forward-arrow-style.css */
+
+.talkabee-forward-arrow{position:fixed;top:22px;right:24px;z-index:120;width:62px;height:62px;border-radius:50%;border:2px solid rgba(255,255,255,.82);background:rgba(91,58,31,.16);box-shadow:0 5px 16px rgba(0,0,0,.12);backdrop-filter:blur(2px);display:grid;place-items:center;text-decoration:none;cursor:pointer;transition:background .16s ease,transform .16s ease}
+.talkabee-forward-arrow:hover{background:rgba(91,58,31,.24);transform:scale(1.04)}
+.talkabee-forward-arrow::before{content:"";width:17px;height:17px;border-top:5px solid #fff;border-right:5px solid #fff;transform:rotate(45deg) translate(-2px,2px);filter:drop-shadow(0 1px 2px rgba(0,0,0,.35))}
+
+
+/* Source: grandma-grandpa-grandparents-auto-discovery-locked-template.css */
+
+.home-hotspot{display:block!important;pointer-events:auto!important;cursor:pointer!important;opacity:0!important;background:transparent!important;outline:none!important;animation:none!important}
+.home-hotspot:hover,.home-hotspot:focus-visible{opacity:1!important;background:rgba(50,190,180,.22)!important;outline:3px solid rgba(255,255,255,.95)!important}
+

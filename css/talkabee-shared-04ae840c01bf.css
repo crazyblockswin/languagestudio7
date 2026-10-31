@@ -1,0 +1,8 @@
+
+/* Approved: 20% opacity, 2px backdrop blur; script box only. */
+.tab-master-card {
+  background:rgba(25,19,24,.20)!important;
+  background-color:rgba(25,19,24,.20)!important;
+  backdrop-filter:blur(2px)!important;
+  -webkit-backdrop-filter:blur(2px)!important;
+}

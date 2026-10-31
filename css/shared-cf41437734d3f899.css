@@ -1,0 +1,18 @@
+
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,sans-serif;color:#fff}
+#world{position:fixed;inset:0;background:url("../images/grandmas-kitchen-adventure.jpg") center/cover no-repeat}
+.panel{position:absolute;z-index:20;left:18px;top:18px;width:310px;height:calc(100vh - 36px);padding:16px;background:rgba(13,25,45,.14);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.28);border-radius:25px;overflow-y:auto;box-shadow:0 10px 30px #0005}
+.main,.scene{width:100%;padding:15px;border:1px solid #ffffff33;border-radius:18px;background:#10182799;color:#fff;font-size:19px;font-weight:900;text-align:left;cursor:pointer}
+.title{font-size:29px;font-weight:950;line-height:1.05;margin:16px 8px 20px;text-shadow:0 2px 4px #000}
+.label{font-size:12px;font-weight:950;letter-spacing:.15em;margin:17px 7px 7px}
+select{width:100%;padding:12px;border:0;border-radius:14px;font-size:17px;font-weight:800;color:#26344d}
+.nav{display:block;width:100%;margin:7px 0;padding:11px 12px;border:1px solid #ffffff2d;border-radius:14px;background:#151a24aa;color:#fff;text-align:left;font-size:15px;font-weight:850;cursor:pointer}
+.nav.active{background:#21aaa2dd}.divider{height:1px;background:#ffffff33;margin:14px 0}
+.card{position:absolute;z-index:20;left:50%;bottom:18px;transform:translateX(-50%);width:min(620px,48vw);padding:17px 20px;border:1px solid #ffffff55;border-radius:24px;background:rgba(247,242,232,.14);backdrop-filter:blur(10px);color:#172846;box-shadow:0 10px 30px #0004}
+.kicker{font-size:12px;font-weight:950;letter-spacing:.14em;color:#8a642d}h2{margin:5px 0 6px;font-size:24px}#prompt{margin:0 0 10px}.words{padding:10px;border-radius:14px;background:#ffffff55;font-size:22px;font-weight:900}.translation{font-weight:800;margin:10px 0}.actions{display:flex;gap:9px;flex-wrap:wrap}.actions button{padding:10px 14px;border:0;border-radius:13px;font-size:16px;font-weight:900;cursor:pointer}#speak{background:#6547e8;color:#fff}#next{margin-left:auto}
+.hotspots{position:absolute;inset:0;z-index:12;pointer-events:none}.hotspot{position:absolute;transform:translate(-50%,-50%);border:0;background:transparent;pointer-events:none;border-radius:18px}
+.discovery .hotspot,.challenge-mode .hotspot{pointer-events:auto;cursor:pointer}.discovery .hotspot:hover,.challenge-mode .hotspot:hover{outline:3px solid #fff;background:#35c7bb33}
+.pop{display:none;margin-top:8px;padding:10px 12px;border-radius:13px;background:#ffffff77;font-size:20px;font-weight:900}.pop.show{display:block}
+.restore{display:none;position:absolute;z-index:30;left:18px;top:18px;padding:13px 18px;border:1px solid #fff5;border-radius:16px;background:#111a;color:#fff;font-weight:900;cursor:pointer}
+.scene-only .panel,.scene-only .card{display:none}.scene-only .restore{display:block}
+@media(max-width:900px){.panel{width:260px}.card{width:55vw}}

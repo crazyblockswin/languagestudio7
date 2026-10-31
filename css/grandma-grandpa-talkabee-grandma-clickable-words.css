@@ -1,0 +1,15 @@
+
+/* One continuous phrase visually, individual accessible spoken-word buttons. */
+#homeWorld .home-panel #homeWordline{display:flex!important;flex-wrap:wrap!important;align-items:baseline!important;gap:0 .25em!important;}
+#homeWorld .home-panel #homeWordline .home-word{
+ appearance:none!important;border:0!important;border-radius:6px!important;
+ background:transparent!important;color:#fff!important;
+ font:inherit!important;font-size:inherit!important;font-weight:900!important;
+ line-height:inherit!important;padding:0 2px!important;margin:0!important;
+ cursor:pointer!important;text-shadow:0 2px 3px rgba(0,0,0,.7)!important;
+}
+#homeWorld .home-panel #homeWordline .home-word:hover,
+#homeWorld .home-panel #homeWordline .home-word:focus-visible,
+#homeWorld .home-panel #homeWordline .home-word.speaking{
+ background:rgba(255,220,80,.35)!important;outline:2px solid #ffe69c!important;
+}

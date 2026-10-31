@@ -1,0 +1,124 @@
+/* tb-studio-style */
+
+#tb-studio-launch{position:fixed;left:12px;bottom:12px;z-index:2147483645;background:linear-gradient(#263747,#080e19);color:#e8fbff;border:2px solid #21d7fc;border-radius:12px;padding:10px 15px;font:bold 13px Arial;box-shadow:0 0 15px #04cafa88;cursor:pointer}
+#tb-studio{position:fixed;left:20px;top:100px;width:350px;max-width:calc(100vw - 20px);max-height:calc(100vh - 20px);min-width:260px;min-height:135px;resize:both;overflow:auto;z-index:2147483646;background:linear-gradient(140deg,#172334,#070b14);color:#f2fbff;border:2px solid #00d5ff;border-radius:15px;box-shadow:0 0 25px #00b9ff66,0 16px 45px #000b;font:13px/1.45 Arial,sans-serif;display:none}
+#tb-studio *{box-sizing:border-box}#tb-studio .tb-studio-head{cursor:move;user-select:none;touch-action:none;display:flex;align-items:center;justify-content:space-between;padding:12px;background:#172b42;border-bottom:1px solid #00d5ff66;font-weight:800;font-size:15px;text-shadow:0 0 8px #02d8ff}
+#tb-studio .tb-studio-main{padding:13px}#tb-studio select,#tb-studio input[type=text],#tb-studio input[type=number]{width:100%;background:#0d1726;color:white;border:1px solid #00c8ee;border-radius:7px;padding:8px;margin:5px 0 10px}
+#tb-studio button{cursor:pointer;border:1px solid #34dfff;border-radius:8px;background:linear-gradient(#274d68,#101e30);color:white;padding:8px 10px;margin:3px 2px 3px 0;box-shadow:inset 0 1px #ffffff55,0 3px 7px #0009;font-weight:bold}#tb-studio button:hover{box-shadow:0 0 11px #19d5ff}#tb-studio .tb-danger{border-color:#ff7190}#tb-studio label{display:block;color:#bcecff;font-weight:bold;margin-top:8px}#tb-studio .tb-note{font-size:11px;color:#b5c8d6;margin:8px 0}#tb-studio .tb-studio-head button{margin:0;padding:2px 8px}#tb-studio .tb-studio-panel{display:none}#tb-studio .tb-studio-panel.active{display:block}
+#tb-overlay-layer{position:absolute;inset:0;pointer-events:none;z-index:5}#tb-overlay-layer .tb-overlay{position:absolute;pointer-events:none;user-select:none;transform-origin:center;object-fit:contain}body.tb-overlay-editing #tb-overlay-layer{pointer-events:auto;z-index:2147483008}body.tb-overlay-editing #tb-overlay-layer .tb-overlay{pointer-events:auto;cursor:move;outline:1px dashed #00e5ff}body.tb-overlay-editing #tb-overlay-layer .tb-overlay.tb-selected{outline:3px solid #00ffff;filter:drop-shadow(0 0 6px #00ffff)}
+body.tb-overlay-editing .hotspot,body.tb-overlay-editing .home-hotspot{pointer-events:none!important}body.tb-overlay-editing #tb-overlay-layer{background:transparent}#tb-studio .tb-muted{opacity:.65}#tb-studio .tb-smallrow{display:flex;gap:6px}#tb-studio .tb-smallrow>div{flex:1;min-width:0}
+
+
+/* tb-studio-unified-style */
+
+#tb-studio{width:440px;min-width:290px;max-height:calc(100vh - 25px)}
+#tb-studio #tb-hs-editor{position:static!important;display:flex!important;flex-direction:column;align-items:stretch;justify-content:flex-start;flex-wrap:nowrap;max-width:none;width:100%;gap:7px;z-index:auto}
+#tb-studio #tb-hs-editor button,#tb-studio #tb-hs-editor input:not([type=file]){width:100%;min-width:0;max-width:none;box-sizing:border-box;margin:0}
+#tb-studio #tb-hs-editor .tb-sound-name{max-width:100%;white-space:normal}
+#tb-studio #tb-challenge-panel{position:static!important;display:block!important;width:100%;max-height:none;overflow:visible;right:auto!important;bottom:auto!important;left:auto!important;top:auto!important;box-shadow:none;border:0;padding:0;background:transparent;z-index:auto}
+#tb-studio #tb-challenge-drag{cursor:default;touch-action:auto}
+#tb-studio #tb-challenge-panel input,#tb-studio #tb-challenge-panel select{box-sizing:border-box;max-width:100%}
+#tb-studio .tb-studio-panel{min-width:0}
+#tb-studio .tb-studio-main[hidden]{display:none!important}
+
+
+/* tb-studio-size-refinement */
+
+/* Compact initial footprint; drag bottom-right corner to resize in both directions. */
+#tb-studio{
+  width:340px;
+  height:490px;
+  min-width:265px;
+  min-height:180px;
+  max-width:calc(100vw - 16px);
+  max-height:calc(100vh - 16px);
+  resize:both;
+  overflow:auto;
+}
+#tb-studio .tb-studio-head{padding:8px 10px;font-size:14px}
+#tb-studio .tb-studio-main{padding:9px 11px}
+#tb-studio .tb-studio-main label{margin-top:5px}
+#tb-studio .tb-studio-main select,
+#tb-studio .tb-studio-main input[type=text],
+#tb-studio .tb-studio-main input[type=number]{padding:6px 8px;margin:3px 0 6px}
+#tb-studio .tb-studio-main button{padding:6px 8px;margin:2px 2px 2px 0}
+#tb-studio .tb-note{margin:5px 0}
+#tb-studio .tb-studio-panel p{margin:7px 0}
+#tb-studio #tb-hs-editor{gap:4px}
+#tb-studio #tb-challenge-panel label{margin:6px 0 3px}
+#tb-studio #tb-challenge-panel button{margin-top:6px;padding:7px 9px}
+#tb-studio #tb-challenge-panel input,
+#tb-studio #tb-challenge-panel select{padding:7px}
+#tb-studio::after{
+  content:"";position:sticky;display:block;float:right;
+  width:12px;height:12px;bottom:0;right:0;
+  border-right:3px solid #00d5ff;border-bottom:3px solid #00d5ff;
+  pointer-events:none;opacity:.9;
+}
+
+
+/* tb-studio-default-position-tweak */
+
+/* Start near the top, with the whole Studio inside the visible window. */
+#tb-studio{top:20px;height:min(490px,calc(100vh - 40px));max-height:calc(100vh - 40px)}
+
+
+/* tb-studio-large-resize-grip-style */
+
+#tb-studio{resize:none!important;}
+#tb-studio-resize-grip{
+ position:sticky;bottom:0;float:right;clear:both;z-index:100;
+ width:48px;height:48px;margin-top:-48px;
+ display:flex;align-items:center;justify-content:center;
+ border:2px solid #3ce8ff;border-radius:12px 0 10px 0;
+ background:linear-gradient(145deg,#214d69,#081525);
+ color:#fff;font:bold 32px/1 Arial,sans-serif;
+ box-shadow:0 0 13px #00cfffaa;cursor:nwse-resize;
+ touch-action:none;user-select:none;
+}
+#tb-studio-resize-grip:hover{background:#245a7b;box-shadow:0 0 18px #00eaff;}
+#tb-studio::after{display:none!important;}
+
+
+/* tb-studio-save-style */
+
+#tb-studio-savebar{position:sticky;top:0;z-index:8;padding:8px 9px;margin:-5px -4px 10px;border:1px solid #26d8fa;border-radius:9px;background:#102439;box-shadow:0 4px 12px #0008}
+#tb-studio-savebar .tb-save-title{display:flex;justify-content:space-between;align-items:center;gap:6px;color:#c5f3ff;font-weight:bold;font-size:11px;letter-spacing:.3px}
+#tb-studio-save-status{color:#a6c7d1;font-size:10px;font-weight:normal;letter-spacing:0}
+#tb-studio-save-status.tb-unsaved{color:#ffdf82}
+#tb-studio-savebar .tb-save-buttons{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}
+#tb-studio-savebar .tb-save-buttons button{font-size:11px;line-height:1.2;padding:8px 5px;margin:0;min-height:40px}
+#tb-studio-savebar .tb-save-help{color:#a7c5d1;font-size:10px;margin-top:5px}
+#tb-studio #tb-hs-editor button[data-tb-old-save]{display:none!important}
+#tb-studio #tb-overlay-export{display:none!important}
+
+
+/* tb-studio-music-style */
+
+#tb-studio-music{border:1px solid #167da4;border-radius:9px;padding:8px;margin:0 0 9px;background:#11263b;color:#c5f3ff}
+#tb-studio-music .tb-music-top{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px}
+#tb-studio-music button{background:linear-gradient(#225676,#102d47);border:1px solid #27d8f5;border-radius:8px;color:white;padding:6px 9px;cursor:pointer;font-size:12px}
+#tb-studio-music button:disabled{opacity:.45;cursor:default}
+#tb-studio-music .tb-music-track{font-size:11px;color:#b5c7d5;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;margin:7px 0}
+#tb-studio-music .tb-music-controls{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+#tb-studio-music .tb-music-controls label{font-size:11px;margin:0}
+#tb-studio-music input[type=range]{width:80px;min-width:55px;flex:1;accent-color:#1ddaff}
+
+/* Legacy controls must never appear as a second floating toolbar. */
+body > #tb-hs-editor{visibility:hidden!important} #tb-studio #tb-hs-editor{visibility:visible!important}
+
+/* Overlay layers straddle the Adventure script card. */
+#world > .tab-master-card, #world > .card {position:relative;z-index:2147483007!important;}
+#tb-overlay-layer {z-index:2147483008!important;}
+#tb-overlay-back-layer {position:absolute;inset:0;pointer-events:none;z-index:2147483006!important;}
+#tb-overlay-back-layer .tb-overlay {position:absolute;pointer-events:none;user-select:none;transform-origin:center;object-fit:contain;}
+body.tb-overlay-editing #tb-overlay-back-layer .tb-overlay {pointer-events:auto;cursor:move;outline:1px dashed #00e5ff;}
+body.tb-overlay-editing #tb-overlay-back-layer .tb-overlay.tb-selected {outline:3px solid #00ffff;filter:drop-shadow(0 0 6px #00ffff);}
+
+/* Large, Firefox-friendly overlay size and rotation step buttons. */
+#tb-studio .tb-overlay-stepper { display:flex; align-items:stretch; gap:5px; margin:3px 0 7px; min-width:0; }
+#tb-studio .tb-overlay-stepper input[type=number].tb-overlay-step-input { flex:1 1 0; width:0; min-width:38px; margin:0; min-height:46px; font-size:18px; text-align:center; padding:5px 2px; -moz-appearance:textfield; appearance:textfield; }
+#tb-studio .tb-overlay-stepper input[type=number]::-webkit-inner-spin-button,
+#tb-studio .tb-overlay-stepper input[type=number]::-webkit-outer-spin-button { -webkit-appearance:none; margin:0; }
+#tb-studio .tb-overlay-stepper button.tb-overlay-step-button { flex:0 0 43px; width:43px; min-height:46px; padding:0; margin:0; border:2px solid #34dfff; border-radius:9px; font:bold 29px/1 Arial,sans-serif; color:#fff; touch-action:manipulation; }
+#tb-studio .tb-overlay-stepper button.tb-overlay-step-button:focus-visible { outline:3px solid #fff; outline-offset:2px; }

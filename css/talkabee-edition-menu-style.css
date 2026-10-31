@@ -1,0 +1,15 @@
+
+.talkabee-editions{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:2147482998;font-family:Arial,sans-serif}
+.talkabee-editions details{position:relative}
+.talkabee-editions summary{list-style:none;cursor:pointer;border:1px solid rgba(255,255,255,.55);border-radius:999px;padding:10px 15px;background:rgba(7,23,39,.62);color:#fff;font-size:13px;font-weight:900;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.22);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}
+.talkabee-editions summary::-webkit-details-marker{display:none}
+.talkabee-editions .edition-row{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);display:flex;gap:6px;padding:8px;border:1px solid rgba(255,255,255,.4);border-radius:15px;background:rgba(7,23,39,.80);box-shadow:0 12px 32px rgba(0,0,0,.28);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);white-space:nowrap}
+.talkabee-editions .edition-row a{display:block;padding:9px 11px;border-radius:10px;color:#fff;text-decoration:none;font-size:12px;font-weight:850;background:rgba(255,255,255,.07);transition:background .16s ease,box-shadow .16s ease,transform .16s ease,border-color .16s ease}
+.talkabee-editions .edition-row a:nth-child(1):hover,.talkabee-editions .edition-row a:nth-child(1):focus-visible{background:rgba(232,184,72,.28);box-shadow:inset 0 0 0 1px rgba(255,218,120,.36)}
+.talkabee-editions .edition-row a:nth-child(2):hover,.talkabee-editions .edition-row a:nth-child(2):focus-visible{background:rgba(67,181,164,.27);box-shadow:inset 0 0 0 1px rgba(122,224,207,.34)}
+.talkabee-editions .edition-row a:nth-child(3):hover,.talkabee-editions .edition-row a:nth-child(3):focus-visible{background:rgba(75,158,216,.28);box-shadow:inset 0 0 0 1px rgba(132,200,246,.34)}
+.talkabee-editions .edition-row a:nth-child(4):hover,.talkabee-editions .edition-row a:nth-child(4):focus-visible{background:rgba(83,166,103,.28);box-shadow:inset 0 0 0 1px rgba(139,215,157,.34)}
+.talkabee-editions .edition-row a:nth-child(5):hover,.talkabee-editions .edition-row a:nth-child(5):focus-visible{background:rgba(126,91,211,.31);box-shadow:inset 0 0 0 1px rgba(178,151,242,.36)}
+.talkabee-editions .edition-row a:nth-child(6):hover,.talkabee-editions .edition-row a:nth-child(6):focus-visible{background:rgba(211,107,91,.28);box-shadow:inset 0 0 0 1px rgba(245,157,143,.34)}
+.talkabee-editions .edition-row a:hover,.talkabee-editions .edition-row a:focus-visible{transform:translateY(-1px);outline:none}
+@media(max-width:900px){.talkabee-editions .edition-row{max-width:94vw;overflow-x:auto}}

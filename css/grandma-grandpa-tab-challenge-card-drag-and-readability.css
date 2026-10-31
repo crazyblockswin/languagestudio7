@@ -1,0 +1,15 @@
+
+/* Challenge card: readable, independently draggable, without altering lesson card. */
+#homeWorld.challenge-mode .home-scene > #homeFind.show {
+  cursor:grab!important;touch-action:none!important;
+  user-select:none!important;-webkit-user-select:none!important;
+}
+#homeWorld.challenge-mode .home-scene > #homeFind.show.tab-challenge-moved {
+  right:auto!important;bottom:auto!important;
+}
+#homeWorld.challenge-mode .home-scene > #homeFind.show:active {cursor:grabbing!important;}
+#homeWorld.challenge-mode #homeFindPrompt {font-size:24px!important;line-height:1.35!important;}
+#homeWorld.challenge-mode #homeFindStatus {font-size:21px!important;line-height:1.35!important;}
+#homeWorld.challenge-mode #challengeNextHint {font-size:17px!important;line-height:1.4!important;}
+#homeWorld.challenge-mode #homeChallengeCount {font-size:15px!important;letter-spacing:.08em!important;}
+@media(max-width:760px){#homeWorld.challenge-mode .home-scene > #homeFind.show {touch-action:auto!important;}}

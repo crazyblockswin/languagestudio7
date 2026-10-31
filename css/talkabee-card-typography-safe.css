@@ -1,0 +1,25 @@
+/* Shared Talk A Bee script-card text styling.
+   Deliberately leaves dimensions, visibility, opacity, positioning, transforms,
+   drag handles, font-adjustment state and interactive behavior untouched. */
+:is(.card,.panel,.train-panel).tab-master-card .kicker{font-size:11px;line-height:1.25;letter-spacing:.08em}
+:is(.card,.panel,.train-panel).tab-master-card h2{font-size:clamp(23px,1.8vw,29px);line-height:1.12}
+:is(.card,.panel,.train-panel).tab-master-card .word strong{font-size:inherit;line-height:1.3}
+:is(.card,.panel,.train-panel).tab-master-card .translation{line-height:1.4}
+:is(.card,.panel,.train-panel).tab-master-card .controls button{line-height:1.25}
+
+/* Legacy markup aliases: Train Station and Shopping Market use different
+   class names for the same script-card elements. Typography only. */
+.train-panel.tab-master-card .train-kicker,
+.card.tab-master-card .label{font-size:11px;line-height:1.25;letter-spacing:.08em}
+.train-panel.tab-master-card .train-line,
+.card.tab-master-card .line{line-height:1.3}
+.train-panel.tab-master-card .train-translation{line-height:1.4}
+.train-panel.tab-master-card .train-actions button,
+.card.tab-master-card .actions button{line-height:1.25}
+
+/* Sea Adventures uses a yacht-panel card. Only normalize text rhythm;
+   leave its font-size, scaling, position, dragging and dimensions untouched. */
+.yacht-panel.tab-master-card .kicker{line-height:1.25}
+.yacht-panel.tab-master-card h2{line-height:1.12}
+.yacht-panel.tab-master-card .translation{line-height:1.4}
+.yacht-panel.tab-master-card .controls button{line-height:1.25}
