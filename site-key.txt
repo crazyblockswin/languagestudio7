@@ -1,8 +1,0 @@
-
-
-
-site key   0x4AAAAAAFlvZu0ZFdHSJHbW
-
-
-
-secret key   0x4AAAAAAFlvZn4P0Pjxsy2rZ3_A9_2jqb4
