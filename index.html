@@ -1,11 +1,340 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Language Studio 7</title>
-</head>
-<body>
-  <h1>Language Studio 7</h1>
-  <p>Website coming soon!</p>
-</body>
-</html>
+<!doctype html>
+<html lang="en" data-home-editor=""><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Language Studio 7 — Learn, Explore, Discover</title>
+<style>
+:root{font-family:'Trebuchet MS',Arial,sans-serif;color:#12283c}*{box-sizing:border-box}body{margin:0;background:#edf3f4}a{text-decoration:none;color:inherit}button,select{font:inherit}a:focus-visible,select:focus-visible{outline:3px solid #ffcc61;outline-offset:4px}
+.hero{min-height:100vh;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(110deg,#d8e6e9,#f6e8cd)}.hero:before{content:"";position:absolute;inset:-25px;z-index:-2;background:linear-gradient(120deg,#dce9ee,#f5e8cb) center/cover no-repeat;filter:blur(20px) saturate(.95)}.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#f6f4e9a8,#fff9e4a0 58%,#e7e7dbbd)}
+.shell{max-width:1460px;margin:auto;padding:0 24px 28px}.top{display:flex;align-items:center;gap:20px;justify-content:space-between;background:#122f4b;color:white;border-radius:0 0 24px 24px;padding:13px 23px;box-shadow:0 8px 26px #132d4655}.brand{display:flex;align-items:center;gap:11px;font-size:clamp(25px,2.8vw,39px);font-weight:900;white-space:nowrap}.brand img{height:65px;width:65px;object-fit:contain}.nav{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.nav a{padding:10px 18px;border:1px solid #ffffff6a;border-radius:28px;color:#fff}.nav a:hover{background:#ffffff22}.nav a:first-child{background:#f5c965;color:#12283c;border-color:#f5c965}.language{display:flex;align-items:center;gap:7px;white-space:nowrap}.language select{background:#1c3b58;color:#fff;border:1px solid #b4c4cf;border-radius:25px;padding:9px 12px}
+.intro{text-align:center;padding:35px 12px 22px}.intro p{text-align:left}.intro h1{font-family:'Arial Rounded MT Bold','Arial Black','Trebuchet MS',sans-serif;font-weight:900;font-size:clamp(30px,2.7vw,40px);line-height:1.18;letter-spacing:-.8px;margin:0 0 9px;color:#0b2944;text-shadow:0 2px 15px #fff9}.intro p{font-size:clamp(17px,1.6vw,24px);margin:0;color:#1e435e}.goldline{width:105px;height:4px;border-radius:5px;background:#e9b644;margin:20px auto 0}
+.paths{display:grid;grid-template-columns:1fr .32fr 1fr;align-items:start;gap:16px;max-width:1250px;margin:15px auto 0}.panel{border-radius:23px;overflow:hidden;box-shadow:0 15px 40px #1c334b48;background:#fff9f0;border:2px solid #ffffffd9;min-height:465px;display:flex;flex-direction:column}.panelhead{background:#193953;color:white;padding:20px 25px}.panelhead h2{margin:0;font-size:clamp(22px,2.1vw,31px)}.panelhead p{margin:5px 0 0;font-size:15px;color:#e1e8ed}.panelbody{padding:20px;flex:1;display:flex;flex-direction:column;gap:15px}.activities{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.activity{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;min-height:109px;background:#fff;border:1px solid #e8e4db;border-radius:16px;padding:11px 6px;font-size:14px;font-weight:800;transition:transform .15s,box-shadow .15s}.activity:hover{transform:translateY(-3px);box-shadow:0 7px 16px #1a324526}.activity .symbol{font-size:36px}.action{display:block;text-align:center;background:linear-gradient(#ffdb78,#eeb43c);color:#102a40;border-radius:40px;padding:16px 18px;font-size:20px;font-weight:900;box-shadow:0 4px 0 #b88225;margin-top:auto}.action:hover{filter:brightness(1.06)}.adventure-image{width:100%;height:150px;object-fit:cover;object-position:center 36%;border-radius:14px}.learning-intro{margin:8px 2px 2px;text-align:center;font-size:15px;line-height:1.55;color:#24465b}.features{margin:4px 0 0;padding:0;list-style:none;display:grid;gap:12px;font-size:17px}.features li{display:flex;align-items:center;gap:11px}.features span{font-size:23px}.mascot{text-align:center;align-self:center}.mascot img{max-width:100%;max-height:245px;object-fit:contain;filter:drop-shadow(0 12px 15px #223a5050)}.mascot p{font-size:17px;font-weight:bold;color:#123a53;text-shadow:0 1px 8px white}.mascot .free-note{font-size:15px;line-height:1.45;margin:10px -8px 0;color:#123a53}.mascot .free-note strong{font-weight:900}.benefits{display:flex;justify-content:center;flex-wrap:wrap;gap:30px;margin:35px auto 0;color:#12324c;font-size:15px;font-weight:bold;text-shadow:0 1px 5px #fff}.benefits span{display:flex;align-items:center;gap:9px}.benefits b{font-size:24px}footer{text-align:center;padding:22px;color:#24465b;font-size:13px}
+@media(max-width:950px){.top{flex-wrap:wrap;justify-content:center}.paths{grid-template-columns:1fr 1fr}.mascot{display:none}.panel{min-height:465px}.nav{justify-content:center}}@media(max-width:650px){.shell{padding:0 12px 20px}.top{padding:12px;border-radius:0 0 18px 18px}.brand img{width:49px;height:49px}.nav a{font-size:12px;padding:8px 10px}.intro{padding:25px 8px 12px}.paths{grid-template-columns:1fr;gap:20px}.panel{min-height:0}.panelbody{padding:16px}.activities{grid-template-columns:repeat(2,1fr)}.benefits{gap:14px;font-size:13px}.language{font-size:13px}}
+
+.gallery-section{max-width:1370px;margin:32px auto 0;text-align:center}.gallery-section h2{font-size:clamp(24px,2.5vw,34px);color:#0b2944;margin:0 0 4px;font-weight:900}.gallery-section>p{margin:0 0 18px;color:#24465b;font-size:17px}.gallery-wrap{display:flex;align-items:center;gap:10px}.gallery-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;flex:1;padding:3px 2px 12px}.gallery-tile{flex:0 0 clamp(185px,19vw,255px);scroll-snap-align:start;display:flex;flex-direction:column;gap:7px;font-weight:800;color:#102f4b}.gallery-tile img{width:100%;height:130px;object-fit:cover;border-radius:14px;box-shadow:0 5px 15px #18354a35}.gallery-tile:hover img{filter:brightness(1.08)}.gallery-arrow{border:0;background:#fff;color:#153650;border-radius:50%;height:38px;min-width:38px;font-size:28px;cursor:pointer;box-shadow:0 3px 14px #1b38512c}.gallery-arrow:hover{background:#f5c965}
+.editor-toggle{position:fixed;bottom:15px;right:15px;z-index:10;background:#122f4b;color:#fff;border:1px solid #f5c965;border-radius:30px;padding:9px 15px;cursor:pointer;font-size:13px}.editor-panel{position:fixed;z-index:11;right:12px;bottom:60px;max-height:80vh;overflow:auto;width:min(450px,calc(100vw - 24px));background:#fff;color:#12283c;border:2px solid #f5c965;border-radius:18px;box-shadow:0 12px 55px #071d3199;padding:16px}.editor-panel[hidden],.editor-toggle[hidden]{display:none}.editor-panel h2{margin:0 0 8px}.editor-panel p{font-size:13px}.editor-panel label{display:block;font-weight:bold;font-size:13px;margin:10px 0 4px}.editor-panel input{width:100%;padding:8px;border:1px solid #9caebc;border-radius:7px}.editor-panel button{background:#123b5c;color:#fff;border:0;border-radius:7px;padding:8px 10px;cursor:pointer;margin:5px 4px 3px 0}.editor-panel .item{border-top:1px solid #cdd6dc;padding-top:9px;margin-top:10px}.editor-panel .item button{font-size:12px}.editor-panel .editor-actions{border-top:1px solid #cdd6dc;margin-top:12px;padding-top:10px}.editor-panel .warning{color:#8b420d}
+@media(max-width:650px){.gallery-section>p{font-size:14px}.gallery-tile{flex-basis:190px}.gallery-arrow{min-width:30px;height:30px;font-size:22px}}
+ .comment-invite{margin:5px 2px 2px;text-align:center;font-size:14px;line-height:1.45;color:#24465b}.comment-invite a{color:#174c80;font-weight:800;text-decoration:underline;text-underline-offset:3px} 
+/* Language Studio 7 learning cards: individual image assets, original links and translations retained. */
+.activity .symbol{display:block;width:100%;height:64px;overflow:hidden;border-radius:10px;font-size:0;flex:none}
+.activity .symbol img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.activity{justify-content:flex-start;gap:9px;padding:8px 6px 10px;min-height:112px}
+@media(max-width:650px){.activity .symbol{height:78px}}
+
+/* Refined dimensional homepage header — visual-only, preserves all links and editors. */
+.top{
+  background:linear-gradient(165deg,#284b6a 0%,#163653 36%,#0c263f 100%);
+  border:1px solid rgba(213,231,246,.32);
+  border-top:0;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.16),inset 0 -5px 12px rgba(0,10,26,.18),0 13px 25px rgba(7,28,48,.32);
+}
+.brand{color:#fff9eb;text-shadow:0 2px 1px #081d33,0 5px 9px rgba(0,0,0,.4)}
+.brand img{filter:drop-shadow(0 5px 4px rgba(0,0,0,.35)) drop-shadow(0 0 5px rgba(255,216,120,.25))}
+.nav a{
+  background:linear-gradient(180deg,#345777 0%,#1b3b58 50%,#112c47 100%);
+  border:1px solid rgba(215,235,250,.46);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.16),0 4px 0 #071d32,0 7px 10px rgba(0,0,0,.18);
+  text-shadow:0 1px 1px rgba(0,0,0,.45);
+  transition:transform .16s,box-shadow .16s,filter .16s;
+}
+.nav a:first-child{
+  background:linear-gradient(180deg,#ffe89e 0%,#f7c957 52%,#dca02e 100%);
+  border-color:#ffe6a0;color:#172c3e;text-shadow:0 1px 0 #fff6c3;
+  box-shadow:inset 0 2px 0 #fff5c0,0 4px 0 #99691d,0 7px 10px rgba(0,0,0,.18);
+}
+.nav a:hover{filter:brightness(1.13);transform:translateY(-2px)}
+.nav a:active{transform:translateY(2px);box-shadow:inset 0 2px 4px #0005,0 1px 0 #071d32}
+.language select{
+  background:linear-gradient(180deg,#345877,#183854 65%,#112d47);
+  border:1px solid #a7c4d9;
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.14),0 4px 0 #071d32,0 6px 12px #0003;
+}
+/* Match the language dropdown to the raised Adventure-style header buttons. */
+.top .language select{
+  appearance:auto;
+  background:linear-gradient(180deg,#345777 0%,#1b3b58 50%,#112c47 100%);
+  color:#fff;
+  border:1px solid rgba(215,235,250,.46);
+  border-radius:15px;
+  padding:10px 14px;
+  font-weight:800;
+  text-shadow:0 1px 1px rgba(0,0,0,.45);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.16),0 4px 0 #071d32,0 7px 10px rgba(0,0,0,.18);
+  cursor:pointer;
+}
+.top .language select:hover{filter:brightness(1.13)}
+/* Both existing homepage editors remain available, with separate launch buttons. */
+#editorToggle.editor-toggle{bottom:85px;right:18px;z-index:2147483002}
+@media(prefers-reduced-motion:reduce){.nav a{transition:none}}
+
+/* Subtle dimensional finish for the two panel headings only. */
+.panelhead{
+ background:linear-gradient(180deg,#315c7c 0%,#234761 12%,#193953 55%,#102b43 100%);
+ border-top:1px solid rgba(255,255,255,.42);
+ border-bottom:2px solid rgba(5,23,39,.45);
+ box-shadow:inset 0 2px 0 rgba(255,255,255,.14),inset 0 -8px 14px rgba(5,21,37,.14),0 5px 12px rgba(10,31,49,.17);
+ text-shadow:0 2px 2px rgba(0,12,25,.35);
+}
+/* Stronger, block-style homepage welcome lettering; no layout or content changes. */
+.mascot > p:not(.free-note){
+  font-family:'Arial Black','Arial Rounded MT Bold','Trebuchet MS',Arial,sans-serif;
+  font-size:clamp(17px,1.55vw,23px);
+  font-weight:900;
+  line-height:1.2;
+  letter-spacing:.15px;
+  color:#102d45;
+  text-shadow:0 2px 0 rgba(255,255,255,.8),0 3px 9px rgba(14,39,59,.15);
+}
+.mascot .free-note{
+  font-family:'Arial Rounded MT Bold','Trebuchet MS',Arial,sans-serif;
+  font-size:clamp(14px,1.15vw,17px);
+  font-weight:900;
+  line-height:1.45;
+  letter-spacing:.1px;
+  color:#15354d;
+  text-shadow:0 1px 0 rgba(255,255,255,.85);
+}
+</style><style id="home-comment-dialog-style">
+.home-comment-overlay[hidden]{display:none!important}.home-comment-overlay{position:fixed;inset:0;z-index:1000;background:rgba(9,27,45,.72);display:flex;align-items:center;justify-content:center;padding:18px}.home-comment-window{width:min(720px,100%);height:min(790px,90vh);display:flex;flex-direction:column;background:#fffaf1;border:2px solid #f5c965;border-radius:20px;box-shadow:0 22px 75px #071d31aa;overflow:hidden}.home-comment-top{background:#193953;color:white;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 17px;font-weight:900}.home-comment-close{border:1px solid #ffffff80;border-radius:30px;background:#fff;color:#193953;padding:8px 15px;cursor:pointer;font-weight:bold}.home-comment-frame{width:100%;flex:1;border:0;background:white}.home-comment-overlay a:focus-visible,.home-comment-overlay button:focus-visible{outline:3px solid #eeb43c;outline-offset:2px}
+</style><style id="home-how-style">.home-how-overlay[hidden]{display:none!important}.home-how-overlay{position:fixed;inset:0;z-index:1100;background:rgba(9,27,45,.72);display:flex;align-items:center;justify-content:center;padding:18px}.home-how-window{width:min(620px,100%);max-height:90vh;overflow:auto;background:#fffaf1;border:2px solid #f5c965;border-radius:20px;box-shadow:0 22px 75px #071d31aa;color:#12324c}.home-how-top{background:#193953;color:white;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;font-weight:900;font-size:20px}.home-how-close{border:1px solid #ffffff80;border-radius:30px;background:white;color:#193953;padding:8px 15px;cursor:pointer;font-weight:bold}.home-how-body{padding:20px 25px 24px}.home-how-body>p{margin:0 0 17px;line-height:1.5}.home-how-step{display:flex;align-items:flex-start;gap:13px;padding:12px 0;border-top:1px solid #e7dfd1}.home-how-emoji{font-size:26px;flex:none}.home-how-step strong{display:block;margin-bottom:3px}.home-how-step p{margin:0;line-height:1.45}.home-how-footer{font-weight:900;text-align:center;margin-top:15px!important;color:#193953}@media(max-width:650px){.home-how-body{padding:16px}.home-how-top{font-size:18px}}</style><style id="talkabee-home-donate-style">.talkabee-home-donate-wrap{text-align:center;margin:25px auto 10px}.talkabee-home-donate{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border:1px solid #e3d9e8;border-radius:999px;background:#fff;color:#4b3f59;font-size:14px;font-weight:900;line-height:1;text-decoration:none;white-space:nowrap;box-shadow:0 2px 8px rgba(58,43,72,.08);transition:transform .15s ease,box-shadow .15s ease}.talkabee-home-donate:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(58,43,72,.14)}
+/* Keep translated navigation on one line without displacing either mascot. */
+@media(min-width:1101px){
+ .top{gap:12px;flex-wrap:nowrap}
+ .brand{font-size:clamp(25px,2.3vw,33px);gap:8px;flex:0 0 auto}
+ .nav{flex-wrap:nowrap;gap:7px;min-width:0;justify-content:center}
+ .nav a{white-space:nowrap;font-size:clamp(14px,1.12vw,17px);padding:10px 12px}
+ .language{flex:0 0 auto;font-size:clamp(14px,1.12vw,17px);gap:5px}
+ .language select{max-width:150px;padding:9px 8px;font-size:inherit}
+}
+@media(min-width:1101px) and (max-width:1350px){
+ .top{gap:8px}
+ .brand{font-size:25px}.brand img{width:54px;height:54px}
+ .nav a{font-size:14px;padding:9px 8px}
+ 
+}
+@media(min-width:651px) and (max-width:1100px){
+ .top{flex-wrap:wrap;justify-content:center}
+ .nav{flex-wrap:nowrap}.nav a{white-space:nowrap;font-size:14px;padding:9px 10px}
+}
+</style>
+<style id="talkabee-home-adventure-header-buttons">
+/* Exact Adventure dashboard button finish, scoped to homepage navigation only. */
+.top .nav a{
+  display:inline-flex;align-items:center;justify-content:center;
+  background:linear-gradient(180deg,#27343d,#172229)!important;
+  color:#e9f3f6!important;border:1px solid #526875!important;
+  border-top-color:#17232a!important;border-radius:9px!important;
+  box-shadow:inset 0 3px 7px #000c,inset 0 -9px 18px rgba(75,174,205,.17),0 1px 0 #8da2ac30!important;
+  text-shadow:0 1px 2px #000!important;font-weight:700;
+  transition:background .15s ease,box-shadow .15s ease!important;
+  transform:none!important;filter:none!important;
+}
+.top .nav a:hover{
+  background:linear-gradient(180deg,#344650,#22333c)!important;
+  border-color:#7ba3b4!important;
+  box-shadow:inset 0 3px 7px #000c,inset 0 -12px 22px rgba(81,198,228,.32)!important;
+}
+.top .nav a:active{box-shadow:inset 0 5px 10px #000e!important;transform:translateY(1px)!important}
+.top .nav a:first-child{
+  background:linear-gradient(180deg,#3a2e1c,#5c431c)!important;
+  color:#fff4ce!important;border-color:#d6aa4f!important;
+  box-shadow:inset 0 3px 8px #160d03,inset 0 -12px 26px rgba(255,193,64,.62),inset 0 0 2px #ffe3a7!important;
+}
+@media(prefers-reduced-motion:reduce){.top .nav a{transition:none!important}}
+</style><style id="tab-real-heading-icons">.panelhead h2{display:flex;align-items:center;gap:12px}.panelhead .tab-heading-icon{width:52px;height:48px;object-fit:contain;flex:none;filter:drop-shadow(0 3px 3px #071c2c66)}@media(max-width:650px){.panelhead .tab-heading-icon{width:43px;height:40px}}</style><style id="talkabee-home-footer-final-polish">
+/* Keep the footer one coherent centered line, with deliberate spacing and responsive wrapping. */
+.talkabee-home-footer{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:5px 9px;text-align:center;padding:24px 12px 115px;color:#24465b;font-size:clamp(13px,1.2vw,17px);line-height:1.55}
+.talkabee-home-footer a{color:inherit;font-weight:800;text-decoration:underline;text-underline-offset:4px;white-space:nowrap}
+.talkabee-home-footer a:hover{color:#a36b13}
+.talkabee-home-footer-dot{white-space:nowrap}
+/* Editors are two distinct tools; keep their launchers together, clear of the footer. */
+#editorToggle.editor-toggle{position:fixed;left:18px;right:auto;bottom:82px;z-index:2147483002;border-radius:13px;padding:11px 16px;font-size:15px}
+#tab-edition-launch{position:fixed;left:18px;right:auto;bottom:18px;z-index:2147483002;border-radius:13px;padding:11px 16px;font-size:15px}
+/* Language control: match the dimensions, corners, inset shadow, and hover of nav buttons. */
+.top .language select{appearance:auto;border-radius:9px!important;background:linear-gradient(180deg,#27343d,#172229)!important;border:1px solid #526875!important;border-top-color:#17232a!important;box-shadow:inset 0 3px 7px #000c,inset 0 -9px 18px rgba(75,174,205,.17),0 1px 0 #8da2ac30!important;font-weight:700!important;color:#e9f3f6!important;text-shadow:0 1px 2px #000!important}
+.top .language select:hover{background:linear-gradient(180deg,#344650,#22333c)!important;border-color:#7ba3b4!important;filter:none!important}
+@media(max-width:650px){.talkabee-home-footer{padding-bottom:135px}.talkabee-home-footer-dot{display:none}.talkabee-home-footer>span:first-child{flex-basis:100%}}
+</style><style id="talkabee-compact-intro">
+/* Compact welcome; no changes to panels, mascots or editors. */
+.intro{padding:18px 12px 12px}
+.intro h1{font-size:clamp(24px,2.2vw,32px);line-height:1.2;color:#0b2944;margin:0 0 7px;letter-spacing:0}
+.intro p{font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:1.48}
+.paths{margin-top:10px}
+@media(max-width:650px){.intro{padding:17px 8px 10px}.intro p{font-size:20px}}
+</style><style id="talkabee-home-teal-headers">
+/* Match the Adventure Learn selector's deep teal-green finish. */
+.intro h1,.gallery-section h2{color:#0b2944;text-shadow:0 2px 8px rgba(255,255,255,.65)}
+.panelhead{background:linear-gradient(180deg,#245e51 0%,#174c40 18%,#103a34 60%,#092a29 100%);border-bottom-color:#062923;box-shadow:inset 0 2px 0 rgba(192,255,228,.19),inset 0 -8px 14px rgba(0,21,16,.19),0 5px 12px rgba(10,31,49,.17)}
+.panelhead h2{color:#fff;text-shadow:0 2px 2px #041e18}
+</style><style id="talkabee-match-adventure-charcoal-headers">
+/* Exact cockpit header finish from css/master.css; homepage-only styling. */
+.top{
+ background:linear-gradient(160deg,#353d43 0%,#20282e 40%,#141c23 100%)!important;
+ border:1px solid #596b76!important;
+ border-top:2px solid #7c929d!important;
+ border-bottom:3px solid #080e13!important;
+ box-shadow:inset 0 2px 1px #a3b6bd33,inset 0 -6px 14px #0009,0 6px 18px #0009!important;
+}
+.panelhead{
+ background:linear-gradient(160deg,#353d43 0%,#20282e 40%,#141c23 100%)!important;
+ border:1px solid #596b76!important;
+ border-top:2px solid #7c929d!important;
+ border-bottom:3px solid #080e13!important;
+ box-shadow:inset 0 2px 1px #a3b6bd33,inset 0 -6px 14px #0009,0 6px 18px #0009!important;
+}
+.panelhead h2,.panelhead p{color:#fff!important;text-shadow:0 2px 2px rgba(0,0,0,.55)!important}
+</style><style id="studio-intro-layout">
+/* Full-width introduction for Language Studio 7. */
+.studio-intro{display:block;max-width:1250px;margin:16px auto 10px;min-height:0}
+.studio-unused-space{display:none}
+.studio-intro .intro{padding:16px 12px;text-align:center;min-width:0}
+.studio-intro .intro h1{text-align:center}
+.studio-intro .intro p{line-height:1.48;text-align:center;max-width:1100px;margin:auto}
+@media(max-width:750px){.studio-intro{grid-template-columns:minmax(130px,35%) minmax(0,1fr);gap:12px;min-height:200px}.studio-unused-space{min-height:200px}.studio-intro .intro h1{font-size:clamp(20px,3vw,28px)}.studio-intro .intro p{font-size:clamp(14px,2vw,18px)}}
+@media(max-width:480px){.studio-intro{grid-template-columns:1fr}.studio-unused-space{min-height:220px}.studio-intro .intro{padding:0 8px 10px}}
+</style><style id="language-studio-7-branding">
+.top .brand img{width:clamp(170px,21vw,285px);height:105px;max-width:100%;object-fit:contain}
+.top .brand{font-size:0;min-width:0;flex-shrink:1}
+@media(max-width:650px){.top .brand img{width:205px;height:85px}}
+</style><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" href="images/language-studio-7-favicon.png"><style id="tab-edition-overlay-runtime-css">#tab-home-stage{isolation:isolate;position:relative}#tab-home-stage > .shell{position:relative;z-index:20}#tab-edition-overlays-back,#tab-edition-overlays-front{position:absolute;top:0;left:0;right:0;height:min(100vh,850px);pointer-events:none}#tab-edition-overlays-back{z-index:10}#tab-edition-overlays-front{z-index:30}.tab-edition-overlay{position:absolute;height:auto;display:block;transform:translate(-50%,-50%) rotate(var(--angle,0deg));transform-origin:center;pointer-events:none;user-select:none}</style></head><body class=""><div class="hero" id="tab-home-stage"><div class="shell"><header class="top"><a class="brand" href="index.html" aria-label="Language Studio 7 home"><img src="images/language-studio-7-logo.png" alt="Language Studio 7"></a><nav class="nav" aria-label="Main navigation"><a href="#how-it-works" id="homeHowLink" aria-haspopup="dialog">How It Works</a></nav><label class="language">🌐 <span>Language</span><select id="native" aria-label="Preferred language"><option value="en">English</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="pt">Português</option><option value="no">Norsk</option></select></label></header>
+<div class="studio-intro"><section class="intro"><h1>Explore • Discover • Learn • Have Fun!</h1><p>Learn seven languages at your own pace through pictures, sounds, everyday words, and interactive Adventures. No sign-ups, no pressure, and best of all, it's completely FREE! </p></section></div>
+<main class="paths"><section class="panel" aria-labelledby="learnTitle"><div class="panelhead"><h2 id="learnTitle"><img class="tab-heading-icon" src="images/header-book.png" alt="">Learn the Basics</h2><p>Everyday words, pictures and expressions</p></div><div class="panelbody"><div class="activities"><a class="activity" href="numbers.html"><span class="symbol"><img src="images/tab-card-numbers.jpg" alt="" loading="lazy"></span>Numbers</a><a class="activity" href="picture-learning.html"><span class="symbol"><img src="images/tab-card-pictures.jpg" alt="" loading="lazy"></span>Pictures</a><a class="activity" href="time-calendar.html"><span class="symbol"><img src="images/tab-card-time-calendar.jpg" alt="" loading="lazy"></span>Time &amp; Calendar</a><a class="activity" href="colors-shapes.html"><span class="symbol"><img src="images/tab-card-colors-shapes.jpg" alt="" loading="lazy"></span>Colors &amp; Shapes</a><a class="activity" href="feelings-expressions.html"><span class="symbol"><img src="images/tab-card-feelings.jpg" alt="" loading="lazy"></span>Feelings &amp; Expressions</a><a class="activity" href="main-directory.html"><span class="symbol"><img src="images/tab-card-adventures.jpg" alt="" loading="lazy"></span>All Learning</a></div><p class="learning-intro">Explore everyday words, pictures, and expressions. Choose your languages and learn at your own pace.</p><p class="comment-invite">If you have any suggestions, feel free to send us your comments. <a href="comments.html" id="homeCommentLink" aria-haspopup="dialog">Leave a Comment →</a></p><a class="action" href="main-directory.html">Explore Learning →</a></div></section>
+<div class="mascot" aria-hidden="true"><p>Your journey starts here!</p><p class="free-note">No sign-up. No login. Just learning—and it’s FREE!</p></div>
+<section class="panel" aria-labelledby="adventureTitle"><div class="panelhead"><h2 id="adventureTitle"><img class="tab-heading-icon" src="images/header-compass.png" alt="">Explore Adventures</h2><p>Learn by exploring the world</p></div><div class="panelbody"><a href="adventure.html?scene=airplane-flying" aria-label="Open Airplane Flying Adventure"><img class="adventure-image" id="mainAdventureImage" src="images/Airplane-Flying-Adventure.jpg" alt="Four people flying an airplane over Seattle"></a><ul class="features"><li><span>🏔️</span>Travel to fascinating places</li><li><span>🔎</span>Discover and learn objects</li><li><span>🔊</span>Hear words and real sounds</li><li><span>🏆</span>Try activities and challenges</li><li><span>✨</span>Most of all, have FUN!</li></ul><a class="action" href="adventure.html">Start an Adventure →</a></div></section></main>
+<section class="gallery-section" aria-labelledby="galleryTitle"><h2 id="galleryTitle">A World of Adventures Awaits!</h2><p>From flying airplanes to exploring oceans, mountains, and faraway places—every adventure brings something new to discover.</p><div class="gallery-wrap"><button type="button" class="gallery-arrow" id="galleryPrev" aria-label="Previous adventures">‹</button><div class="gallery-track" id="adventureGallery"><a class="gallery-tile" href="adventure.html?scene=boat-locks"><img src="images/Boat-Locks-Adventure.jpg" alt="Boat Locks" loading="lazy"><span>Boat Locks</span></a><a class="gallery-tile" href="adventure.html?scene=helicopter-mountain-rescue"><img src="images/helicopter-mountain-rescue-adventure.jpg" alt="Helicopter Mountain Rescue" loading="lazy"><span>Helicopter Mountain Rescue</span></a><a class="gallery-tile" href="adventure.html?scene=observation-deck"><img src="images/observation-deck-adventure.jpg" alt="Observation Deck" loading="lazy"><span>Observation Deck</span></a><a class="gallery-tile" href="adventure.html?scene=hang-gliding"><img src="images/Hang-Gliding-Adventure.jpg" alt="Hang Gliding" loading="lazy"><span>Hang Gliding</span></a><a class="gallery-tile" href="adventure.html?scene=cave-exploration"><img src="images/Cave-Adventure.jpg" alt="Cave Exploration" loading="lazy"><span>Cave Exploration</span></a><a class="gallery-tile" href="adventure.html?scene=animals-farm"><img src="images/animals-farm-adventure.jpg" alt="Animals Farm" loading="lazy"><span>Animals Farm</span></a><a class="gallery-tile" href="adventure.html?scene=underwater-adventure"><img src="images/Underwater-Adventure.jpg" alt="Underwater Adventure" loading="lazy"><span>Underwater Adventure</span></a><a class="gallery-tile" href="adventure.html?scene=train-engineer"><img src="images/Steam-Train-Adventure.jpg" alt="Steam Train" loading="lazy"><span>Steam Train</span></a><a class="gallery-tile" href="adventure.html?scene=skydiving"><img src="images/Skydiving-Adventure.jpg" alt="Skydiving" loading="lazy"><span>Skydiving</span></a><a class="gallery-tile" href="adventure.html?scene=spaceship-window-saturn"><img src="images/Saturn-Spacecraft-Adventure.jpg" alt="Saturn Spacecraft" loading="lazy"><span>Saturn Spacecraft</span></a><a class="gallery-tile" href="adventure.html?scene=nasa-spacewalk"><img src="images/Spacewalk-Adventure.jpg" alt="Spacewalk" loading="lazy"><span>Spacewalk</span></a><a class="gallery-tile" href="adventure.html?scene=hot-air-balloon"><img src="images/Hot-Air-Balloon-Festival-Adventure.jpg" alt="Hot Air Balloon Festival" loading="lazy"><span>Hot Air Balloon Festival</span></a><a class="gallery-tile" href="adventure.html?scene=grandmas-kitchen"><img src="images/grandmas-kitchen-adventure.jpg" alt="Grandma’s Kitchen" loading="lazy"><span>Grandma’s Kitchen</span></a><a class="gallery-tile" href="adventure.html?scene=aircraft-carrier"><img src="images/Aircraft-Carrier-Adventure.jpg" alt="Aircraft Carrier" loading="lazy"><span>Aircraft Carrier</span></a><a class="gallery-tile" href="adventure.html?scene=sea-adventures"><img src="images/Sea-Adventure.jpg" alt="Sea Adventures" loading="lazy"><span>Sea Adventures</span></a></div><button type="button" class="gallery-arrow" id="galleryNext" aria-label="Next adventures">›</button></div></section>
+<div id="how-it-works" class="benefits"><span><b>♾️</b>For All Ages</span><span><b>🌍</b>Seven Languages</span><span><b>🔊</b>Hear Spoken Words</span><span><b>🎓</b>Learn at Your Own Pace</span></div><div class="talkabee-home-donate-wrap"><a class="talkabee-home-donate" href="support.html" target="_blank" rel="noopener noreferrer" aria-label="Donate to support Language Studio 7">❤️ Donate</a></div><footer class="talkabee-home-footer"><span>Language Studio 7 · Explore · Learn · Discover</span><span class="talkabee-home-footer-dot" aria-hidden="true">·</span><a href="comments.html" target="_blank" rel="noopener noreferrer">Leave a Comment</a><span class="talkabee-home-footer-dot" aria-hidden="true">·</span><a href="how-this-site-came-to-be.html" target="_blank" rel="noopener noreferrer">Our Story</a><span class="talkabee-home-footer-dot" aria-hidden="true">·</span><a href="statistics.html" target="_blank" rel="noopener noreferrer">Site Statistics</a></footer></div></div><script>(function(){const s=document.getElementById('native');try{const passed=new URLSearchParams(location.search).get('tabnative');if(passed&&[...s.options].some(o=>o.value===passed))localStorage.setItem('talkabee-native-language',passed);const v=localStorage.getItem('talkabee-native-language')||localStorage.getItem('talkabee-preferred-language');if(v&&[...s.options].some(o=>o.value===v)){s.value=v;}else if(v==='el'){s.value='en';localStorage.setItem('talkabee-native-language','en');}s.addEventListener('change',()=>localStorage.setItem('talkabee-native-language',s.value));}catch(e){}})();</script><script id="homepageGalleryData" type="application/json">{"main":"images/Airplane-Flying-Adventure.jpg","items":[{"src":"images/Boat-Locks-Adventure.jpg","title":"Boat Locks","href":"adventure.html?scene=boat-locks"},{"src":"images/helicopter-mountain-rescue-adventure.jpg","title":"Helicopter Mountain Rescue","href":"adventure.html?scene=helicopter-mountain-rescue"},{"src":"images/observation-deck-adventure.jpg","title":"Observation Deck","href":"adventure.html?scene=observation-deck"},{"src":"images/Hang-Gliding-Adventure.jpg","title":"Hang Gliding","href":"adventure.html?scene=hang-gliding"},{"src":"images/Cave-Adventure.jpg","title":"Cave Exploration","href":"adventure.html?scene=cave-exploration"},{"src":"images/animals-farm-adventure.jpg","title":"Animals Farm","href":"adventure.html?scene=animals-farm"},{"src":"images/Underwater-Adventure.jpg","title":"Underwater Adventure","href":"adventure.html?scene=underwater-adventure"},{"src":"images/Steam-Train-Adventure.jpg","title":"Steam Train","href":"adventure.html?scene=train-engineer"},{"src":"images/Skydiving-Adventure.jpg","title":"Skydiving","href":"adventure.html?scene=skydiving"},{"src":"images/Saturn-Spacecraft-Adventure.jpg","title":"Saturn Spacecraft","href":"adventure.html?scene=spaceship-window-saturn"},{"src":"images/Spacewalk-Adventure.jpg","title":"Spacewalk","href":"adventure.html?scene=nasa-spacewalk"},{"src":"images/Hot-Air-Balloon-Festival-Adventure.jpg","title":"Hot Air Balloon Festival","href":"adventure.html?scene=hot-air-balloon"},{"src":"images/grandmas-kitchen-adventure.jpg","title":"Grandma’s Kitchen","href":"adventure.html?scene=grandmas-kitchen"},{"src":"images/Aircraft-Carrier-Adventure.jpg","title":"Aircraft Carrier","href":"adventure.html?scene=aircraft-carrier"},{"src":"images/Sea-Adventure.jpg","title":"Sea Adventures","href":"adventure.html?scene=sea-adventures"}]}</script>
+<script id="homepageTranslations">
+(function(){
+  const selectors=[".nav a", ".language span", ".intro h1", ".intro p", ".panelhead h2", ".panelhead p", ".activity", ".action", ".mascot > p:not(.free-note)", ".features li", ".gallery-section h2", ".gallery-section > p", ".benefits span", "footer", ".learning-intro", ".comment-invite", ".comment-invite a", ".mascot .free-note"];
+  const dictionaries={"es":["Cómo funciona","Idioma","¡Explora • Descubre • Aprende • Diviértete!","Aprende siete idiomas a tu ritmo con imágenes, sonidos, palabras cotidianas y aventuras interactivas. Sin registros, sin presión y, lo mejor de todo, ¡es completamente GRATIS!","Aprende lo básico","Explora aventuras","Palabras, imágenes y expresiones cotidianas","Aprende explorando el mundo","Números","Imágenes","Hora y calendario","Colores y formas","Sentimientos y expresiones","Todo el aprendizaje","Explorar el aprendizaje →","Comenzar una aventura →","¡Tu viaje comienza aquí!","Viaja a lugares fascinantes","Descubre y aprende nombres de objetos","Escucha palabras y sonidos reales","Prueba actividades y desafíos","¡Y, sobre todo, diviértete!","¡Te espera un mundo de aventuras!","Desde volar en avión hasta explorar océanos, montañas y lugares lejanos: cada aventura ofrece algo nuevo por descubrir.","Para todas las edades","Siete idiomas","Escucha palabras habladas","Aprende a tu ritmo","Language Studio 7 · Explora · Aprende · Descubre","Explora palabras, imágenes y expresiones cotidianas. Elige tus idiomas y aprende a tu ritmo.","Si tienes alguna sugerencia, envíanos tus comentarios. ","Dejar un comentario →","Sin registro. Sin iniciar sesión. ¡Solo aprende, y es GRATIS!"],"fr":["Comment ça marche","Langue","Explorez • Découvrez • Apprenez • Amusez-vous !","Apprenez sept langues à votre rythme grâce aux images, aux sons, aux mots du quotidien et aux aventures interactives. Sans inscription, sans pression et surtout, c’est entièrement GRATUIT !","Apprendre les bases","Explorer les aventures","Mots, images et expressions du quotidien","Apprenez en explorant le monde","Nombres","Images","Heure et calendrier","Couleurs et formes","Sentiments et expressions","Tout apprendre","Explorer les leçons →","Commencer une aventure →","Votre voyage commence ici !","Voyagez vers des lieux fascinants","Découvrez et apprenez les noms des objets","Écoutez des mots et des sons réels","Essayez des activités et des défis","Et surtout, amuse-toi !","Un monde d’aventures vous attend !","Du pilotage d’avions à l’exploration des océans, des montagnes et de contrées lointaines, chaque aventure réserve de nouvelles découvertes.","Pour tous les âges","Sept langues","Écoutez les mots prononcés","Apprenez à votre rythme","Language Studio 7 · Explorer · Apprendre · Découvrir","Explorez les mots, les images et les expressions du quotidien. Choisissez vos langues et apprenez à votre rythme.","Si vous avez des suggestions, envoyez-nous vos commentaires. ","Laisser un commentaire →","Sans inscription. Sans connexion. Apprenez, c’est GRATUIT !"],"de":["So funktioniert es","Sprache","Erkunden • Entdecken • Lernen • Spaß haben!","Lerne sieben Sprachen in deinem eigenen Tempo – mit Bildern, Geräuschen, Alltagswörtern und interaktiven Abenteuern. Keine Anmeldung, kein Druck und das Beste: Es ist völlig KOSTENLOS!","Grundlagen lernen","Abenteuer entdecken","Alltagswörter, Bilder und Ausdrücke","Lerne, indem du die Welt erkundest","Zahlen","Bilder","Uhrzeit und Kalender","Farben und Formen","Gefühle und Ausdrücke","Alle Lernangebote","Lernangebote entdecken →","Abenteuer starten →","Deine Reise beginnt hier!","Reise zu faszinierenden Orten","Entdecke Gegenstände und lerne ihre Namen","Höre Wörter und echte Geräusche","Probiere Aktivitäten und Herausforderungen aus","Und vor allem: Hab Spaß!","Eine Welt voller Abenteuer wartet!","Vom Fliegen bis zum Erkunden von Ozeanen, Bergen und fernen Orten – jedes Abenteuer bietet etwas Neues.","Für jedes Alter","Sieben Sprachen","Gesprochene Wörter hören","Lerne in deinem Tempo","Language Studio 7 · Entdecken · Lernen · Erforschen","Entdecke Alltagswörter, Bilder und Ausdrücke. Wähle deine Sprachen und lerne in deinem Tempo.","Wenn du Vorschläge hast, sende uns gerne deine Kommentare. ","Kommentar hinterlassen →","Keine Anmeldung. Kein Login. Einfach lernen – KOSTENLOS!"],"it":["Come funziona","Lingua","Esplora • Scopri • Impara • Divertiti!","Impara sette lingue al tuo ritmo con immagini, suoni, parole di tutti i giorni e avventure interattive. Nessuna registrazione, nessuna pressione e, soprattutto, è completamente GRATIS!","Impara le basi","Esplora le avventure","Parole, immagini ed espressioni quotidiane","Impara esplorando il mondo","Numeri","Immagini","Ora e calendario","Colori e forme","Sentimenti ed espressioni","Tutte le lezioni","Esplora le lezioni →","Inizia un’avventura →","Il tuo viaggio inizia qui!","Viaggia in luoghi affascinanti","Scopri gli oggetti e impara i loro nomi","Ascolta parole e suoni reali","Prova attività e sfide","E soprattutto, divertiti!","Ti aspetta un mondo di avventure!","Dal volo in aereo all’esplorazione di oceani, montagne e luoghi lontani, ogni avventura offre qualcosa di nuovo da scoprire.","Per tutte le età","Sette lingue","Ascolta le parole pronunciate","Impara al tuo ritmo","Language Studio 7 · Esplora · Impara · Scopri","Esplora parole, immagini ed espressioni quotidiane. Scegli le tue lingue e impara al tuo ritmo.","Se hai suggerimenti, inviaci i tuoi commenti. ","Lascia un commento →","Nessuna registrazione. Nessun accesso. Impara, è GRATIS!"],"pt":["Como funciona","Idioma","Explore • Descubra • Aprenda • Divirta-se!","Aprenda sete idiomas ao seu ritmo com imagens, sons, palavras do dia a dia e aventuras interativas. Sem cadastro, sem pressão e, o melhor de tudo, é totalmente GRÁTIS!","Aprenda o básico","Explore aventuras","Palavras, imagens e expressões do dia a dia","Aprenda explorando o mundo","Números","Imagens","Horas e calendário","Cores e formas","Sentimentos e expressões","Todas as lições","Explorar a aprendizagem →","Começar uma aventura →","A sua viagem começa aqui!","Viaje para lugares fascinantes","Descubra objetos e aprenda os seus nomes","Ouça palavras e sons reais","Experimente atividades e desafios","E, acima de tudo, diverte-te!","Um mundo de aventuras espera por si!","Desde pilotar aviões até explorar oceanos, montanhas e lugares distantes, cada aventura traz algo novo para descobrir.","Para todas as idades","Sete idiomas","Ouça palavras faladas","Aprenda ao seu ritmo","Language Studio 7 · Explore · Aprenda · Descubra","Explore palavras, imagens e expressões do dia a dia. Escolha os seus idiomas e aprenda ao seu ritmo.","Se tiver sugestões, envie-nos seus comentários. ","Deixar um comentário →","Sem cadastro. Sem login. É só aprender — GRÁTIS!"],"no":["Slik fungerer det","Språk","Utforsk • Oppdag • Lær • Ha det gøy!","Lær sju språk i ditt eget tempo med bilder, lyder, hverdagsord og interaktive eventyr. Ingen registrering, ikke noe press, og best av alt: Det er helt GRATIS!","Lær det grunnleggende","Utforsk eventyr","Hverdagsord, bilder og uttrykk","Lær ved å utforske verden","Tall","Bilder","Tid og kalender","Farger og former","Følelser og uttrykk","All læring","Utforsk læringen →","Start et eventyr →","Reisen din starter her!","Reis til fascinerende steder","Oppdag gjenstander og lær navnene deres","Hør ord og ekte lyder","Prøv aktiviteter og utfordringer","Og viktigst av alt: Ha det GØY!","En verden av eventyr venter!","Fra å fly fly til å utforske hav, fjell og fjerne steder – hvert eventyr byr på noe nytt å oppdage.","For alle aldre","Sju språk","Hør ordene bli sagt","Lær i ditt eget tempo","Language Studio 7 · Utforsk · Lær · Oppdag","Utforsk hverdagsord, bilder og uttrykk. Velg språkene dine og lær i ditt eget tempo.","Hvis du har forslag, send oss gjerne en kommentar. ","Legg igjen en kommentar →","Ingen registrering. Ingen innlogging. Bare læring – helt GRATIS!"]};
+  const english=["How It Works","Language","Explore • Discover • Learn • Have Fun!","Learn seven languages at your own pace through pictures, sounds, everyday words, and interactive Adventures. No sign-ups, no pressure, and best of all, it's completely FREE! ","Learn the Basics","Explore Adventures","Everyday words, pictures and expressions","Learn by exploring the world","Numbers","Pictures","Time & Calendar","Colors & Shapes","Feelings & Expressions","All Learning","Explore Learning →","Start an Adventure →","Your journey starts here!","Travel to fascinating places","Discover and learn objects","Hear words and real sounds","Try activities and challenges","Most of all, have FUN!","A World of Adventures Awaits!","From flying airplanes to exploring oceans, mountains, and faraway places—every adventure brings something new to discover.","For All Ages","Seven Languages","Hear Spoken Words","Learn at Your Own Pace","Language Studio 7 · Explore · Learn · Discover","Explore everyday words, pictures, and expressions. Choose your languages and learn at your own pace.","If you have any suggestions, feel free to send us your comments. ","Leave a Comment →","No sign-up. No login. Just learning—and it’s FREE!"];
+  const elements=selectors.flatMap(selector=>Array.from(document.querySelectorAll(selector)));
+  // Preserve emojis and other nested elements by changing text nodes only.
+  const nodes=elements.map(el=>{
+    const parts=Array.from(el.childNodes).filter(n=>n.nodeType===Node.TEXT_NODE);
+    const target=parts.find(n=>n.textContent.trim());
+    return target||null;
+  });
+  const originals=nodes.map(n=>n?n.textContent:'');
+  const picker=document.getElementById('native');
+  function apply(code){
+    const words=dictionaries[code]||english;
+    nodes.forEach((node,i)=>{if(!node)return;
+      const original=originals[i];
+      const emojiPrefix=(original.match(/^\s*(?:[^\p{L}\p{N}]*?)(?=[\p{L}\p{N}])/u)||[''])[0];
+      const translated=words[i];
+      // Keep leading pictograms in the HTML and translate only the label.
+      const prefix=/[\p{Extended_Pictographic}]/u.test(emojiPrefix)?emojiPrefix:'';
+      node.textContent=prefix+translated;
+    });
+    document.documentElement.lang=code;
+  }
+  apply(picker.value);
+  picker.addEventListener('change',()=>apply(picker.value));
+  window.addEventListener('pageshow',()=>apply(picker.value));
+  window.addEventListener('storage',e=>{if(e.key==='talkabee-native-language'&&e.newValue&&Array.from(picker.options).some(o=>o.value===e.newValue)){picker.value=e.newValue;apply(e.newValue)}});
+})();
+</script>
+<script id="homepageGalleryLogic">
+(function(){
+  const dataEl=document.getElementById('homepageGalleryData');
+  let data;try{data=JSON.parse(dataEl.textContent)}catch(e){data={main:'images/Airplane-Flying-Adventure.jpg',items:[]}}
+  const main=document.getElementById('mainAdventureImage'),track=document.getElementById('adventureGallery');
+  function render(){
+    main.src=data.main;
+    track.replaceChildren();
+    data.items.forEach(item=>{
+      const a=document.createElement('a');a.className='gallery-tile';a.href=item.href||'adventures-a-z.html';
+      const img=document.createElement('img');img.src=item.src;img.alt=item.title||'Adventure photo';img.loading='lazy';
+      const cap=document.createElement('span');cap.textContent=item.title||'Adventure';a.append(img,cap);track.append(a);
+    });
+  }
+  render();
+  document.getElementById('galleryPrev').addEventListener('click',()=>track.scrollBy({left:-550,behavior:'smooth'}));
+  document.getElementById('galleryNext').addEventListener('click',()=>track.scrollBy({left:550,behavior:'smooth'}));
+  const params=new URLSearchParams(location.search);
+  const editMode=params.has('edit')||document.documentElement.hasAttribute('data-home-editor');
+  if(!editMode)return;
+  const toggle=document.getElementById('editorToggle'),panel=document.getElementById('imageEditor'),items=document.getElementById('galleryEditorItems');
+  toggle.hidden=false;
+  toggle.addEventListener('click',()=>{panel.hidden=!panel.hidden;if(!panel.hidden)refreshEditor()});
+  document.getElementById('closeEditor').addEventListener('click',()=>panel.hidden=true);
+  document.getElementById('heroPath').value=data.main;
+  function imagePath(value){const name=value.trim().replace(/\\/g,'/').split('/').pop();return name?'images/'+name:''}
+  document.getElementById('heroUpload').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;data.main=imagePath(f.name);render();document.getElementById('heroPath').value=data.main});
+  document.getElementById('heroPath').addEventListener('change',e=>{const v=e.target.value.trim();if(v&&v!=='(embedded image)'){data.main=imagePath(v);document.getElementById('heroPath').value=data.main;render()}});
+  function refreshEditor(){items.replaceChildren();data.items.forEach((item,i)=>{
+    const box=document.createElement('div');box.className='item';
+    const label=document.createElement('strong');label.textContent='Photo '+(i+1);box.append(label);
+    function field(name,val,change){const l=document.createElement('label');l.textContent=name;const inp=document.createElement('input');inp.value=val;inp.addEventListener('change',()=>{change(inp.value);render()});box.append(l,inp)}
+    const l=document.createElement('label');l.textContent='Replace with photo file';const upload=document.createElement('input');upload.type='file';upload.accept='image/png,image/jpeg,image/webp';upload.addEventListener('change',async e=>{if(e.target.files[0]){item.src=imagePath(e.target.files[0].name);render();refreshEditor()}});box.append(l,upload);
+    field('Image filename/path',item.src,v=>{if(v&&v!=='(embedded image)')item.src=imagePath(v)});
+    field('Caption',item.title,v=>item.title=v);field('Destination link',item.href,v=>item.href=v);
+    function btn(label,fn){const b=document.createElement('button');b.type='button';b.textContent=label;b.addEventListener('click',fn);box.append(b)}
+    btn('← Move Left',()=>{if(i>0){[data.items[i-1],data.items[i]]=[data.items[i],data.items[i-1]];render();refreshEditor()}});
+    btn('Move Right →',()=>{if(i<data.items.length-1){[data.items[i+1],data.items[i]]=[data.items[i],data.items[i+1]];render();refreshEditor()}});
+    btn('Remove',()=>{data.items.splice(i,1);render();refreshEditor()});items.append(box);
+  })}
+  document.getElementById('addGallery').addEventListener('click',()=>{data.items.push({src:'images/Airplane-Flying-Adventure.jpg',title:'New Adventure',href:'adventures-a-z.html'});render();refreshEditor()});
+  function downloadHTML(working){
+    const doc=document.documentElement.cloneNode(true);
+    doc.querySelector('#homepageGalleryData').textContent=JSON.stringify(data).replace(/</g,'\\u003c');
+    if(working)doc.setAttribute('data-home-editor','');else doc.removeAttribute('data-home-editor');
+    doc.querySelector('#editorToggle').hidden=!working;doc.querySelector('#imageEditor').hidden=true;
+    const html='<!doctype html>\n'+doc.outerHTML;
+    const url=URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'}));
+    const a=document.createElement('a');a.href=url;a.download=working?'index-working.html':'index.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  document.getElementById('saveWorking').addEventListener('click',()=>downloadHTML(true));
+  document.getElementById('saveServer').addEventListener('click',()=>downloadHTML(false));
+})();
+</script>
+<script id="tab-native-local-handoff">(function(){document.addEventListener('click',function(e){const a=e.target.closest('a[href]');if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||a.hasAttribute('download'))return;const href=a.getAttribute('href');if(!href||href.startsWith('#')||/^(?:https?:|mailto:|javascript:)/i.test(href))return;const sel=document.getElementById('native');if(!sel)return;try{const url=new URL(href,location.href);if(!/\.html?$/i.test(url.pathname))return;url.searchParams.set('tabnative',sel.value);a.href=url.href;}catch(err){}},true)})();</script><div class="home-comment-overlay" id="homeCommentOverlay" hidden=""><section class="home-comment-window" role="dialog" aria-modal="true" aria-labelledby="homeCommentTitle"><div class="home-comment-top"><span id="homeCommentTitle">Comments &amp; Suggestions</span><button class="home-comment-close" id="homeCommentClose" type="button" aria-label="Close comments">Close ×</button></div><iframe class="home-comment-frame" id="homeCommentFrame" title="Language Studio 7 comments" data-src="comments.html"></iframe></section></div>
+<script id="home-comment-dialog-logic">(function(){const link=document.getElementById('homeCommentLink'),overlay=document.getElementById('homeCommentOverlay'),close=document.getElementById('homeCommentClose'),frame=document.getElementById('homeCommentFrame');if(!link||!overlay)return;let previous=null;function hide(){overlay.hidden=true;document.body.style.overflow='';frame.removeAttribute('src');(previous||link).focus()}link.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();previous=document.activeElement;overlay.hidden=false;document.body.style.overflow='hidden';frame.src=frame.dataset.src;close.focus()});close.addEventListener('click',hide);overlay.addEventListener('click',e=>{if(e.target===overlay)hide()});document.addEventListener('keydown',e=>{if(!overlay.hidden&&e.key==='Escape')hide()})})();</script><div class="home-how-overlay" id="homeHowOverlay" hidden=""><section class="home-how-window" role="dialog" aria-modal="true" aria-labelledby="homeHowTitle"><div class="home-how-top"><span id="homeHowTitle">How Language Studio 7 Works</span><button class="home-how-close" id="homeHowClose" type="button">Close ×</button></div><div class="home-how-body"><p id="homeHowIntro">Learning a language should feel like an adventure. Here's how to get started:</p><div class="home-how-step"><span class="home-how-emoji">🌐</span><div><strong id="homeHowOneTitle">Choose your languages</strong><p id="homeHowOneText">Select your native language, then choose the language you want to learn in a lesson or Adventure.</p></div></div><div class="home-how-step"><span class="home-how-emoji">🍎</span><div><strong id="homeHowTwoTitle">Learn the basics</strong><p id="homeHowTwoText">Start with numbers, pictures, colors, expressions, and everyday words.</p></div></div><div class="home-how-step"><span class="home-how-emoji">🧭</span><div><strong id="homeHowThreeTitle">Explore Adventures</strong><p id="homeHowThreeText">Visit exciting scenes, click objects to discover words, hear sounds, and try activities and challenges.</p></div></div><div class="home-how-step"><span class="home-how-emoji">🔊</span><div><strong id="homeHowFourTitle">Listen, repeat, and enjoy</strong><p id="homeHowFourText">Hear spoken words, practice at your own pace, and return whenever you like.</p></div></div><p class="home-how-footer" id="homeHowFooter">No sign-up. No login. And it's FREE!</p></div></section></div><script id="home-how-logic">(function(){const link=document.getElementById('homeHowLink'),overlay=document.getElementById('homeHowOverlay'),close=document.getElementById('homeHowClose'),picker=document.getElementById('native');if(!link||!overlay)return;const ids=['homeHowTitle','homeHowIntro','homeHowOneTitle','homeHowOneText','homeHowTwoTitle','homeHowTwoText','homeHowThreeTitle','homeHowThreeText','homeHowFourTitle','homeHowFourText','homeHowFooter','homeHowClose'];const nodes=ids.map(id=>document.getElementById(id));const english=nodes.map(n=>n.textContent);const translations={"es": ["Cómo funciona Language Studio 7", "Aprender un idioma debe sentirse como una aventura. Así puedes comenzar:", "Elige tus idiomas", "Selecciona tu idioma nativo y después el idioma que quieres aprender en una lección o aventura.", "Aprende lo básico", "Empieza con números, imágenes, colores, expresiones y palabras cotidianas.", "Explora aventuras", "Visita escenas emocionantes, pulsa objetos para descubrir palabras, escuchar sonidos y probar actividades y desafíos.", "Escucha, repite y disfruta", "Escucha palabras pronunciadas, practica a tu ritmo y vuelve cuando quieras.", "Sin registro. Sin iniciar sesión. ¡Y es GRATIS!", "Cerrar ×"], "fr": ["Comment fonctionne Language Studio 7", "Apprendre une langue devrait être une aventure. Voici comment commencer :", "Choisissez vos langues", "Sélectionnez votre langue maternelle, puis la langue à apprendre dans une leçon ou une aventure.", "Apprenez les bases", "Commencez par les nombres, les images, les couleurs, les expressions et les mots du quotidien.", "Explorez les aventures", "Visitez des scènes passionnantes, cliquez sur des objets pour découvrir des mots, entendre des sons et relever des défis.", "Écoutez, répétez et amusez-vous", "Écoutez les mots prononcés, entraînez-vous à votre rythme et revenez quand vous voulez.", "Sans inscription. Sans connexion. Et c’est GRATUIT !", "Fermer ×"], "de": ["So funktioniert Language Studio 7", "Sprachenlernen soll sich wie ein Abenteuer anfühlen. So geht’s los:", "Wähle deine Sprachen", "Wähle deine Muttersprache und dann in einer Lektion oder einem Abenteuer die Sprache, die du lernen möchtest.", "Lerne die Grundlagen", "Beginne mit Zahlen, Bildern, Farben, Ausdrücken und Alltagswörtern.", "Entdecke Abenteuer", "Erkunde spannende Szenen, klicke auf Objekte, entdecke Wörter, höre Geräusche und probiere Aufgaben aus.", "Hören, wiederholen und Spaß haben", "Höre gesprochene Wörter, übe in deinem Tempo und komm jederzeit zurück.", "Keine Anmeldung. Kein Login. Und KOSTENLOS!", "Schließen ×"], "it": ["Come funziona Language Studio 7", "Imparare una lingua dovrebbe essere un’avventura. Ecco come iniziare:", "Scegli le tue lingue", "Seleziona la tua lingua madre, poi quella che vuoi imparare in una lezione o avventura.", "Impara le basi", "Inizia con numeri, immagini, colori, espressioni e parole quotidiane.", "Esplora le avventure", "Visita scene emozionanti, tocca gli oggetti per scoprire parole, ascoltare suoni e provare attività e sfide.", "Ascolta, ripeti e divertiti", "Ascolta le parole, esercitati al tuo ritmo e torna quando vuoi.", "Nessuna registrazione. Nessun accesso. Ed è GRATIS!", "Chiudi ×"], "pt": ["Como funciona o Language Studio 7", "Aprender um idioma deve ser uma aventura. Veja como começar:", "Escolha os seus idiomas", "Selecione o seu idioma nativo e depois o idioma que quer aprender numa lição ou aventura.", "Aprenda o básico", "Comece com números, imagens, cores, expressões e palavras do dia a dia.", "Explore aventuras", "Visite cenários emocionantes, clique em objetos para descobrir palavras, ouvir sons e experimentar atividades e desafios.", "Ouça, repita e divirta-se", "Ouça palavras faladas, pratique ao seu ritmo e volte quando quiser.", "Sem cadastro. Sem login. E é GRÁTIS!", "Fechar ×"], "no": ["Slik fungerer Language Studio 7", "Å lære et språk skal føles som et eventyr. Slik kommer du i gang:", "Velg språkene dine", "Velg morsmålet ditt, og deretter språket du vil lære i en leksjon eller et eventyr.", "Lær det grunnleggende", "Begynn med tall, bilder, farger, uttrykk og hverdagsord.", "Utforsk eventyr", "Besøk spennende scener, klikk på gjenstander for å oppdage ord, høre lyder og prøve aktiviteter og utfordringer.", "Lytt, gjenta og ha det gøy", "Hør ord bli sagt, øv i ditt eget tempo og kom tilbake når du vil.", "Ingen registrering. Ingen innlogging. Og det er GRATIS!", "Lukk ×"]};let previous=null;function translate(){const words=translations[picker.value]||english;nodes.forEach((n,i)=>n.textContent=words[i]);}function hide(){overlay.hidden=true;document.body.style.overflow='';(previous||link).focus()}link.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();previous=document.activeElement;translate();overlay.hidden=false;document.body.style.overflow='hidden';close.focus()});close.addEventListener('click',hide);overlay.addEventListener('click',e=>{if(e.target===overlay)hide()});document.addEventListener('keydown',e=>{if(!overlay.hidden&&e.key==='Escape')hide()});picker.addEventListener('change',translate);})();</script>
+<script id="tab-edition-overlay-data" type="application/json">[]</script>
+<script id="tab-edition-overlay-runtime">
+(function(){'use strict';const stage=document.querySelector('#tab-home-stage');if(!stage)return;
+const back=document.createElement('div');back.id='tab-edition-overlays-back';const front=document.createElement('div');front.id='tab-edition-overlays-front';stage.insertBefore(back,stage.firstChild);stage.appendChild(front);
+let items=[];try{items=JSON.parse(document.getElementById('tab-edition-overlay-data').textContent)||[]}catch(e){console.warn('Overlay data:',e)}
+const previews=new Map();
+function draw(){back.replaceChildren();front.replaceChildren();items.forEach((v,i)=>{const img=document.createElement('img');img.className='tab-edition-overlay';img.src=previews.get(v.src)||v.src;img.alt='';img.dataset.index=i;img.draggable=false;img.style.left=v.x+'%';img.style.top=v.y+'%';img.style.width=v.w+'%';img.style.setProperty('--angle',(v.r||0)+'deg');(v.depth==='back'?back:front).appendChild(img)})}
+function saveData(){document.getElementById('tab-edition-overlay-data').textContent=JSON.stringify(items).replace(/</g,'\u003c')}
+function highlight(i){document.querySelectorAll('.tab-edition-overlay').forEach(el=>el.classList.toggle('selected',document.body.classList.contains('tab-edition-editing')&&Number(el.dataset.index)===i))}
+window.tabEditionOverlays={stage,back,front,items,previews,draw,saveData,highlight};draw();
+})();
+</script>
+
+<!-- TAB_EDITION_EDITOR_START -->
+
+
+
+<!-- TAB_EDITION_EDITOR_END -->
+<style id="tab-sound-runtime-style">
+#tab-sound-layer{position:absolute;inset:0;z-index:35;pointer-events:none}
+.tab-sound-spot{position:absolute;display:block;border:0;background:transparent;cursor:pointer;pointer-events:auto;touch-action:none}
+.tab-sound-spot:focus-visible{outline:2px solid #ffd65e;outline-offset:2px}
+body.tab-sound-editing .tab-sound-spot{background:rgba(255,213,65,.15);outline:2px dashed #ffdb66;cursor:move}
+body.tab-sound-editing .tab-sound-spot.active{background:rgba(93,225,255,.23);outline:3px dashed #8cecff}
+body.tab-sound-editing .tab-sound-spot.active::after{content:'';position:absolute;right:-5px;bottom:-5px;width:17px;height:17px;border:2px solid #111;background:#ffdb66;cursor:nwse-resize}
+body.tab-sound-editing #tab-sound-layer{pointer-events:auto}
+body.tab-sound-drawing #tab-sound-layer{pointer-events:auto;cursor:crosshair}
+#tab-sound-tools[hidden],#tab-image-tools[hidden]{display:none!important}
+</style>
+<script id="tab-sound-data" type="application/json">[]</script>
+<script id="tab-sound-runtime">
+(function(){'use strict';
+const stage=document.querySelector('#tab-home-stage'),data=document.getElementById('tab-sound-data');if(!stage||!data)return;
+let spots=[];try{spots=JSON.parse(data.textContent)||[]}catch(e){console.warn('Sound hotspot data',e)}
+const layer=document.createElement('div');layer.id='tab-sound-layer';stage.appendChild(layer);
+const audio=new Audio();let editing=false,selected=-1,drawMode=false,preview=new Map();
+const clamp=(n,min,max)=>Math.min(max,Math.max(min,n));
+function persist(){data.textContent=JSON.stringify(spots).replace(/</g,'\\u003c')}
+function play(spot){if(!spot||!spot.sound)return;audio.pause();audio.currentTime=0;audio.src=preview.get(spot.sound)||spot.sound;audio.play().catch(err=>console.warn('Could not play hotspot audio:',err))}
+function render(){layer.replaceChildren();spots.forEach((v,i)=>{const b=document.createElement('button');b.type='button';b.className='tab-sound-spot'+(editing&&selected===i?' active':'');b.style.left=v.x+'%';b.style.top=v.y+'%';b.style.width=v.w+'%';b.style.height=v.h+'%';b.dataset.index=i;b.setAttribute('aria-label',v.name||'Play sound');b.title=editing?(v.name||'Sound hotspot'):'';b.addEventListener('click',e=>{e.stopPropagation();if(!editing)play(v)});layer.appendChild(b)})}
+function refresh(){persist();render();window.dispatchEvent(new Event('tab-sound-changed'))}
+window.tabSoundRuntime={spots,layer,preview,refresh,play,setEditing(v){editing=v;document.body.classList.toggle('tab-sound-editing',v);render()},setSelected(v){selected=v;render()},setDraw(v){drawMode=v;document.body.classList.toggle('tab-sound-drawing',v)},get drawing(){return drawMode},get editing(){return editing},clamp};render();
+})();
+</script>
+<!-- TAB_SOUND_EDITOR_START -->
+
+<!-- TAB_SOUND_EDITOR_END -->
+
+
+</body></html>

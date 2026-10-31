@@ -1,0 +1,58 @@
+TALK A BEE — QUICK OWNER'S GUIDE
+================================
+
+Purpose
+-------
+Talk A Bee is a free language-learning website with interactive Adventures,
+Activities, Challenges, Picture Learning, and speech in multiple languages.
+
+Important website files
+-----------------------
+- index.html: public home page.
+- adventure.html: public Adventures page.
+- master.html: private editing workspace (Master Studio).
+- translation-studio.html: translation helper, opened from Master Studio.
+- adventures-a-z.html: public Adventure directory.
+- data/, js/, css/, images/, and sound files: required website assets.
+
+Daily editing workflow
+----------------------
+1. Open master.html in your editing environment.
+2. Choose the Adventure to work on.
+3. Edit its hotspots, sounds, Activities, or Challenges as needed.
+4. Use "Backup All Adventures" to save a safety copy of the current work.
+5. For missing translations, open Translation Studio in Master Studio,
+   load a fresh Backup All Adventures JSON, and translate the selected Adventure.
+6. Review the translations and download the Missing Translations Patch.
+7. Back in Master Studio (master.html), choose "Import Missing Translations Patch".
+   Do NOT use "Restore All Adventures Backup" for a translation patch.
+8. Review the Adventure. When ready, use "Publish All Adventures" and upload
+   the generated publishing file(s) to their correct website folders.
+9. Test the public website, including language switching and sound.
+
+Safe habits
+-----------
+- Back up before major changes, and keep dated copies off the website.
+- A backup is NOT the same as publishing to the live website.
+- After a long session, save/backup, then refresh and load fresh data.
+- Never replace existing Adventures with an old backup by accident.
+- Keep master.html and translation-studio.html together in the site root.
+- Translation Studio only fills missing translations; review results for accuracy.
+- If the translation service returns HTTP 429, stop and try later.
+- Download translation patches before refreshing the translator page.
+- Preserve the original folder paths when uploading JavaScript and assets.
+
+If something goes wrong
+-----------------------
+Stop editing or publishing. Keep the latest working files and backups.
+Check whether the problem occurs only in the editor or also on the public site.
+Restore from a known-good backup only after confirming what it will overwrite.
+
+Future ownership transfer
+-------------------------
+Provide the new owner with a complete copy of the website, recent backups,
+this guide, hosting/domain access instructions, and an inventory of outside
+services (including translation and voice resources). Transfer credentials
+securely and separately; never store passwords in this text file.
+
+This is a quick operating guide, not a complete technical manual.
