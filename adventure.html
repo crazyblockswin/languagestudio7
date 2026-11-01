@@ -325,4 +325,20 @@ document.addEventListener('pointerdown',e=>{if(!rail.contains(e.target)&&!menu.c
   if(typeof ResizeObserver!=='undefined')new ResizeObserver(centerRails).observe(scene);
   centerRails();
 })();
-</script></body></html>
+</script><script id="ls7-keyboard-adventure-navigation">
+/* Keyboard arrows use the existing, working Adventure chevron buttons. */
+(function () {
+  'use strict';
+  document.addEventListener('keydown', function (event) {
+    if (event.defaultPrevented || event.repeat || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+    if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+    var target = event.target;
+    if (target && (target.isContentEditable || target.closest('input, textarea, select, [contenteditable="true"], [role="textbox"], [role="listbox"], [role="combobox"]'))) return;
+    var button = document.getElementById(event.key === 'ArrowLeft' ? 'previousAdventure' : 'nextAdventure');
+    if (!button || button.disabled || button.hidden) return;
+    event.preventDefault();
+    button.click();
+  });
+})();
+</script>
+</body></html>
