@@ -162,7 +162,7 @@ body[data-editor="no"] .tb-studio-tab {
 </style><style id="tb-centered-visitor-header">
 /* Only the public Adventure header; preserve Master Studio and scene sizing. */
 @media (min-width: 701px) {
- body[data-editor="no"]>header .tb-row-nav {position:relative!important;justify-content:center!important;align-items:center!important;padding-left:150px!important;padding-right:115px!important;}
+ body[data-editor="no"]>header .tb-row-nav {position:relative!important;justify-content:center!important;align-items:center!important;padding-left:280px!important;padding-right:115px!important;}
  body[data-editor="no"]>header .tb-row-nav .tb-scenePicker {flex:0 1 300px!important;width:min(300px,28vw)!important;max-width:300px!important;}
  body[data-editor="no"]>header .tb-row-nav .tb-nav-end {position:absolute!important;right:4px!important;top:50%!important;transform:translateY(-50%);margin:0!important;}
 }
@@ -170,6 +170,9 @@ body[data-editor="no"]>header .tb-row-nav .tb-corner-teacher {position:absolute;
 body[data-editor="no"]>header .tb-row-nav .tb-corner-teacher img {display:block;width:100%;height:100%;object-fit:contain;}
 
 @media (max-width:700px) {body[data-editor="no"]>header .tb-row-nav {padding-left:112px!important;}body[data-editor="no"]>header .tb-row-nav .tb-corner-teacher {height:35px;width:105px;}}
+body[data-editor="no"]>header .tb-row-nav .tb-corner-ls7{position:absolute;left:148px;top:50%;transform:translateY(-50%);width:115px;height:46px;display:flex;align-items:center;justify-content:center;z-index:2;pointer-events:none}
+body[data-editor="no"]>header .tb-row-nav .tb-corner-ls7 img{width:100%;height:100%;object-fit:contain;display:block}
+@media(max-width:700px){body[data-editor="no"]>header .tb-row-nav .tb-corner-ls7{left:115px;width:82px;height:35px}}
 </style><style id="tb-header-vertical-clearance">
 /* Target 50px header, including padding; controls remain unchanged. */
 body[data-editor="no"] > header {
@@ -205,7 +208,7 @@ body[data-editor="no"] > header .tb-row-nav {
     background-size:100% 100% !important;
   }
 }
-</style></head><body data-editor="no"><header><div class="tb-header-row tb-row-voice"><a class="tb-logo" href="index.html"><img class="tb-header-teacher" src="images/teacher.png" alt=""/> <span>Talk A Bee</span></a><img class="tb-header-buzzkill" src="images/buzzkill.png" alt="Buzzkill Bee"/><label class="tb-field tb-native"><span>Native</span><select id="native"></select></label><label class="tb-field tb-learn"><span>Learn</span><select id="learn"></select></label><label class="tb-field tb-voiceMode"><span>Voice system</span><select id="voiceMode"><option value="standard">Standard browser voice</option><option value="enhanced">Enhanced Piper</option></select></label><label class="tb-field tb-voiceSelect"><span>Voice choice</span><select id="voiceSelect"></select></label></div><div class="tb-header-row tb-row-nav"><a class="tb-corner-teacher" href="index.html" title="Talk A Bee Home" aria-label="Talk A Bee Home"><img src="images/teacher.png" alt="Teacher Bee"></a><label class="tb-field tb-scenePicker"><span>Adventure</span><select aria-label="Choose Adventure" id="scenePicker"></select></label><button class="tb-mode selected" id="activities">Activities</button><button class="tb-mode" id="challenges">Challenges</button><button class="tb-mode" id="discovery">Discovery</button><button aria-pressed="false" class="tb-view" id="sceneViewToggle" type="button">◉ Scene View</button><button hidden="" id="sceneViewReturn" type="button">← Return to Adventure</button>
+</style></head><body data-editor="no"><header><div class="tb-header-row tb-row-voice"><a class="tb-logo" href="index.html"><img class="tb-header-teacher" src="images/teacher.png" alt=""/> <span>Talk A Bee</span></a><img class="tb-header-buzzkill" src="images/buzzkill.png" alt="Buzzkill Bee"/><label class="tb-field tb-native"><span>Native</span><select id="native"></select></label><label class="tb-field tb-learn"><span>Learn</span><select id="learn"></select></label><label class="tb-field tb-voiceMode"><span>Voice system</span><select id="voiceMode"><option value="standard">Standard browser voice</option><option value="enhanced">Enhanced Piper</option></select></label><label class="tb-field tb-voiceSelect"><span>Voice choice</span><select id="voiceSelect"></select></label></div><div class="tb-header-row tb-row-nav"><a class="tb-corner-teacher" href="index.html" title="Talk A Bee Home" aria-label="Talk A Bee Home"><img src="images/teacher.png" alt="Teacher Bee"></a><span class="tb-corner-ls7" aria-hidden="true"><img src="images/ls7.png" alt=""></span><label class="tb-field tb-scenePicker"><span>Adventure</span><select aria-label="Choose Adventure" id="scenePicker"></select></label><button class="tb-mode selected" id="activities">Activities</button><button class="tb-mode" id="challenges">Challenges</button><button class="tb-mode" id="discovery">Discovery</button><button aria-pressed="false" class="tb-view" id="sceneViewToggle" type="button">◉ Scene View</button><button hidden="" id="sceneViewReturn" type="button">← Return to Adventure</button>
 <nav class="tb-unified-nav" aria-label="More Talk A Bee destinations">
 <details><summary title="Part 2 Course">Part 2 Course +</summary><div class="tb-menu">
 <a href="index.html">Home</a>
