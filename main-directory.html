@@ -1,5 +1,4 @@
 <!doctype html>
-<!DOCTYPE html>
 
 <html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Language Studio 7 — Main Directory</title>
 <style>
@@ -11,8 +10,16 @@
 .art .tile-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 @media(max-width:700px){.art{height:clamp(100px,25vw,150px)}}
 @media(max-width:370px){.art{height:145px}}
-</style></head><body>
-<header><a aria-label="Language Studio 7 — Home" class="brand" href="index.html"><img alt="Language teacher reading" onerror="this.onerror=null;this.src='teacher.png'" src="images/teacher.png"/><span>Language Studio 7</span></a><div class="headnote">Learn through pictures, sounds &amp; discovery</div></header>
+
+/* Main Directory header: separate transparent artwork, never baked into the page. */
+.ls7-directory-header{display:grid;grid-template-columns:minmax(115px,225px) minmax(0,1fr) minmax(115px,225px);align-items:center;gap:12px;padding:5px clamp(12px,2.5vw,32px);min-height:110px}
+.ls7-teacher{grid-column:1;grid-row:1;display:block;align-self:end;line-height:0}
+.ls7-teacher img{display:block;width:100%;height:auto;max-height:140px;object-fit:contain;object-position:bottom left}
+.ls7-banner{grid-column:2;grid-row:1;display:block;justify-self:center;width:min(100%,510px);line-height:0}
+.ls7-banner img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:700px){.ls7-directory-header{grid-template-columns:minmax(75px,25%) minmax(0,1fr);gap:7px;min-height:70px;padding:6px 10px}.ls7-teacher img{max-height:105px}.ls7-banner{grid-column:2;width:100%}}
+</style><link rel="icon" type="image/png" href="favicon.png?v=ls7-20261101"/></head><body>
+<header class="ls7-directory-header"><a class="ls7-teacher" href="index.html" aria-label="Return to home"><img src="images/teacher-desk.png" alt="Language teacher at her desk"/></a><a class="ls7-banner" href="index.html" aria-label="LanguageStudio7.com — Home"><img src="images/ls7-banner.png" alt="LanguageStudio7.com"/></a></header>
 <main><section class="intro"><h1>Explore Our Learning World</h1><p>Choose any subject and start exploring.</p></section>
 <section aria-label="Learning directories" class="tiles">
 <a class="tile" href="time-calendar.html"><div class="art"><img alt="" aria-hidden="true" class="tile-photo" loading="lazy" src="images/tab-card-time-calendar.jpg"/></div><div class="caption"><h2>Time &amp; Calendar</h2><p>Days, Months &amp; Time</p></div></a>
