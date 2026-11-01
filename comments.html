@@ -3,22 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Comments & Suggestions — Talk A Bee</title>
+<title>Comments & Suggestions — Language Studio 7</title>
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#332b3d}
 body{
  min-height:100vh;
  background:
-  linear-gradient(rgba(249,246,251,.88),rgba(249,246,251,.94)),
-  url("images/bee-chair.png") center/cover fixed no-repeat;
+  linear-gradient(145deg,#f7f5fb,#e8f0f7);
 }
 header{
  min-height:72px;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;
  background:rgba(255,255,255,.95);border-bottom:1px solid #e7e0eb;box-shadow:0 3px 14px rgba(45,35,55,.08)
 }
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
-.brand img{width:48px;height:48px;object-fit:contain}
+.brand img{width:56px;height:68px;object-fit:contain;object-position:center bottom}
 .brand-name{font-size:20px;font-weight:900;display:block}
 .brand-domain{font-size:11px;font-weight:700;color:#756a7e;display:block}
 .tagline{font-size:12px;font-weight:850;color:#655a79;white-space:nowrap}
@@ -26,9 +25,9 @@ header{
 main{width:min(760px,calc(100% - 32px));margin:38px auto 50px}
 .card{background:rgba(255,255,255,.94);border:1px solid #ddd2e2;border-radius:24px;padding:34px;box-shadow:0 18px 45px rgba(48,37,59,.13);backdrop-filter:blur(7px)}
 h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-h1 .teacher-bee{width:84px;height:84px;object-fit:contain;flex:none}
+
 .intro{margin:0 0 25px;color:#665c70;font-size:16px;line-height:1.55}
-.intro-bee{width:110px;max-width:30%;height:auto;vertical-align:middle;margin-left:8px;object-fit:contain}
+
 form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .full{grid-column:1/-1}
 label{display:grid;gap:6px;font-size:13px;font-weight:850;color:#55495f}
@@ -43,26 +42,26 @@ button:disabled{opacity:.55;cursor:wait;transform:none}
 .note{grid-column:1/-1;text-align:center;margin:0;color:#776d7d;font-size:11px;line-height:1.45}
 @media(max-width:650px){header{padding:9px 12px}.tagline{display:none}.card{padding:24px 19px}form{grid-template-columns:1fr}.full,.submit-row,.note{grid-column:1}}
 </style>
-  <link rel="icon" type="image/png" href="images/talkabee-favicon.png">
-  <link rel="shortcut icon" type="image/png" href="images/talkabee-favicon.png">
+  <link rel="icon" type="image/png" href="images/language-studio-7-favicon.png">
+  <link rel="shortcut icon" type="image/png" href="images/language-studio-7-favicon.png">
 </head>
 <body>
 <header>
- <a class="brand" href="index.html" aria-label="Return to Main Directory">
-  <img src="images/bee-chair.png" alt="Talk A Bee mascot">
-  <span><span class="brand-name">Talk A Bee</span><span class="brand-domain">TalkABee.com</span></span>
+ <a class="brand" href="index.html" aria-label="Return to Language Studio 7 home">
+  <img src="images/language-teacher.png" alt="Language teacher">
+  <span><span class="brand-name">Language Studio 7</span><span class="brand-domain">LanguageStudio7.com</span></span>
   <span class="tagline">Interactive Language Adventures</span>
  </a>
- <a class="back" href="index.html">← Main Directory</a>
+ <a class="back" href="index.html">← Home</a>
 </header>
 
 <main>
 <section class="card">
- <h1><img class="teacher-bee" src="images/teacher-bee.png" alt="Teacher Bee"> Comments &amp; Suggestions</h1>
- <p class="intro">Tell me what you think about Talk A Bee. Found a gremlin? Have an adventure idea? Want to suggest a language, activity, or improvement? Send it my way. <img class="intro-bee" src="images/bee-laying-down.png" alt="Relaxing bee"></p>
+ <h1>Comments &amp; Suggestions</h1>
+ <p class="intro">Tell me what you think about Language Studio 7. Found a gremlin? Have an adventure idea? Want to suggest a language, activity, or improvement? Send it my way.</p>
 
- <form id="talkabeeCommentForm" action="https://formsubmit.co/wallyjcass@gmail.com" method="POST">
-  <input type="hidden" name="_subject" value="Talk A Bee — New Comment">
+ <form id="languageStudioCommentForm" action="https://formsubmit.co/wallyjcass@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="Language Studio 7 — New Comment">
   <input type="hidden" name="_captcha" value="false">
   <input type="hidden" name="_template" value="table">
   <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
@@ -93,13 +92,13 @@ button:disabled{opacity:.55;cursor:wait;transform:none}
    <button id="commentSubmit" type="submit">SEND COMMENT</button>
    <div class="status" id="commentStatus" aria-live="polite"></div>
   </div>
-  <p class="note">Comments are sent privately to Talk A Bee. Your email is optional and is only needed if you'd like a reply.</p>
+  <p class="note">Comments are sent privately to Language Studio 7. Your email is optional and is only needed if you'd like a reply.</p>
  </form>
 </section>
 </main>
 
 <script>
-const form=document.getElementById('talkabeeCommentForm');
+const form=document.getElementById('languageStudioCommentForm');
 const statusBox=document.getElementById('commentStatus');
 const submitButton=document.getElementById('commentSubmit');
 

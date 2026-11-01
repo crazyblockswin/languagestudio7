@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><title>Talk A Bee — All Adventures A–Z</title><style>
+<html lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><title>Language Studio 7 — All Adventures A–Z</title><style>
 :root{font-family:Trebuchet MS,Arial,sans-serif;color:#f6fbff;background:#102b44}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at top,#315c80,#102b44 65%)}header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.1rem clamp(1rem,5vw,4rem);background:#0c2239c9;border-bottom:1px solid #ffffff30}a{color:inherit;text-decoration:none}header a{font-weight:700}main{max-width:1150px;margin:2rem auto;padding:0 1.2rem 3rem}h1{font-size:clamp(2rem,4vw,3rem);margin:0 0 .4rem}p{color:#d4e5f4;line-height:1.5;margin:0 0 1.6rem}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:12px}.adventure{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#ffffff16;border:1px solid #ffffff45;border-radius:14px;padding:16px 18px;font-size:1.05rem;font-weight:700;min-height:66px}.adventure:hover,.adventure:focus-visible{background:#ffc75a;color:#14283d;outline:2px solid #fff}.adventure span{font-size:1.6rem}footer{margin-top:2rem;color:#d4e5f4;font-size:.9rem}</style><style>
 /* Talk A Bee finishing-page presentation */
 body{background:radial-gradient(ellipse at 75% 8%,#46799c 0,transparent 47%),linear-gradient(145deg,#132b45,#173a53 55%,#214a59);color:#fff6e8}
@@ -88,22 +88,8 @@ footer{text-align:center;margin:26px 0 0;color:#c8dceb}
 @media(max-width:700px){.end-actions a{min-height:36px;padding:7px 10px;font-size:12px}}
 @media(prefers-reduced-motion:reduce){.end-actions a{transition:none!important}}
 </style><style id="tb-az-header-position-fix">
-/* Keep the full navigation clear of the right-hand bee. */
-@media(min-width:1400px){header .top-nav{position:relative;left:-145px;}}
-</style><style id="tb-az-editor-css">
-#tb-az-launch{position:fixed;right:16px;bottom:16px;z-index:10010;background:linear-gradient(#354e68,#111c2c);color:#fff;border:2px solid #dfb967;border-radius:12px;padding:12px 17px;font:700 14px Arial;cursor:pointer;box-shadow:0 7px 20px #0009}
-#tb-az-studio{position:fixed;right:18px;top:110px;width:340px;max-width:calc(100vw - 20px);max-height:calc(100vh - 120px);overflow:auto;z-index:10011;background:#101c2deb;border:1px solid #f2ce79;border-radius:14px;color:white;box-shadow:0 12px 36px #000b;padding:14px;font:13px Arial;display:none;resize:both}
-#tb-az-studio .tb-head{cursor:move;user-select:none;font-size:16px;font-weight:bold;border-bottom:1px solid #ffffff40;padding:4px 0 12px;margin-bottom:10px;display:flex;justify-content:space-between}
-#tb-az-studio label{display:block;margin:10px 0 4px;font-weight:bold}#tb-az-studio input,#tb-az-studio select{width:100%;padding:8px;background:#f5f5f5;color:#111;border-radius:7px;border:0;box-sizing:border-box}#tb-az-studio button{cursor:pointer;border-radius:8px;border:1px solid #93a9bc;background:#263d54;color:white;padding:8px 10px;margin:5px 3px 0 0}#tb-az-studio button:hover{background:#365d79}#tb-az-studio .tb-gold{background:#8c6221;border-color:#e6bc68}#tb-az-studio .tb-note{font-size:12px;color:#d0dbe5;line-height:1.4}#tb-az-studio .tb-row{display:flex;gap:6px}#tb-az-studio .tb-row>*{flex:1;min-width:0}
-body.tb-az-editing .tb-az-overlay{outline:2px dashed #ffd45f;cursor:move}body.tb-az-editing .tb-az-overlay.tb-selected{outline:3px solid #65efff}body.tb-az-editing .adventure.tb-az-selected-link{outline:3px solid #ffd45f}
-.tb-az-resizer{display:none;position:absolute;right:-7px;bottom:-7px;width:17px;height:17px;background:#65efff;border:2px solid #102033;border-radius:3px;cursor:nwse-resize;touch-action:none}body.tb-az-editing .tb-az-overlay.tb-selected .tb-az-resizer{display:block}
+/* Keep the navigation positioned consistently on wide screens. */
 
-
-
-body.tb-az-editing .tb-az-hotspot{border:2px dashed #ffcd61;background:#ffcc3320;cursor:move}
-body.tb-az-editing .tb-az-hotspot.tb-selected{border:3px solid #65efff;background:#65efff24}
-.tb-az-hotspot .tb-az-hotspot-grip{display:none;position:absolute;right:-8px;bottom:-8px;width:18px;height:18px;background:#65efff;border:2px solid #102033;border-radius:3px;cursor:nwse-resize;touch-action:none}
-body.tb-az-editing .tb-az-hotspot.tb-selected .tb-az-hotspot-grip{display:block}
 </style><style id="tb-az-layer-style">main{position:relative}
 /* Public image overlays and clickable sound hotspots: retained in Server exports. */
 .tb-az-overlay{position:absolute;z-index:4;display:block;max-width:none;user-select:none;touch-action:none}
@@ -113,54 +99,7 @@ body.tb-az-editing .tb-az-hotspot.tb-selected .tb-az-hotspot-grip{display:block}
 .tb-az-hotspot{position:absolute;z-index:6;cursor:pointer;touch-action:none;background:transparent;border:0;box-sizing:border-box}
 #tb-az-hotspot-layer{position:absolute;inset:0;pointer-events:none;z-index:6}
 #tb-az-hotspot-layer .tb-az-hotspot{pointer-events:auto}
-</style></head><body class=""><header><a class="brand" href="index.html"><img alt="Talk A Bee mascot" src="images/teacher-desk.png">Talk A Bee</a><nav aria-label="Main navigation" class="top-nav"><a href="index.html">Home</a><a href="main-directory.html">Main Directory</a><a href="https://crazyblocks.win/" rel="noopener noreferrer" target="_blank">Games</a><a href="https://crazysoundlab.com/" rel="noopener noreferrer" target="_blank">Sound Lab</a><a href="comments.html">Comments</a><a class="nav-donate" href="support.html">Donate</a></nav></header><main><div class="intro"><p class="eyebrow">Your adventure continues</p><h1>All Adventures A–Z</h1><p>Every Talk A Bee Adventure in one place. Pick a favorite, discover somewhere new, or explore the rest of the site.</p></div><div class="grid"><a class="adventure" href="adventure.html?scene=aircraft-carrier">Aircraft Carrier<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=airplane-flying">Airplane Flying<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=animals-farm">Animals Farm<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=aunt-julies-island-retreat">Aunt Julie’s Island Retreat<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=military-drill-sergeant">Basic Training<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=bicycle-race">Bicycle Race<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=bird-sanctuary">Bird Sanctuary<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=boardwalk">Boardwalk<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=boat-locks">Boat Locks<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=cave-exploration">Cave<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=dance-floor">Dance Floor<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=dinosaur-museum">Dinosaur Museum<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=dog-show">Dog Show<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=large-picnic">Family Picnic<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=football">Football Game<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=golf">Golf<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=grandma-grandpas-place">Grandma &amp; Grandpa’s Place<span aria-hidden="true">›</span></a>
-<a class="adventure" href="grandmas-kitchen.html">Grandma’s Kitchen<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=great-wall-of-china">Great Wall of China<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=hang-gliding">Hang Gliding<span aria-hidden="true">›</span></a>
-<a class="adventure" href="heaven-movie.html">Heaven — The Final Adventure<span aria-hidden="true">›</span></a>
-<a class="adventure" href="helicopter-rescue.html">Helicopter Mountain Rescue<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=hollywood-movie-making">Hollywood Movie Making<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=hot-air-balloon">Hot Air Balloon Festival<span aria-hidden="true">›</span></a>
-<a class="adventure" href="hotel.html">Hotel<span aria-hidden="true">›</span></a>
-<a class="adventure" href="lake-mountain.html">Lake Mountain<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=library">Library<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=mission-control">Mission Control<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=moon">Moon<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=mountain-ski-resort">Mountain Ski Resort<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=nighttime-campground">Nighttime Campground<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=observation-deck">Observation Deck<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=oval-office">Oval Office<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=protect-earth">Protect Earth<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=river-rafting">River Rafting<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=college-rowing">Rowing Regatta<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=spaceship-window-saturn">Saturn Spacecraft<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=sea-adventures">Sea Adventures<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=seattle-fishing-charter">Seattle Fishing<span aria-hidden="true">›</span></a>
-<a class="adventure" href="shopping-market.html">Shopping Market<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=skydiving">Skydiving<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=softball">Softball Game<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=nasa-spacewalk">Spacewalk<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=train-engineer">Steam Train<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=train-station">Train Station<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=underwater-adventure">Underwater<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=underwater-aquarium">Underwater Aquarium<span aria-hidden="true">›</span></a>
-<a class="adventure" href="adventure.html?scene=zoo">Zoo<span aria-hidden="true">›</span></a></div><section aria-label="Where to go next" class="end-panel"><h2>The adventure doesn’t have to end here!</h2><p>Return to the Adventures directory, head home, or tell us what you enjoyed most.</p><div class="end-actions"><a href="main-directory.html">Main Directory</a><a href="index.html">Home</a><a href="comments.html">Leave a Comment</a></div></section><footer>Talk A Bee  •  Explore, discover, and most of all have FUN!</footer></main><script src="data/adventure-catalog.js"></script>
+</style></head><body class=""><header><a class="brand" href="index.html"><img alt="Language Studio 7 logo" src="images/language-studio-7-logo.png">Language Studio 7</a><nav aria-label="Main navigation" class="top-nav"><a href="index.html">Home</a><a href="main-directory.html">Main Directory</a><a href="https://crazyblocks.win/" rel="noopener noreferrer" target="_blank">Games</a><a href="https://crazysoundlab.com/" rel="noopener noreferrer" target="_blank">Sound Lab</a><a href="comments.html">Comments</a><a class="nav-donate" href="support.html">Donate</a></nav></header><main><div class="intro"><p class="eyebrow">Your adventure continues</p><h1>All Adventures A–Z</h1><p>Every Language Studio 7 Adventure in one place. Pick a favorite, discover somewhere new, or explore the rest of the site.</p></div><div class="grid"><a class="adventure" href="adventure.html?scene=ai-world">AI-World<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=aircraft-carrier">Aircraft Carrier<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=airplane-flying">Airplane Flying<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=animals-farm">Animals Farm<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=antartica-blizzard">Antartica Blizzard<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=asteroid">Asteroid<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=aunt-julies-island-retreat">Aunt Julie’s Island Retreat<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=balloon-ride">Balloon Ride<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=military-drill-sergeant">Basic Training<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=bicycle-race">Bicycle Race<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=bird-sanctuary">Bird Sanctuary<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=boardwalk">Boardwalk<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=boat-locks">Boat Locks<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=cave-exploration">Cave<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=city-bus">City Bus<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=congratulations">Congratulations<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=dam-collapse">Dam Collapse<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=dance-floor">Dance Floor<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=dancing">Dancing<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=dinosaur-museum">Dinosaur Museum<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=dog-show">Dog Show<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=large-picnic">Family Picnic<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=football">Football Game<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=forest-fire">Forest Fire<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=golf">Golf<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=grandma-grandpas-place">Grandma &amp; Grandpa’s Place<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=grandmas-kitchen">Grandma’s Kitchen<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=great-wall-of-china">Great Wall of China<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=hang-gliding">Hang Gliding<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=helicopter-mountain-rescue">Helicopter Mountain Rescue<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=hollywood-movie-making">Hollywood Movie Making<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=hot-air-balloon">Hot Air Balloon Festival<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=hotel">Hotel<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=industrial-age">Industrial Age<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=lake-mountain">Lake Mountain<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=library">Library<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=marlin-fishing">Marlin Fishing<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=miners">Miners<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=mission-control">Mission Control<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=moon">Moon<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=mountain-ski-resort">Mountain Ski Resort<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=nighttime-campground">Nighttime Campground<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=observation-deck">Observation Deck<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=universe">Our Universe<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=oval-office">Oval Office<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=overlook">Overlook<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=protect-earth">Protect Earth<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=river-rafting">River Rafting<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=college-rowing">Rowing Regatta<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=spaceship-window-saturn">Saturn Spacecraft<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=sea-adventures">Sea Adventures<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=seattle-fishing-charter">Seattle Fishing<span aria-hidden="true">›</span></a><a class="adventure" href="shopping-market.html">Shopping Market<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=shopping-market">Shopping-Market<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=skydiving">Skydiving<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=softball">Softball Game<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=space-launch">Space-Launch<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=spaceship-window-earth">Spaceship Window Earth<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=nasa-spacewalk">Spacewalk<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=train-engineer">Steam Train<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=stormy-seas">Stormy Seas<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=swimming">Swimming<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=tornado">Tornado<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=train-station">Train Station<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=travel">Travel<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=tsunami">Tsunami<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=underwater-adventure">Underwater<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=underwater-aquarium">Underwater Aquarium<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=volcano">Volcano<span aria-hidden="true">›</span></a><a class="adventure" href="adventure.html?scene=zoo">Zoo<span aria-hidden="true">›</span></a></div><section aria-label="Where to go next" class="end-panel"><h2>The adventure doesn’t have to end here!</h2><p>Return to the Adventures directory, head home, or tell us what you enjoyed most.</p><div class="end-actions"><a href="main-directory.html">Main Directory</a><a href="index.html">Home</a><a href="comments.html">Leave a Comment</a></div></section><footer>Language Studio 7 • Explore, discover, and have FUN!</footer></main><script src="data/adventure-catalog.js"></script>
 <script id="tb-az-catalog-sync">
 (function () {
   'use strict';
@@ -179,6 +118,7 @@ body.tb-az-editing .tb-az-hotspot.tb-selected .tb-az-hotspot-grip{display:block}
   const included = new Set();
   for (const item of catalog) {
     if (!item || !item.id || item.hidden === true || included.has(item.id)) continue;
+    if (/heaven|buzzkill|bee[-_ ]?movie|choose[-_ ]?buzzkill/i.test([item.id,item.title,item.href].join(" "))) continue;
     included.add(item.id);
     const existing = byScene.get(item.id);
     const link = existing || document.createElement('a');
@@ -198,6 +138,7 @@ body.tb-az-editing .tb-az-hotspot.tb-selected .tb-az-hotspot-grip{display:block}
     let id = null;
     try { id = new URL(link.href, location.href).searchParams.get('scene'); } catch (_) {}
     if (id && included.has(id)) continue;
+    if (/heaven|buzzkill|bee[-_ ]?movie|choose[-_ ]?buzzkill/i.test(link.textContent + " " + link.getAttribute("href"))) continue;
     links.push(link);
   }
   // Keep one tile per destination or visible Adventure name, even when
@@ -219,10 +160,10 @@ body.tb-az-editing .tb-az-hotspot.tb-selected .tb-az-hotspot-grip{display:block}
     uniqueLinks.push(link);
   }
   uniqueLinks.sort((a, b) => a.textContent.trim().replace(/›$/, '').trim().localeCompare(b.textContent.trim().replace(/›$/, '').trim(), undefined, {sensitivity:'base'}));
-  grid.replaceChildren(...uniqueLinks);
+  grid.replaceChildren(...uniqueLinks.filter(link => !/heaven|buzzkill|bee[-_ ]?movie|choose[-_ ]?buzzkill/i.test(link.textContent + " " + link.getAttribute("href"))));
 })();
 </script>
-<script type="application/json" id="tb-az-data">{"images":[{"src":"images/hanging.png","x":880,"y":-3,"w":165,"h":128,"rotate":0},{"src":"images/guitar.png","x":56,"y":-14,"w":241,"h":188,"rotate":0}],"sounds":{},"hotspots":[{"name":"Hotspot 1","x":82,"y":7,"w":178,"h":145,"sound":"sounds/energy-rock1.mp3"}]}</script><script id="tb-az-runtime">
+<script type="application/json" id="tb-az-data">{"images":[],"sounds":{},"hotspots":[]}</script><script id="tb-az-runtime">
 (function(){'use strict';
 const dataNode=document.getElementById('tb-az-data');let data={images:[],sounds:{},hotspots:[]};
 try{data=JSON.parse(dataNode.textContent)||data}catch(e){}
@@ -245,97 +186,13 @@ function audio(src){
   }catch(e){return Promise.reject(e)}
 }
 function draw(){layer.replaceChildren();data.images.forEach((item,i)=>{const wrap=document.createElement('div');wrap.className='tb-az-overlay';wrap.dataset.index=i;wrap.style.left=item.x+'px';wrap.style.top=item.y+'px';wrap.style.width=item.w+'px';wrap.style.height=item.h+'px';wrap.style.transform='rotate('+(item.rotate||0)+'deg)';const im=document.createElement('img');im.src=item.src;im.alt=item.alt||'Decorative image';im.draggable=false;wrap.appendChild(im);const grip=document.createElement('span');grip.className='tb-az-resizer';wrap.appendChild(grip);layer.appendChild(wrap)});}
-function drawHotspots(){hotspotLayer.replaceChildren();data.hotspots.forEach((item,i)=>{const spot=document.createElement('div');spot.className='tb-az-hotspot';spot.dataset.index=i;spot.style.left=item.x+'px';spot.style.top=item.y+'px';spot.style.width=item.w+'px';spot.style.height=item.h+'px';spot.title=item.name||'Sound hotspot';spot.setAttribute('role','button');spot.tabIndex=0;spot.setAttribute('aria-label',item.name||'Play sound');const grip=document.createElement('span');grip.className='tb-az-hotspot-grip';spot.appendChild(grip);const play=e=>{if(document.body.classList.contains('tb-az-editing'))return;e.stopPropagation();audio(item.sound).catch(err=>console.warn("Talk A Bee hotspot sound:",err.message))};spot.addEventListener('click',play);spot.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();play(e)}});hotspotLayer.appendChild(spot)})}
+function drawHotspots(){hotspotLayer.replaceChildren();data.hotspots.forEach((item,i)=>{const spot=document.createElement('div');spot.className='tb-az-hotspot';spot.dataset.index=i;spot.style.left=item.x+'px';spot.style.top=item.y+'px';spot.style.width=item.w+'px';spot.style.height=item.h+'px';spot.title=item.name||'Sound hotspot';spot.setAttribute('role','button');spot.tabIndex=0;spot.setAttribute('aria-label',item.name||'Play sound');const grip=document.createElement('span');grip.className='tb-az-hotspot-grip';spot.appendChild(grip);const play=e=>{if(document.body.classList.contains('tb-az-editing'))return;e.stopPropagation();audio(item.sound).catch(err=>console.warn("Language Studio 7 hotspot sound:",err.message))};spot.addEventListener('click',play);spot.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();play(e)}});hotspotLayer.appendChild(spot)})}
 function updateSelected(){layer.querySelectorAll('.tb-az-overlay').forEach(el=>el.classList.toggle('tb-selected',+el.dataset.index===selectedImage));cards.forEach((a,i)=>a.classList.toggle('tb-az-selected-link',i===selectedLink));const choose=document.getElementById('tb-az-images');if(choose){choose.replaceChildren(new Option('Choose image…',''));data.images.forEach((it,i)=>choose.add(new Option('Image '+(i+1),String(i))));choose.value=selectedImage===null?'':String(selectedImage)}const rot=document.getElementById('tb-az-rotation');if(rot&&selectedImage!==null)rot.value=data.images[selectedImage]?.rotate||0;const links=document.getElementById('tb-az-links');if(links){links.value=selectedLink===null?'':String(selectedLink)}const spots=document.getElementById('tb-az-hotspots');if(spots){spots.replaceChildren(new Option('Choose hotspot…',''));data.hotspots.forEach((h,i)=>spots.add(new Option(h.name||'Hotspot '+(i+1),String(i))));spots.value=selectedHotspot===null?'':String(selectedHotspot)}hotspotLayer.querySelectorAll('.tb-az-hotspot').forEach(el=>el.classList.toggle('tb-selected',+el.dataset.index===selectedHotspot));const path=document.getElementById('tb-az-sound-path');if(path)path.value=selectedHotspot===null?'':((data.hotspots[selectedHotspot]?.sound||'').startsWith('data:')?'[Embedded audio]':(data.hotspots[selectedHotspot]?.sound||''));const name=document.getElementById('tb-az-hotspot-name');if(name)name.value=selectedHotspot===null?'':(data.hotspots[selectedHotspot]?.name||'');}
 // Adventure links always navigate normally; sound belongs to independent hotspots.
 
 window.tbAz={data,draw,drawHotspots,updateSelected,layer,hotspotLayer,cards,audio,get hotspot(){return selectedHotspot},set hotspot(v){selectedHotspot=v;selectedImage=null;selectedLink=null;updateSelected()},get image(){return selectedImage},set image(v){selectedImage=v;selectedLink=null;selectedHotspot=null;updateSelected()},get link(){return selectedLink},set link(v){selectedLink=v;selectedImage=null;updateSelected()}};
 draw();drawHotspots();
 })();
-</script><button id="tb-az-launch" type="button">✦ Image &amp; Sound Editor</button>
-<div id="tb-az-studio" role="region" aria-label="Image and sound editor" style="display: none; left: 414.933px; top: 27.2px; right: auto;">
-<div class="tb-head" id="tb-az-drag"><span>✦ TALK A BEE STUDIO</span><button type="button" id="tb-az-close">×</button></div>
-<label>IMAGE EDITOR — FILE PATHS ONLY</label><input type="file" id="tb-az-image-file" accept="image/png,image/jpeg,image/webp,image/gif"><p class="tb-note">Choose a file already copied into your Talk-A-Bee/images folder. Selecting a file stores its filename/path, never its contents.</p>
-<label>Or existing website image path</label><input id="tb-az-image-path" placeholder="images/png/bee.png"><button id="tb-az-add-path">Add Image</button>
-<label>Select image</label><select id="tb-az-images"><option value="">Choose image…</option><option value="0">Image 1</option><option value="1">Image 2</option></select>
-<div class="tb-row"><button id="tb-az-front">Bring Forward</button><button id="tb-az-back">Send Backward</button><button id="tb-az-remove">Remove Image</button></div>
-<label>Image rotation (degrees)</label><input id="tb-az-rotation" type="number" min="-360" max="360" step="5" value="0">
-<p class="tb-note">Drag an image to move it. Drag its turquoise bottom-right handle to resize. Select an image to rotate or remove it.</p>
-<hr><label>SOUND EDITOR — CLICKABLE HOTSPOTS</label>
-<div class="tb-row"><button id="tb-az-add-hotspot">+ Add Hotspot</button><button id="tb-az-remove-hotspot">Remove Hotspot</button></div>
-<label>Select hotspot</label><select id="tb-az-hotspots"><option value="">Choose hotspot…</option><option value="0">Hotspot 1</option></select>
-<label>Hotspot name</label><input id="tb-az-hotspot-name" placeholder="e.g. Guitar Bee">
-<label>Sound file path</label><input id="tb-az-sound-path" placeholder="sounds/guitar.mp3"><button id="tb-az-set-sound">Assign Sound</button>
-<label>Choose an existing MP3 (filename only — no embedding)</label><input type="file" id="tb-az-sound-file" accept="audio/*,.mp3,.wav,.ogg">
-<div class="tb-row"><button id="tb-az-test">▶ Test Sound</button><button id="tb-az-clear">Remove Sound</button></div><p id="tb-az-audio-status" class="tb-note" role="status" aria-live="polite">Playing sounds/energy-rock1.mp3 (selected MP3 preview)</p>
-<p class="tb-note">Add a hotspot, drag it over your bee or picture, and resize using its turquoise corner. Assign a sound to that hotspot. Hotspots are invisible to visitors and play on click. Adventure links remain normal links.</p>
-<hr><div class="tb-row"><button class="tb-gold" id="tb-az-save-local">💾 Save Local HTML</button><button class="tb-gold" id="tb-az-save-server">🌐 Save Server HTML</button></div>
-<p class="tb-note">Local keeps this editor; Server removes the editor but keeps pictures and sounds. Existing file paths must remain in their website folders. Files are NEVER embedded. Put image files in images/ and audio files in sounds/ before selecting them. Save Local to keep editing; Save Server removes the editor.</p>
-</div>
-<script id="tb-az-editor-script">
-(function(){'use strict';
-const api=window.tbAz, data=api.data, studio=document.getElementById('tb-az-studio'), launch=document.getElementById('tb-az-launch');
-const $=id=>document.getElementById(id);
- let previewUrl=null,previewPath='';
- function clearPreview(){if(previewUrl)URL.revokeObjectURL(previewUrl);previewUrl=null;previewPath=''}
- function status(message){$('tb-az-audio-status').textContent=message}
- 
-launch.onclick=()=>{studio.style.display='block';document.body.classList.add('tb-az-editing');api.updateSelected()};
-$('tb-az-close').onclick=()=>{studio.style.display='none';document.body.classList.remove('tb-az-editing');api.image=null};
-$('tb-az-hotspots').onchange=e=>{clearPreview();status('');api.hotspot=e.target.value===''?null:+e.target.value};
-$('tb-az-images').onchange=e=>api.image=e.target.value===''?null:+e.target.value;
-function add(src){if(!src)return;data.images.push({src,x:Math.max(10,Math.round((document.querySelector('main').clientWidth-220)/2)),y:140,w:220,h:170,rotate:0});api.draw();api.image=data.images.length-1;}
-$('tb-az-add-path').onclick=()=>add($('tb-az-image-path').value.trim());
-function imageFilePath(file){if(!file)return '';return 'images/'+file.name;}
-function soundFilePath(file){if(!file)return '';return 'sounds/'+file.name;}
-$('tb-az-image-file').onchange=e=>{const path=imageFilePath(e.target.files[0]);if(path){$('tb-az-image-path').value=path;add(path)}};
-$('tb-az-remove').onclick=()=>{if(api.image===null)return;data.images.splice(api.image,1);api.image=null;api.draw();};
-$('tb-az-rotation').onchange=e=>{if(api.image===null)return;data.images[api.image].rotate=+e.target.value||0;api.draw();api.updateSelected()};
-function shift(dir){if(api.image===null)return;let i=api.image,j=i+dir;if(j<0||j>=data.images.length)return;[data.images[i],data.images[j]]=[data.images[j],data.images[i]];api.draw();api.image=j;}
-$('tb-az-front').onclick=()=>shift(1);$('tb-az-back').onclick=()=>shift(-1);
-let drag=null;
-api.layer.addEventListener('pointerdown',e=>{if(!document.body.classList.contains('tb-az-editing'))return;const wrap=e.target.closest('.tb-az-overlay');if(!wrap)return;e.preventDefault();const i=+wrap.dataset.index;api.image=i;const it=data.images[i];drag={i,resize:e.target.classList.contains('tb-az-resizer'),sx:e.clientX,sy:e.clientY,x:it.x,y:it.y,w:it.w,h:it.h};wrap.setPointerCapture(e.pointerId)});
-api.layer.addEventListener('pointermove',e=>{if(!drag)return;const it=data.images[drag.i];if(!it)return;const dx=e.clientX-drag.sx,dy=e.clientY-drag.sy;if(drag.resize){it.w=Math.max(25,Math.round(drag.w+dx));it.h=Math.max(25,Math.round(drag.h+dy))}else{it.x=Math.round(drag.x+dx);it.y=Math.round(drag.y+dy)}const el=api.layer.querySelector('[data-index="'+drag.i+'"]');if(el){el.style.left=it.x+'px';el.style.top=it.y+'px';el.style.width=it.w+'px';el.style.height=it.h+'px'}});
-api.layer.addEventListener('pointerup',()=>drag=null);api.layer.addEventListener('pointercancel',()=>drag=null);
-$('tb-az-add-hotspot').onclick=()=>{clearPreview();data.hotspots.push({name:'Hotspot '+(data.hotspots.length+1),x:160,y:180,w:130,h:110,sound:''});api.drawHotspots();api.hotspot=data.hotspots.length-1};
-$('tb-az-remove-hotspot').onclick=()=>{clearPreview();if(api.hotspot===null)return;data.hotspots.splice(api.hotspot,1);api.hotspot=null;api.drawHotspots()};
-$('tb-az-hotspot-name').onchange=e=>{if(api.hotspot===null)return;data.hotspots[api.hotspot].name=e.target.value.trim();api.drawHotspots();api.updateSelected()};
-function currentHotspot(){return api.hotspot===null?null:data.hotspots[api.hotspot]}
-$('tb-az-set-sound').onclick=()=>{const h=currentHotspot();if(h){const value=$('tb-az-sound-path').value.trim();if(value==='[Embedded audio]')return;h.sound=value;if(value!==previewPath)clearPreview();status('Assigned '+value);api.updateSelected()}};
-$('tb-az-sound-path').addEventListener('input',()=>{if($('tb-az-sound-path').value.trim()!==previewPath)clearPreview()});
- $('tb-az-sound-file').onchange=e=>{
-   const file=e.target.files[0],path=soundFilePath(file);
-   if(!file)return;
-   clearPreview();previewUrl=URL.createObjectURL(file);previewPath=path;
-   $('tb-az-sound-path').value=path;
-   const h=currentHotspot();
-   if(h){h.sound=path;api.updateSelected();status('Selected '+file.name+'. Test uses this file; saved HTML uses '+path+'.')}
-   else status('Select a hotspot before assigning the MP3.');
- };
-$('tb-az-clear').onclick=()=>{const h=currentHotspot();if(h){h.sound='';clearPreview();status('Sound removed.');api.updateSelected()}};
-$('tb-az-test').onclick=async()=>{
-  const h=currentHotspot();
-  if(!h){status('Select a hotspot first.');return}
-  const src=(previewUrl&&previewPath===h.sound)?previewUrl:h.sound;
-  status('Testing '+(h.sound||'(no sound assigned)')+' …');
-  try{await api.audio(src);status('Playing '+h.sound+(src===previewUrl?' (selected MP3 preview)':''))}
-  catch(e){status('Cannot play '+(h.sound||'sound')+'. Check that the MP3 is in the sounds/ folder beside this HTML. '+e.message)}
- };
-let hotspotDrag=null;
-api.hotspotLayer.addEventListener('pointerdown',e=>{if(!document.body.classList.contains('tb-az-editing'))return;const el=e.target.closest('.tb-az-hotspot');if(!el)return;e.preventDefault();const i=+el.dataset.index;api.hotspot=i;const h=data.hotspots[i];hotspotDrag={i,resize:e.target.classList.contains('tb-az-hotspot-grip'),sx:e.clientX,sy:e.clientY,x:h.x,y:h.y,w:h.w,h:h.h};el.setPointerCapture(e.pointerId)});
-api.hotspotLayer.addEventListener('pointermove',e=>{if(!hotspotDrag)return;const d=hotspotDrag,h=data.hotspots[d.i];if(!h)return;const dx=e.clientX-d.sx,dy=e.clientY-d.sy;if(d.resize){h.w=Math.max(24,Math.round(d.w+dx));h.h=Math.max(24,Math.round(d.h+dy))}else{h.x=Math.round(d.x+dx);h.y=Math.round(d.y+dy)}const el=api.hotspotLayer.querySelector('[data-index="'+d.i+'"]');if(el){el.style.left=h.x+'px';el.style.top=h.y+'px';el.style.width=h.w+'px';el.style.height=h.h+'px'}});
-api.hotspotLayer.addEventListener('pointerup',()=>hotspotDrag=null);api.hotspotLayer.addEventListener('pointercancel',()=>hotspotDrag=null);
-// Move the floating studio by its heading.
-let panelDrag=null;$('tb-az-drag').addEventListener('pointerdown',e=>{if(e.target.tagName==='BUTTON')return;const r=studio.getBoundingClientRect();panelDrag={x:e.clientX,y:e.clientY,left:r.left,top:r.top};$('tb-az-drag').setPointerCapture(e.pointerId)});
-$('tb-az-drag').addEventListener('pointermove',e=>{if(!panelDrag)return;studio.style.left=Math.max(0,panelDrag.left+e.clientX-panelDrag.x)+'px';studio.style.top=Math.max(0,panelDrag.top+e.clientY-panelDrag.y)+'px';studio.style.right='auto'});
-$('tb-az-drag').addEventListener('pointerup',()=>panelDrag=null);
-function save(server){const embedded=[...data.images.map(i=>i.src),...data.hotspots.map(h=>h.sound)].filter(v=>typeof v==='string'&&/^data:/i.test(v));if(embedded.length){alert('Embedded media detected. Replace these with images/ or sounds/ file paths before saving.');return;}const clone=document.documentElement.cloneNode(true);const json=JSON.stringify(data).replace(/</g,'\\u003c');clone.querySelector('#tb-az-data').textContent=json;
-// Runtime-created images are rebuilt from JSON on load, never saved twice.
-clone.querySelector('#tb-az-image-layer')?.remove();clone.querySelector('#tb-az-hotspot-layer')?.remove();clone.querySelectorAll('.tb-az-selected-link').forEach(el=>el.classList.remove('tb-az-selected-link'));
-clone.querySelectorAll('.tb-selected').forEach(el=>el.classList.remove('tb-selected'));
-clone.querySelector('body').classList.remove('tb-az-editing');const savedStudio=clone.querySelector('#tb-az-studio');if(savedStudio)savedStudio.style.display='none';
-if(server){['tb-az-editor-css','tb-az-launch','tb-az-studio','tb-az-editor-script'].forEach(id=>clone.querySelector('#'+id)?.remove())}
-const html='<!DOCTYPE html>\n'+clone.outerHTML;const blob=new Blob([html],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='adventures-a-z.html';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000)}
-$('tb-az-save-local').onclick=()=>save(false);$('tb-az-save-server').onclick=()=>save(true);
-})();
-</script></body></html>
+</script>
+
+</body></html>
