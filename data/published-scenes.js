@@ -1038,26 +1038,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "id": "hotspot-1792612697531",
-        "label": "instructions",
-        "x": 71.47046204863105,
-        "y": 64.90042947600037,
-        "w": 14.210528769453527,
-        "h": 28.186370718320745,
-        "sound": "sounds/teacher-grandpas-place.mp3",
-        "translations": {
-          "en": "",
-          "es": "funcionamiento",
-          "de": "triebsanleitung",
-          "it": "Istruzioni",
-          "pt": "instruções",
-          "no": "vedlikeholdsinstruksjonene",
-          "fr": "instructions"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
         "id": "hotspot-1793084203164",
         "label": "bird sitting in a tree",
         "x": 94.21052804666877,
@@ -1096,19 +1076,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "z": 0
       }
     ],
-    "overlays": [
-      {
-        "id": "overlay-1792611587126",
-        "label": "teacher",
-        "src": "images/teacher-black.png",
-        "x": 69.2631495478409,
-        "y": 57.06072913029043,
-        "w": 19.578958362357653,
-        "rotation": 0,
-        "z": 4,
-        "h": 41.455727706808844
-      }
-    ],
+    "overlays": [],
     "challenges": [
       {
         "prompt": "Find Grandma Cathy",
