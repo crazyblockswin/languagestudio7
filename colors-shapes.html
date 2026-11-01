@@ -125,8 +125,25 @@ const learn=document.getElementById('learn');
 const standard=document.getElementById('voice');
 const prefix={en:['en_'],es:['es_'],fr:['fr_'],de:['de_'],it:['it_'],pt:['pt_'],no:['no_','nb_']};
 let engine=null,pending=null,catalog=[],audio=null,url=null,serial=0;
+const downloadBox=document.createElement('div');
+downloadBox.id='colorsshapesPiperDownload';
+downloadBox.setAttribute('role','status');
+downloadBox.setAttribute('aria-live','polite');
+downloadBox.style.cssText='display:none;position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:9999;width:min(450px,calc(100vw - 32px));padding:13px 17px;background:#112a3c;color:#fff;border:1px solid #80a6bc;border-radius:12px;box-shadow:0 8px 25px #0009;font:14px Arial,sans-serif;text-align:center';
+downloadBox.innerHTML='<div id="colorsshapesPiperDownloadText" style="margin-bottom:9px">Downloading voice…</div><div style="height:12px;background:#344b5d;border-radius:8px;overflow:hidden"><div id="colorsshapesPiperDownloadBar" style="width:0%;height:100%;background:#56b9ed;transition:width .15s"></div></div>';
+document.body.appendChild(downloadBox);
+const downloadText=downloadBox.querySelector('#colorsshapesPiperDownloadText');
+const downloadBar=downloadBox.querySelector('#colorsshapesPiperDownloadBar');
+function hideDownload(){downloadBox.style.display='none'}
+function showDownload(p){
+ if(!p||!Number.isFinite(p.total)||p.total<=0||!Number.isFinite(p.loaded))return;
+ const percent=Math.min(100,Math.max(0,Math.round(100*p.loaded/p.total)));
+ downloadText.textContent='Downloading voice — '+percent+'% ('+(p.loaded/1048576).toFixed(1)+' / '+(p.total/1048576).toFixed(1)+' MB)';
+ downloadBar.style.width=percent+'%';downloadBox.style.display='block';
+}
+
 function note(t){status.textContent=t}
-function stop(){serial++;if(audio){audio.pause();audio=null}if(url){URL.revokeObjectURL(url);url=null}}
+function stop(){hideDownload();serial++;if(audio){audio.pause();audio=null}if(url){URL.revokeObjectURL(url);url=null}}
 window.tbCalendarPiperStop=stop;
 function options(){return catalog.filter(v=>(prefix[learn.value]||[]).some(p=>v.startsWith(p)))}
 function refresh(){const choices=options();const key='talkabee-piper-voice-'+learn.value;let saved='';try{saved=localStorage.getItem(key)||''}catch(e){}
@@ -134,7 +151,7 @@ function refresh(){const choices=options();const key='talkabee-piper-voice-'+lea
  picker.replaceChildren();for(const v of choices)picker.add(new Option(v,v));if(selected){picker.value=selected;note('Piper: '+selected)}else{picker.add(new Option('No Piper voice available',''));note('No Piper voice for '+learn.value)}
 }
 async function load(){if(engine)return engine;if(pending)return pending;
- pending=(async()=>{note('Loading Piper catalog…');const m=await import('./master/piper-matched-118/piper-tts-web.js');const raw=await m.voices();catalog=(Array.isArray(raw)?raw.map(v=>typeof v==='string'?v:v?.id||v?.key||v?.name||''):Object.keys(raw||{})).filter(Boolean);engine=m;refresh();return m})();
+ pending=(async()=>{note('Loading Piper catalog…');const m=await import('./piper-matched-118/piper-tts-web.js');const raw=await m.voices();catalog=(Array.isArray(raw)?raw.map(v=>typeof v==='string'?v:v?.id||v?.key||v?.name||''):Object.keys(raw||{})).filter(Boolean);engine=m;refresh();return m})();
  try{return await pending}catch(e){pending=null;note('Piper unavailable: '+(e?.message||e));throw e}
 }
 function update(){stop();field.hidden=mode.value!=='enhanced';standard.parentElement.hidden=mode.value==='enhanced';status.hidden=mode.value!=='enhanced';try{localStorage.setItem('talkabee-calendar-voice-mode',mode.value)}catch(e){}if(mode.value==='enhanced')load().catch(()=>{})}
@@ -145,12 +162,12 @@ window.tbCalendarPiperSpeak=function(text,rate){if(mode.value!=='enhanced'||!tex
  stop();if('speechSynthesis'in window)speechSynthesis.cancel();const ticket=serial,lang=learn.value;
  (async()=>{try{const m=await load();if(ticket!==serial||mode.value!=='enhanced'||learn.value!==lang)return;
  const id=picker.value;if(!options().includes(id))throw Error('No Piper voice for '+lang);
- note('Preparing '+id+'…');const wav=await m.predict({text:String(text),voiceId:id},p=>{if(ticket===serial&&p?.total)note('Downloading voice '+Math.round(100*p.loaded/p.total)+'%')});
+ note('Preparing '+id+'…');const wav=await m.predict({text:String(text),voiceId:id},p=>{if(ticket===serial&&p?.total)(note('Downloading voice '+Math.round(100*p.loaded/p.total)+'%'),showDownload(p))});
  if(ticket!==serial||mode.value!=='enhanced'||learn.value!==lang||picker.value!==id)return;
- url=URL.createObjectURL(wav);audio=new Audio(url);audio.playbackRate=Number.isFinite(rate)&&rate>0?rate:1;
+ hideDownload();url=URL.createObjectURL(wav);audio=new Audio(url);audio.playbackRate=Number.isFinite(rate)&&rate>0?rate:1;
  audio.addEventListener('ended',()=>{if(ticket!==serial)return;audio=null;if(url){URL.revokeObjectURL(url);url=null}note('Piper: '+id)},{once:true});
  await audio.play();if(ticket===serial)note('Playing '+id);
- }catch(e){if(ticket===serial){note('Piper error: '+(e?.message||e));console.error('Colors & Shapes Piper:',e)}}})();return true;
+ }catch(e){if(ticket===serial){hideDownload();note('Piper error: '+(e?.message||e));console.error('Colors & Shapes Piper:',e)}}})();return true;
 };
 try{mode.value=localStorage.getItem('talkabee-calendar-voice-mode')==='standard'?'standard':'enhanced'}catch(e){mode.value='enhanced'}
 update();
