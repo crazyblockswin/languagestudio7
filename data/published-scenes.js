@@ -4527,23 +4527,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     ],
     "hotspots": [
       {
-        "id": "bee",
-        "label": "bee",
-        "x": 28,
-        "y": 53,
-        "w": 12,
-        "h": 29,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
-        }
-      },
-      {
         "id": "trainees",
         "label": "trainees",
         "x": 30.96,
@@ -5385,23 +5368,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "ha colpito un masso e ha perso",
           "pt": "ela bateu numa pedra e perdeu",
           "no": "hun traff en steinblokk og mistet"
-        }
-      },
-      {
-        "id": "why-is-the-bee-riding-a-bike-when-he-can-fly",
-        "label": "why is the bee riding a bike when he can fly",
-        "x": 55.25,
-        "y": 50.41,
-        "w": 7.56,
-        "h": 32.26,
-        "sound": "",
-        "translations": {
-          "es": "¿por qué la abeja anda en bicicleta cuando puede volar",
-          "fr": "pourquoi l'abeille fait-elle du vélo alors qu'elle peut voler",
-          "de": "warum fährt die Biene Fahrrad, wenn sie fliegen kann?",
-          "it": "perché l'ape va in bicicletta quando può volare",
-          "pt": "por que a abelha anda de bicicleta quando pode voar?",
-          "no": "Hvorfor sykler bien når den kan fly"
         }
       }
     ],
@@ -10597,10 +10563,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "image": "images/Football-Game-Adventure.jpg",
     "lessons": [
       {
-        "text": "The Talk A Bee quarterback stands behind the line with the football ready to throw.",
+        "text": "The quarterback stands behind the line with the football ready to throw.",
         "translations": {
           "es": "La abeja de Talk A Bee está detrás de la línea con el balón listo para lanzar.",
-          "fr": "L'abeille Talk A Bee se tient derrière la ligne avec le ballon prêt à lancer.",
+          "fr": "L'abeille se tient derrière la ligne avec le ballon prêt à lancer.",
           "de": "Die Talk A Bee Biene steht als Quarterback hinter der Linie und hält den Football zum Wurf bereit.",
           "it": "L'ape Talk A Bee è dietro la linea con il pallone pronto da lanciare.",
           "pt": "A abelha Talk A Bee está atrás da linha com a bola pronta para lançar.",
@@ -10732,7 +10698,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "hotspots": [
       {
         "id": "bee",
-        "label": "bee",
+        "label": "quarter back",
         "x": 46.02,
         "y": 56.72,
         "w": 5.5,
@@ -10745,7 +10711,9 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "ape da",
           "pt": "abelhas",
           "no": "bie"
-        }
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
         "id": "football",
@@ -11858,23 +11826,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "id": "bee",
-        "label": "bee",
-        "x": 2,
-        "y": 2,
-        "w": 12,
-        "h": 17,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
-        }
-      },
-      {
         "id": "squirrel",
         "label": "squirrel",
         "x": 92,
@@ -12044,18 +11995,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "prompt": "Find the Bee",
-        "target": "bee",
-        "translations": {
-          "es": "Encuentra la abeja",
-          "fr": "Trouvez l'abeille",
-          "de": "Finde die Biene",
-          "it": "Trova l'ape",
-          "pt": "Encontre a Abelha",
-          "no": "Finn bien"
-        }
-      },
-      {
         "prompt": "Find the River",
         "target": "river",
         "translations": {
@@ -12074,10 +12013,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "image": "images/Hang-Gliding-Adventure.jpg",
     "lessons": [
       {
-        "text": "We are hang gliding high above Talk A Bee country.",
+        "text": "We are hang gliding high above LS7 country.",
         "translations": {
           "es": "Volamos en ala delta muy alto sobre el país de Talk A Bee.",
-          "fr": "Nous faisons du deltaplane très haut au-dessus du pays de Talk A Bee.",
+          "fr": "Nous faisons du deltaplane très haut au-dessus du pays de LS7.",
           "de": "Wir fliegen mit dem Drachen hoch über dem Talk A Bee Land.",
           "it": "Voliamo in deltaplano molto in alto sopra il paese di Talk A Bee.",
           "pt": "Estamos voando de asa-delta bem alto sobre a terra de Talk A Bee.",
@@ -12193,17 +12132,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "pt": "Uma águia voa ao lado da asa-delta e um veado está lá embaixo.",
           "no": "En ørn flyr ved siden av hangglideren og en hjort står langt nedenfor."
         }
-      },
-      {
-        "text": "Even the Talk A Bee mascot came along for the flight.",
-        "translations": {
-          "es": "Hasta la mascota de Talk A Bee vino a volar.",
-          "fr": "Même la mascotte Talk A Bee est venue voler.",
-          "de": "Sogar das Talk A Bee Maskottchen ist mitgeflogen.",
-          "it": "Anche la mascotte Talk A Bee è venuta a volare.",
-          "pt": "Até a mascote Talk A Bee veio para o voo.",
-          "no": "Selv Talk A Bee-maskotten ble med på flyturen."
-        }
       }
     ],
     "hotspots": [
@@ -12239,23 +12167,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "ragazzo",
           "pt": "menino",
           "no": "gutt"
-        }
-      },
-      {
-        "id": "bee",
-        "label": "bee",
-        "x": 57.61,
-        "y": 23.39,
-        "w": 9.09,
-        "h": 10.57,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
         }
       },
       {
@@ -13156,10 +13067,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "text": "Even the rescue dog and the Talk A Bee mascot came along.",
+        "text": "Even the rescue dog came along.",
         "translations": {
           "es": "Hasta el perro de rescate y la mascota Talk A Bee vinieron.",
-          "fr": "Même le chien de sauvetage et la mascotte Talk A Bee sont venus.",
+          "fr": "Même le chien de sauvetage sont venus.",
           "de": "Sogar der Rettungshund und das Talk A Bee Maskottchen sind dabei.",
           "it": "Anche il cane da soccorso e la mascotte Talk A Bee sono venuti.",
           "pt": "Até o cão de resgate e a mascote Talk A Bee vieram.",
@@ -14034,23 +13945,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "luci",
           "pt": "navegação",
           "no": "lys"
-        }
-      },
-      {
-        "id": "bee",
-        "label": "bee",
-        "x": 49,
-        "y": 34,
-        "w": 12,
-        "h": 17,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
         }
       },
       {
@@ -19401,10 +19295,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "text": "Bear is relaxing beside the campfire.",
+        "text": "The dog is relaxing beside the campfire.",
         "translations": {
           "es": "Bear está descansando junto a la fogata.",
-          "fr": "Bear se repose près du feu de camp.",
+          "fr": "El Chien se repose près du feu de camp.",
           "de": "Bear entspannt sich neben dem Lagerfeuer.",
           "it": "Bear si rilassa vicino al falò.",
           "pt": "Bear está descansando ao lado da fogueira.",
@@ -19428,23 +19322,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "il",
           "pt": "sinal",
           "no": "tegn"
-        }
-      },
-      {
-        "id": "bee",
-        "label": "bee",
-        "x": 27.31579140745045,
-        "y": 32.166432638443,
-        "w": 3.4736837381801355,
-        "h": 8.60917944537168,
-        "sound": "sounds/bee.mp3",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
         }
       },
       {
@@ -20252,10 +20129,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "image": "images/Rowing-Regatta-Adventure.jpg",
     "lessons": [
       {
-        "text": "The Talk A Bee coxswain sits at the end of the racing shell and directs the crew.",
+        "text": "The coxswain sits at the end of the racing shell and directs the crew.",
         "translations": {
           "es": "La abeja timonel de Talk A Bee se sienta al final del bote y dirige al equipo.",
-          "fr": "L'abeille barreur de Talk A Bee est assise à l'extrémité de la coque et dirige l'équipe.",
+          "fr": "L'abeille barreur de est assise à l'extrémité de la coque et dirige l'équipe.",
           "de": "Die Talk A Bee Steuermann-Biene sitzt am Ende des Rennboots und führt die Mannschaft.",
           "it": "L'ape timoniere di Talk A Bee siede all'estremità della barca e dirige l'equipaggio.",
           "pt": "A abelha timoneira de Talk A Bee senta na extremidade do barco e dirige a equipe.",
@@ -23054,10 +22931,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "text": "Even the dog and the Talk A Bee mascot joined the adventure.",
+        "text": "Even the dog joined the adventure.",
         "translations": {
           "es": "Hasta el perro y la mascota Talk A Bee se unieron a la aventura.",
-          "fr": "Même le chien et la mascotte Talk A Bee participent à l'aventure.",
+          "fr": "Même le chien participent à l'aventure.",
           "de": "Sogar der Hund und das Talk A Bee Maskottchen sind dabei.",
           "it": "Anche il cane e la mascotte Talk A Bee partecipano all'avventura.",
           "pt": "Até o cachorro e a mascote Talk A Bee participaram da aventura.",
@@ -23336,23 +23213,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "cane",
           "pt": "cão",
           "no": "hund"
-        }
-      },
-      {
-        "id": "bee",
-        "label": "bee",
-        "x": 68.76,
-        "y": 9.84,
-        "w": 5.31,
-        "h": 9.17,
-        "sound": "sounds/bee.mp3",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
         }
       },
       {
@@ -24502,10 +24362,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "image": "images/Softball-Game-Adventure.jpg",
     "lessons": [
       {
-        "text": "The Talk A Bee pitcher is on the mound with the softball ready to throw.",
+        "text": "The pitcher is on the mound with the softball ready to throw.",
         "translations": {
           "es": "La abeja de Talk A Bee está en el montículo con la pelota lista para lanzar.",
-          "fr": "L'abeille Talk A Bee est sur le monticule avec la balle prête à lancer.",
+          "fr": "L'abeille est sur le monticule avec la balle prête à lancer.",
           "de": "Die Talk A Bee Biene steht als Pitcher auf dem Hügel und hält den Softball bereit.",
           "it": "L'ape Talk A Bee è sulla pedana con la palla pronta da lanciare.",
           "pt": "A abelha Talk A Bee está no monte com a bola pronta para arremessar.",
