@@ -218,6 +218,13 @@ body[data-editor="no"] > header .tb-row-nav {
     background-size:100% 100% !important;
   }
 }
+</style><style id="ls7-card-blocks-hotspots">
+/* Keep the script card above scene hotspots, including their custom layer values.
+   The card and its buttons remain fully interactive; uncovered hotspots still work. */
+body[data-editor="no"] #scene > #card {
+  z-index: 2147483000 !important;
+  pointer-events: auto !important;
+}
 </style></head><body data-editor="no"><header><div class="tb-header-row tb-row-voice"><a class="tb-logo" href="index.html"><img class="tb-header-teacher" src="images/teacher.png" alt=""/> <span>Talk A Bee</span></a><img class="tb-header-buzzkill" src="images/buzzkill.png" alt="Buzzkill Bee"/><label class="tb-field tb-native"><span>Native</span><select id="native"></select></label><label class="tb-field tb-learn"><span>Learn</span><select id="learn"></select></label><label class="tb-field tb-voiceMode"><span>Voice system</span><select id="voiceMode"><option value="standard">Standard browser voice</option><option value="enhanced">Enhanced Piper</option></select></label><label class="tb-field tb-voiceSelect"><span>Voice choice</span><select id="voiceSelect"></select></label></div><div class="tb-header-row tb-row-nav"><a class="tb-corner-banner" href="index.html" title="Language Studio 7 Home" aria-label="Language Studio 7 Home"><img src="images/ls7-banner.png" alt="LanguageStudio7.com"></a><label class="tb-field tb-scenePicker"><span>Adventure</span><select aria-label="Choose Adventure" id="scenePicker"></select></label><button class="tb-mode selected" id="activities">Activities</button><button class="tb-mode" id="challenges">Challenges</button><button class="tb-mode" id="discovery">Discovery</button><button aria-pressed="false" class="tb-view" id="sceneViewToggle" type="button">◉ Scene View</button><button hidden="" id="sceneViewReturn" type="button">← Return to Adventure</button>
 <nav class="tb-unified-nav" aria-label="More Talk A Bee destinations">
 <details><summary title="Part 2 Course">Part 2 Course +</summary><div class="tb-menu">
