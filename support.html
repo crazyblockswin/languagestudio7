@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Support Language Studio 7</title>
+<title>Support Language Studio 7 | Free Interactive Language Learning</title>
+<meta name="description" content="Support Language Studio 7, a free language-learning website with seven languages, interactive adventures, pictures, sounds, activities and challenges.">
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#332b3d}
@@ -16,15 +17,13 @@ header{
   min-height:72px;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;
   background:rgba(255,255,255,.94);border-bottom:1px solid #e7e0eb;box-shadow:0 3px 14px rgba(45,35,55,.08)
 }
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
-.brand img{width:48px;height:48px;object-fit:contain}
-.brand-name{font-size:20px;font-weight:900;display:block}
-.brand-domain{font-size:11px;font-weight:700;color:#756a7e;display:block}
-.tagline{font-size:12px;font-weight:850;color:#655a79;white-space:nowrap}
-.back{padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:850;color:#4b3f59;background:#fff;border:1px solid #ddd2e2}
+.brand{display:flex;align-items:center;text-decoration:none;color:inherit;min-width:0}
+.brand img{display:block;width:min(520px,60vw);max-height:92px;height:auto;object-fit:contain;object-position:left center}
+.back{display:inline-flex;align-items:center;justify-content:center;gap:9px;flex-shrink:0;padding:13px 22px;border-radius:12px;text-decoration:none;font-size:16px;font-weight:800;letter-spacing:.2px;color:#f4d66a;background:linear-gradient(180deg,#205b40,#103d2a);border:2px solid #c8a447;box-shadow:0 4px 12px rgba(20,65,43,.22);transition:transform .15s,box-shadow .15s,background .15s}
+.back:hover,.back:focus-visible{background:linear-gradient(180deg,#28714e,#164b34);box-shadow:0 6px 16px rgba(20,65,43,.3);transform:translateY(-1px)}
 main{width:min(920px,calc(100% - 32px));margin:34px auto 50px}
 .card{background:rgba(255,255,255,.92);border:1px solid rgba(219,208,225,.9);border-radius:24px;padding:34px;box-shadow:0 18px 45px rgba(48,37,59,.13);backdrop-filter:blur(7px)}
-h1{margin:0 0 12px;font-size:clamp(30px,5vw,48px);line-height:1.05}
+h1{margin:0 0 12px;font-size:clamp(22px,2.5vw,26px);line-height:1.05}
 h2{margin:30px 0 10px;font-size:24px}
 p{font-size:17px;line-height:1.65;margin:10px 0}
 .lead{font-size:19px}
@@ -37,7 +36,7 @@ p{font-size:17px;line-height:1.65;margin:10px 0}
 .small{font-size:13px;color:#746a7a;margin-top:12px}
 footer{text-align:center;padding:0 16px 28px;font-size:13px;color:#706576}
 @media(max-width:720px){
- header{padding:9px 12px} .tagline{display:none} .card{padding:24px 20px} main{margin-top:20px}
+ header{padding:9px 12px;gap:10px} .back{padding:10px 12px;font-size:13px} .brand img{width:min(440px,58vw)} .card{padding:24px 20px} main{margin-top:20px}
 }
 </style>
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -46,9 +45,7 @@ footer{text-align:center;padding:0 16px 28px;font-size:13px;color:#706576}
 <body>
 <header>
   <a class="brand" href="index.html" aria-label="Return to Main Directory">
-    <img src="images/ls7.png" alt="">
-    <span><span class="brand-name">Language Studio 7</span><span class="brand-domain">LanguageStudio7.com</span></span>
-    <span class="tagline">Interactive Language Adventures</span>
+    <img src="images/ls7-banner.png" alt="LS7 — free interactive language learning in seven languages">
   </a>
   <a class="back" href="index.html">← Main Directory</a>
 </header>
@@ -56,36 +53,36 @@ footer{text-align:center;padding:0 16px 28px;font-size:13px;color:#706576}
 <main>
 <section class="card">
   <h1>❤️ Help Language Studio 7 Grow</h1>
-  <p class="lead">Language Studio 7 is being built to make language learning fun, friendly, and accessible through interactive adventures instead of ordinary lessons.</p>
+  <p class="lead">LS7 is being built to make language learning fun, friendly, and accessible through interactive adventures instead of ordinary lessons.</p>
 
-  <p>Our goal is to keep expanding Language Studio 7 with <strong>new languages, adventures, characters, activities, challenges, and learning tools</strong> — while making learning feel more like exploring a world than studying a textbook.</p>
+  <p>Our goal is to keep expanding LS7 with <strong>new languages, adventures, characters, activities, challenges, and learning tools</strong> — while making learning feel more like exploring a world than studying a textbook.</p>
 
   <h2>Who are you helping?</h2>
   <div class="rv-note">
     <p><strong>See that old man in the RV?</strong></p>
-    <p>That's the guy who built this site — <strong>at age 69. No kidding... really.</strong> 😂</p>
+    <p>That's the guy who built this site — <strong>at age 69. No kidding... really.</strong></p>
     <p>I'm an engineer, a fixer, a mechanic... and now apparently a language developer.</p>
     <p><strong>Who knew?</strong></p>
   </div>
 
-  <p>Language Studio 7 started with a simple idea: learning another language shouldn't have to feel like studying a textbook. It can be an adventure — something you explore, listen to, play with, and enjoy.</p>
+  <p>LS7 started with a simple idea: learning another language shouldn't have to feel like studying a textbook. It can be an adventure — something you explore, listen to, play with, and enjoy.</p>
 
   <div class="future">
-    <p><strong>And we're not finished.</strong> We'll be adding sounds and more surprises later, so be sure to check back. Language Studio 7 is being created to be fun for learners <strong>of all ages</strong>.</p>
+    <p><strong>And we're not finished.</strong> We'll be adding sounds and more surprises later, so be sure to check back. LS7 is being created to be fun for learners <strong>of all ages</strong>.</p>
   </div>
 
-  <p>If Language Studio 7 makes you smile, helps you learn something, or you simply want to help this old guy in the RV keep building it, your support is greatly appreciated.</p>
+  <p>If LS7 makes you smile, helps you learn something, or you simply want to help this old guy in the RV keep building it, your support is greatly appreciated.</p>
 
   <p><strong>Have fun, explore, learn, and enjoy!</strong></p>
 
   <div class="donate-area">
-    <h2>❤️ Thank you for helping Language Studio 7 grow.</h2>
+    <h2>❤️ Thank you for helping LS7 grow.</h2>
     <a class="paypal" href="https://www.paypal.com/donate/?hosted_button_id=SJB48Y5YLJESA" target="_blank" rel="noopener noreferrer">❤️ Donate securely with PayPal</a>
     <p class="small">Donations are completely optional. PayPal securely handles the donation transaction.</p>
   </div>
 </section>
 </main>
 
-<footer>Language Studio 7 • Interactive Language Adventures</footer>
+<footer>LS7 • Interactive Language Adventures</footer>
 </body>
 </html>
