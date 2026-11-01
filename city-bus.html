@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Talk A Bee — City Bus Adventure</title><link rel="stylesheet" href="css/shared-d91a87529e4897d6.css">
+<link rel="stylesheet" href="css/common-inline-102fc1d7383d.css" id="talkabee-prev-next-nav-style">
+<link rel="stylesheet" href="css/talkabee-shared-5d2499d81b6e.css" id="talkabee-literal-master-template">
+
+<style id="tab-spoken-phrase-readability">
+/* Locked spoken-language phrase treatment: gray field + white type. */
+.tab-master-card #line,
+.tab-master-card .line,
+.tab-master-card .words {
+  background:rgba(88,88,88,.72)!important;
+  color:#fff!important;
+  border:1px solid rgba(255,255,255,.20)!important;
+  border-radius:14px!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.55)!important;
+}
+.tab-master-card #line *,
+.tab-master-card .line *,
+.tab-master-card .words * {color:#fff!important;}
+</style>
+
+<link rel="stylesheet" href="css/common-inline-a202e810d91a.css" id="talkabee-readable-supporting-text">
+
+  <link rel="icon" type="image/png" href="images/PNG/talkabee-favicon.png">
+  <link rel="shortcut icon" type="image/png" href="images/PNG/talkabee-favicon.png">
+
+<link rel="stylesheet" href="css/common-inline-e41b546ea686.css" id="talkabee-edition-menu-style">
+
+<link rel="stylesheet" href="css/talkabee-shared-ecfa9fc689a3.css" id="talkabee-accessibility-controls-v1">
+<link rel="stylesheet" href="css/talkabee-shared-43ddae767bb7.css" id="talkabee-global-card-grab-cursor">
+
+<!-- TALK A BEE HOTSPOTS VISUALLY RECERTIFIED AGAINST CURRENT SCENE ARTWORK: 2026-10-07 -->
+<style id="talkabee-hotspot-editor-style">
+#tb-hs-editor{position:fixed;right:16px;bottom:16px;z-index:2147483646;font:700 12px Arial,sans-serif;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;max-width:650px}
+#tb-hs-editor button,#tb-hs-editor input{border:1px solid #fff;border-radius:10px;background:#000;color:#fff;padding:9px 11px;box-shadow:0 4px 14px #0006}
+#tb-hs-editor input{background:#fff;color:#111;min-width:180px;font-weight:400}#tb-hs-editor button{cursor:pointer}
+body.tb-hs-editing .hotspot,body.tb-hs-editing .home-hotspot,body.tb-hs-editing .yacht-hotspot,body.tb-hs-editing .hotspots button,body.tb-hs-editing .train-hotspots button{display:block!important;outline:2px solid #ffea00!important;background:rgba(255,234,0,.18)!important;pointer-events:auto!important;cursor:move!important;visibility:visible!important;opacity:1!important;z-index:2147483005!important}
+body.tb-hs-editing .tb-hs-active{outline:3px solid #00ffff!important;background:rgba(0,255,255,.18)!important}
+.tb-hs-handle{position:absolute!important;right:-7px!important;bottom:-7px!important;left:auto!important;top:auto!important;width:14px!important;height:14px!important;border-radius:3px!important;background:#00ffff!important;border:2px solid #000!important;z-index:2147483647!important;cursor:nwse-resize!important;display:none!important;transform:none!important}
+body.tb-hs-editing .tb-hs-active>.tb-hs-handle{display:block!important}
+
+#tb-hs-editor .tb-sound-name{min-width:150px;max-width:230px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:12px/1.2 Arial,sans-serif;color:#fff;opacity:.9}
+#tb-hs-editor input[type="file"].tb-sound-file{display:none!important}
+</style>
+
+<link rel="stylesheet" href="css/common-inline-8492e8692583.css" id="talkabee-bilingual-hotspot-popup-style">
+
+<script id="tb-legacy-challenge-data" type="application/json">{"targets":["bus","bell tower","buspass","trafficlight","mainstreet","crosswalk"],"labels":["Find the Bus","Find the Bell Tower","Find the Bus Pass","Find the Traffic Light","Find Main Street","Find the Crosswalk"]}</script>
+
+<style id="talkabee-city-bus-proven-card-v1">
+/* Bird Sanctuary / Train Station approved presentation, scoped to City Bus only. */
+#world>.bus-train-card.tab-master-card{
+ position:fixed!important;left:62%!important;top:auto!important;right:auto!important;bottom:20px!important;
+ width:650px!important;min-width:650px!important;max-width:650px!important;
+ height:auto!important;min-height:0!important;max-height:calc(100vh - 42px)!important;
+ padding:17px 20px!important;overflow:auto!important;
+ transform:translateX(-50%) scale(.72)!important;transform-origin:bottom center!important;
+ background:rgba(27,32,50,.35)!important;backdrop-filter:blur(3px)!important;
+ border:1px solid rgba(255,255,255,.34)!important;border-radius:22px!important;
+ color:white!important;z-index:2000!important;pointer-events:auto!important;isolation:isolate!important;
+ touch-action:none!important;cursor:grab!important;
+}
+#world>.bus-train-card:active{cursor:grabbing!important}
+#world>.bus-train-card .tab-card-tools button{font-size:22px!important;padding:9px 13px!important}
+#world>.bus-train-card .kicker{font:900 16px/1.15 Arial,sans-serif!important;color:#fff!important;letter-spacing:.06em!important}
+#world>.bus-train-card #title{font:900 32px/1.12 Arial,sans-serif!important;color:#fff!important;margin:3px 0 8px!important}
+#world>.bus-train-card #prompt{font:500 24px/1.24 Arial,sans-serif!important;color:#fff!important;margin:3px 0 10px!important}
+#world>.bus-train-card #line{font:900 29px/1.25 Arial,sans-serif!important;color:white!important;padding:14px 16px!important;background:rgba(20,25,43,.65)!important;border-radius:15px!important}
+#world>.bus-train-card #translation{font:500 23px/1.25 Arial,sans-serif!important;color:#fff!important}
+#world>.bus-train-card #actions{display:flex!important;gap:8px!important;flex-wrap:nowrap!important;align-items:center!important}
+#world>.bus-train-card #actions button{font:900 20px/1.1 Arial,sans-serif!important;padding:12px 13px!important;white-space:nowrap!important;background:#f2eaff!important;color:#30204b!important;border-radius:13px!important;flex:0 0 auto!important}
+#world>.bus-train-card #speak{background:#6944ee!important;color:#fff!important}
+#world>.bus-train-card #find{display:none!important}
+#world.bus-challenge-mode>.bus-train-card #find.show{display:flex!important;flex-direction:column!important;gap:12px!important;padding:18px 22px!important;margin-top:8px!important;border-radius:17px!important;border:1px solid rgba(255,255,255,.38)!important;background:rgba(16,24,43,.76)!important;color:#fff!important}
+#world.bus-challenge-mode>.bus-train-card #prompt,
+#world.bus-challenge-mode>.bus-train-card #line,
+#world.bus-challenge-mode>.bus-train-card #translation,
+#world.bus-challenge-mode>.bus-train-card #actions{display:none!important}
+#world>.bus-train-card #count{font:900 19px/1.16 Arial,sans-serif!important;color:#ffe3a4!important;letter-spacing:.04em!important}
+#world>.bus-train-card #busFindPrompt{font:900 34px/1.15 Arial,sans-serif!important;color:white!important}
+#world>.bus-train-card #status{font:900 26px/1.18 Arial,sans-serif!important;color:#a5ffd0!important;min-height:0!important}
+#world>.bus-train-card #status:empty{display:none!important}
+#world>.bus-train-card #hint{font:700 20px/1.24 Arial,sans-serif!important;color:#fff!important}
+#world>.bus-train-card #challengeNext{align-self:flex-start!important;width:auto!important;font:900 20px/1.15 Arial,sans-serif!important;padding:11px 16px!important;border-radius:13px!important;background:#f2eaff!important;color:#4b2abb!important}
+#world>.bus-train-card.bus-card-dragged{left:var(--bus-card-x)!important;top:var(--bus-card-y)!important;right:auto!important;bottom:auto!important;transform:scale(var(--bus-card-scale))!important;transform-origin:top left!important}
+#world.scene-only>.bus-train-card{display:none!important}
+@media(max-width:700px){#world>.bus-train-card.tab-master-card{left:55%!important;bottom:10px!important;transform:translateX(-50%) scale(.60)!important}}
+/* Adjustable left-panel text; no changes to the existing activity and challenge lists. */
+#world .directory.tab-master-panel .place{font-size:calc(21px * var(--tab-panel-scale,1))!important}
+#world .directory.tab-master-panel .label{font-size:calc(12px * var(--tab-panel-scale,1))!important}
+#world .directory.tab-master-panel button:not(.tab-panel-size-controls button),
+#world .directory.tab-master-panel select,#world .directory.tab-master-panel a{font-size:calc(14px * var(--tab-panel-scale,1))!important}
+</style>
+<link rel="stylesheet" href="css/talkabee-card-typography-safe.css">
+</head><body class="">
+<div class="talkabee-editions">
+<details>
+<summary>Explore Adventures ▾</summary>
+<div class="edition-row" role="navigation" aria-label="Talk A Bee Editions">
+<a href="adventures-a-z.html">Main Adventures</a>
+
+
+
+
+
+</div>
+</details>
+</div>
+
+<nav class="talkabee-prev-next-nav" aria-label="Adventure navigation"><a href="adventure.html?scene=library" aria-label="Previous page" title="Previous">‹</a><a href="hotel.html" aria-label="Next page" title="Next">›</a></nav>
+<section id="world" class=""><button class="restorePanel" id="restorePanel">← Return Panel</button><div class="scene"><img src="images/city-bus-adventure.jpg" alt="Nicole and Mitchell at a city bus stop with route map, bus, traffic lights and pedestrians"></div><aside class="directory tab-master-panel">
+ <div class="place">🚌 City Bus Adventure</div>
+ <div class="tab-panel-size-controls" aria-label="Activity panel size"><button type="button" class="tab-panel-minus" title="Make activity panel smaller">−</button><button type="button" class="tab-panel-reset" title="Reset activity panel size">Reset</button><button type="button" class="tab-panel-plus" title="Make activity panel larger">+</button></div>
+<button id="sceneView" aria-pressed="false">◉ Scene View</button><div class="label">LANGUAGE</div><select id="busLanguage" data-tab-global-voice="1"><option value="es">Spanish</option><option value="fr">French</option><option value="en">English</option><option value="de">German</option><option value="it">Italian</option><option value="pt">Portuguese</option><option value="no">Norwegian</option></select><div class="label">VOICE</div><select id="busVoice" data-tab-global-voice="1"><option value="">Browser Default</option><option value="urn:moz-tts:sapi:Microsoft David - English (United States)?en-US">Microsoft David - English (United States) — en-US</option><option value="urn:moz-tts:sapi:Microsoft Mark - English (United States)?en-US">Microsoft Mark - English (United States) — en-US</option><option value="urn:moz-tts:sapi:Microsoft Zira - English (United States)?en-US">Microsoft Zira - English (United States) — en-US</option><option value="urn:moz-tts:sapi:Microsoft David Desktop - English (United States)?en-US">Microsoft David Desktop - English (United States) — en-US</option><option value="urn:moz-tts:sapi:Microsoft Zira Desktop - English (United States)?en-US">Microsoft Zira Desktop - English (United States) — en-US</option></select><div class="label">DISCOVERY</div><button data-discovery="">🔎 Discovery — Click the Scene</button><div class="label">ACTIVITIES</div><button data-lesson="bus" class="active">1. Find the Right Bus</button><button data-lesson="map">2. Read the Route Map</button><button data-lesson="pass">3. Use a Bus Pass</button><button data-lesson="directions">4. Ask for Directions</button><button data-lesson="waiting">5. Wait for the Bus</button><button data-lesson="stop">6. Get Off Downtown</button><div class="label">CHALLENGES</div><button data-challenge="0" aria-label="1. Find the Bus">1. Find the Bus</button><button data-challenge="1" aria-label="2. Find the Bell Tower">2. Find the Bell Tower</button><button data-challenge="2" aria-label="3. Find the Bus Pass">3. Find the Bus Pass</button><button data-challenge="3" aria-label="4. Find the Traffic Light">4. Find the Traffic Light</button><button data-challenge="4" aria-label="5. Find Main Street">5. Find Main Street</button><button data-challenge="5" aria-label="6. Find the Crosswalk">6. Find the Crosswalk</button><a class="dirhome" href="main-directory.html">← Main Directory</a></aside><main class="panel tab-master-card bus-train-card"><div class="tab-card-tools" aria-label="Script card controls"><button type="button" class="tab-card-drag" title="Move script card">↕ Move</button><button type="button" class="tab-card-font-down" title="Decrease text">A−</button><button type="button" class="tab-card-font-up" title="Increase text">A+</button><button type="button" class="tab-card-reset" title="Reset card">Reset</button></div><div class="kicker" data-base-font="16px">CITY BUS ADVENTURE</div><h2 id="title" data-base-font="32px">Encuentra el autobús correcto</h2><p id="prompt" data-base-font="24px">Practica cómo elegir el autobús que va a tu destino.</p><div class="line" id="line" data-base-font="29px">¿Qué autobús va al centro?</div><div class="translation" id="translation" data-base-font="23px">Which bus goes downtown?</div><div class="actions" id="actions" style="display: flex;"><button id="speak" data-base-font="20px">🔊 Speak</button><button id="next" data-base-font="20px">Next phrase →</button></div><div class="find" id="find"><div class="count" id="count"></div><div id="busFindPrompt" class="bus-find-prompt"></div><div class="status" id="status"></div><div class="hint" id="hint"></div><button class="challengeNext" id="challengeNext" data-base-font="20px">Next phrase →</button></div><div class="tab-card-resize" title="Drag to resize script card" aria-label="Resize script card">↘</div></main><div class="hotspots"><button class="hotspot" data-word="routemap" aria-label="routemap"></button><button class="hotspot" data-word="busstop" aria-label="busstop"></button><button class="hotspot" data-word="bus" aria-label="bus" style="width: 14.44%; height: 16.12%; left: 60.49%; top: 51.22%;"></button><button class="hotspot" data-word="buspass" aria-label="buspass" style="left: 34.34%; top: 68.34%; width: 6.64%; height: 9.42%;"></button><button class="hotspot" data-word="trafficlight" aria-label="trafficlight" style="left: 77.18%; top: 12.83%; width: 5.99%; height: 18.86%;"></button><button class="hotspot" data-word="mainstreet" aria-label="mainstreet"></button><button class="hotspot" data-word="directions" aria-label="directions"></button><button class="hotspot" data-word="crosswalk" aria-label="crosswalk"></button><button class="hotspot" data-word="walksignal" aria-label="walksignal"></button><button class="hotspot" data-word="shelter" aria-label="shelter"></button><button class="hotspot" data-word="downtown" aria-label="downtown"></button><button class="hotspot" data-word="cafe" aria-label="cafe"></button><button type="button" class="hotspot" data-word="skyscraper" aria-label="skyscraper" data-tb-custom="1" data-tb-en="skyscraper" data-tb-es="rascacielos" data-tb-fr="gratte-ciel" data-tb-de="Wolkenkratzer" data-tb-it="grattacielo" data-tb-pt="arranha-céu" data-tb-no="skyskraper" style="left: 71.19%; top: 17.94%; width: 3.5%; height: 22.17%;"></button><button type="button" class="hotspot" data-word="buildings" aria-label="buildings" data-tb-custom="1" data-tb-en="buildings" data-tb-es="edificios" data-tb-fr="bâtiments" data-tb-de="Gebäude" data-tb-it="edifici" data-tb-pt="edifícios" data-tb-no="bygninger" style="left: 80.79%; top: 33.46%; width: 8.86%; height: 21.61%;"></button><button type="button" class="hotspot" data-word="street lamp" aria-label="street lamp" data-tb-custom="1" data-tb-en="street lamp" data-tb-es="farola" data-tb-fr="réverbère" data-tb-de="Straßenlaterne" data-tb-it="lampione" data-tb-pt="lâmpada de rua" data-tb-no="gatelykt" style="left: 43.82%; top: 28.07%; width: 5.64%; height: 22.54%;"></button><button type="button" class="hotspot" data-word="lamp post" aria-label="lamp post" data-tb-custom="1" data-tb-en="lamp post" data-tb-es="Poste de luz" data-tb-fr="lampadaire" data-tb-de="Laternenpfahl" data-tb-it="lampione" data-tb-pt="poste de iluminação" data-tb-no="lyktestolpe" style="left: 43.55%; top: 51.85%; width: 2.25%; height: 24.67%;"></button><button type="button" class="hotspot" data-word="bumper" aria-label="bumper" data-tb-custom="1" data-tb-en="bumper" data-tb-es="parachoques" data-tb-fr="pare-chocs" data-tb-de="Stoßstange" data-tb-it="paraurti" data-tb-pt="pára-choque" data-tb-no="støtfanger" style="left: 60.49%; top: 77.95%; width: 17.72%; height: 4.3%;"></button><button type="button" class="hotspot" data-word="cargo rack" aria-label="cargo rack" data-tb-custom="1" data-tb-en="cargo rack" data-tb-es="estante de carga" data-tb-fr="porte-bagages" data-tb-de="Gepäckträger" data-tb-it="portapacchi" data-tb-pt="rack de carga" data-tb-no="lastestativ" style="left: 61.36%; top: 72.09%; width: 10.9%; height: 6.15%;"></button><button type="button" class="hotspot" data-word="bus driver" aria-label="bus driver" data-tb-custom="1" data-tb-en="bus driver" data-tb-es="conductor de autobús" data-tb-fr="chauffeur d'autobus" data-tb-de="Busfahrer" data-tb-it="autista dell'autobus" data-tb-pt="motorista de ônibus" data-tb-no="bussjåfør" style="left: 65.69%; top: 62.5%; width: 6%; height: 8%;"></button><button type="button" class="hotspot" data-word="passenger" aria-label="passenger" data-tb-custom="1" data-tb-en="passenger" data-tb-es="pasajero" data-tb-fr="passager" data-tb-de="Passagier" data-tb-it="passeggeri" data-tb-pt="passageiro" data-tb-no="passasjer" style="left: 47.04%; top: 67.14%; width: 4.33%; height: 16.52%;"></button><button type="button" class="hotspot" data-word="car" aria-label="car" data-tb-custom="1" data-tb-en="car" data-tb-es="auto" data-tb-fr="voiture" data-tb-de="Auto" data-tb-it="auto" data-tb-pt="carro" data-tb-no="bil" style="left: 71.86%; top: 68.07%; width: 3.14%; height: 9.57%;"></button><button type="button" class="hotspot" data-word="pedestrians" aria-label="pedestrians" data-tb-custom="1" data-tb-en="pedestrians" data-tb-es="peatones" data-tb-fr="piétons" data-tb-de="Fußgänger" data-tb-it="pedoni" data-tb-pt="pedestres" data-tb-no="fotgjengere" style="left: 83.67%; top: 67.86%; width: 8.76%; height: 11.43%;"></button><button type="button" class="hotspot" data-word="tree" aria-label="tree" data-tb-custom="1" data-tb-en="tree" data-tb-es="árbol" data-tb-fr="arbre" data-tb-de="Baum" data-tb-it="albero" data-tb-pt="árvore" data-tb-no="tre" style="left: 41.76%; top: 11.16%; width: 6%; height: 8%;"></button><button type="button" class="hotspot" data-word="sky" aria-label="sky" data-tb-custom="1" data-tb-en="sky" data-tb-es="cielo" data-tb-fr="ciel" data-tb-de="Himmel" data-tb-it="cielo" data-tb-pt="céu" data-tb-no="himmel" style="left: 64.94%; top: 4.86%; width: 6%; height: 8%;"></button><button type="button" class="hotspot" data-word="bell tower" aria-label="bell tower" data-tb-custom="1" data-tb-en="bell tower" data-tb-es="campanario" data-tb-fr="clocher" data-tb-de="Glockenturm" data-tb-it="campanile" data-tb-pt="torre sineira" data-tb-no="klokketårn" style="left: 65.43%; top: 23.26%; width: 6%; height: 8%;"></button><button type="button" class="hotspot" data-word="building" aria-label="building" data-tb-custom="1" data-tb-en="building" data-tb-es="edificio" data-tb-fr="bâtiment" data-tb-de="Gebäude" data-tb-it="edificio" data-tb-pt="prédio" data-tb-no="bygning" style="left: 57.4%; top: 28.26%; width: 6%; height: 8%;"></button><button type="button" class="hotspot" data-word="side walk" aria-label="side walk" data-tb-custom="1" data-tb-en="side walk" data-tb-es="acera" data-tb-fr="trottoir" data-tb-de="Seitenweg" data-tb-it="passeggiata laterale" data-tb-pt="caminhada lateral" data-tb-no="fortau" style="left: 42.7%; top: 88.15%; width: 6%; height: 8%;"></button></div></section><script>
+(()=>{const LANGS={es:"es-ES",fr:"fr-FR",en:"en-US",de:"de-DE",it:"it-IT",pt:"pt-PT",no:"nb-NO"};
+const LESSONS={"es": {"bus": ["Encuentra el autobús correcto", "Practica cómo elegir el autobús que va a tu destino.", ["¿Qué autobús va al centro?", "El autobús número veintidós va al centro.", "Ese es nuestro autobús.", "Vamos a subir al autobús."]], "map": ["Lee el mapa de rutas", "Usa el mapa para hablar de rutas y destinos.", ["Mira el mapa de rutas.", "¿Dónde está la estación central?", "Esta ruta va al centro.", "El parque está en esta ruta."]], "pass": ["Usa un pase de autobús", "Practica palabras útiles para boletos y pases.", ["Tengo un pase de autobús.", "Necesito un boleto, por favor.", "Aquí está mi pase.", "¿Cuánto cuesta el viaje?"]], "directions": ["Pide direcciones", "Practica cómo preguntar adónde ir en la ciudad.", ["¿Cómo llego al parque de la ciudad?", "¿Dónde está la estación central?", "Siga hacia el centro.", "La calle principal está allí."]], "waiting": ["Espera el autobús", "Practica frases para usar en una parada de autobús.", ["Estamos esperando el autobús.", "¿Cuándo llega el autobús veintidós?", "El autobús ya viene.", "Esperemos aquí."]], "stop": ["Baja en el centro", "Practica cómo preguntar por tu parada y destino.", ["Quiero bajar en el centro.", "¿Es esta mi parada?", "Avíseme cuando lleguemos al centro.", "Bajamos en la próxima parada."]]}, "fr": {"bus": ["Trouver le bon bus", "Entraînez-vous à choisir le bus qui va à votre destination.", ["Quel bus va au centre-ville ?", "Le bus numéro vingt-deux va au centre-ville.", "C'est notre bus.", "Montons dans le bus."]], "map": ["Lire le plan des lignes", "Utilisez le plan pour parler des itinéraires et destinations.", ["Regarde le plan des lignes.", "Où est la gare centrale ?", "Cette ligne va au centre-ville.", "Le parc est sur cette ligne."]], "pass": ["Utiliser un pass de bus", "Pratiquez les mots utiles pour les billets et les pass.", ["J'ai un pass de bus.", "J'ai besoin d'un billet, s'il vous plaît.", "Voici mon pass.", "Combien coûte le trajet ?"]], "directions": ["Demander son chemin", "Pratiquez comment demander où aller en ville.", ["Comment aller au parc municipal ?", "Où est la gare centrale ?", "Allez vers le centre-ville.", "La rue principale est là-bas."]], "waiting": ["Attendre le bus", "Pratiquez des phrases utiles à l'arrêt de bus.", ["Nous attendons le bus.", "Quand arrive le bus vingt-deux ?", "Le bus arrive maintenant.", "Attendons ici."]], "stop": ["Descendre au centre-ville", "Pratiquez comment parler de votre arrêt et destination.", ["Je veux descendre au centre-ville.", "Est-ce mon arrêt ?", "Dites-moi quand nous arrivons au centre-ville, s'il vous plaît.", "Nous descendons au prochain arrêt."]]}, "en": {"bus": ["Find the Right Bus", "Practice choosing the bus that goes where you want to go.", ["Which bus goes downtown?", "Bus number 22 goes downtown.", "That is our bus.", "Let's get on the bus."]], "map": ["Read the Route Map", "Use the map to talk about routes and destinations.", ["Look at the route map.", "Where is Central Station?", "This route goes downtown.", "The park is on this route."]], "pass": ["Use a Bus Pass", "Practice useful words for tickets and bus passes.", ["I have a bus pass.", "I need a ticket, please.", "Here is my pass.", "How much is the ride?"]], "directions": ["Ask for Directions", "Practice asking where to go in the city.", ["How do I get to City Park?", "Where is Central Station?", "Go toward downtown.", "Main Street is over there."]], "waiting": ["Wait for the Bus", "Practice sentences you can use while waiting at a bus stop.", ["We are waiting for the bus.", "When does bus 22 arrive?", "The bus is coming now.", "Let's wait here."]], "stop": ["Get Off Downtown", "Practice asking about your stop and destination.", ["I want to get off downtown.", "Is this my stop?", "Please tell me when we reach downtown.", "We get off at the next stop."]]}, "de": {"bus": ["Den richtigen Bus finden", "Übe, den Bus zu wählen, der zu deinem Ziel fährt.", ["Welcher Bus fährt ins Stadtzentrum?", "Bus Nummer zweiundzwanzig fährt ins Stadtzentrum.", "Das ist unser Bus.", "Steigen wir in den Bus ein."]], "map": ["Den Linienplan lesen", "Nutze den Plan, um über Routen und Ziele zu sprechen.", ["Schau auf den Linienplan.", "Wo ist der Hauptbahnhof?", "Diese Linie fährt ins Stadtzentrum.", "Der Park liegt an dieser Linie."]], "pass": ["Eine Busfahrkarte benutzen", "Übe nützliche Wörter für Fahrkarten und Pässe.", ["Ich habe eine Busfahrkarte.", "Ich brauche eine Fahrkarte, bitte.", "Hier ist meine Fahrkarte.", "Wie viel kostet die Fahrt?"]], "directions": ["Nach dem Weg fragen", "Übe, in der Stadt nach dem Weg zu fragen.", ["Wie komme ich zum Stadtpark?", "Wo ist der Hauptbahnhof?", "Gehen Sie in Richtung Stadtzentrum.", "Die Hauptstraße ist dort drüben."]], "waiting": ["Auf den Bus warten", "Übe Sätze für die Bushaltestelle.", ["Wir warten auf den Bus.", "Wann kommt Bus zweiundzwanzig?", "Der Bus kommt jetzt.", "Warten wir hier."]], "stop": ["Im Stadtzentrum aussteigen", "Übe Fragen zu deiner Haltestelle und deinem Ziel.", ["Ich möchte im Stadtzentrum aussteigen.", "Ist das meine Haltestelle?", "Sagen Sie mir bitte, wenn wir das Stadtzentrum erreichen.", "Wir steigen an der nächsten Haltestelle aus."]]}, "it": {"bus": ["Trova l'autobus giusto", "Esercitati a scegliere l'autobus che va alla tua destinazione.", ["Quale autobus va in centro?", "L'autobus numero ventidue va in centro.", "Quello è il nostro autobus.", "Saliamo sull'autobus."]], "map": ["Leggi la mappa delle linee", "Usa la mappa per parlare di percorsi e destinazioni.", ["Guarda la mappa delle linee.", "Dov'è la stazione centrale?", "Questa linea va in centro.", "Il parco è su questa linea."]], "pass": ["Usa un pass dell'autobus", "Esercitati con parole utili per biglietti e pass.", ["Ho un pass dell'autobus.", "Mi serve un biglietto, per favore.", "Ecco il mio pass.", "Quanto costa il viaggio?"]], "directions": ["Chiedi indicazioni", "Esercitati a chiedere come arrivare in città.", ["Come arrivo al parco cittadino?", "Dov'è la stazione centrale?", "Vada verso il centro.", "La via principale è laggiù."]], "waiting": ["Aspetta l'autobus", "Esercitati con frasi utili alla fermata.", ["Stiamo aspettando l'autobus.", "Quando arriva l'autobus ventidue?", "L'autobus sta arrivando.", "Aspettiamo qui."]], "stop": ["Scendi in centro", "Esercitati a parlare della tua fermata e destinazione.", ["Voglio scendere in centro.", "È questa la mia fermata?", "Mi dica quando arriviamo in centro, per favore.", "Scendiamo alla prossima fermata."]]}, "pt": {"bus": ["Encontre o ônibus certo", "Pratique como escolher o ônibus que vai ao seu destino.", ["Qual ônibus vai para o centro?", "O ônibus número vinte e dois vai para o centro.", "Esse é o nosso ônibus.", "Vamos entrar no ônibus."]], "map": ["Leia o mapa de rotas", "Use o mapa para falar sobre rotas e destinos.", ["Olhe o mapa de rotas.", "Onde fica a estação central?", "Esta rota vai para o centro.", "O parque fica nesta rota."]], "pass": ["Use um passe de ônibus", "Pratique palavras úteis para bilhetes e passes.", ["Tenho um passe de ônibus.", "Preciso de uma passagem, por favor.", "Aqui está meu passe.", "Quanto custa a viagem?"]], "directions": ["Peça informações", "Pratique como perguntar onde ir na cidade.", ["Como chego ao parque da cidade?", "Onde fica a estação central?", "Siga em direção ao centro.", "A rua principal fica ali."]], "waiting": ["Espere o ônibus", "Pratique frases para usar no ponto de ônibus.", ["Estamos esperando o ônibus.", "Quando chega o ônibus vinte e dois?", "O ônibus está chegando agora.", "Vamos esperar aqui."]], "stop": ["Desça no centro", "Pratique como falar sobre seu ponto e destino.", ["Quero descer no centro.", "Este é o meu ponto?", "Avise-me quando chegarmos ao centro, por favor.", "Descemos no próximo ponto."]]}, "no": {"bus": ["Finn riktig buss", "Øv på å velge bussen som går dit du skal.", ["Hvilken buss går til sentrum?", "Buss nummer tjueto går til sentrum.", "Det er bussen vår.", "La oss gå på bussen."]], "map": ["Les rutekartet", "Bruk kartet til å snakke om ruter og reisemål.", ["Se på rutekartet.", "Hvor er sentralstasjonen?", "Denne ruten går til sentrum.", "Parken ligger på denne ruten."]], "pass": ["Bruk et busskort", "Øv på nyttige ord for billetter og busskort.", ["Jeg har et busskort.", "Jeg trenger en billett, takk.", "Her er busskortet mitt.", "Hvor mye koster turen?"]], "directions": ["Spør om veien", "Øv på å spørre hvordan du kommer deg rundt i byen.", ["Hvordan kommer jeg til byparken?", "Hvor er sentralstasjonen?", "Gå mot sentrum.", "Hovedgaten er der borte."]], "waiting": ["Vent på bussen", "Øv på setninger du kan bruke på bussholdeplassen.", ["Vi venter på bussen.", "Når kommer buss tjueto?", "Bussen kommer nå.", "La oss vente her."]], "stop": ["Gå av i sentrum", "Øv på å spørre om holdeplassen og reisemålet ditt.", ["Jeg vil gå av i sentrum.", "Er dette holdeplassen min?", "Si fra når vi kommer til sentrum, takk.", "Vi går av på neste holdeplass."]]}};
+const WORDS={"es": {"routemap": ["El mapa de rutas.", "The route map."], "busstop": ["La parada de autobús.", "The bus stop."], "bus": ["El autobús.", "The bus."], "buspass": ["El pase de autobús.", "The bus pass."], "trafficlight": ["El semáforo.", "The traffic light."], "mainstreet": ["La calle principal.", "Main Street."], "directions": ["El letrero de direcciones.", "The direction sign."], "crosswalk": ["El paso de peatones.", "The crosswalk."], "walksignal": ["La señal peatonal.", "The walk signal."], "shelter": ["La marquesina de autobús.", "The bus shelter."], "downtown": ["El centro.", "Downtown."], "cafe": ["El café.", "The café."]}, "fr": {"routemap": ["Le plan des lignes.", "The route map."], "busstop": ["L'arrêt de bus.", "The bus stop."], "bus": ["Le bus.", "The bus."], "buspass": ["Le pass de bus.", "The bus pass."], "trafficlight": ["Le feu de circulation.", "The traffic light."], "mainstreet": ["La rue principale.", "Main Street."], "directions": ["Le panneau de direction.", "The direction sign."], "crosswalk": ["Le passage piéton.", "The crosswalk."], "walksignal": ["Le signal piéton.", "The walk signal."], "shelter": ["L'abribus.", "The bus shelter."], "downtown": ["Le centre-ville.", "Downtown."], "cafe": ["Le café.", "The café."]}, "en": {"routemap": ["The route map.", "The route map."], "busstop": ["The bus stop.", "The bus stop."], "bus": ["The bus.", "The bus."], "buspass": ["The bus pass.", "The bus pass."], "trafficlight": ["The traffic light.", "The traffic light."], "mainstreet": ["Main Street.", "Main Street."], "directions": ["The direction sign.", "The direction sign."], "crosswalk": ["The crosswalk.", "The crosswalk."], "walksignal": ["The walk signal.", "The walk signal."], "shelter": ["The bus shelter.", "The bus shelter."], "downtown": ["Downtown.", "Downtown."], "cafe": ["The café.", "The café."]}, "de": {"routemap": ["Der Linienplan.", "The route map."], "busstop": ["Die Bushaltestelle.", "The bus stop."], "bus": ["Der Bus.", "The bus."], "buspass": ["Die Busfahrkarte.", "The bus pass."], "trafficlight": ["Die Ampel.", "The traffic light."], "mainstreet": ["Die Hauptstraße.", "Main Street."], "directions": ["Das Richtungsschild.", "The direction sign."], "crosswalk": ["Der Zebrastreifen.", "The crosswalk."], "walksignal": ["Das Fußgängersignal.", "The walk signal."], "shelter": ["Das Wartehäuschen.", "The bus shelter."], "downtown": ["Das Stadtzentrum.", "Downtown."], "cafe": ["Das Café.", "The café."]}, "it": {"routemap": ["La mappa delle linee.", "The route map."], "busstop": ["La fermata dell'autobus.", "The bus stop."], "bus": ["L'autobus.", "The bus."], "buspass": ["Il pass dell'autobus.", "The bus pass."], "trafficlight": ["Il semaforo.", "The traffic light."], "mainstreet": ["La via principale.", "Main Street."], "directions": ["Il cartello delle indicazioni.", "The direction sign."], "crosswalk": ["Le strisce pedonali.", "The crosswalk."], "walksignal": ["Il segnale pedonale.", "The walk signal."], "shelter": ["La pensilina.", "The bus shelter."], "downtown": ["Il centro.", "Downtown."], "cafe": ["Il caffè.", "The café."]}, "pt": {"routemap": ["O mapa de rotas.", "The route map."], "busstop": ["O ponto de ônibus.", "The bus stop."], "bus": ["O ônibus.", "The bus."], "buspass": ["O passe de ônibus.", "The bus pass."], "trafficlight": ["O semáforo.", "The traffic light."], "mainstreet": ["A rua principal.", "Main Street."], "directions": ["A placa de direções.", "The direction sign."], "crosswalk": ["A faixa de pedestres.", "The crosswalk."], "walksignal": ["O sinal de pedestres.", "The walk signal."], "shelter": ["O abrigo de ônibus.", "The bus shelter."], "downtown": ["O centro.", "Downtown."], "cafe": ["O café.", "The café."]}, "no": {"routemap": ["Rutekartet.", "The route map."], "busstop": ["Bussholdeplassen.", "The bus stop."], "bus": ["Bussen.", "The bus."], "buspass": ["Busskortet.", "The bus pass."], "trafficlight": ["Trafikklyset.", "The traffic light."], "mainstreet": ["Hovedgaten.", "Main Street."], "directions": ["Retningsskiltet.", "The direction sign."], "crosswalk": ["Fotgjengerfeltet.", "The crosswalk."], "walksignal": ["Gangsignalet.", "The walk signal."], "shelter": ["Busskuret.", "The bus shelter."], "downtown": ["Sentrum.", "Downtown."], "cafe": ["Kafeen.", "The café."]}};
+const busSceneSounds={
+  bus:"sounds/city-bus.mp3",
+  cafe:"sounds/crowd-shopping.mp3"
+};
+let busSceneAudio=null;
+function playBusSceneSound(key){
+  const url=busSceneSounds[key];
+  if(!url)return;
+  if(busSceneAudio){
+    busSceneAudio.pause();
+    busSceneAudio.currentTime=0;
+  }
+  busSceneAudio=new Audio(url);
+  busSceneAudio.volume=.82;
+  busSceneAudio.play().catch(()=>{});
+}
+const challengeOrder=["bus","routemap","buspass","trafficlight","mainstreet","crosswalk"];
+;(()=>{const node=document.getElementById('tb-legacy-challenge-data');let d;try{d=JSON.parse(node.textContent)}catch(e){return}if(!Array.isArray(d.targets)||d.targets.length!==6)return;function refresh(){for(let i=0;i<6;i++)challengeOrder[i]=d.targets[i];document.querySelectorAll('[data-challenge]').forEach(el=>{const i=Number(el.dataset.challenge??el.dataset.ch);if(i>=0&&i<6)el.textContent=(i+1)+'. '+(d.labels[i]||d.targets[i])})}window.tbLegacyChallengeGet=()=>JSON.parse(node.textContent);window.tbLegacyChallengeSet=next=>{d={targets:[...next.targets],labels:[...next.labels]};node.textContent=JSON.stringify(d);refresh();document.querySelectorAll('.directory [data-challenge]').forEach(button=>{const i=Number(button.getAttribute('data-challenge'));if(Number.isInteger(i)&&i>=0&&i<6){button.textContent=(i+1)+'. '+(d.labels[i]||d.targets[i]);button.setAttribute('aria-label',button.textContent)}})};window.tbLegacyChallengeSelector='.hotspot';refresh()})();
+
+let active="bus",index=0,challenge=-1,solved=false,discovery=false,lastSpeech="";
+const $=id=>document.getElementById(id),world=$("world"),title=$("title"),prompt=$("prompt"),line=$("line"),translation=$("translation"),actions=$("actions"),find=$("find"),count=$("count"),status=$("status"),hint=$("hint"),challengeNext=$("challengeNext"),language=$("busLanguage"),voice=$("busVoice");
+language.value=localStorage.getItem("talkabee-learn-language")||"es";
+function lang(){return language.value}
+function selectedVoice(){
+  const vs=speechSynthesis.getVoices()||[];
+  return vs.find(v=>v.voiceURI===voice.value)||null;
+}
+function refreshVoices(){
+  if(!("speechSynthesis" in window))return;
+  const vs=speechSynthesis.getVoices()||[];
+  if(!vs.length)return;
+  const saved=localStorage.getItem("talkabee-bus-voice")||voice.value||"";
+  voice.innerHTML='<option value="">Browser Default</option>';
+  vs.forEach(v=>voice.add(new Option(v.name+" — "+(v.lang||""),v.voiceURI)));
+  if([...voice.options].some(o=>o.value===saved))voice.value=saved;
+}
+function speak(t,slow=false){if(window.tbAdventurePiperSpeak?.(t,(slow ? .68 : .82),null))return;if(!("speechSynthesis" in window))return;speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(t);u.lang=LANGS[lang()];u.rate=slow?.62:.82;let v=selectedVoice();if(v)u.voice=v;lastSpeech=t;speechSynthesis.speak(u)}
+function clearActive(){document.querySelectorAll(".directory button").forEach(b=>b.classList.remove("active"))}
+function render(){let d=LESSONS[lang()][active],en=LESSONS.en[active],x=d[2][index];line.textContent=x;translation.textContent=lang()==="en"?"":en[2][index]}
+function loadLesson(k){world.classList.remove("bus-challenge-mode");active=k;index=0;challenge=-1;discovery=false;solved=false;find.classList.remove("show");actions.style.display="flex";let l=LESSONS[lang()][k];title.textContent=l[0];prompt.textContent=l[1];render();clearActive();document.querySelector('[data-lesson="'+k+'"]').classList.add("active")}
+function loadDiscovery(){world.classList.remove("bus-challenge-mode");challenge=-1;discovery=true;find.classList.remove("show");actions.style.display="none";title.textContent=lang()==="en"?"Click & Discover":{es:"Haz clic y descubre",fr:"Cliquez et découvrez",de:"Klicken & Entdecken",it:"Clicca e scopri",pt:"Clique e descubra",no:"Klikk og oppdag"}[lang()];prompt.textContent="Click objects in the scene to learn their names.";line.textContent="";translation.textContent="";clearActive();document.querySelector("[data-discovery]").classList.add("active")}
+function loadChallenge(i){world.classList.add("bus-challenge-mode");challenge=i;discovery=false;solved=false;actions.style.display="none";find.classList.add("show");let key=challengeOrder[i],x=tbChallengeWord(key);title.textContent="Challenge "+(i+1)+": "+x[0];prompt.textContent="Search the scene and click the correct object.";line.textContent=x[0];translation.textContent=lang()==="en"?"":x[1];document.getElementById("busFindPrompt").textContent=x[0];count.textContent="CHALLENGE "+(i+1)+" OF 6";status.textContent="";hint.textContent="Find the correct object to unlock the next challenge.";challengeNext.textContent=i<5?"Next Challenge →":"Finish Challenges ✓";clearActive();document.querySelector('[data-challenge="'+i+'"]').classList.add("active")}
+document.querySelectorAll("[data-lesson]").forEach(b=>b.onclick=()=>loadLesson(b.dataset.lesson));document.querySelector("[data-discovery]").onclick=loadDiscovery;document.querySelectorAll("[data-challenge]").forEach(b=>b.onclick=()=>loadChallenge(Number(b.dataset.challenge)));
+$("next").onclick=()=>{index=(index+1)%LESSONS[lang()][active][2].length;render()};$("speak").onclick=()=>speak(LESSONS[lang()][active][2][index]);
+function tbChallengeWord(key){
+ const original=WORDS[lang()]&&WORDS[lang()][key];
+ if(original){if(Array.isArray(original))return original;return [String(original),key]}
+ const el=[...document.querySelectorAll('.hotspots .hotspot')].find(h=>h.dataset.word===key);
+ const en=el?.dataset.tbEn||key;
+ const translated=lang()==='en'?en:(el?.dataset['tb'+lang().charAt(0).toUpperCase()+lang().slice(1)]||en);
+ return [translated,en];
+}
+document.querySelector(".hotspots").addEventListener("click",event=>{
+ const b=event.target.closest(".hotspot");if(!b)return;
+ let key=b.dataset.word,x=tbChallengeWord(key);playBusSceneSound(key);
+ if(challenge>=0){
+   if(key===challengeOrder[challenge]){
+     solved=true;status.textContent="✓ "+x[0]+" "+(lang()==="en"?"":x[1]);
+     status.style.color="#a5ffd0";hint.textContent="Challenge complete. Move to the next one.";
+   }else{
+     status.textContent="Not that one — keep looking.";status.style.color="#85580f";
+   }
+   speak(x[0]);return;
+ }
+ if(discovery){
+   title.textContent=lang()==="en"?"Click & Discover":"Discovery";
+   prompt.textContent="You found something in the scene.";
+   line.textContent=x[0];translation.textContent=lang()==="en"?"":x[1];
+ }
+ speak(x[0]);
+});
+challengeNext.onclick=()=>{if(!solved){status.textContent="Find the correct object first.";status.style.color="#85580f";return}if(challenge<5)loadChallenge(challenge+1);else{status.textContent="🏁 You completed all 6 City Bus challenges!";status.style.color="#a5ffd0";hint.textContent="Great job getting around town."}};
+$("sceneView").onclick=()=>world.classList.add("scene-only");$("restorePanel").onclick=()=>world.classList.remove("scene-only");
+language.onchange=()=>{localStorage.setItem("talkabee-learn-language",lang());refreshVoices();if(discovery)loadDiscovery();else if(challenge>=0)loadChallenge(challenge);else loadLesson(active)};voice.onchange=()=>localStorage.setItem("talkabee-bus-voice",voice.value);
+if("speechSynthesis" in window){speechSynthesis.onvoiceschanged=refreshVoices;refreshVoices();setTimeout(refreshVoices,150);setTimeout(refreshVoices,600);setTimeout(refreshVoices,1500)}loadLesson("bus")})();</script><script id="talkabee-literal-master-behavior">
+(function(){
+ function cleanActivityIcons(){
+  document.querySelectorAll('.tab-master-panel button').forEach(function(b){
+   if(b.matches('[data-lesson],[data-activity],[data-act],.activity,[data-train-activity],[data-home-activity]')){
+    b.innerHTML=b.innerHTML.replace(/(^\s*\d+\.\s*)(?:<[^>]+>\s*)?[\u{1F000}-\u{1FAFF}\u2600-\u27BF]\uFE0F?\s*/u,'$1');
+   }
+  });
+ }
+ function moveHomeToBottom(){
+  var p=document.querySelector('.tab-master-panel'); if(!p)return;
+  var links=[].slice.call(p.querySelectorAll('a[href="index.html"],a[href$="/index.html"]'));
+  links.forEach(function(a){p.appendChild(a)});
+ }
+ function labels(){
+  document.querySelectorAll('.tab-master-card button').forEach(function(b){
+   var t=b.textContent.trim();
+   if(/normal/i.test(t)) b.textContent='🔊 Speak';
+   if(/^next\s*(line|phrase)?/i.test(t)) b.textContent='Next phrase →';
+  });
+ }
+ function run(){cleanActivityIcons();moveHomeToBottom();labels()}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',run);else run();
+})();
+</script>
+
+<link rel="stylesheet" href="css/common-inline-0d6913d7d62e.css" id="talkabee-rendered-card-footprint-lock">
+<!-- Talk A Bee global browser-voice bridge -->
+<script src="js/talkabee-global-voice-sync.js"></script>
+
+<script id="talkabee-ensure-card-tools">
+(function(){
+  const card=document.querySelector('.tab-master-card,.live-card,.script,.card');
+  if(!card)return;
+
+  /* Remove a misplaced/duplicate tool set, if one exists outside the real card. */
+  document.querySelectorAll('.tab-card-tools,.tab-card-resize').forEach(el=>{
+    if(!card.contains(el)) el.remove();
+  });
+
+  if(!card.querySelector('.tab-card-tools')){
+    const tools=document.createElement('div');
+    tools.className='tab-card-tools';
+    tools.setAttribute('aria-label','Script card controls');
+    tools.innerHTML='<button type="button" class="tab-card-drag" title="Move script card">↕ Move</button><button type="button" class="tab-card-font-down" title="Decrease text">A−</button><button type="button" class="tab-card-font-up" title="Increase text">A+</button><button type="button" class="tab-card-reset" title="Reset card">Reset</button>';
+    card.insertBefore(tools,card.firstChild);
+  }
+  if(!card.querySelector('.tab-card-resize')){
+    const resize=document.createElement('div');
+    resize.className='tab-card-resize';
+    resize.title='Drag to resize script card';
+    resize.setAttribute('aria-label','Resize script card');
+    resize.textContent='↘';
+    card.appendChild(resize);
+  }
+})();
+</script>
+
+<style id="talkabee-approved-farm-card-20261010">
+/* Talk A Bee — approved Animals Farm readability, 2026-10-10.
+   Card-only overrides: do not alter hotspots, editors, or Activity Panel. */
+.tab-master-card:not(.live-card){
+ width:575px!important;max-width:575px!important;
+ height:auto!important;min-height:0!important;
+ background:rgba(25,19,24,.20)!important;
+ background-color:rgba(25,19,24,.20)!important;
+ backdrop-filter:blur(2px)!important;-webkit-backdrop-filter:blur(2px)!important;
+ border:1px solid rgba(255,255,255,.30)!important;
+ box-sizing:border-box!important;
+}
+.tab-master-card:not(.live-card) :is(h1,h2,#title,#cardTitle,#homeTitle,#yachtTitle,#trainTitle){font-size:32px!important;line-height:1.15!important;}
+.tab-master-card:not(.live-card) :is(#prompt,#homePrompt,#yachtPrompt,#trainPrompt,p:not(.status),.prompt){font-size:24px!important;line-height:1.28!important;}
+.tab-master-card:not(.live-card) :is(.line,.word,.words,.wordline,.home-wordline,.train-line,.yacht-wordline,#line){font-size:28px!important;line-height:1.25!important;}
+.tab-master-card:not(.live-card) :is(.translation,.home-translation,.train-translation,.yacht-translation,#translation){font-size:22px!important;line-height:1.3!important;}
+.tab-master-card:not(.live-card) :is(.kicker,.label,.home-kicker,.train-kicker,.yacht-kicker){font-size:15px!important;line-height:1.2!important;}
+.tab-master-card:not(.live-card) :is(.status,.hint,.tip,.count,#status){font-size:18px!important;line-height:1.25!important;}
+.tab-master-card:not(.live-card) :is(.actions,.controls,.home-actions,.train-actions,.yacht-actions) button{font-size:18px!important;line-height:1.2!important;padding:9px 13px!important;min-height:38px!important;}
+.tab-master-card:not(.live-card) .tab-card-tools button{font-size:18px!important;padding:7px 11px!important;}
+@media(max-width:760px){
+ .tab-master-card:not(.live-card){width:min(575px,calc(100vw - 32px))!important;max-width:calc(100vw - 32px)!important;max-height:calc(100vh - 20px)!important;overflow:auto!important;}
+ .tab-master-card:not(.live-card) :is(.actions,.controls,.home-actions,.train-actions,.yacht-actions){flex-wrap:wrap!important;}
+}
+</style>
+<script id="talkabee-accessibility-controls-script-v1">
+(function(){
+ const panel=document.querySelector('.tab-master-panel,.activity-panel,.panel');
+ if(panel){
+  const minus=panel.querySelector('.tab-panel-minus'),plus=panel.querySelector('.tab-panel-plus'),reset=panel.querySelector('.tab-panel-reset');
+  const KEY='talkabee-global-activity-panel-size',DEFAULT=195,MIN=170,MAX=310,STEP=20;
+  const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+  const apply=(width,save=true)=>{width=clamp(Math.round(Number(width)||DEFAULT),MIN,MAX);selectedPanelWidth=width;const scale=clamp(width/DEFAULT,.88,1.42);panel.style.setProperty('width',width+'px','important');panel.style.setProperty('min-width',width+'px','important');panel.style.setProperty('max-width',width+'px','important');panel.style.setProperty('--tab-panel-scale',scale.toFixed(3));if(save)try{localStorage.setItem(KEY,String(width))}catch(e){}};
+  let selectedPanelWidth=DEFAULT; const current=()=>selectedPanelWidth;
+  if(minus)minus.addEventListener('click',()=>apply(current()-STEP));
+  if(plus)plus.addEventListener('click',()=>apply(current()+STEP));
+  if(reset)reset.addEventListener('click',()=>{apply(DEFAULT,false);try{localStorage.removeItem(KEY)}catch(e){}});
+  try{const saved=localStorage.getItem(KEY);if(saved)apply(saved,false)}catch(e){}
+ }
+
+ const card=document.querySelector('.tab-master-card,.script,.card');
+ if(!card)return;
+ const drag=card.querySelector('.tab-card-drag'),down=card.querySelector('.tab-card-font-down'),up=card.querySelector('.tab-card-font-up'),reset=card.querySelector('.tab-card-reset'),resize=card.querySelector('.tab-card-resize');
+ const PK='talkabee-global-script-card-position',SK='talkabee-global-script-card-scale',FK='talkabee-global-script-card-font-scale';
+ const pageKey=(location.pathname.split('/').pop()||'adventure').replace(/[^a-z0-9-]/gi,'_');
+ const WK='talkabee-script-card-width-'+pageKey,HK='talkabee-script-card-height-'+pageKey;
+ const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+ const defaultScale=()=>matchMedia('(max-width:760px)').matches?.82:.67;
+ let scale=defaultScale(),fontScale=1,dragState=null;
+ // Capture actual rendered font sizes, even on Adventures with older card markup.
+ // Never modify the Move / A- / A+ / Reset controls or resize handle.
+ const textNodes=Array.from(card.querySelectorAll('*')).filter(el=>{
+   if(el.closest('.tab-card-tools,.tab-card-resize'))return false;
+   if(el.matches('script,style,svg,path,select,input,textarea'))return false;
+   return Array.from(el.childNodes).some(n=>n.nodeType===3&&n.textContent.trim());
+ });
+ textNodes.forEach(el=>{el.style.removeProperty("font-size");el.dataset.baseFont=getComputedStyle(el).fontSize});
+ function applyBox(width,height,save=true){
+   card.style.setProperty('width',width+'px','important');
+   card.style.setProperty('max-width','none','important');
+   card.style.setProperty('min-width','0','important');
+   card.style.setProperty('min-height',height+'px','important');
+   card.style.setProperty('max-height','none','important');
+   card.style.setProperty('overflow','auto','important');
+   if(save)try{localStorage.setItem(WK,String(width));localStorage.setItem(HK,String(height))}catch(e){}
+ }
+
+ function applyTransform(){
+   if(card.dataset.moved==='1'){
+     card.style.setProperty('transform-origin','top left','important');
+     card.style.setProperty('transform','scale('+scale+')','important');
+   }else{
+     card.style.removeProperty('transform-origin');
+     card.style.removeProperty('transform');
+   }
+ }
+ function applyFont(v,save=true){
+   fontScale=clamp(Number(v)||1,.75,1.6);
+   card.style.setProperty('--tab-card-font-scale',fontScale.toFixed(2));
+   textNodes.forEach(el=>el.style.setProperty('font-size',(parseFloat(el.dataset.baseFont)*fontScale)+'px','important'));
+   if(save)try{localStorage.setItem(FK,String(fontScale))}catch(e){}
+ }
+ function saveState(){
+   try{
+     localStorage.setItem(SK,String(scale));
+     if(card.dataset.moved==='1'){
+       localStorage.setItem(PK,JSON.stringify({left:parseFloat(card.style.left)||card.getBoundingClientRect().left,top:parseFloat(card.style.top)||card.getBoundingClientRect().top}));
+     }
+   }catch(e){}
+ }
+ function restore(){
+   try{
+     const fs=localStorage.getItem(FK); if(fs)applyFont(fs,false);
+     // Older A+/A- controls stored a whole-card zoom. Ignore that legacy value.
+      const ww=parseFloat(localStorage.getItem(WK)),hh=parseFloat(localStorage.getItem(HK));
+      if(ww&&hh)applyBox(ww,hh,false);
+     const ps=JSON.parse(localStorage.getItem(PK)||'null');
+     if(ps&&innerWidth>760){
+       card.dataset.moved='1';
+       card.style.setProperty('left',clamp(ps.left,8,innerWidth-80)+'px','important');
+       card.style.setProperty('top',clamp(ps.top,8,innerHeight-80)+'px','important');
+       card.style.setProperty('right','auto','important');
+       card.style.setProperty('bottom','auto','important');
+       applyTransform();
+     }
+   }catch(e){}
+ }
+
+ if(down)down.addEventListener('click',()=>applyFont(fontScale-.1));
+ if(up)up.addEventListener('click',()=>applyFont(fontScale+.1));
+
+ if(reset)reset.addEventListener('click',()=>{
+   try{localStorage.removeItem(PK);localStorage.removeItem(SK);localStorage.removeItem(FK);localStorage.removeItem(WK);localStorage.removeItem(HK)}catch(e){}
+   scale=defaultScale();fontScale=1;
+   delete card.dataset.moved;
+   ['width','height','left','top','right','bottom','transform','transform-origin','min-width','max-width','min-height','max-height'].forEach(p=>card.style.removeProperty(p));
+   applyFont(1,false);
+ });
+
+ function startDrag(e){
+   if(innerWidth<=760 || (typeof e.button==='number'&&e.button!==0))return;
+   if(e.target.closest('.tab-card-resize,.tab-card-font-down,.tab-card-font-up,.tab-card-reset,a,input,select,textarea'))return;
+   if(e.target.closest('button') && !e.target.closest('.tab-card-drag'))return;
+   e.preventDefault();
+   const r=card.getBoundingClientRect();
+   // Convert the visual top-left to fixed coordinates, while keeping the exact current scale.
+   card.dataset.moved='1';
+   card.style.setProperty('left',r.left+'px','important');
+   card.style.setProperty('top',r.top+'px','important');
+   card.style.setProperty('right','auto','important');
+   card.style.setProperty('bottom','auto','important');
+   applyTransform();
+   dragState={id:e.pointerId,sx:e.clientX,sy:e.clientY,left:r.left,top:r.top,w:r.width,h:r.height};
+   try{card.setPointerCapture(e.pointerId)}catch(_){}
+ }
+ function moveDrag(e){
+   if(!dragState||e.pointerId!==dragState.id)return;
+   e.preventDefault();
+   const x=clamp(dragState.left+e.clientX-dragState.sx,8,Math.max(8,innerWidth-dragState.w-8));
+   const y=clamp(dragState.top+e.clientY-dragState.sy,8,Math.max(8,innerHeight-dragState.h-8));
+   card.style.setProperty('left',x+'px','important');
+   card.style.setProperty('top',y+'px','important');
+ }
+ function endDrag(e){
+   if(!dragState||e.pointerId!==dragState.id)return;
+   dragState=null; saveState();
+   try{card.releasePointerCapture(e.pointerId)}catch(_){}
+ }
+
+ // Drag from the Move button OR any non-interactive empty area of the card.
+ /* City Bus card surface drag handled by dedicated controller below. */
+ card.addEventListener('pointermove',moveDrag);
+ card.addEventListener('pointerup',endDrag);
+ card.addEventListener('pointercancel',endDrag);
+
+ // Resize only the card's dimensions. The text and visual scale remain unchanged.
+ if(resize)resize.addEventListener('pointerdown',e=>{
+   if(innerWidth<=760)return;
+   e.preventDefault();e.stopPropagation();
+   const sx=e.clientX,sy=e.clientY,baseW=parseFloat(getComputedStyle(card).width),baseH=parseFloat(getComputedStyle(card).height);
+   const effectiveScale=card.getBoundingClientRect().width/baseW||defaultScale();
+   resize.setPointerCapture(e.pointerId);
+   const mv=ev=>{const width=clamp(baseW+(ev.clientX-sx)/effectiveScale,320,Math.max(520,innerWidth/effectiveScale-50));const height=clamp(baseH+(ev.clientY-sy)/effectiveScale,120,Math.max(250,innerHeight/effectiveScale-40));applyBox(width,height,false)};
+   const end=()=>{resize.removeEventListener('pointermove',mv);resize.removeEventListener('pointerup',end);resize.removeEventListener('pointercancel',end);applyBox(parseFloat(getComputedStyle(card).width),parseFloat(getComputedStyle(card).minHeight),true)};
+   resize.addEventListener('pointermove',mv);resize.addEventListener('pointerup',end);resize.addEventListener('pointercancel',end);
+ });
+
+ restore();
+})();
+</script>
+<script id="talkabee-hotspot-custom-sound">
+(function(){
+ if(window.__talkabeeHotspotCustomSound)return;window.__talkabeeHotspotCustomSound=true;
+ const SEL='.hotspot,.home-hotspot,.yacht-hotspot,.hotspots button,.train-hotspots button';
+ let timer=0,current=null;
+ function stop(){clearTimeout(timer);if(current){try{current.pause();current.currentTime=0}catch(e){}current=null}}
+ document.addEventListener('click',function(ev){
+  if(document.body.classList.contains('tb-hs-editing'))return;
+  const h=ev.target.closest&&ev.target.closest(SEL);if(!h||!h.dataset.sound)return;
+  stop();const src=h.dataset.sound;
+  // Keep Talk A Bee order: translated object speech first, then the real sound.
+  timer=setTimeout(function(){const a=new Audio(src);current=a;a.play().catch(()=>{});a.onended=function(){if(current===a)current=null}},1500);
+ },false);
+})();
+</script>
+<script id="talkabee-new-hotspot-language-bridge" src="js/talkabee-common-061ada9dc93c.js"></script>
+<script id="talkabee-new-hotspot-live-click">
+(()=>{
+if(window.__tbNewHotspotLiveClick)return;window.__tbNewHotspotLiveClick=true;
+const codes={es:'es-ES',fr:'fr-FR',en:'en-US',de:'de-DE',it:'it-IT',pt:'pt-PT',no:'nb-NO',el:'el-GR'};
+let currentSound=null, soundTimer=null;
+function lang(){try{return document.querySelector('[id$="Language"]')?.value||localStorage.getItem('talkabee-learn-language')||'en'}catch(e){return 'en'}}
+function translation(el,l){const en=el.dataset.tbEn||el.dataset.en||el.dataset.word||el.dataset.object||'';return l==='en'?en:(el.dataset['tb'+l.charAt(0).toUpperCase()+l.slice(1)]||en)}
+function soundAfterVoice(el){
+ clearTimeout(soundTimer);
+ if(currentSound){try{currentSound.pause();currentSound.currentTime=0}catch(e){}currentSound=null}
+ const path=(el.getAttribute('data-sound')||'').trim();if(!path)return;
+ // The editor stores a path relative to the HTML page. Use that exact saved path.
+ soundTimer=setTimeout(()=>{try{const audio=new Audio(path);currentSound=audio;audio.play().catch(e=>console.warn('Talk A Bee sound could not play:',path,e));audio.onended=()=>{if(currentSound===audio)currentSound=null}}catch(e){console.warn('Talk A Bee sound error:',path,e)}},1500);
+}
+document.addEventListener('click',function(ev){
+ if(document.body.classList.contains('tb-hs-editing'))return;
+ const el=ev.target.closest&&ev.target.closest('[data-tb-custom="1"]');if(!el)return;
+ // Let clicks reach the Adventure Challenge checker, including newly added hotspots.
+ ev.preventDefault();
+ const l=lang(),txt=translation(el,l),en=translation(el,'en'),key=el.dataset.word||el.dataset.object||en;
+ try{if(typeof showWord==='function')showWord(key);else{const line=document.querySelector('[id$="Line"]');const trans=document.querySelector('[id$="Translation"]');if(line)line.textContent=txt;if(trans)trans.textContent=l==='en'?'':en}}catch(e){}
+ // Speech is handled by the Adventure hotspot click listener.
+ // Always schedule assigned MP3, regardless of which speech function exists.
+ soundAfterVoice(el);
+},true);
+})();
+</script>
+<script id="talkabee-hotspot-editor-v10">
+(()=>{
+const SEL='.hotspot,.home-hotspot,.yacht-hotspot,.hotspots button,.train-hotspots button';
+let editing=false,active=null,adding=false,pendingName='',pendingTranslations=null;
+let selectedSoundFile=null;
+const all=()=>[...document.querySelectorAll(SEL)].filter(x=>!x.closest('#tb-hs-editor'));
+function parentFor(el){return el.offsetParent||el.parentElement||document.body}
+function pct(v,n){return +(v/n*100).toFixed(2)}
+function cleanActive(){if(active){active.classList.remove('tb-hs-active');active.querySelector(':scope > .tb-hs-handle')?.remove()} active=null}
+function select(el){if(!editing||!el)return;cleanActive();active=el;el.classList.add('tb-hs-active');let h=document.createElement('span');h.className='tb-hs-handle';el.appendChild(h);updateSoundUI()}
+function semanticNew(name){
+ const existing=all()[0]; if(!existing)return null;
+ const el=document.createElement('button');el.type='button';
+ if(existing.classList.contains('home-hotspot')){el.className='home-hotspot show'}
+ else if(existing.classList.contains('yacht-hotspot')){el.className='yacht-hotspot'}
+ else if(existing.classList.contains('hotspot')){el.className='hotspot'}
+ else if(existing.className)el.className=existing.className;
+ if(existing.hasAttribute('data-object'))el.dataset.object=name;else el.dataset.word=name;
+ if(existing.hasAttribute('data-en'))el.dataset.en=name;
+ if(existing.id&&!existing.hasAttribute('data-word')&&!existing.hasAttribute('data-object'))el.id=name.toLowerCase().replace(/[^a-z0-9_-]+/g,'-').replace(/^-+|-+$/g,'');
+ el.setAttribute('aria-label',name);if(pendingTranslations&&window.TB_registerNewHotspot)window.TB_registerNewHotspot(el,pendingTranslations);
+ return el
+}
+function hotspotContainer(){const e=all()[0];return e?e.parentElement:null}
+function placeAt(ev){
+ if(!editing||!adding)return;
+ const host=hotspotContainer();if(!host)return;
+ const el=semanticNew(pendingName);if(!el)return;
+ host.appendChild(el);
+ const r=parentFor(el).getBoundingClientRect();
+ el.style.left=pct(ev.clientX-r.left,r.width)+'%';el.style.top=pct(ev.clientY-r.top,r.height)+'%';el.style.width='6%';el.style.height='8%';
+ adding=false;pendingName='';pendingTranslations=null;nameBox.value='';select(el);ev.preventDefault();ev.stopPropagation();
+}
+function startDrag(ev,el){
+ if(!editing||adding)return; if(ev.target.classList.contains('tb-hs-handle'))return;
+ select(el);ev.preventDefault();ev.stopPropagation();
+ const p=parentFor(el),r=p.getBoundingClientRect();let sx=ev.clientX,sy=ev.clientY;
+ let l=parseFloat(el.style.left)||pct(el.offsetLeft,r.width),t=parseFloat(el.style.top)||pct(el.offsetTop,r.height);
+ const move=e=>{el.style.left=(l+(e.clientX-sx)/r.width*100).toFixed(2)+'%';el.style.top=(t+(e.clientY-sy)/r.height*100).toFixed(2)+'%'};
+ const up=()=>{window.removeEventListener('pointermove',move,true);window.removeEventListener('pointerup',up,true)};
+ window.addEventListener('pointermove',move,true);window.addEventListener('pointerup',up,true)
+}
+function startResize(ev,el){
+ if(!editing)return;ev.preventDefault();ev.stopPropagation();
+ const p=parentFor(el),r=p.getBoundingClientRect();let sx=ev.clientX,sy=ev.clientY;
+ let w=parseFloat(el.style.width)||pct(el.offsetWidth,r.width),h=parseFloat(el.style.height)||pct(el.offsetHeight,r.height);
+ const move=e=>{el.style.width=Math.max(1,w+(e.clientX-sx)/r.width*100).toFixed(2)+'%';el.style.height=Math.max(1,h+(e.clientY-sy)/r.height*100).toFixed(2)+'%'};
+ const up=()=>{window.removeEventListener('pointermove',move,true);window.removeEventListener('pointerup',up,true)};
+ window.addEventListener('pointermove',move,true);window.addEventListener('pointerup',up,true)
+}
+function soundPath(el){return el&&el.dataset?String(el.dataset.sound||'').trim():''}
+function soundLabel(path){return path?path.split('/').pop():'No sound'}
+function updateSoundUI(){if(typeof soundName==='undefined')return;const p=soundPath(active);soundName.textContent=active?soundLabel(p):'Select a hotspot';removeSound.disabled=testSound.disabled=!active||!p;chooseSound.disabled=!active}
+function stopEditorPreview(){if(window.__tbHsPreview){try{window.__tbHsPreview.pause();window.__tbHsPreview.currentTime=0}catch(e){}window.__tbHsPreview=null}}
+function previewSound(){if(!active)return;stopEditorPreview();let src='';if(selectedSoundFile&&soundPath(active)==='sounds/'+selectedSoundFile.name)src=URL.createObjectURL(selectedSoundFile);else src=soundPath(active);if(!src)return;const a=new Audio(src);window.__tbHsPreview=a;a.play().catch(()=>{});a.onended=()=>{if(src.startsWith('blob:'))URL.revokeObjectURL(src);if(window.__tbHsPreview===a)window.__tbHsPreview=null}}
+function assignSoundFile(file){if(!active||!file)return;selectedSoundFile=file;active.dataset.sound='sounds/'+file.name;updateSoundUI();previewSound()}
+function removeAssignedSound(){if(!active)return;stopEditorPreview();active.removeAttribute('data-sound');selectedSoundFile=null;updateSoundUI()}
+const bar=document.createElement('div');bar.id='tb-hs-editor';
+const edit=document.createElement('button');edit.textContent='Edit Hotspots';
+const nameBox=document.createElement('input');nameBox.placeholder='hotspot name';
+const add=document.createElement('button');add.textContent='Add Hotspot';
+const del=document.createElement('button');del.textContent='Delete Hotspot';
+const save=document.createElement('button');save.textContent='Save Working HTML';
+const exportServer=document.createElement('button');exportServer.textContent='Export Server HTML';
+const soundFile=document.createElement('input');soundFile.type='file';soundFile.accept='audio/*,.mp3,.wav,.ogg,.m4a';soundFile.className='tb-sound-file';
+const chooseSound=document.createElement('button');chooseSound.textContent='Choose Sound';chooseSound.disabled=true;
+const testSound=document.createElement('button');testSound.textContent='Test Sound';testSound.disabled=true;
+const removeSound=document.createElement('button');removeSound.textContent='Remove Sound';removeSound.disabled=true;
+const soundName=document.createElement('span');soundName.className='tb-sound-name';soundName.textContent='Select a hotspot';
+bar.append(edit,nameBox,add,del,chooseSound,testSound,removeSound,soundName,save,exportServer,soundFile);document.body.appendChild(bar);nameBox.style.display=add.style.display=del.style.display=chooseSound.style.display=testSound.style.display=removeSound.style.display=soundName.style.display=save.style.display=exportServer.style.display='none';
+chooseSound.onclick=()=>{if(active){soundFile.value='';soundFile.click()}};
+soundFile.onchange=()=>{const f=soundFile.files&&soundFile.files[0];if(f)assignSoundFile(f)};
+testSound.onclick=previewSound;
+removeSound.onclick=removeAssignedSound;
+edit.onclick=()=>{editing=!editing;document.body.classList.toggle('tb-hs-editing',editing);edit.textContent=editing?'Exit Editor':'Edit Hotspots';nameBox.style.display=add.style.display=del.style.display=chooseSound.style.display=testSound.style.display=removeSound.style.display=soundName.style.display=save.style.display=exportServer.style.display=editing?'':'none';if(!editing){adding=false;stopEditorPreview();cleanActive()}updateSoundUI()};
+add.onclick=async()=>{if(!editing)return;const n=(nameBox.value||'').trim().toLowerCase().replace(/\s+/g,' ');if(!n){nameBox.focus();return}pendingName=n;add.disabled=true;const oldText=add.textContent;add.textContent='Translating...';try{pendingTranslations=window.TB_prepareNewHotspotTranslations?await window.TB_prepareNewHotspotTranslations(n):{en:n}}catch(e){pendingTranslations={en:n}}finally{add.disabled=false;add.textContent=oldText}adding=true;cleanActive()};
+del.onclick=()=>{if(active){stopEditorPreview();active.remove();active=null;selectedSoundFile=null;updateSoundUI()}};
+function downloadableClone(stripEditor){
+ const clone=document.documentElement.cloneNode(true);
+ const challengeData=document.getElementById('tb-legacy-challenge-data');
+ if(challengeData){try{const data=JSON.parse(challengeData.textContent);clone.querySelectorAll('.directory [data-challenge]').forEach(button=>{const i=Number(button.getAttribute('data-challenge'));if(i>=0&&i<6)button.textContent=(i+1)+'. '+(data.labels[i]||data.targets[i])})}catch(e){}}
+ clone.querySelector('#tb-hs-editor')?.remove();
+ clone.querySelectorAll('#talkabee-object-popup').forEach(function(n){n.remove()});clone.querySelectorAll('#tb-legacy-challenge-panel,#tb-legacy-challenge-open').forEach(n=>n.remove());
+ clone.querySelectorAll('.tb-hs-handle').forEach(function(n){n.remove()});
+ clone.querySelector('body')?.classList.remove('tb-hs-editing','scene-view');
+ clone.querySelectorAll('.tb-hs-active,.scene-only,.activity-collapsed').forEach(function(n){n.classList.remove('tb-hs-active','scene-only','activity-collapsed')});
+ clone.querySelectorAll('#sceneView,#sceneViewToggle').forEach(function(n){n.setAttribute('aria-pressed','false')});
+ if(stripEditor){
+  clone.querySelector('#talkabee-hotspot-editor-style')?.remove();
+  clone.querySelector('#talkabee-hotspot-editor-v10')?.remove();
+  clone.querySelector('#talkabee-hotspot-editor-script')?.remove();clone.querySelector('#tb-legacy-challenge-editor-script')?.remove();clone.querySelector('#tb-legacy-challenge-style')?.remove();
+  clone.querySelector('#tb-hs-readout')?.remove();
+ }
+ return clone;
+}
+function downloadHTML(stripEditor){
+ const clone=downloadableClone(stripEditor),blob=new Blob(['<!doctype html>\n'+clone.outerHTML],{type:'text/html'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=(location.pathname.split('/').pop()||'adventure.html');a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)
+}
+save.onclick=()=>downloadHTML(false);
+exportServer.onclick=()=>downloadHTML(true);
+document.addEventListener('pointerdown',ev=>{if(!editing)return;const h=ev.target.closest('.tb-hs-handle');if(h){startResize(ev,h.parentElement);return}const el=ev.target.closest(SEL);if(el){startDrag(ev,el);return}},true);
+document.addEventListener('click',ev=>{if(!editing)return;if(ev.target.closest('#tb-hs-editor'))return;if(adding){placeAt(ev);return}const el=ev.target.closest(SEL);if(el){ev.preventDefault();ev.stopPropagation();select(el)}},true);
+})();
+</script>
+
+<script id="talkabee-scene-view-safe-reset">
+(function(){
+  function resetTalkABeeSceneView(){
+    document.body.classList.remove('scene-view');
+    document.querySelectorAll('.scene-only').forEach(function(el){el.classList.remove('scene-only');});
+    document.querySelectorAll('.activity-collapsed').forEach(function(el){el.classList.remove('activity-collapsed');});
+    ['sceneView','sceneViewToggle'].forEach(function(id){var b=document.getElementById(id);if(b)b.setAttribute('aria-pressed','false');});
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',resetTalkABeeSceneView);
+  else resetTalkABeeSceneView();
+  window.addEventListener('pageshow',resetTalkABeeSceneView);
+})();
+</script>
+
+<script id="talkabee-bilingual-hotspot-popup" src="js/talkabee-common-cffcf34e5d12.js"></script>
+
+<style id="tb-legacy-challenge-style">#tb-legacy-challenge-panel{position:fixed;right:18px;top:16%;width:min(360px,calc(100vw - 24px));max-height:75vh;overflow:auto;z-index:2147483647;background:#17243a;color:white;border:2px solid #c9ad75;border-radius:14px;padding:0 14px 14px;box-shadow:0 12px 35px #0009;font:13px Arial,sans-serif;display:none}#tb-legacy-challenge-panel.open{display:block}#tb-legacy-challenge-panel .drag{padding:12px 14px;margin:0 -14px 12px;background:#354664;border-radius:12px 12px 0 0;cursor:grab;user-select:none;touch-action:none}#tb-legacy-challenge-panel label{display:block;margin:10px 0 4px;font-weight:bold}#tb-legacy-challenge-panel select,#tb-legacy-challenge-panel input{display:block;width:100%;box-sizing:border-box;padding:8px;color:#111;background:#fff;border:1px solid #aaa;border-radius:7px}#tb-legacy-challenge-panel button{padding:8px;margin-top:12px;background:#101827;color:white;border:1px solid white;border-radius:8px;cursor:pointer}</style>
+<script id="tb-legacy-challenge-editor-script">
+(()=>{
+const bar=document.getElementById('tb-hs-editor');if(!bar||!window.tbLegacyChallengeGet)return;
+const b=document.createElement('button');b.type='button';b.textContent='Edit Challenges';b.id='tb-legacy-challenge-open';b.style.display='none';bar.appendChild(b);
+const panel=document.createElement('div');panel.id='tb-legacy-challenge-panel';panel.innerHTML='<div class="drag"><strong>↕ Edit Six Challenges</strong><div>Drag here to move</div></div><label>Challenge</label><select id="tb-lc-number"></select><label>Existing hotspot</label><select id="tb-lc-target"></select><label>Challenge label</label><input id="tb-lc-label"><button type="button" id="tb-lc-apply">Apply Challenge</button> <button type="button" id="tb-lc-close">Close</button><p id="tb-lc-status" aria-live="polite"></p>';document.body.appendChild(panel);
+const num=panel.querySelector('#tb-lc-number'),target=panel.querySelector('#tb-lc-target'),label=panel.querySelector('#tb-lc-label'),status=panel.querySelector('#tb-lc-status');
+for(let i=0;i<6;i++)num.add(new Option('Challenge '+(i+1),i));
+function fill(){const d=window.tbLegacyChallengeGet(),i=+num.value;target.replaceChildren();const found=new Set();document.querySelectorAll(window.tbLegacyChallengeSelector).forEach(el=>{const k=el.dataset.object||el.dataset.word||el.dataset.key;if(k&&!found.has(k)){found.add(k);target.add(new Option(k,k))}});target.value=d.targets[i];label.value=d.labels[i]||d.targets[i];status.textContent=found.has(d.targets[i])?'':'Current target is missing; choose an existing hotspot.'}
+num.onchange=fill;b.onclick=()=>{panel.classList.toggle('open');if(panel.classList.contains('open'))fill()};panel.querySelector('#tb-lc-close').onclick=()=>panel.classList.remove('open');
+panel.querySelector('#tb-lc-apply').onclick=()=>{if(!target.value){status.textContent='Choose an existing hotspot.';return}const d=window.tbLegacyChallengeGet(),i=+num.value;d.targets[i]=target.value;d.labels[i]=label.value.trim()||target.value;window.tbLegacyChallengeSet(d);status.textContent='Challenge updated. Save Working HTML to keep the change.'};
+const observer=new MutationObserver(()=>{const editing=document.body.classList.contains('tb-hs-editing');b.style.display=editing?'':'none';if(!editing)panel.classList.remove('open')});observer.observe(document.body,{attributes:true,attributeFilter:['class']});
+const handle=panel.querySelector('.drag');let drag=null;handle.addEventListener('pointerdown',e=>{if(e.button!==0)return;e.preventDefault();const r=panel.getBoundingClientRect();panel.style.left=r.left+'px';panel.style.top=r.top+'px';panel.style.right='auto';drag={x:e.clientX,y:e.clientY,l:r.left,t:r.top};handle.setPointerCapture(e.pointerId)});handle.addEventListener('pointermove',e=>{if(!drag)return;panel.style.left=Math.max(0,Math.min(innerWidth-60,drag.l+e.clientX-drag.x))+'px';panel.style.top=Math.max(0,Math.min(innerHeight-50,drag.t+e.clientY-drag.y))+'px'});handle.addEventListener('pointerup',()=>drag=null);handle.addEventListener('pointercancel',()=>drag=null);
+})();
+</script>
+
+<script id="talkabee-city-bus-surface-drag-v2">
+(function(){
+ const card=document.querySelector('#world > .bus-train-card.tab-master-card');
+ if(!card)return;
+ const key='talkabee-city-bus-card-surface-position-v2';
+ const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+ let active=null;
+ function place(x,y,scale){
+   const w=card.offsetWidth*scale,h=card.offsetHeight*scale;
+   card.classList.add('bus-card-dragged');
+   const set=(k,v)=>card.style.setProperty(k,v,'important');
+   set('position','fixed');set('left',clamp(x,8,Math.max(8,innerWidth-w-8))+'px');
+   set('top',clamp(y,8,Math.max(8,innerHeight-h-8))+'px');
+   set('right','auto');set('bottom','auto');
+   set('transform-origin','top left');set('transform','scale('+scale+')');
+ }
+ function start(e){
+   if(e.button!==0 || e.target.closest('a,input,select,textarea,.tab-card-resize,.tab-card-font-down,.tab-card-font-up,.tab-card-reset,#speak,#next,#challengeNext'))return;
+   // Move button AND noninteractive card surface are valid grab areas.
+   e.preventDefault();e.stopPropagation();
+   const r=card.getBoundingClientRect();
+   active={sx:e.clientX,sy:e.clientY,x:r.left,y:r.top,scale:r.width/card.offsetWidth,moved:false};
+ }
+ function move(e){
+   if(!active)return;
+   const dx=e.clientX-active.sx,dy=e.clientY-active.sy;
+   if(!active.moved && Math.hypot(dx,dy)<2)return;
+   active.moved=true;e.preventDefault();
+   place(active.x+dx,active.y+dy,active.scale);
+ }
+ function end(){
+   if(!active)return;
+   if(active.moved){
+     try{localStorage.setItem(key,JSON.stringify({
+       x:parseFloat(card.style.left),y:parseFloat(card.style.top),scale:active.scale
+     }))}catch(_){}
+   }
+   active=null;
+ }
+ card.addEventListener('mousedown',start,true);
+ window.addEventListener('mousemove',move,true);
+ window.addEventListener('mouseup',end,true);
+ window.addEventListener('blur',end);
+ const reset=card.querySelector('.tab-card-reset');
+ if(reset)reset.addEventListener('click',()=>{
+   for(const p of ['position','left','top','right','bottom','transform','transform-origin'])
+     card.style.removeProperty(p);
+   card.classList.remove('bus-card-dragged');
+   try{localStorage.removeItem(key)}catch(_){}
+ });
+ try{
+   const saved=JSON.parse(localStorage.getItem(key)||'null');
+   if(saved && [saved.x,saved.y,saved.scale].every(Number.isFinite))
+     place(saved.x,saved.y,saved.scale);
+ }catch(_){}
+})();
+</script>
+<link rel="stylesheet" data-tb-shared-studio="1" href="css/talkabee-editing-studio.css">
+<!-- Talk A Bee Editing Studio pilot: isolated from Adventure lesson/challenge logic. -->
+
+<button id="tb-studio-launch" type="button" style="">✦ Editing Studio</button>
+<div id="tb-studio" aria-label="Talk A Bee Editing Studio" style="display: none;">
+ <div class="tb-studio-head" id="tb-studio-drag"><span>✦ TALK A BEE STUDIO</span><span><button type="button" id="tb-studio-min" title="Minimize">−</button><button type="button" id="tb-studio-close" title="Close">×</button></span></div>
+ <div class="tb-studio-main" id="tb-studio-main">
+  <section id="tb-studio-music" aria-label="Local music player">
+    <div class="tb-music-top"><strong>🎵 STUDIO MUSIC</strong><button type="button" id="tb-music-choose">Choose MP3</button></div>
+    <input type="file" id="tb-music-file" accept="audio/*,.mp3,.wav,.ogg,.m4a" hidden="">
+    <div class="tb-music-track" id="tb-music-track">No music selected</div>
+    <div class="tb-music-controls"><button type="button" id="tb-music-play" disabled="">▶ Play</button><button type="button" id="tb-music-stop" disabled="">■ Stop</button><label for="tb-music-volume">Volume</label><input type="range" id="tb-music-volume" min="0" max="100" value="35" aria-label="Music volume"></div>
+    <audio id="tb-music-audio"></audio>
+  </section>
+  <section id="tb-studio-savebar" aria-label="Save and export">
+    <div class="tb-save-title">SAVE YOUR WORK <span id="tb-studio-save-status" class="">Ready</span></div>
+    <div class="tb-save-buttons">
+      <button type="button" id="tb-studio-save-local">💾 Save Local Master</button>
+      <button type="button" id="tb-studio-save-server">🌐 Export Server Version</button>
+    </div>
+    <div class="tb-save-help">Both downloads include your latest hotspots, challenges, and image overlays.</div>
+  </section>
+  <label for="tb-studio-mode">EDITOR SELECTOR</label><select id="tb-studio-mode"><option value="none">Choose an editor...</option><option value="hotspot">Hotspot Editor</option><option value="challenge">Challenge Editor</option><option value="overlay">Image Overlay Editor</option></select>
+  <div id="tb-studio-hotspot" class="tb-studio-panel"><p class="tb-note">Select a hotspot in the scene to edit it. Move this whole window by its title bar.</p></div>
+  <div id="tb-studio-challenge" class="tb-studio-panel"><p class="tb-note">Choose a challenge and assign its answer below.</p></div>
+  <div id="tb-studio-overlay" class="tb-studio-panel">
+   <label for="tb-overlay-file">ADD TRANSPARENT PNG / IMAGE</label><input type="file" id="tb-overlay-file" accept="image/png,image/webp,image/jpeg,image/gif" multiple="">
+   <label for="tb-overlay-path">Or use an existing website image path</label><input type="text" id="tb-overlay-path" placeholder="images/PNG/bee.png"><button type="button" id="tb-overlay-add-path">Add Existing Image</button>
+   <label for="tb-overlay-items">SELECT IMAGE</label><select id="tb-overlay-items"><option value="">Select an overlay</option></select>
+   <div class="tb-smallrow"><div><label for="tb-overlay-width">Width (%)</label><input type="number" id="tb-overlay-width" min="1" max="100" step="0.5"></div><div><label for="tb-overlay-rotate">Rotation (°)</label><input type="number" id="tb-overlay-rotate" min="-360" max="360" step="5"></div></div>
+   <button type="button" id="tb-overlay-front">Bring Forward</button><button type="button" id="tb-overlay-back">Send Back</button><button type="button" id="tb-overlay-delete" class="tb-danger">Remove</button>
+   <p class="tb-note">Drag an image on the scene to move it. Use the width control to resize. Changes appear in your exported HTML.</p>
+   <button type="button" id="tb-overlay-undo">Undo</button><button type="button" id="tb-overlay-redo">Redo</button>
+   <button type="button" id="tb-overlay-export">Save Updated HTML</button>
+   <p class="tb-note">For reliable publishing, use existing website image paths. Uploaded local images are embedded in the exported HTML, which can make it large.</p>
+  </div>
+ </div>
+</div>
+<script type="application/json" id="tb-overlay-data">[]</script>
+<script data-tb-shared-studio="1" src="js/talkabee-editing-studio.js"></script>
+
+<script id="talkabee-restore-enhanced-voice">
+(function(){
+  try {
+    var language=document.getElementById('lang') || document.getElementById('busLanguage');
+    if(!language)return;
+    var saved=localStorage.getItem('talkabee-learn-language');
+    if(saved && Array.from(language.options).some(function(o){return o.value===saved;})){
+      if(language.value!==saved){language.value=saved;language.dispatchEvent(new Event('change',{bubbles:true}));}
+    }
+    var selected=localStorage.getItem('talkabee-piper-voice-'+language.value);
+    if(selected)localStorage.setItem('talkabee-lab-voice-mode','enhanced');
+  }catch(e){console.warn('Talk A Bee: Piper preference could not be restored',e);}
+})();
+</script>
+<script src="js/talkabee-enhanced-voice-adventures.js"></script>
+<script defer src="js/talkabee-keyboard-chevron-nav.js"></script>
+</body></html>

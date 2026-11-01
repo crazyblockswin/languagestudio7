@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Comments & Suggestions — Talk A Bee</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#332b3d}
+body{
+ min-height:100vh;
+ background:
+  linear-gradient(rgba(249,246,251,.88),rgba(249,246,251,.94)),
+  url("images/bee-chair.png") center/cover fixed no-repeat;
+}
+header{
+ min-height:72px;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;
+ background:rgba(255,255,255,.95);border-bottom:1px solid #e7e0eb;box-shadow:0 3px 14px rgba(45,35,55,.08)
+}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
+.brand img{width:48px;height:48px;object-fit:contain}
+.brand-name{font-size:20px;font-weight:900;display:block}
+.brand-domain{font-size:11px;font-weight:700;color:#756a7e;display:block}
+.tagline{font-size:12px;font-weight:850;color:#655a79;white-space:nowrap}
+.back{padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:850;color:#4b3f59;background:#fff;border:1px solid #ddd2e2}
+main{width:min(760px,calc(100% - 32px));margin:38px auto 50px}
+.card{background:rgba(255,255,255,.94);border:1px solid #ddd2e2;border-radius:24px;padding:34px;box-shadow:0 18px 45px rgba(48,37,59,.13);backdrop-filter:blur(7px)}
+h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+h1 .teacher-bee{width:84px;height:84px;object-fit:contain;flex:none}
+.intro{margin:0 0 25px;color:#665c70;font-size:16px;line-height:1.55}
+.intro-bee{width:110px;max-width:30%;height:auto;vertical-align:middle;margin-left:8px;object-fit:contain}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.full{grid-column:1/-1}
+label{display:grid;gap:6px;font-size:13px;font-weight:850;color:#55495f}
+input,select,textarea{width:100%;border:1px solid #d9cfdf;border-radius:12px;background:#fff;color:#332b3d;padding:12px 13px;font:inherit;outline:none}
+input:focus,select:focus,textarea:focus{border-color:#a98fba;box-shadow:0 0 0 3px rgba(169,143,186,.12)}
+textarea{min-height:150px;resize:vertical}
+.submit-row{grid-column:1/-1;text-align:center}
+button{min-width:190px;padding:13px 22px;border-radius:999px;border:1px solid #d5c7dd;background:#fff;color:#43364f;font-size:14px;font-weight:900;cursor:pointer;box-shadow:0 4px 13px rgba(58,43,72,.10)}
+button:hover{transform:translateY(-1px);box-shadow:0 7px 17px rgba(58,43,72,.15)}
+button:disabled{opacity:.55;cursor:wait;transform:none}
+.status{min-height:22px;margin-top:12px;font-size:13px;font-weight:800;color:#655a79}
+.note{grid-column:1/-1;text-align:center;margin:0;color:#776d7d;font-size:11px;line-height:1.45}
+@media(max-width:650px){header{padding:9px 12px}.tagline{display:none}.card{padding:24px 19px}form{grid-template-columns:1fr}.full,.submit-row,.note{grid-column:1}}
+</style>
+  <link rel="icon" type="image/png" href="images/talkabee-favicon.png">
+  <link rel="shortcut icon" type="image/png" href="images/talkabee-favicon.png">
+</head>
+<body>
+<header>
+ <a class="brand" href="index.html" aria-label="Return to Main Directory">
+  <img src="images/bee-chair.png" alt="Talk A Bee mascot">
+  <span><span class="brand-name">Talk A Bee</span><span class="brand-domain">TalkABee.com</span></span>
+  <span class="tagline">Interactive Language Adventures</span>
+ </a>
+ <a class="back" href="index.html">← Main Directory</a>
+</header>
+
+<main>
+<section class="card">
+ <h1><img class="teacher-bee" src="images/teacher-bee.png" alt="Teacher Bee"> Comments &amp; Suggestions</h1>
+ <p class="intro">Tell me what you think about Talk A Bee. Found a gremlin? Have an adventure idea? Want to suggest a language, activity, or improvement? Send it my way. <img class="intro-bee" src="images/bee-laying-down.png" alt="Relaxing bee"></p>
+
+ <form id="talkabeeCommentForm" action="https://formsubmit.co/wallyjcass@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="Talk A Bee — New Comment">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+  <label>Your name
+   <input type="text" name="name" maxlength="80" placeholder="Optional">
+  </label>
+  <label>Your email
+   <input type="email" name="email" maxlength="140" placeholder="Optional">
+  </label>
+
+  <label class="full">What kind of message?
+   <select name="message_type">
+    <option>Comment</option>
+    <option>Suggestion</option>
+    <option>Found a Problem</option>
+    <option>New Adventure Idea</option>
+    <option>Language Idea</option>
+    <option>Other</option>
+   </select>
+  </label>
+
+  <label class="full">Your message
+   <textarea name="comment" maxlength="2000" required placeholder="Write your comment or suggestion here..."></textarea>
+  </label>
+
+  <div class="submit-row">
+   <button id="commentSubmit" type="submit">SEND COMMENT</button>
+   <div class="status" id="commentStatus" aria-live="polite"></div>
+  </div>
+  <p class="note">Comments are sent privately to Talk A Bee. Your email is optional and is only needed if you'd like a reply.</p>
+ </form>
+</section>
+</main>
+
+<script>
+const form=document.getElementById('talkabeeCommentForm');
+const statusBox=document.getElementById('commentStatus');
+const submitButton=document.getElementById('commentSubmit');
+
+form.addEventListener('submit',async(e)=>{
+ e.preventDefault();
+ if(submitButton.disabled)return;
+ const original=submitButton.textContent;
+ statusBox.textContent='Sending your comment...';
+ submitButton.disabled=true;
+ submitButton.textContent='SENDING...';
+ try{
+  const data=new FormData(form);
+  const res=await fetch('https://formsubmit.co/ajax/wallyjcass@gmail.com',{
+   method:'POST',
+   headers:{'Accept':'application/json'},
+   body:data
+  });
+  let result=null;
+  try{result=await res.json();}catch(_e){}
+  if(!res.ok || (result && result.success===false))throw new Error('Send failed');
+  statusBox.textContent='Thanks! Your comment was sent.';
+  form.reset();
+ }catch(err){
+  console.error(err);
+  statusBox.textContent='Comment was not sent. Please try again.';
+ }finally{
+  submitButton.disabled=false;
+  submitButton.textContent=original;
+ }
+});
+</script>
+</body>
+</html>

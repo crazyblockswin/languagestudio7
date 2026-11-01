@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Talk A Bee — Feelings &amp; Expressions</title><style>*{box-sizing:border-box}body{margin:0;font-family:Trebuchet MS,Arial,sans-serif;color:#fff6e8;background:radial-gradient(ellipse at 75% 10%,#477ca3 0,transparent 45%),linear-gradient(145deg,#142b45,#153b53 48%,#244c5b);min-height:100vh}a{color:inherit;text-decoration:none}header{display:flex;align-items:center;justify-content:space-between;padding:8px 22px;background:#0a2036c4;border-bottom:1px solid #ffffff44;gap:15px;flex-wrap:wrap}.brand{display:flex;align-items:center;font-size:26px;font-weight:bold;gap:8px}.brand img{width:55px;height:55px;object-fit:contain}nav{display:flex;gap:5px;flex-wrap:wrap}nav a{font-size:12px;border:1px solid #ffffff55;border-radius:20px;padding:7px 9px;background:#ffffff17}nav a[aria-current=page]{background:#e5bd67;color:#18283c;font-weight:bold}main{max-width:1170px;margin:auto;padding:16px}.heading{text-align:center;margin-bottom:15px}.heading h1{font-size:30px;margin:5px}.heading p{font-size:14px;margin:3px;color:#e0e9ef}.settings{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:12px 0 20px}.settings label{display:flex;gap:6px;align-items:center;font-size:13px}select{font:inherit;border:1px solid #ffffff88;border-radius:9px;padding:7px;background:#f9f5ec;color:#172b3c;max-width:190px}.tiles{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:11px}.item{min-height:135px;border:1px solid #ffffff66;background:#ffffff18;border-radius:15px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#fff;padding:10px;cursor:pointer;font:inherit;transition:background .15s,transform .15s}.item:hover,.item:focus-visible{background:#ffffff32;transform:translateY(-2px);outline:2px solid #ffe18b}.art{font-size:52px;line-height:1.1}.emotion-photo{display:block;width:100%;height:155px;object-fit:cover;object-position:center;border-radius:11px;background:#e8e8e8}.item:has(.emotion-photo){padding:8px;gap:7px}.item:has(.emotion-photo) .name{padding-bottom:3px}.name{font-size:15px;font-weight:bold}.overlay{position:fixed;inset:0;background:#000a;display:none;align-items:center;justify-content:center;padding:20px;z-index:5}.overlay.open{display:flex}.popup{position:relative;background:#303030;border:2px solid #a0a0a0;box-shadow:0 18px 60px #0008;border-radius:20px;max-width:430px;width:100%;text-align:center;padding:24px;color:white}.popup .lang{color:#ffffff;font-size:12px;letter-spacing:1px}.popup .word{font-size:27px;font-weight:bold;margin:7px 0 14px}.popup button{border:1px solid #ffffff55;border-radius:10px;background:#606060;color:#ffffff;padding:9px 14px;margin:3px;cursor:pointer;font:inherit}.popup .x{position:absolute;top:8px;right:8px;background:#ffffff26;color:white;padding:5px 10px}.note{text-align:center;font-size:12px;color:#dbe4e9;margin:18px auto;max-width:700px}@media(max-width:900px){.tiles{grid-template-columns:repeat(4,1fr)}}@media(max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}.item{min-height:125px}.brand{font-size:21px}nav a{font-size:11px}.art{font-size:42px}}.tab-section-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0 18px}.tab-section-nav a{display:inline-block;background:#303030;color:#fff;border:1px solid #888;border-radius:12px;padding:10px 16px;font-size:15px;font-weight:bold;text-decoration:none}.tab-section-nav a:hover,.tab-section-nav a:focus-visible{background:#505050;outline:2px solid #ffe18b}@media(max-width:560px){.tab-section-nav a{font-size:12px;padding:9px 10px}}</style><style id="tab-learning-section-nav">.tab-section-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:26px auto 16px;max-width:960px}.tab-section-nav a{display:inline-block;padding:11px 17px;background:#303030;color:#fff;border:1px solid #999;border-radius:12px;font-weight:bold;font-size:14px}.tab-section-nav a:hover,.tab-section-nav a:focus-visible{background:#606060;outline:2px solid #fff}</style><style id="tab-3d-section-buttons">
+/* Raised black 3D treatment for the Previous / Next learning-section links only. */
+.tab-section-nav a {
+  color:#fff;
+  border:3px solid #000;
+  border-radius:15px;
+  background:radial-gradient(ellipse at 50% 30%,#333 0%,#252525 60%,#101010 100%);
+  box-shadow:inset 0 3px 3px rgba(255,255,255,.18),inset 0 -5px 9px rgba(0,0,0,.65),0 4px 8px rgba(0,0,0,.4);
+  text-shadow:0 2px 2px rgba(0,0,0,.7);
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.tab-section-nav a:hover,.tab-section-nav a:focus-visible {
+  background:radial-gradient(ellipse at 50% 30%,#454545 0%,#2c2c2c 60%,#151515 100%);
+  box-shadow:inset 0 3px 4px rgba(255,255,255,.2),inset 0 -4px 8px rgba(0,0,0,.6),0 6px 12px rgba(0,0,0,.5);
+  transform:translateY(-2px);
+  outline:2px solid #ffe18b;
+  outline-offset:2px;
+}
+.tab-section-nav a:active{transform:translateY(1px);box-shadow:inset 0 4px 9px #000,0 1px 2px #0008}
+</style>
+<style id="tab-3d-language-popup">
+/* Talk A Bee: shared raised-black language popup treatment; visual styles only. */
+.overlay .popup {
+  background: radial-gradient(ellipse at 50% 38%, #303030 0%, #202020 65%, #101010 100%);
+  border: 4px solid #000;
+  box-shadow: inset 0 4px 5px rgba(255,255,255,.17), inset 0 -5px 8px rgba(0,0,0,.65), 0 5px 0 #050505, 0 20px 42px rgba(0,0,0,.68);
+  color: #fff;
+}
+.overlay .popup button {
+  background: linear-gradient(180deg,#414141 0%,#262626 40%,#111 100%);
+  color: #fff;
+  border: 2px solid #000;
+  box-shadow: inset 0 2px 3px rgba(255,255,255,.20), inset 0 -2px 3px rgba(0,0,0,.7), 0 3px 5px rgba(0,0,0,.5);
+  text-shadow: 0 1px 2px #000;
+}
+.overlay .popup button:hover { background: linear-gradient(180deg,#545454,#292929 55%,#161616); }
+.overlay .popup button:focus-visible { outline: 2px solid #ffe18b; outline-offset: 3px; }
+.overlay .popup button:active { transform: translateY(1px); box-shadow: inset 0 3px 6px #000; }
+</style>
+<style id="tab-header-3d-nav">
+/* Copied from the live homepage index.html dashboard navigation finish. */
+header nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+header nav a{
+ display:inline-flex;align-items:center;justify-content:center;
+ min-height:39px;padding:10px 12px;
+ font-size:clamp(12px,.88vw,17px);font-weight:700;white-space:nowrap;
+ background:linear-gradient(180deg,#27343d,#172229)!important;
+ color:#e9f3f6!important;border:1px solid #526875!important;
+ border-top-color:#17232a!important;border-radius:9px!important;
+ box-shadow:inset 0 3px 7px #000c,inset 0 -9px 18px rgba(75,174,205,.17),0 1px 0 #8da2ac30!important;
+ text-shadow:0 1px 2px #000!important;
+ transition:background .15s ease,box-shadow .15s ease!important;
+ transform:none!important;filter:none!important;
+}
+header nav a:hover,header nav a:focus-visible{
+ background:linear-gradient(180deg,#344650,#22333c)!important;
+ border-color:#7ba3b4!important;
+ box-shadow:inset 0 3px 7px #000c,inset 0 -12px 22px rgba(81,198,228,.32)!important;
+}
+header nav a:active{box-shadow:inset 0 5px 10px #000e!important;transform:translateY(1px)!important}
+header nav a[aria-current="page"]{
+ background:linear-gradient(180deg,#3a2e1c,#5c431c)!important;
+ color:#fff4ce!important;border-color:#d6aa4f!important;
+ box-shadow:inset 0 3px 8px #160d03,inset 0 -12px 26px rgba(255,193,64,.62),inset 0 0 2px #ffe3a7!important;
+}
+@media(max-width:700px){header nav{gap:6px}header nav a{min-height:36px;padding:7px 10px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){header nav a{transition:none!important}}
+</style><style id="tab-learning-prev-next-dashboard">
+/* Previous / Next: dark header-navy dashboard controls, with golden hover. */
+main nav.tab-section-nav a {
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:43px;padding:10px 17px;
+  color:#f4f9ff!important;font-weight:800;
+  border:1px solid #45627b!important;
+  border-top-color:#6a879e!important;
+  border-radius:10px!important;
+  background:linear-gradient(180deg,#24435e 0%,#112e49 52%,#0a2036 100%)!important;
+  box-shadow:inset 0 2px 0 #ffffff24,inset 0 -7px 14px #06182988,0 3px 0 #06192b,0 5px 9px #0003!important;
+  text-shadow:0 1px 2px #112b40!important;
+  text-decoration:none;transition:background .16s,box-shadow .16s,transform .16s,color .16s;
+}
+main nav.tab-section-nav a:hover,main nav.tab-section-nav a:focus-visible {
+  color:#152c3d!important;
+  background:linear-gradient(180deg,#ffe8a1 0%,#f6c95c 54%,#dfa83d 100%)!important;
+  border-color:#ffdf91!important;
+  box-shadow:inset 0 2px 0 #fff5c0,inset 0 -5px 10px #c68a2c55,0 3px 0 #95641e,0 6px 12px #0003!important;
+  text-shadow:0 1px 0 #fff6c6!important;
+  transform:translateY(-1px);
+  outline:2px solid #ffe39a;outline-offset:2px;
+}
+main nav.tab-section-nav a:active {transform:translateY(2px);box-shadow:inset 0 3px 8px #19344b88,0 1px 0 #10283b!important}
+@media(prefers-reduced-motion:reduce){main nav.tab-section-nav a{transition:none}}
+</style><style id="tab-calendar-inlaid-voice-dashboard">
+/* Single-row inset dashboard; existing selectors and Piper behavior unchanged. */
+.settings{width:100%;max-width:none;margin:14px auto 19px;padding:12px 14px;display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:12px;background:linear-gradient(180deg,#0b2136,#17354b 52%,#0b2338);border:1px solid #58748a;border-radius:15px;box-shadow:inset 0 4px 11px #000a,inset 0 -2px 5px #8db7cb20,0 3px 10px #0005}
+.settings label{display:flex;align-items:center;gap:6px;white-space:nowrap;font-size:clamp(11px,.78vw,14px);font-weight:700;min-width:0}
+.settings select{width:auto;max-width:180px;min-width:0;padding:8px 25px 8px 9px;font-size:clamp(11px,.78vw,14px);border:1px solid #6e899b;border-radius:9px;background:#f8f5ee;color:#142c40;box-shadow:inset 0 2px 5px #0002,0 1px 0 #ffffff25}
+.settings #native,.settings #learn{width:130px}.settings #calendarVoiceMode{width:148px}.settings #voice{width:165px}.settings #calendarPiperVoice{width:190px}
+.settings #calendarPiperStatus{flex:0 0 auto;white-space:nowrap;max-width:185px!important;overflow:hidden;text-overflow:ellipsis;font-size:12px!important;color:#bde9ff}
+@media(max-width:1450px){.settings{gap:8px;padding:10px}.settings label{gap:4px;font-size:11px}.settings select{font-size:11px;padding:7px 19px 7px 6px}.settings #native,.settings #learn{width:100px}.settings #calendarVoiceMode{width:124px}.settings #voice{width:128px}.settings #calendarPiperVoice{width:160px}.settings #calendarPiperStatus{max-width:115px!important;font-size:10px!important}}
+@media(max-width:1050px){.settings{flex-wrap:wrap;justify-content:center}.settings #calendarPiperStatus{max-width:180px!important}}
+</style></head><body><header><a class="brand" href="main-directory.html"><img alt="Talk A Bee mascot" src="images/buzzkill.png"/>Talk A Bee</a><nav aria-label="Directories"><a href="main-directory.html">Main Directory</a><a href="time-calendar.html">Time</a><a href="picture-learning.html">Pictures</a><a aria-current="page" href="feelings-expressions.html">Feelings</a><a href="numbers.html">Numbers</a><a href="colors-shapes.html">Colors</a><a href="adventure.html">Adventures</a></nav></header><main><div class="heading"><h1>Feelings &amp; Expressions</h1></div><div class="settings"><label>Native <select id="native"></select></label><label>Learn <select id="learn"></select></label><label>Voice mode <select id="calendarVoiceMode"><option value="enhanced">Enhanced Piper</option><option value="standard">Standard</option></select></label><label>Voice <select id="voice"></select></label><label id="calendarPiperField">Piper voice <select id="calendarPiperVoice"><option>Loading voices…</option></select></label><span id="calendarPiperStatus" role="status" style="font-size:12px;align-self:center;max-width:210px">Piper ready to load</span></div><nav aria-label="Learning section navigation" class="tab-section-nav"><a href="picture-learning.html" title="Pictures">‹ Previous: Pictures</a><a href="numbers.html" title="Numbers">Next: Numbers ›</a></nav><section aria-label="Feelings &amp; Expressions items" class="tiles" id="items"></section><p class="note">Click any tile to see both languages and hear the learning-language word. Speech availability depends on voices installed in your browser.</p></main><div aria-label="Word translation" aria-modal="true" class="overlay" id="overlay" role="dialog"><div class="popup"><button aria-label="Close" class="x" id="close">×</button><div class="lang" id="nativeLabel"></div><div class="word" id="nativeWord"></div><div class="lang" id="learnLabel"></div><div class="word" id="learnWord"></div><button id="speak">🔊 Speak</button><button id="slow">🐢 Slow</button></div></div><script>const DATA=[{"icon": "😊", "words": ["Happy", "Feliz", "Heureux", "Glücklich", "Felice", "Feliz", "Glad", "Χαρούμενος"]}, {"icon": "😢", "words": ["Sad", "Triste", "Triste", "Traurig", "Triste", "Triste", "Trist", "Λυπημένος"]}, {"icon": "😮", "words": ["Surprised", "Sorprendido", "Surpris", "Überrascht", "Sorpreso", "Surpreso", "Overrasket", "Έκπληκτος"]}, {"icon": "😠", "words": ["Angry", "Enojado", "En colère", "Wütend", "Arrabbiato", "Zangado", "Sint", "Θυμωμένος"]}, {"icon": "😴", "words": ["Tired", "Cansado", "Fatigué", "Müde", "Stanco", "Cansado", "Trøtt", "Κουρασμένος"]}, {"icon": "😨", "words": ["Scared", "Asustado", "Effrayé", "Ängstlich", "Spaventato", "Assustado", "Redd", "Φοβισμένος"]}, {"icon": "🥰", "words": ["Loved", "Amado", "Aimé", "Geliebt", "Amato", "Amado", "Elsket", "Αγαπημένος"]}, {"icon": "😕", "words": ["Confused", "Confundido", "Confus", "Verwirrt", "Confuso", "Confuso", "Forvirret", "Μπερδεμένος"]}, {"icon": "🤩", "words": ["Excited", "Emocionado", "Enthousiaste", "Aufgeregt", "Entusiasta", "Animado", "Begeistret", "Ενθουσιασμένος"]}, {"icon": "😌", "words": ["Calm", "Tranquilo", "Calme", "Ruhig", "Calmo", "Calmo", "Rolig", "Ήρεμος"]}, {"icon": "", "words": ["Frustrated", "Frustrado", "Frustré", "Frustriert", "Frustrato", "Frustrado", "Frustrert"]}, {"icon": "", "words": ["Embarrassed", "Avergonzado", "Embarrassé", "Verlegen", "Imbarazzato", "Envergonhado", "Flau"]}, {"icon": "", "words": ["Proud", "Orgulloso", "Fier", "Stolz", "Orgoglioso", "Orgulhoso", "Stolt"]}, {"icon": "", "words": ["Bored", "Aburrido", "Ennuyé", "Gelangweilt", "Annoiato", "Entediado", "Kjeder seg"]}, {"icon": "", "words": ["Worried", "Preocupado", "Inquiet", "Besorgt", "Preoccupato", "Preocupado", "Bekymret"]}, {"icon": "", "words": ["Disgusted", "Asqueado", "Dégoûté", "Angewidert", "Disgustato", "Enojado", "Avsky"]}, {"icon": "", "words": ["Curious", "Curioso", "Curieux", "Neugierig", "Curioso", "Curioso", "Nysgjerrig"]}, {"icon": "", "words": ["Shy", "Tímido", "Timide", "Schüchtern", "Timido", "Tímido", "Sjenert"]}, {"icon": "", "words": ["Disappointed", "Decepcionado", "Déçu", "Enttäuscht", "Deluso", "Decepcionado", "Skuffet"]}, {"icon": "", "words": ["Relieved", "Aliviado", "Soulagé", "Erleichtert", "Sollevato", "Aliviado", "Lettet"]}];const LANGS={en:'English',es:'Spanish',fr:'French',de:'German',it:'Italian',pt:'Portuguese',no:'Norwegian'};
+const $=id=>document.getElementById(id);let active=null;
+function getSaved(keys,fallback){if(keys.includes('talkabee-native-language')){const passed=new URLSearchParams(location.search).get('tabnative');if(passed&&LANGS[passed]){try{localStorage.setItem('talkabee-native-language',passed)}catch(e){}return passed}}for(const k of keys){let v=localStorage.getItem(k);if(v&&LANGS[v])return v;}return fallback}
+const learn=$('learn'),native=$('native'),voice=$('voice');
+for(const [code,name] of Object.entries(LANGS)){for(const sel of [learn,native]){const o=document.createElement('option');o.value=code;o.textContent=name;sel.append(o)}}
+learn.value=getSaved(['talkabee-learn-language'],'es');native.value=getSaved(['talkabee-native-language','talkabee-preferred-language'],'en');
+learn.addEventListener('change',()=>{localStorage.setItem('talkabee-learn-language',learn.value);render()});native.addEventListener('change',()=>{localStorage.setItem('talkabee-native-language',native.value);render()});
+let available=[];function voices(){available=speechSynthesis.getVoices();voice.innerHTML='';let filtered=available.filter(v=>v.lang.toLowerCase().startsWith(learn.value==='no'?'nb':learn.value));if(learn.value==='no')filtered=available.filter(v=>/^n[bo]/i.test(v.lang));for(const v of filtered){const o=document.createElement('option');o.value=v.voiceURI;o.textContent=v.name+' ('+v.lang+')';voice.append(o)}let saved=localStorage.getItem('talkabee-voice-'+learn.value);if(saved&&[...voice.options].some(o=>o.value===saved))voice.value=saved; if(!filtered.length){const o=document.createElement('option');o.textContent='Browser default voice';o.value='';voice.append(o)}}
+voice.addEventListener('change',()=>localStorage.setItem('talkabee-voice-'+learn.value,voice.value));learn.addEventListener('change',voices);if('speechSynthesis'in window){speechSynthesis.onvoiceschanged=voices;voices()}
+function word(item,code){const index=['en','es','fr','de','it','pt','no'].indexOf(code);return item.words[index]||item.words[0]}
+function render(){const grid=$('items');grid.innerHTML='';DATA.forEach((item,i)=>{let b=document.createElement('button');b.className='item';b.type='button';b.innerHTML='<span class="art" aria-hidden="true"></span><span class="name"></span>';b.querySelector('.art').outerHTML='<img class="emotion-photo" src="images/feelings/'+['happy','sad','surprised','angry','tired','scared','loved','confused','excited','calm','frustrated','embarrassed','proud','bored','worried','disgusted','curious','shy','disappointed','relieved'][i]+'.jpg" alt="" loading="lazy">';b.querySelector('.name').textContent=word(item,learn.value);b.addEventListener('click',()=>show(i));grid.append(b)})}
+function show(i){active=DATA[i];$('nativeLabel').textContent=LANGS[native.value].toUpperCase();$('learnLabel').textContent=LANGS[learn.value].toUpperCase();$('nativeWord').textContent=word(active,native.value);$('learnWord').textContent=word(active,learn.value);$('overlay').classList.add('open');$('close').focus();speak(false)}
+function close(){window.tbCalendarPiperStop?.();if('speechSynthesis'in window)speechSynthesis.cancel();$('overlay').classList.remove('open');active=null}
+function speak(slow){if(active&&window.tbCalendarPiperSpeak?.(word(active,learn.value),slow?.75:1))return;if(!active||!('speechSynthesis'in window))return;speechSynthesis.cancel();const utter=new SpeechSynthesisUtterance(word(active,learn.value));utter.lang=({no:'nb-NO',en:'en-US',es:'es-ES',fr:'fr-FR',de:'de-DE',it:'it-IT',pt:'pt-PT'})[learn.value];utter.rate=slow?.75:1;const v=available.find(v=>v.voiceURI===voice.value);if(v)utter.voice=v;speechSynthesis.speak(utter)}
+$('close').addEventListener('click',close);$('overlay').addEventListener('click',e=>{if(e.target===$('overlay'))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});$('speak').addEventListener('click',()=>speak(false));$('slow').addEventListener('click',()=>speak(true));render();</script><script id="tab-calendar-piper">(function(){
+'use strict';
+// Standalone chart bridge: does not load or modify the Master Adventure controller.
+const mode=document.getElementById('calendarVoiceMode');
+const picker=document.getElementById('calendarPiperVoice');
+const field=document.getElementById('calendarPiperField');
+const status=document.getElementById('calendarPiperStatus');
+const learn=document.getElementById('learn');
+const standard=document.getElementById('voice');
+const prefix={en:['en_'],es:['es_'],fr:['fr_'],de:['de_'],it:['it_'],pt:['pt_'],no:['no_','nb_']};
+let engine=null,pending=null,catalog=[],audio=null,url=null,serial=0;
+function note(t){status.textContent=t}
+function stop(){serial++;if(audio){audio.pause();audio=null}if(url){URL.revokeObjectURL(url);url=null}}
+window.tbCalendarPiperStop=stop;
+function options(){return catalog.filter(v=>(prefix[learn.value]||[]).some(p=>v.startsWith(p)))}
+function refresh(){const choices=options();const key='talkabee-piper-voice-'+learn.value;let saved='';try{saved=localStorage.getItem(key)||''}catch(e){}
+ const selected=choices.includes(saved)?saved:(choices.find(v=>v.includes('medium'))||choices[0]||'');
+ picker.replaceChildren();for(const v of choices)picker.add(new Option(v,v));if(selected){picker.value=selected;note('Piper: '+selected)}else{picker.add(new Option('No Piper voice available',''));note('No Piper voice for '+learn.value)}
+}
+async function load(){if(engine)return engine;if(pending)return pending;
+ pending=(async()=>{note('Loading Piper catalog…');const m=await import('./master/piper-matched-118/piper-tts-web.js');const raw=await m.voices();catalog=(Array.isArray(raw)?raw.map(v=>typeof v==='string'?v:v?.id||v?.key||v?.name||''):Object.keys(raw||{})).filter(Boolean);engine=m;refresh();return m})();
+ try{return await pending}catch(e){pending=null;note('Piper unavailable: '+(e?.message||e));throw e}
+}
+function update(){stop();field.hidden=mode.value!=='enhanced';standard.parentElement.hidden=mode.value==='enhanced';status.hidden=mode.value!=='enhanced';try{localStorage.setItem('talkabee-calendar-voice-mode',mode.value)}catch(e){}if(mode.value==='enhanced')load().catch(()=>{})}
+mode.addEventListener('change',update);
+learn.addEventListener('change',()=>{stop();if(engine)refresh();else if(mode.value==='enhanced')load().catch(()=>{})});
+picker.addEventListener('change',()=>{stop();try{localStorage.setItem('talkabee-piper-voice-'+learn.value,picker.value)}catch(e){}note('Piper: '+picker.value)});
+window.tbCalendarPiperSpeak=function(text,rate){if(mode.value!=='enhanced'||!text)return false;
+ stop();if('speechSynthesis'in window)speechSynthesis.cancel();const ticket=serial,lang=learn.value;
+ (async()=>{try{const m=await load();if(ticket!==serial||mode.value!=='enhanced'||learn.value!==lang)return;
+ const id=picker.value;if(!options().includes(id))throw Error('No Piper voice for '+lang);
+ note('Preparing '+id+'…');const wav=await m.predict({text:String(text),voiceId:id},p=>{if(ticket===serial&&p?.total)note('Downloading voice '+Math.round(100*p.loaded/p.total)+'%')});
+ if(ticket!==serial||mode.value!=='enhanced'||learn.value!==lang||picker.value!==id)return;
+ url=URL.createObjectURL(wav);audio=new Audio(url);audio.playbackRate=Number.isFinite(rate)&&rate>0?rate:1;
+ audio.addEventListener('ended',()=>{if(ticket!==serial)return;audio=null;if(url){URL.revokeObjectURL(url);url=null}note('Piper: '+id)},{once:true});
+ await audio.play();if(ticket===serial)note('Playing '+id);
+ }catch(e){if(ticket===serial){note('Piper error: '+(e?.message||e));console.error('Feelings & Expressions Piper:',e)}}})();return true;
+};
+try{mode.value=localStorage.getItem('talkabee-calendar-voice-mode')==='standard'?'standard':'enhanced'}catch(e){mode.value='enhanced'}
+update();
+})();</script><script id="tab-native-local-handoff">(function(){document.addEventListener('click',function(e){const a=e.target.closest('a[href]');if(!a||e.defaultPrevented||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey||a.hasAttribute('download'))return;const href=a.getAttribute('href');if(!href||href.startsWith('#')||/^(?:https?:|mailto:|javascript:)/i.test(href))return;const sel=document.getElementById('native');if(!sel)return;try{const url=new URL(href,location.href);if(!/\.html?$/i.test(url.pathname))return;url.searchParams.set('tabnative',sel.value);a.href=url.href;}catch(err){}},true)})();</script></body></html>
