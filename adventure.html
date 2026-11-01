@@ -175,6 +175,14 @@ body[data-editor="no"]>header .tb-row-nav .tb-corner-banner img {
  display:block;width:100%;height:100%;object-fit:contain;
 }
 @media(max-width:700px){body[data-editor="no"]>header .tb-row-nav .tb-corner-banner{width:108px;height:35px}}
+/* Banner has a dedicated 260px slot; it cannot cover the dropdown. */
+@media (min-width:701px) {
+ body[data-editor="no"]>header .tb-row-nav {padding-left:260px!important;}
+ body[data-editor="no"]>header .tb-row-nav .tb-corner-banner {max-width:calc(260px - 12px);}
+ body[data-editor="no"]>header .tb-row-nav .tb-scenePicker {
+  flex:1 1 180px!important;width:auto!important;min-width:125px!important;max-width:300px!important;
+ }
+}
 </style><style id="tb-header-vertical-clearance">
 /* Target 50px header, including padding; controls remain unchanged. */
 body[data-editor="no"] > header {
