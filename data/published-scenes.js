@@ -22944,12 +22944,48 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     ],
     "hotspots": [
       {
+        "id": "boat",
+        "label": "boat",
+        "x": 66.28,
+        "y": 21.81,
+        "w": 33.72,
+        "h": 74.96221016774003,
+        "sound": "sounds/boat-motor.mp3",
+        "translations": {
+          "es": "Barco",
+          "fr": "bateau",
+          "de": "Boot",
+          "it": "barca",
+          "pt": "Barcos",
+          "no": "båt"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "seattle",
+        "label": "seattle",
+        "x": 2.3403017454268493,
+        "y": 15.226378309034946,
+        "w": 65.79640135549185,
+        "h": 27.70723796813244,
+        "sound": "",
+        "translations": {
+          "es": "Seattle",
+          "fr": "seattle",
+          "de": "Seattle",
+          "it": "seattle",
+          "pt": "Seattle",
+          "no": "Seattle"
+        }
+      },
+      {
         "id": "orca",
         "label": "orca",
-        "x": 13.91,
-        "y": 52.3,
-        "w": 13.32,
-        "h": 15.47,
+        "x": 14.554467709590984,
+        "y": 44.5417355942363,
+        "w": 6.875316757961266,
+        "h": 6.1979294898329425,
         "sound": "sounds/orca.mp3",
         "translations": {
           "es": "Orcinus orca",
@@ -22963,10 +22999,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       {
         "id": "dolphin",
         "label": "dolphin",
-        "x": 36.11,
-        "y": 53.17,
-        "w": 12.29,
-        "h": 10.71,
+        "x": 24.563275345836526,
+        "y": 44.370992544009574,
+        "w": 5.039731352706422,
+        "h": 6.736256269042357,
         "sound": "sounds/dolphin.mp3",
         "translations": {
           "es": "delfín",
@@ -22995,27 +23031,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "id": "seattle",
-        "label": "seattle",
-        "x": 4.22,
-        "y": 24.12,
-        "w": 62.95,
-        "h": 9.92,
-        "sound": "",
-        "translations": {
-          "es": "Seattle",
-          "fr": "seattle",
-          "de": "Seattle",
-          "it": "seattle",
-          "pt": "Seattle",
-          "no": "Seattle"
-        }
-      },
-      {
         "id": "rainier",
         "label": "rainier",
-        "x": 91.43,
-        "y": 13.69,
+        "x": 91.80594026552752,
+        "y": 18.893712544234788,
         "w": 7.42,
         "h": 14.73,
         "sound": "",
@@ -23031,10 +23050,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       {
         "id": "ferriswheel",
         "label": "ferriswheel",
-        "x": 24,
-        "y": 31,
-        "w": 5.35,
-        "h": 11.65,
+        "x": 23.838882304336142,
+        "y": 34.40606373490755,
+        "w": 5.618527444063466,
+        "h": 9.000839317294128,
         "sound": "sounds/carnival.mp3",
         "translations": {
           "es": "rueda de la fortuna",
@@ -23060,23 +23079,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "gabbiani",
           "pt": "Gaivotas",
           "no": "Måker."
-        }
-      },
-      {
-        "id": "boat",
-        "label": "boat",
-        "x": 66.28,
-        "y": 21.81,
-        "w": 22.63,
-        "h": 10.72,
-        "sound": "sounds/boat-motor.mp3",
-        "translations": {
-          "es": "Barco",
-          "fr": "bateau",
-          "de": "Boot",
-          "it": "barca",
-          "pt": "Barcos",
-          "no": "båt"
         }
       },
       {
@@ -23203,7 +23205,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "label": "dog",
         "x": 80.82,
         "y": 62.94,
-        "w": 5.86,
+        "w": 10.532391662800752,
         "h": 20.29,
         "sound": "sounds/dog-panting.wav",
         "translations": {
@@ -23252,8 +23254,8 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       {
         "id": "water-and-waves",
         "label": "water and waves",
-        "x": 17.15,
-        "y": 71.24,
+        "x": 10.54420059882963,
+        "y": 59.03492880910202,
         "w": 25.43,
         "h": 26.24,
         "sound": "sounds/beach.mp3",
@@ -23264,7 +23266,9 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "acqua e onde",
           "pt": "água e ondas",
           "no": "vann og bølger"
-        }
+        },
+        "rotation": 0,
+        "z": 0
       }
     ],
     "overlays": [],
