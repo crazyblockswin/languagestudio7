@@ -1,102 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Comments & Suggestions — Language Studio 7</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Comments &amp; Suggestions — Language Studio 7</title>
 <style>
-*{box-sizing:border-box}
-html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#332b3d}
-body{
- min-height:100vh;
- background:
-  linear-gradient(145deg,#f7f5fb,#e8f0f7);
-}
-header{
- min-height:72px;padding:10px 24px;display:flex;align-items:center;justify-content:space-between;gap:18px;
- background:rgba(255,255,255,.95);border-bottom:1px solid #e7e0eb;box-shadow:0 3px 14px rgba(45,35,55,.08)
-}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit}
-.brand img{width:56px;height:68px;object-fit:contain;object-position:center bottom}
-.brand-name{font-size:20px;font-weight:900;display:block}
-.brand-domain{font-size:11px;font-weight:700;color:#756a7e;display:block}
-.tagline{font-size:12px;font-weight:850;color:#655a79;white-space:nowrap}
-.back{padding:9px 14px;border-radius:999px;text-decoration:none;font-weight:850;color:#4b3f59;background:#fff;border:1px solid #ddd2e2}
-main{width:min(760px,calc(100% - 32px));margin:38px auto 50px}
-.card{background:rgba(255,255,255,.94);border:1px solid #ddd2e2;border-radius:24px;padding:34px;box-shadow:0 18px 45px rgba(48,37,59,.13);backdrop-filter:blur(7px)}
-h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px);display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-
-.intro{margin:0 0 25px;color:#665c70;font-size:16px;line-height:1.55}
-
-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.full{grid-column:1/-1}
-label{display:grid;gap:6px;font-size:13px;font-weight:850;color:#55495f}
-input,select,textarea{width:100%;border:1px solid #d9cfdf;border-radius:12px;background:#fff;color:#332b3d;padding:12px 13px;font:inherit;outline:none}
-input:focus,select:focus,textarea:focus{border-color:#a98fba;box-shadow:0 0 0 3px rgba(169,143,186,.12)}
-textarea{min-height:150px;resize:vertical}
-.submit-row{grid-column:1/-1;text-align:center}
-button{min-width:190px;padding:13px 22px;border-radius:999px;border:1px solid #d5c7dd;background:#fff;color:#43364f;font-size:14px;font-weight:900;cursor:pointer;box-shadow:0 4px 13px rgba(58,43,72,.10)}
-button:hover{transform:translateY(-1px);box-shadow:0 7px 17px rgba(58,43,72,.15)}
-button:disabled{opacity:.55;cursor:wait;transform:none}
-.status{min-height:22px;margin-top:12px;font-size:13px;font-weight:800;color:#655a79}
-.note{grid-column:1/-1;text-align:center;margin:0;color:#776d7d;font-size:11px;line-height:1.45}
-@media(max-width:650px){header{padding:9px 12px}.tagline{display:none}.card{padding:24px 19px}form{grid-template-columns:1fr}.full,.submit-row,.note{grid-column:1}}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:#183323}
+body{background:radial-gradient(ellipse at 15% 5%,#eff9df 0,transparent 48%),linear-gradient(145deg,#f8fbf2,#e4eee3);min-height:100vh}
+header{min-height:88px;padding:12px max(20px,calc((100vw - 1180px)/2));display:flex;align-items:center;justify-content:space-between;gap:24px;background:linear-gradient(100deg,#071b12,#123d27 65%,#071b12);border-bottom:3px solid #cda83c;box-shadow:0 4px 20px #08201530}
+.brand{display:flex;align-items:center;max-width:min(650px,70vw);text-decoration:none}.brand img{display:block;width:min(560px,100%);height:auto;object-fit:contain}
+.back{flex-shrink:0;text-decoration:none;font-weight:800;font-size:15px;color:#ffe8a1;background:#143c28;border:1px solid #b99740;padding:12px 19px;border-radius:30px;transition:background .2s}.back:hover{background:#23633e}
+main{width:min(1080px,calc(100% - 36px));margin:40px auto 55px}
+.card{display:grid;grid-template-columns:310px minmax(0,1fr);overflow:hidden;background:#fff;border:1px solid #cbdcc9;border-radius:24px;box-shadow:0 18px 48px #153e2224}
+.teacher-panel{background:linear-gradient(160deg,#0a2a1a,#125536 65%,#23733e);display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:30px 12px 0;min-height:590px;overflow:hidden}
+.teacher-message{text-align:center;color:#f6e8ad;padding:0 15px}.teacher-message strong{display:block;font-size:23px;line-height:1.18}.teacher-message span{display:block;color:#e5f5e6;font-size:14px;line-height:1.5;margin-top:10px}
+.teacher-panel img{width:100%;max-width:285px;height:435px;object-fit:contain;object-position:center bottom;display:block;margin-top:auto;filter:drop-shadow(0 10px 13px #001b1666)}
+.form-panel{padding:38px 43px 32px}h1{margin:0 0 12px;font-size:clamp(27px,3.3vw,37px);line-height:1.15;color:#113e26}.intro{margin:0 0 26px;color:#526b5b;font-size:16px;line-height:1.55}
+form{display:grid;grid-template-columns:1fr 1fr;gap:17px}.full{grid-column:1/-1}
+label{display:grid;gap:7px;font-size:14px;font-weight:800;color:#254c32}input,select,textarea{width:100%;border:1px solid #bdcfbd;border-radius:10px;background:#fff;color:#183323;padding:13px 14px;font:inherit;outline:none}
+input:focus,select:focus,textarea:focus{border-color:#198344;box-shadow:0 0 0 3px #2b9b4725}textarea{min-height:155px;resize:vertical}
+.submit-row{grid-column:1/-1;text-align:center;margin-top:5px}button{min-width:205px;padding:14px 24px;border-radius:30px;border:1px solid #cda338;background:linear-gradient(110deg,#0c4a2a,#167e3c);color:#fff5ca;font-size:15px;font-weight:900;cursor:pointer;box-shadow:0 5px 14px #164c2929}button:hover{background:linear-gradient(110deg,#126638,#22994a)}button:disabled{opacity:.55;cursor:wait}
+.status{min-height:22px;margin-top:12px;font-size:13px;font-weight:800;color:#216239}.note{grid-column:1/-1;text-align:center;margin:0;color:#627465;font-size:12px;line-height:1.5}
+@media(max-width:780px){.card{grid-template-columns:1fr}.teacher-panel{min-height:0;flex-direction:row;padding:14px 20px 0;gap:12px;align-items:center}.teacher-message{text-align:left;padding:0}.teacher-message strong{font-size:20px}.teacher-panel img{height:155px;width:110px;flex-shrink:0;object-position:center bottom}.form-panel{padding:28px 26px}}
+@media(max-width:520px){header{min-height:70px;padding:10px 12px;gap:10px}.brand{max-width:70vw}.back{padding:9px 11px;font-size:13px}main{width:calc(100% - 20px);margin:18px auto 35px}.form-panel{padding:25px 19px}.teacher-panel{padding:12px 10px 0}.teacher-message strong{font-size:17px}.teacher-message span{font-size:12px}.teacher-panel img{height:125px;width:90px}form{grid-template-columns:1fr;gap:14px}.full,.submit-row,.note{grid-column:1}h1{font-size:28px}}
 </style>
-  <link rel="icon" type="image/png" href="images/language-studio-7-favicon.png">
-  <link rel="shortcut icon" type="image/png" href="images/language-studio-7-favicon.png">
+<link href="images/favicon.png" rel="icon" type="image/png"/>
+<link href="images/favicon.png" rel="shortcut icon" type="image/png"/>
 </head>
 <body>
-<header>
- <a class="brand" href="index.html" aria-label="Return to Language Studio 7 home">
-  <img src="images/language-teacher.png" alt="Language teacher">
-  <span><span class="brand-name">Language Studio 7</span><span class="brand-domain">LanguageStudio7.com</span></span>
-  <span class="tagline">Interactive Language Adventures</span>
- </a>
- <a class="back" href="index.html">← Home</a>
-</header>
-
+<header><a aria-label="Language Studio 7 home" class="brand" href="index.html"><img alt="LanguageStudio7.com" src="images/ls7-banner.png"/></a><a class="back" href="index.html">← Main Directory</a></header>
 <main>
 <section class="card">
- <h1>Comments &amp; Suggestions</h1>
- <p class="intro">Tell me what you think about Language Studio 7. Found a gremlin? Have an adventure idea? Want to suggest a language, activity, or improvement? Send it my way.</p>
 
- <form id="languageStudioCommentForm" action="https://formsubmit.co/wallyjcass@gmail.com" method="POST">
-  <input type="hidden" name="_subject" value="Language Studio 7 — New Comment">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
-  <label>Your name
-   <input type="text" name="name" maxlength="80" placeholder="Optional">
-  </label>
-  <label>Your email
-   <input type="email" name="email" maxlength="140" placeholder="Optional">
-  </label>
 
-  <label class="full">What kind of message?
+<aside class="teacher-panel"><div class="teacher-message"><strong>Your ideas matter!</strong><span>Questions, suggestions, or a little feedback? I’d love to hear from you.</span></div><img alt="Smiling language teacher holding a book" src="images/language-teacher.png"/></aside><div class="form-panel"><h1>Comments &amp; Suggestions</h1><p class="intro">Tell me what you think about Language Studio 7. Found a gremlin? Have an adventure idea? Want to suggest a language, activity, or improvement? Send it my way.</p><form action="https://formsubmit.co/wallyjcass@gmail.com" id="languageStudioCommentForm" method="POST">
+<input name="_subject" type="hidden" value="Language Studio 7 — New Comment"/>
+<input name="_captcha" type="hidden" value="false"/>
+<input name="_template" type="hidden" value="table"/>
+<input autocomplete="off" name="_honey" style="display:none" tabindex="-1" type="text"/>
+<label>Your name
+   <input maxlength="80" name="name" placeholder="Optional" type="text"/>
+</label>
+<label>Your email
+   <input maxlength="140" name="email" placeholder="Optional" type="email"/>
+</label>
+<label class="full">What kind of message?
    <select name="message_type">
-    <option>Comment</option>
-    <option>Suggestion</option>
-    <option>Found a Problem</option>
-    <option>New Adventure Idea</option>
-    <option>Language Idea</option>
-    <option>Other</option>
-   </select>
-  </label>
-
-  <label class="full">Your message
-   <textarea name="comment" maxlength="2000" required placeholder="Write your comment or suggestion here..."></textarea>
-  </label>
-
-  <div class="submit-row">
-   <button id="commentSubmit" type="submit">SEND COMMENT</button>
-   <div class="status" id="commentStatus" aria-live="polite"></div>
-  </div>
-  <p class="note">Comments are sent privately to Language Studio 7. Your email is optional and is only needed if you'd like a reply.</p>
- </form>
-</section>
+<option>Comment</option>
+<option>Suggestion</option>
+<option>Found a Problem</option>
+<option>New Adventure Idea</option>
+<option>Language Idea</option>
+<option>Other</option>
+</select>
+</label>
+<label class="full">Your message
+   <textarea maxlength="2000" name="comment" placeholder="Write your comment or suggestion here..." required=""></textarea>
+</label>
+<div class="submit-row">
+<button id="commentSubmit" type="submit">SEND COMMENT</button>
+<div aria-live="polite" class="status" id="commentStatus"></div>
+</div>
+<p class="note">Comments are sent privately to Language Studio 7. Your email is optional and is only needed if you'd like a reply.</p>
+</form></div></section>
 </main>
-
 <script>
 const form=document.getElementById('languageStudioCommentForm');
 const statusBox=document.getElementById('commentStatus');
