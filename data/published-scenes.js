@@ -32226,25 +32226,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     ],
     "hotspots": [
       {
-        "id": "bee",
-        "label": "bee",
-        "x": 78.05263451129781,
-        "y": 51.32313689712001,
-        "w": 9,
-        "h": 22,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
         "id": "visitors",
         "label": "visitors",
         "x": 12,
@@ -32537,18 +32518,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     ],
     "overlays": [],
     "challenges": [
-      {
-        "prompt": "Find Bee",
-        "target": "bee",
-        "translations": {
-          "es": "Encontrar abeja",
-          "fr": "Trouver une abeille",
-          "de": "Biene finden",
-          "it": "Trova l'ape",
-          "pt": "Encontrar abelha",
-          "no": "Finn bien"
-        }
-      },
       {
         "prompt": "Find the Rocket",
         "target": "rocket",
