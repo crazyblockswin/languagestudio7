@@ -35324,11 +35324,11 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "overlays": [],
     "challenges": [
       {
-        "prompt": "Find the fat bee in a parachute",
+        "prompt": "Find the fat guy in a parachute",
         "target": "hotspot-1792621582717",
         "translations": {
           "es": "Encuentra a la abeja gorda en un paracaídas",
-          "fr": "Trouvez la grosse abeille en parachute",
+          "fr": "Trouvez la grosse guy en parachute",
           "de": "Finde die dicke Biene im Fallschirm",
           "it": "Trova l'ape grassa su un paracadute",
           "pt": "Encontre a abelha gorda num pára-quedas",
