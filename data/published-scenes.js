@@ -35222,7 +35222,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
     "hotspots": [
       {
         "id": "hotspot-1792621582717",
-        "label": "Look who is coming! It's Buzz kill in a parachute",
+        "label": "Look who is coming! It's the fat guy again.",
         "x": 69.3684111016607,
         "y": 0.22253425985377895,
         "w": 27.421057297978805,
