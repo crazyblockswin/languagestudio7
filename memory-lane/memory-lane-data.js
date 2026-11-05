@@ -3,7 +3,7 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "Albert Einstein",
     "image": "albert-einstein.jpg",
-    "sound": ""
+    "sound": "einstein.mp3"
   },
   {
     "title": "Nikola Tesla",
@@ -23,7 +23,7 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "Howard Hughes and the Spruce Goose",
     "image": "howard-hughes.jpg",
-    "sound": ""
+    "sound": "howard-hughes.mp3"
   },
   {
     "title": "Babe Ruth Yankee Stadium",
@@ -38,12 +38,12 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "Wright Brothers 1903",
     "image": "wright-brothers.jpg",
-    "sound": ""
+    "sound": "wright-brothers.mp3"
   },
   {
     "title": "Charles Lindbergh Spirit Of St Louis",
     "image": "charles-lindbergh-spirit-of-st-louis.jpg",
-    "sound": ""
+    "sound": "charles-lindberg.mp3"
   },
   {
     "title": "President John F. Kennedy 35th President",
@@ -53,12 +53,12 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "Mount Rushmore",
     "image": "mount-rushmore.jpg",
-    "sound": ""
+    "sound": "mount-rushmore.mp3"
   },
   {
     "title": "Jp Patches 1963 Studio",
     "image": "jp-patches-1963-studio.jpg",
-    "sound": ""
+    "sound": "patches.mp3"
   },
   {
     "title": "Wizard Of Oz Red Dress",
@@ -68,7 +68,7 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "1955 Drive In",
     "image": "1955-drive-in.jpg",
-    "sound": ""
+    "sound": "1955-drive-in.mp3"
   },
   {
     "title": "Marilyn Monroe 1955",
@@ -83,101 +83,106 @@ window.MEMORY_LANE_ITEMS = [
   {
     "title": "Las Vegas",
     "image": "las-vegas.jpg",
-    "sound": ""
+    "sound": "vegas.mp3"
   },
   {
     "title": "the Beatles",
     "image": "beatles.jpg",
-    "sound": ""
+    "sound": "beatles.mp3"
   },
   {
     "title": "Clint Eastwood Gold Rush",
     "image": "gold-rush.jpg",
-    "sound": ""
+    "sound": "clint-eastwood.mp3"
   },
   {
     "title": "Clint Eastwood Wild West Town",
     "image": "wild-west-town.jpg",
-    "sound": ""
+    "sound": "eastwood2.mp3"
   },
   {
     "title": "The Good Bad and Ugly",
     "image": "showdown.jpg",
-    "sound": ""
+    "sound": "good-bad-ugly.mp3"
   },
   {
     "title": "Clint Eastwood Hang Em High",
     "image": "clint-horse.jpg",
-    "sound": ""
+    "sound": "hang-em-high.mp3"
   },
   {
     "title": "Clint Vs Ali Sting Like a Bee and Make My Day",
     "image": "clint-vs-ali-disclaimer.jpg",
-    "sound": ""
+    "sound": "ali-vs-clint.mp3"
   },
   {
     "title": "Carol Burnett Tim Conway Harvey Korman",
     "image": "carol-burnett-tim-conway-harvey-korman.jpg",
-    "sound": ""
+    "sound": "carol-burnett.mp3"
   },
   {
     "title": "Rat Pack With Jerry Lewis",
     "image": "rat-pack-with-jerry-lewis.jpg",
-    "sound": ""
+    "sound": "rat-pack.mp3"
   },
   {
     "title": "Woodstock",
     "image": "woodstock.jpg",
-    "sound": ""
+    "sound": "woodstock.mp3"
   },
   {
     "title": "Gilligans Island",
     "image": "gilligans-island.jpg",
-    "sound": ""
+    "sound": "Gilligans Island.mp3"
   },
   {
     "title": "Beverly Hillbillies",
     "image": "beverly-hillbillies.jpg",
-    "sound": ""
+    "sound": "Beverly-Hillbillies.mp3"
   },
   {
     "title": "The Munsters Koach",
     "image": "the-munsters-koach.jpg",
-    "sound": ""
+    "sound": "Munsters.mp3"
   },
   {
     "title": "Happy Days Arnolds Drive In",
     "image": "happy-days-arnolds-drive-in.jpg",
-    "sound": ""
+    "sound": "Happy-Days.mp3"
   },
   {
     "title": "I Love Lucy Cast",
     "image": "i-love-lucy-cast.jpg",
-    "sound": ""
+    "sound": "I-Love-Lucy.mp3"
   },
   {
     "title": "Johnny Carson Ed Mcmahon Tonight Show",
     "image": "johnny-carson-ed-mcmahon-tonight-show.jpg",
-    "sound": ""
+    "sound": "Johnny-Carson.mp3"
   },
   {
     "title": "Richard Pryor",
     "image": "richard-pryor.jpg",
-    "sound": ""
+    "sound": "richard-pryor.mp3"
   },
   {
     "title": "Robin Williams",
     "image": "robin-williams.jpg",
-    "sound": ""
+    "sound": "robin-williams.mp3"
   },
   {
     "title": "Forrest Gump",
     "image": "forrest-gump.jpg",
-    "sound": ""
+    "sound": "forest-gump.mp3"
   },
   {
     "title": "March On Washington 1963",
     "image": "march-on-washington-1963.jpg",
-    "sound": ""
+    "sound": "martin-luther-king.mp3"
+  },
+  {
+    "title": "Baja 1000 1967",
+    "image": "baja-1000-1967.jpg",
+    "sound": "baja.mp3"
   }
 ];
