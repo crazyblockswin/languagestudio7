@@ -86,43 +86,38 @@ window.MEMORY_LANE_ITEMS = [
     "sound": ""
   },
   {
-    "title": "Beatles",
+    "title": "the Beatles",
     "image": "beatles.jpg",
     "sound": ""
   },
   {
-    "title": "Beverly Hillbillies",
-    "image": "beverly-hillbillies.jpg",
+    "title": "Clint Eastwood Gold Rush",
+    "image": "gold-rush.jpg",
+    "sound": ""
+  },
+  {
+    "title": "Clint Eastwood Wild West Town",
+    "image": "wild-west-town.jpg",
+    "sound": ""
+  },
+  {
+    "title": "The Good Bad and Ugly",
+    "image": "showdown.jpg",
+    "sound": ""
+  },
+  {
+    "title": "Clint Eastwood Hang Em High",
+    "image": "clint-horse.jpg",
+    "sound": ""
+  },
+  {
+    "title": "Clint Vs Ali Sting Like a Bee and Make My Day",
+    "image": "clint-vs-ali-disclaimer.jpg",
     "sound": ""
   },
   {
     "title": "Carol Burnett Tim Conway Harvey Korman",
     "image": "carol-burnett-tim-conway-harvey-korman.jpg",
-    "sound": ""
-  },
-  {
-    "title": "Gold Rush",
-    "image": "gold-rush.jpg",
-    "sound": ""
-  },
-  {
-    "title": "Wild West Town",
-    "image": "wild-west-town.jpg",
-    "sound": ""
-  },
-  {
-    "title": "Showdown",
-    "image": "showdown.jpg",
-    "sound": ""
-  },
-  {
-    "title": "Clint Horse",
-    "image": "clint-horse.jpg",
-    "sound": ""
-  },
-  {
-    "title": "Clint Vs Ali Disclaimer",
-    "image": "clint-vs-ali-disclaimer.jpg",
     "sound": ""
   },
   {
