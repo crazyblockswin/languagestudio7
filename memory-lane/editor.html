@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Memory Lane Studio | LS7</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="../index.html">LS<span>7</span></a><div><h1>Memory Lane Studio</h1><p>Pictures, sounds, and display order</p></div><a class="headlink" href="index.html">View slideshow</a></header>
+<main class="studio">
+<div class="notice"><strong>Choose files from your PC:</strong> Click <strong>+ Add picture</strong> to browse for a JPG/JPEG. Each entry also has buttons to choose or replace its picture and MP3. The editor previews your selected local files and fills in their exact filenames.<br><br><strong>Publishing:</strong> Because LS7 uses GitHub Pages, choosing a file here does not upload it to the website. Upload the actual JPGs to <code>memory-lane/images/</code>, MP3s to <code>memory-lane/sounds/</code>, then click <strong>Download catalog</strong> and upload the downloaded <code>memory-lane-data.js</code> into <code>memory-lane/</code>. Nothing is embedded in HTML.</div>
+<div class="toolbar"><button id="add">＋ Add picture from PC</button><button id="save">⬇ Download catalog</button><button id="load">↻ Reload published catalog</button><span id="count"></span></div>
+<input id="newImagePicker" type="file" accept=".jpg,.jpeg,image/jpeg" hidden>
+<div id="entries"></div>
+<p class="hint">Filenames must match the files uploaded to GitHub exactly, including capital letters. Use ↑ and ↓ to change the order.</p>
+</main>
+<script src="memory-lane-data.js"></script><script src="editor.js"></script>
+</body></html>
