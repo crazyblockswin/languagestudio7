@@ -36308,6 +36308,1101 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "wild-west": {
+    "title": "The Wild West",
+    "image": "images/the-wild-west.jpg",
+    "lessons": [
+      {
+        "text": "Welcome to the Wild West gold rush camp!",
+        "translations": {
+          "es": "¡Bienvenidos al campamento de la fiebre del oro del Lejano Oeste!",
+          "fr": "Bienvenue au camp de la ruée vers l’or du Far West !",
+          "de": "Willkommen im Goldgräberlager des Wilden Westens!",
+          "it": "Benvenuti al campo della corsa all’oro del Far West!",
+          "pt": "Bem-vindos ao acampamento da corrida do ouro do Velho Oeste!",
+          "no": "Velkommen til gullgraverleiren i Det ville vesten!"
+        }
+      },
+      {
+        "text": "Prospectors search the mountain stream for pieces of gold.",
+        "translations": {
+          "es": "Los buscadores de oro buscan pepitas en el arroyo de montaña.",
+          "fr": "Les chercheurs d’or cherchent des pépites dans le ruisseau de montagne.",
+          "de": "Goldsucher suchen im Gebirgsbach nach Goldstücken.",
+          "it": "I cercatori d’oro cercano pepite nel ruscello di montagna.",
+          "pt": "Os garimpeiros procuram pepitas no riacho da montanha.",
+          "no": "Gullgraverne leter etter gullbiter i fjellbekken."
+        }
+      },
+      {
+        "text": "The cowboy holds a pan full of shining gold nuggets.",
+        "translations": {
+          "es": "El vaquero sostiene una batea llena de pepitas de oro brillantes.",
+          "fr": "Le cow-boy tient une batée remplie de pépites d’or brillantes.",
+          "de": "Der Cowboy hält eine Pfanne voller glänzender Goldnuggets.",
+          "it": "Il cowboy tiene una padella piena di pepite d’oro scintillanti.",
+          "pt": "O caubói segura uma bateia cheia de pepitas de ouro brilhantes.",
+          "no": "Cowboyen holder en panne full av skinnende gullklumper."
+        }
+      },
+      {
+        "text": "Cold water flows over the rocks in the stream.",
+        "translations": {
+          "es": "El agua fría corre sobre las piedras del arroyo.",
+          "fr": "L’eau froide coule sur les pierres du ruisseau.",
+          "de": "Kaltes Wasser fließt über die Steine im Bach.",
+          "it": "L’acqua fredda scorre sulle pietre del ruscello.",
+          "pt": "A água fria corre sobre as pedras do riacho.",
+          "no": "Kaldt vann renner over steinene i bekken."
+        }
+      },
+      {
+        "text": "A bearded miner kneels beside the water with his gold pan.",
+        "translations": {
+          "es": "Un minero barbudo se arrodilla junto al agua con su batea.",
+          "fr": "Un mineur barbu s’agenouille près de l’eau avec sa batée.",
+          "de": "Ein bärtiger Goldgräber kniet mit seiner Pfanne am Wasser.",
+          "it": "Un minatore barbuto si inginocchia vicino all’acqua con la sua padella.",
+          "pt": "Um mineiro barbudo se ajoelha perto da água com sua bateia.",
+          "no": "En skjeggete gullgraver kneler ved vannet med gullvaskepannen sin."
+        }
+      },
+      {
+        "text": "A cooking pot hangs above the campfire.",
+        "translations": {
+          "es": "Una olla cuelga sobre la fogata.",
+          "fr": "Une marmite est suspendue au-dessus du feu de camp.",
+          "de": "Ein Kochtopf hängt über dem Lagerfeuer.",
+          "it": "Una pentola è appesa sopra il fuoco da campo.",
+          "pt": "Uma panela está pendurada sobre a fogueira.",
+          "no": "En gryte henger over leirbålet."
+        }
+      },
+      {
+        "text": "Families and workers sleep in canvas tents near the stream.",
+        "translations": {
+          "es": "Las familias y los trabajadores duermen en tiendas de lona cerca del arroyo.",
+          "fr": "Les familles et les ouvriers dorment sous des tentes en toile près du ruisseau.",
+          "de": "Familien und Arbeiter schlafen in Leinwandzelten am Bach.",
+          "it": "Famiglie e lavoratori dormono in tende di tela vicino al ruscello.",
+          "pt": "Famílias e trabalhadores dormem em barracas de lona perto do riacho.",
+          "no": "Familier og arbeidere sover i telt av lerret ved bekken."
+        }
+      },
+      {
+        "text": "A covered wagon carries supplies to the mining camp.",
+        "translations": {
+          "es": "Una carreta cubierta lleva provisiones al campamento minero.",
+          "fr": "Un chariot bâché transporte des provisions jusqu’au camp minier.",
+          "de": "Ein Planwagen bringt Vorräte zum Goldgräberlager.",
+          "it": "Un carro coperto trasporta provviste al campo dei minatori.",
+          "pt": "Uma carroça coberta leva suprimentos ao acampamento dos mineiros.",
+          "no": "En overbygd vogn frakter forsyninger til gullgraverleiren."
+        }
+      },
+      {
+        "text": "The trading post sells tools, food, and other supplies.",
+        "translations": {
+          "es": "El puesto comercial vende herramientas, comida y otros suministros.",
+          "fr": "Le comptoir commercial vend des outils, de la nourriture et d’autres provisions.",
+          "de": "Der Handelsposten verkauft Werkzeuge, Lebensmittel und andere Vorräte.",
+          "it": "L’emporio vende attrezzi, cibo e altre provviste.",
+          "pt": "O posto comercial vende ferramentas, comida e outros suprimentos.",
+          "no": "Handelsstasjonen selger verktøy, mat og andre forsyninger."
+        }
+      },
+      {
+        "text": "Snow-covered mountains rise beyond the pine forest.",
+        "translations": {
+          "es": "Las montañas nevadas se elevan detrás del bosque de pinos.",
+          "fr": "Les montagnes enneigées s’élèvent derrière la forêt de pins.",
+          "de": "Schneebedeckte Berge ragen hinter dem Kiefernwald auf.",
+          "it": "Le montagne innevate si innalzano oltre la pineta.",
+          "pt": "Montanhas cobertas de neve se erguem além da floresta de pinheiros.",
+          "no": "Snødekte fjell reiser seg bak furuskogen."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "porch",
+        "label": "Trading post porch",
+        "x": 75,
+        "y": 18,
+        "w": 25,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "Porche",
+          "fr": "Porche",
+          "de": "Veranda",
+          "it": "Portico",
+          "pt": "Varanda",
+          "no": "Veranda"
+        }
+      },
+      {
+        "id": "tripod",
+        "label": "Cooking tripod",
+        "x": 53,
+        "y": 29,
+        "w": 11,
+        "h": 15,
+        "sound": "",
+        "translations": {
+          "es": "Trípode para cocinar",
+          "fr": "Trépied de cuisson",
+          "de": "Kochdreibein",
+          "it": "Treppiede da cucina",
+          "pt": "Tripé de cozinha",
+          "no": "Kokestativ"
+        }
+      },
+      {
+        "id": "prospector",
+        "label": "Prospector",
+        "x": 1,
+        "y": 3,
+        "w": 48,
+        "h": 96,
+        "sound": "",
+        "translations": {
+          "es": "Buscador de oro",
+          "fr": "Chercheur d’or",
+          "de": "Goldsucher",
+          "it": "Cercatore d’oro",
+          "pt": "Garimpeiro",
+          "no": "Gullgraver"
+        }
+      },
+      {
+        "id": "cowboy-hat",
+        "label": "Cowboy hat",
+        "x": 13,
+        "y": 0,
+        "w": 24,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "Sombrero vaquero",
+          "fr": "Chapeau de cow-boy",
+          "de": "Cowboyhut",
+          "it": "Cappello da cowboy",
+          "pt": "Chapéu de caubói",
+          "no": "Cowboyhatt"
+        }
+      },
+      {
+        "id": "red-bandana",
+        "label": "Red bandana",
+        "x": 18,
+        "y": 23,
+        "w": 12,
+        "h": 15,
+        "sound": "",
+        "translations": {
+          "es": "Pañuelo rojo",
+          "fr": "Foulard rouge",
+          "de": "Rotes Halstuch",
+          "it": "Bandana rossa",
+          "pt": "Lenço vermelho",
+          "no": "Rødt halstørkle"
+        }
+      },
+      {
+        "id": "beard",
+        "label": "Beard",
+        "x": 18,
+        "y": 20,
+        "w": 12,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Barba",
+          "fr": "Barbe",
+          "de": "Bart",
+          "it": "Barba",
+          "pt": "Barba",
+          "no": "Skjegg"
+        }
+      },
+      {
+        "id": "shirt",
+        "label": "Shirt",
+        "x": 3,
+        "y": 28,
+        "w": 26,
+        "h": 28,
+        "sound": "",
+        "translations": {
+          "es": "Camisa",
+          "fr": "Chemise",
+          "de": "Hemd",
+          "it": "Camicia",
+          "pt": "Camisa",
+          "no": "Skjorte"
+        }
+      },
+      {
+        "id": "sleeve",
+        "label": "Rolled-up sleeve",
+        "x": 3,
+        "y": 47,
+        "w": 21,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Manga remangada",
+          "fr": "Manche retroussée",
+          "de": "Hochgekrempelter Ärmel",
+          "it": "Manica arrotolata",
+          "pt": "Manga arregaçada",
+          "no": "Oppbrettet erme"
+        }
+      },
+      {
+        "id": "hand",
+        "label": "Hand",
+        "x": 24,
+        "y": 66,
+        "w": 11,
+        "h": 17,
+        "sound": "",
+        "translations": {
+          "es": "Mano",
+          "fr": "Main",
+          "de": "Hand",
+          "it": "Mano",
+          "pt": "Mão",
+          "no": "Hånd"
+        }
+      },
+      {
+        "id": "gold-pan",
+        "label": "Gold pan",
+        "x": 22,
+        "y": 55,
+        "w": 30,
+        "h": 31,
+        "sound": "",
+        "translations": {
+          "es": "Batea para oro",
+          "fr": "Batée",
+          "de": "Goldwaschpfanne",
+          "it": "Padella per cercare oro",
+          "pt": "Bateia de ouro",
+          "no": "Gullvaskepanne"
+        }
+      },
+      {
+        "id": "water-pouring",
+        "label": "Pouring water",
+        "x": 38.70568856188205,
+        "y": 83,
+        "w": 10,
+        "h": 17,
+        "sound": "",
+        "translations": {
+          "es": "Agua cayendo",
+          "fr": "Eau qui coule",
+          "de": "Fließendes Wasser",
+          "it": "Acqua che scorre",
+          "pt": "Água escorrendo",
+          "no": "Rennende vann"
+        }
+      },
+      {
+        "id": "stream",
+        "label": "Mountain stream",
+        "x": 54.10418598087669,
+        "y": 75.41014508869479,
+        "w": 38.665950273883794,
+        "h": 24.589854911305213,
+        "sound": "",
+        "translations": {
+          "es": "Arroyo de montaña",
+          "fr": "Ruisseau de montagne",
+          "de": "Gebirgsbach",
+          "it": "Ruscello di montagna",
+          "pt": "Riacho de montanha",
+          "no": "Fjellbekk"
+        }
+      },
+      {
+        "id": "river-rocks",
+        "label": "River rocks",
+        "x": 50,
+        "y": 69,
+        "w": 16,
+        "h": 22,
+        "sound": "",
+        "translations": {
+          "es": "Piedras del río",
+          "fr": "Pierres de rivière",
+          "de": "Flusssteine",
+          "it": "Pietre del fiume",
+          "pt": "Pedras do rio",
+          "no": "Elvesteiner"
+        }
+      },
+      {
+        "id": "large-boulder",
+        "label": "Large boulder",
+        "x": 83,
+        "y": 63,
+        "w": 16,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Roca grande",
+          "fr": "Gros rocher",
+          "de": "Großer Felsblock",
+          "it": "Grande masso",
+          "pt": "Pedra grande",
+          "no": "Stor stein"
+        }
+      },
+      {
+        "id": "white-bearded-miner",
+        "label": "White-bearded miner",
+        "x": 65,
+        "y": 32,
+        "w": 22,
+        "h": 40,
+        "sound": "",
+        "translations": {
+          "es": "Minero de barba blanca",
+          "fr": "Mineur à barbe blanche",
+          "de": "Weißbärtiger Goldgräber",
+          "it": "Minatore con barba bianca",
+          "pt": "Mineiro de barba branca",
+          "no": "Gullgraver med hvitt skjegg"
+        }
+      },
+      {
+        "id": "miners-hat",
+        "label": "Miner’s hat",
+        "x": 67,
+        "y": 32,
+        "w": 11,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "Sombrero de minero",
+          "fr": "Chapeau de mineur",
+          "de": "Goldgräberhut",
+          "it": "Cappello da minatore",
+          "pt": "Chapéu de mineiro",
+          "no": "Gullgraverhatt"
+        }
+      },
+      {
+        "id": "second-gold-pan",
+        "label": "Second gold pan",
+        "x": 65.91300129978333,
+        "y": 63.730646783159315,
+        "w": 10.629432680344017,
+        "h": 9.864640007899814,
+        "sound": "",
+        "translations": {
+          "es": "Segunda batea",
+          "fr": "Deuxième batée",
+          "de": "Zweite Goldwaschpfanne",
+          "it": "Seconda padella",
+          "pt": "Segunda bateia",
+          "no": "Andre gullvaskepanne"
+        }
+      },
+      {
+        "id": "second-gold",
+        "label": "Gold in the pan",
+        "x": 70,
+        "y": 65,
+        "w": 7,
+        "h": 4,
+        "sound": "",
+        "translations": {
+          "es": "Oro en la batea",
+          "fr": "Or dans la batée",
+          "de": "Gold in der Pfanne",
+          "it": "Oro nella padella",
+          "pt": "Ouro na bateia",
+          "no": "Gull i pannen"
+        }
+      },
+      {
+        "id": "kneeling-miner",
+        "label": "Kneeling miner",
+        "x": 38,
+        "y": 31,
+        "w": 14,
+        "h": 25,
+        "sound": "",
+        "translations": {
+          "es": "Minero arrodillado",
+          "fr": "Mineur à genoux",
+          "de": "Kniender Goldgräber",
+          "it": "Minatore inginocchiato",
+          "pt": "Mineiro ajoelhado",
+          "no": "Knelt gullgraver"
+        }
+      },
+      {
+        "id": "third-gold-pan",
+        "label": "Small gold pan",
+        "x": 44,
+        "y": 48,
+        "w": 6,
+        "h": 6,
+        "sound": "",
+        "translations": {
+          "es": "Batea pequeña",
+          "fr": "Petite batée",
+          "de": "Kleine Goldwaschpfanne",
+          "it": "Piccola padella",
+          "pt": "Bateia pequena",
+          "no": "Liten gullvaskepanne"
+        }
+      },
+      {
+        "id": "campfire",
+        "label": "Campfire",
+        "x": 52,
+        "y": 39,
+        "w": 11,
+        "h": 12,
+        "sound": "",
+        "translations": {
+          "es": "Fogata",
+          "fr": "Feu de camp",
+          "de": "Lagerfeuer",
+          "it": "Fuoco da campo",
+          "pt": "Fogueira",
+          "no": "Leirbål"
+        }
+      },
+      {
+        "id": "flames",
+        "label": "Flames",
+        "x": 55,
+        "y": 41,
+        "w": 5,
+        "h": 8,
+        "sound": "sounds/fire.mp3",
+        "translations": {
+          "es": "Llamas",
+          "fr": "Flammes",
+          "de": "Flammen",
+          "it": "Fiamme",
+          "pt": "Chamas",
+          "no": "Flammer"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "cooking-pot",
+        "label": "Cooking pot",
+        "x": 55,
+        "y": 32,
+        "w": 6,
+        "h": 10,
+        "sound": "",
+        "translations": {
+          "es": "Olla",
+          "fr": "Marmite",
+          "de": "Kochtopf",
+          "it": "Pentola",
+          "pt": "Panela",
+          "no": "Gryte"
+        }
+      },
+      {
+        "id": "smoke",
+        "label": "Smoke",
+        "x": 55,
+        "y": 16,
+        "w": 7,
+        "h": 21,
+        "sound": "",
+        "translations": {
+          "es": "Humo",
+          "fr": "Fumée",
+          "de": "Rauch",
+          "it": "Fumo",
+          "pt": "Fumaça",
+          "no": "Røyk"
+        }
+      },
+      {
+        "id": "left-tent",
+        "label": "Canvas tent",
+        "x": 0,
+        "y": 15,
+        "w": 16,
+        "h": 22,
+        "sound": "",
+        "translations": {
+          "es": "Tienda de lona",
+          "fr": "Tente en toile",
+          "de": "Leinwandzelt",
+          "it": "Tenda di tela",
+          "pt": "Barraca de lona",
+          "no": "Telt av lerret"
+        }
+      },
+      {
+        "id": "center-tent",
+        "label": "Large tent",
+        "x": 29,
+        "y": 22,
+        "w": 20,
+        "h": 20,
+        "sound": "",
+        "translations": {
+          "es": "Tienda grande",
+          "fr": "Grande tente",
+          "de": "Großes Zelt",
+          "it": "Tenda grande",
+          "pt": "Barraca grande",
+          "no": "Stort telt"
+        }
+      },
+      {
+        "id": "small-tent",
+        "label": "Small tent",
+        "x": 29,
+        "y": 30,
+        "w": 9,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "Tienda pequeña",
+          "fr": "Petite tente",
+          "de": "Kleines Zelt",
+          "it": "Tenda piccola",
+          "pt": "Barraca pequena",
+          "no": "Lite telt"
+        }
+      },
+      {
+        "id": "covered-wagon",
+        "label": "Covered wagon",
+        "x": 61,
+        "y": 14,
+        "w": 19,
+        "h": 28,
+        "sound": "",
+        "translations": {
+          "es": "Carreta cubierta",
+          "fr": "Chariot bâché",
+          "de": "Planwagen",
+          "it": "Carro coperto",
+          "pt": "Carroça coberta",
+          "no": "Overbygd vogn"
+        }
+      },
+      {
+        "id": "wagon-wheel",
+        "label": "Wagon wheel",
+        "x": 62,
+        "y": 33,
+        "w": 7,
+        "h": 10,
+        "sound": "",
+        "translations": {
+          "es": "Rueda de carreta",
+          "fr": "Roue de chariot",
+          "de": "Wagenrad",
+          "it": "Ruota del carro",
+          "pt": "Roda da carroça",
+          "no": "Vognhjul"
+        }
+      },
+      {
+        "id": "wooden-barrel",
+        "label": "Wooden barrel",
+        "x": 62,
+        "y": 39,
+        "w": 7,
+        "h": 12,
+        "sound": "",
+        "translations": {
+          "es": "Barril de madera",
+          "fr": "Tonneau en bois",
+          "de": "Holzfass",
+          "it": "Barile di legno",
+          "pt": "Barril de madeira",
+          "no": "Tretønne"
+        }
+      },
+      {
+        "id": "wooden-crate",
+        "label": "Wooden crate",
+        "x": 49,
+        "y": 39,
+        "w": 6,
+        "h": 12,
+        "sound": "",
+        "translations": {
+          "es": "Caja de madera",
+          "fr": "Caisse en bois",
+          "de": "Holzkiste",
+          "it": "Cassa di legno",
+          "pt": "Caixote de madeira",
+          "no": "Trekasse"
+        }
+      },
+      {
+        "id": "trading-post",
+        "label": "Trading post",
+        "x": 76,
+        "y": 0,
+        "w": 24,
+        "h": 39,
+        "sound": "",
+        "translations": {
+          "es": "Puesto comercial",
+          "fr": "Comptoir commercial",
+          "de": "Handelsposten",
+          "it": "Emporio",
+          "pt": "Posto comercial",
+          "no": "Handelsstasjon"
+        }
+      },
+      {
+        "id": "trading-sign",
+        "label": "Trading post sign",
+        "x": 84,
+        "y": 3,
+        "w": 13,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Letrero del puesto",
+          "fr": "Enseigne du comptoir",
+          "de": "Handelspostenschild",
+          "it": "Insegna dell’emporio",
+          "pt": "Placa do posto",
+          "no": "Skilt på handelsstasjonen"
+        }
+      },
+      {
+        "id": "wooden-roof",
+        "label": "Wooden roof",
+        "x": 76,
+        "y": 0,
+        "w": 24,
+        "h": 21,
+        "sound": "",
+        "translations": {
+          "es": "Tejado de madera",
+          "fr": "Toit en bois",
+          "de": "Holzdach",
+          "it": "Tetto di legno",
+          "pt": "Telhado de madeira",
+          "no": "Tretak"
+        }
+      },
+      {
+        "id": "dress",
+        "label": "Long dress",
+        "x": 80,
+        "y": 29,
+        "w": 8,
+        "h": 18,
+        "sound": "",
+        "translations": {
+          "es": "Vestido largo",
+          "fr": "Robe longue",
+          "de": "Langes Kleid",
+          "it": "Vestito lungo",
+          "pt": "Vestido comprido",
+          "no": "Lang kjole"
+        }
+      },
+      {
+        "id": "metal-cup",
+        "label": "Metal cup",
+        "x": 83,
+        "y": 26,
+        "w": 4,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "Taza de metal",
+          "fr": "Tasse en métal",
+          "de": "Metallbecher",
+          "it": "Tazza di metallo",
+          "pt": "Caneca de metal",
+          "no": "Metallkopp"
+        }
+      },
+      {
+        "id": "porch-man",
+        "label": "Man on the porch",
+        "x": 89,
+        "y": 19,
+        "w": 7,
+        "h": 37,
+        "sound": "",
+        "translations": {
+          "es": "Hombre en el porche",
+          "fr": "Homme sur le porche",
+          "de": "Mann auf der Veranda",
+          "it": "Uomo sul portico",
+          "pt": "Homem na varanda",
+          "no": "Mann på verandaen"
+        }
+      },
+      {
+        "id": "horse",
+        "label": "Horse",
+        "x": 91,
+        "y": 28,
+        "w": 9,
+        "h": 31,
+        "sound": "",
+        "translations": {
+          "es": "Caballo",
+          "fr": "Cheval",
+          "de": "Pferd",
+          "it": "Cavallo",
+          "pt": "Cavalo",
+          "no": "Hest"
+        }
+      },
+      {
+        "id": "saddle",
+        "label": "Saddle",
+        "x": 91,
+        "y": 27,
+        "w": 9,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Silla de montar",
+          "fr": "Selle",
+          "de": "Sattel",
+          "it": "Sella",
+          "pt": "Sela",
+          "no": "Sal"
+        }
+      },
+      {
+        "id": "saddlebag",
+        "label": "Saddlebag",
+        "x": 92,
+        "y": 28,
+        "w": 8,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "Alforja",
+          "fr": "Sacoche de selle",
+          "de": "Satteltasche",
+          "it": "Bisaccia",
+          "pt": "Alforje",
+          "no": "Salveske"
+        }
+      },
+      {
+        "id": "pine-trees",
+        "label": "Pine trees",
+        "x": 0,
+        "y": 0,
+        "w": 13,
+        "h": 22,
+        "sound": "",
+        "translations": {
+          "es": "Pinos",
+          "fr": "Pins",
+          "de": "Kiefern",
+          "it": "Pini",
+          "pt": "Pinheiros",
+          "no": "Furutrær"
+        }
+      },
+      {
+        "id": "snowy-mountains",
+        "label": "Snowy mountains",
+        "x": 34,
+        "y": 0,
+        "w": 42,
+        "h": 18,
+        "sound": "",
+        "translations": {
+          "es": "Montañas nevadas",
+          "fr": "Montagnes enneigées",
+          "de": "Schneebedeckte Berge",
+          "it": "Montagne innevate",
+          "pt": "Montanhas nevadas",
+          "no": "Snødekte fjell"
+        }
+      },
+      {
+        "id": "blue-sky",
+        "label": "Blue sky",
+        "x": 33,
+        "y": 0,
+        "w": 14,
+        "h": 9,
+        "sound": "",
+        "translations": {
+          "es": "Cielo azul",
+          "fr": "Ciel bleu",
+          "de": "Blauer Himmel",
+          "it": "Cielo azzurro",
+          "pt": "Céu azul",
+          "no": "Blå himmel"
+        }
+      },
+      {
+        "id": "clouds",
+        "label": "Clouds",
+        "x": 58,
+        "y": 0,
+        "w": 12,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "Nubes",
+          "fr": "Nuages",
+          "de": "Wolken",
+          "it": "Nuvole",
+          "pt": "Nuvens",
+          "no": "Skyer"
+        }
+      },
+      {
+        "id": "forest",
+        "label": "Forest",
+        "x": 63,
+        "y": 8,
+        "w": 15,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "Bosque",
+          "fr": "Forêt",
+          "de": "Wald",
+          "it": "Foresta",
+          "pt": "Floresta",
+          "no": "Skog"
+        }
+      },
+      {
+        "id": "camp-workers",
+        "label": "Camp workers",
+        "x": 50,
+        "y": 27,
+        "w": 6,
+        "h": 16,
+        "sound": "",
+        "translations": {
+          "es": "Trabajadores del campamento",
+          "fr": "Travailleurs du camp",
+          "de": "Lagerarbeiter",
+          "it": "Lavoratori del campo",
+          "pt": "Trabalhadores do acampamento",
+          "no": "Leirarbeidere"
+        }
+      },
+      {
+        "id": "sitting-miner",
+        "label": "Seated miner",
+        "x": 36,
+        "y": 29,
+        "w": 7,
+        "h": 14,
+        "sound": "",
+        "translations": {
+          "es": "Minero sentado",
+          "fr": "Mineur assis",
+          "de": "Sitzender Goldgräber",
+          "it": "Minatore seduto",
+          "pt": "Mineiro sentado",
+          "no": "Sittende gullgraver"
+        }
+      },
+      {
+        "id": "wooden-posts",
+        "label": "Wooden posts",
+        "x": 71,
+        "y": 21,
+        "w": 5,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "Postes de madera",
+          "fr": "Poteaux en bois",
+          "de": "Holzpfosten",
+          "it": "Pali di legno",
+          "pt": "Postes de madeira",
+          "no": "Trestolper"
+        }
+      },
+      {
+        "id": "gold-nuggets",
+        "label": "Gold nuggets",
+        "x": 32,
+        "y": 79,
+        "w": 17,
+        "h": 8,
+        "sound": "",
+        "translations": {
+          "es": "Pepitas de oro",
+          "fr": "Pépites d’or",
+          "de": "Goldnuggets",
+          "it": "Pepite d’oro",
+          "pt": "Pepitas de ouro",
+          "no": "Gullklumper"
+        }
+      },
+      {
+        "id": "woman",
+        "label": "Woman at the trading post",
+        "x": 80.07410977625386,
+        "y": 21.22996610637831,
+        "w": 7.690653532635084,
+        "h": 26.67541695174823,
+        "sound": "sounds/talking-people.mp3",
+        "translations": {
+          "es": "Mujer en el puesto",
+          "fr": "Femme au comptoir",
+          "de": "Frau am Handelsposten",
+          "it": "Donna all’emporio",
+          "pt": "Mulher no posto",
+          "no": "Kvinne ved handelsstasjonen"
+        },
+        "rotation": 0,
+        "z": 0
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the pan full of gold nuggets.",
+        "target": "gold-pan",
+        "translations": {
+          "es": "Encuentra la batea llena de pepitas de oro.",
+          "fr": "Trouve la batée remplie de pépites d’or.",
+          "de": "Finde die Pfanne voller Goldnuggets.",
+          "it": "Trova la padella piena di pepite d’oro.",
+          "pt": "Encontre a bateia cheia de pepitas de ouro.",
+          "no": "Finn pannen full av gullklumper."
+        }
+      },
+      {
+        "prompt": "Find the white-bearded miner.",
+        "target": "white-bearded-miner",
+        "translations": {
+          "es": "Encuentra al minero de barba blanca.",
+          "fr": "Trouve le mineur à barbe blanche.",
+          "de": "Finde den Goldgräber mit weißem Bart.",
+          "it": "Trova il minatore con la barba bianca.",
+          "pt": "Encontre o mineiro de barba branca.",
+          "no": "Finn gullgraveren med hvitt skjegg."
+        }
+      },
+      {
+        "prompt": "Find the cooking pot above the fire.",
+        "target": "cooking-pot",
+        "translations": {
+          "es": "Encuentra la olla sobre el fuego.",
+          "fr": "Trouve la marmite au-dessus du feu.",
+          "de": "Finde den Kochtopf über dem Feuer.",
+          "it": "Trova la pentola sopra il fuoco.",
+          "pt": "Encontre a panela sobre o fogo.",
+          "no": "Finn gryten over bålet."
+        }
+      },
+      {
+        "prompt": "Find the covered wagon.",
+        "target": "covered-wagon",
+        "translations": {
+          "es": "Encuentra la carreta cubierta.",
+          "fr": "Trouve le chariot bâché.",
+          "de": "Finde den Planwagen.",
+          "it": "Trova il carro coperto.",
+          "pt": "Encontre a carroça coberta.",
+          "no": "Finn den overbygde vognen."
+        }
+      },
+      {
+        "prompt": "Find the trading post sign.",
+        "target": "trading-sign",
+        "translations": {
+          "es": "Encuentra el letrero del puesto comercial.",
+          "fr": "Trouve l’enseigne du comptoir commercial.",
+          "de": "Finde das Schild des Handelspostens.",
+          "it": "Trova l’insegna dell’emporio.",
+          "pt": "Encontre a placa do posto comercial.",
+          "no": "Finn skiltet på handelsstasjonen."
+        }
+      },
+      {
+        "prompt": "Find the horse beside the building.",
+        "target": "horse",
+        "translations": {
+          "es": "Encuentra el caballo junto al edificio.",
+          "fr": "Trouve le cheval à côté du bâtiment.",
+          "de": "Finde das Pferd neben dem Gebäude.",
+          "it": "Trova il cavallo accanto all’edificio.",
+          "pt": "Encontre o cavalo ao lado do prédio.",
+          "no": "Finn hesten ved bygningen."
+        }
+      },
+      {
+        "prompt": "Find the woman holding a metal cup.",
+        "target": "woman",
+        "translations": {
+          "es": "Encuentra a la mujer que sostiene una taza de metal.",
+          "fr": "Trouve la femme qui tient une tasse en métal.",
+          "de": "Finde die Frau mit dem Metallbecher.",
+          "it": "Trova la donna che tiene una tazza di metallo.",
+          "pt": "Encontre a mulher segurando uma caneca de metal.",
+          "no": "Finn kvinnen som holder en metallkopp."
+        }
+      },
+      {
+        "prompt": "Find the large canvas tent.",
+        "target": "center-tent",
+        "translations": {
+          "es": "Encuentra la tienda grande de lona.",
+          "fr": "Trouve la grande tente en toile.",
+          "de": "Finde das große Leinwandzelt.",
+          "it": "Trova la grande tenda di tela.",
+          "pt": "Encontre a barraca grande de lona.",
+          "no": "Finn det store teltet av lerret."
+        }
+      },
+      {
+        "prompt": "Find the snowy mountains.",
+        "target": "snowy-mountains",
+        "translations": {
+          "es": "Encuentra las montañas nevadas.",
+          "fr": "Trouve les montagnes enneigées.",
+          "de": "Finde die schneebedeckten Berge.",
+          "it": "Trova le montagne innevate.",
+          "pt": "Encontre as montanhas nevadas.",
+          "no": "Finn de snødekte fjellene."
+        }
+      },
+      {
+        "prompt": "Find the wooden barrel near the wagon.",
+        "target": "wooden-barrel",
+        "translations": {
+          "es": "Encuentra el barril de madera cerca de la carreta.",
+          "fr": "Trouve le tonneau en bois près du chariot.",
+          "de": "Finde das Holzfass neben dem Wagen.",
+          "it": "Trova il barile di legno vicino al carro.",
+          "pt": "Encontre o barril de madeira perto da carroça.",
+          "no": "Finn tretønnen ved vognen."
+        }
+      }
+    ]
+  },
   "sailboat-storm": {
     "title": "Sailboat Storm",
     "image": "images/Stormy-Sailboat.jpg",
@@ -38634,6 +39729,431 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "space-launch": {
+    "title": "Space-Launch",
+    "image": "images/space-launch.jpg",
+    "lessons": [
+      {
+        "text": "Welcome to Space Launch! Watch the spacecraft rise into the sky.",
+        "translations": {
+          "es": "¡Bienvenidos a Lanzamiento Espacial! Mira cómo la nave espacial sube al cielo.",
+          "fr": "Bienvenue à Lancement spatial ! Regardez le vaisseau spatial s’élever dans le ciel.",
+          "de": "Willkommen beim Weltraumstart! Sieh zu, wie das Raumschiff in den Himmel steigt.",
+          "it": "Benvenuti al lancio spaziale! Guarda la navicella salire nel cielo.",
+          "no": "Velkommen til romoppskytingen! Se romfartøyet stige opp mot himmelen.",
+          "pt": "Bem-vindos ao lançamento espacial! Veja a nave espacial subir ao céu."
+        }
+      },
+      {
+        "text": "The space shuttle lifts off with a powerful burst of fire.",
+        "translations": {
+          "es": "El transbordador espacial despega con una poderosa llamarada.",
+          "fr": "La navette spatiale décolle dans une puissante gerbe de feu.",
+          "de": "Die Raumfähre hebt mit einem gewaltigen Feuerstrahl ab.",
+          "it": "Lo space shuttle decolla con una potente fiammata.",
+          "no": "Romfergen tar av med en kraftig ildstråle.",
+          "pt": "O ônibus espacial decola com uma poderosa explosão de fogo."
+        }
+      },
+      {
+        "text": "The engines push the spacecraft upward against gravity.",
+        "translations": {
+          "es": "Los motores impulsan la nave espacial hacia arriba contra la gravedad.",
+          "fr": "Les moteurs poussent le vaisseau spatial vers le haut contre la gravité.",
+          "de": "Die Triebwerke schieben das Raumschiff gegen die Schwerkraft nach oben.",
+          "it": "I motori spingono la navicella verso l’alto contro la gravità.",
+          "no": "Motorene skyver romfartøyet oppover mot tyngdekraften.",
+          "pt": "Os motores empurram a nave espacial para cima contra a gravidade."
+        }
+      },
+      {
+        "text": "Huge clouds of smoke spread across the launch pad.",
+        "translations": {
+          "es": "Enormes nubes de humo se extienden por la plataforma de lanzamiento.",
+          "fr": "D’énormes nuages de fumée se répandent sur le pas de tir.",
+          "de": "Riesige Rauchwolken breiten sich über der Startrampe aus.",
+          "it": "Enormi nuvole di fumo si diffondono sulla rampa di lancio.",
+          "no": "Store røykskyer sprer seg over oppskytingsrampen.",
+          "pt": "Enormes nuvens de fumaça se espalham pela plataforma de lançamento."
+        }
+      },
+      {
+        "text": "The launch tower stands beside the spacecraft.",
+        "translations": {
+          "es": "La torre de lanzamiento está junto a la nave espacial.",
+          "fr": "La tour de lancement se dresse à côté du vaisseau spatial.",
+          "de": "Der Startturm steht neben dem Raumschiff.",
+          "it": "La torre di lancio si trova accanto alla navicella.",
+          "no": "Oppskytingstårnet står ved siden av romfartøyet.",
+          "pt": "A torre de lançamento fica ao lado da nave espacial."
+        }
+      },
+      {
+        "text": "The large NASA building is used to prepare spacecraft for launch.",
+        "translations": {
+          "es": "El gran edificio de la NASA se utiliza para preparar naves espaciales para el lanzamiento.",
+          "fr": "Le grand bâtiment de la NASA sert à préparer les engins spatiaux au lancement.",
+          "de": "Das große NASA-Gebäude dient dazu, Raumfahrzeuge für den Start vorzubereiten.",
+          "it": "Il grande edificio della NASA serve a preparare i veicoli spaziali al lancio.",
+          "no": "Den store NASA-bygningen brukes til å klargjøre romfartøy for oppskyting.",
+          "pt": "O grande edifício da NASA é usado para preparar naves espaciais para o lançamento."
+        }
+      },
+      {
+        "text": "Families gather at the viewing deck to watch the launch.",
+        "translations": {
+          "es": "Las familias se reúnen en la plataforma de observación para ver el lanzamiento.",
+          "fr": "Des familles se rassemblent sur la terrasse d’observation pour regarder le lancement.",
+          "de": "Familien versammeln sich auf der Aussichtsplattform, um den Start zu beobachten.",
+          "it": "Le famiglie si riuniscono sulla terrazza panoramica per assistere al lancio.",
+          "no": "Familier samles på utsiktsplattformen for å se oppskytingen.",
+          "pt": "As famílias se reúnem no mirante para assistir ao lançamento."
+        }
+      },
+      {
+        "text": "Photographers use cameras to capture the exciting moment.",
+        "translations": {
+          "es": "Los fotógrafos usan cámaras para captar este emocionante momento.",
+          "fr": "Les photographes utilisent des appareils photo pour immortaliser ce moment passionnant.",
+          "de": "Fotografen benutzen Kameras, um diesen aufregenden Moment festzuhalten.",
+          "it": "I fotografi usano le macchine fotografiche per immortalare questo momento emozionante.",
+          "no": "Fotografer bruker kameraer for å fange det spennende øyeblikket.",
+          "pt": "Os fotógrafos usam câmeras para registrar esse momento emocionante."
+        }
+      },
+      {
+        "text": "A golden dog watches from the wooden deck.",
+        "translations": {
+          "es": "Un perro dorado observa desde la plataforma de madera.",
+          "fr": "Un chien doré regarde depuis la terrasse en bois.",
+          "de": "Ein goldfarbener Hund schaut von der Holzplattform aus zu.",
+          "it": "Un cane dorato osserva dalla terrazza di legno.",
+          "no": "En gyllen hund følger med fra treplattformen.",
+          "pt": "Um cachorro dourado observa do deque de madeira."
+        }
+      },
+      {
+        "text": "The water reflects the bright light from the launch.",
+        "translations": {
+          "es": "El agua refleja la luz brillante del lanzamiento.",
+          "fr": "L’eau reflète la lumière éclatante du lancement.",
+          "de": "Das Wasser spiegelt das helle Licht des Starts wider.",
+          "it": "L’acqua riflette la luce intensa del lancio.",
+          "no": "Vannet speiler det sterke lyset fra oppskytingen.",
+          "pt": "A água reflete a luz brilhante do lançamento."
+        }
+      },
+      {
+        "text": "The American flag is displayed on the NASA building.",
+        "translations": {
+          "es": "La bandera estadounidense aparece en el edificio de la NASA.",
+          "fr": "Le drapeau américain est affiché sur le bâtiment de la NASA.",
+          "de": "Die amerikanische Flagge ist am NASA-Gebäude zu sehen.",
+          "it": "La bandiera americana è esposta sull’edificio della NASA.",
+          "no": "Det amerikanske flagget vises på NASA-bygningen.",
+          "pt": "A bandeira americana está no edifício da NASA."
+        }
+      },
+      {
+        "text": "Space exploration helps us learn more about Earth and the universe.",
+        "translations": {
+          "es": "La exploración espacial nos ayuda a aprender más sobre la Tierra y el universo.",
+          "fr": "L’exploration spatiale nous aide à mieux connaître la Terre et l’univers.",
+          "de": "Die Weltraumforschung hilft uns, mehr über die Erde und das Universum zu erfahren.",
+          "it": "L’esplorazione spaziale ci aiuta a conoscere meglio la Terra e l’universo.",
+          "no": "Romutforskning hjelper oss å lære mer om jorden og universet.",
+          "pt": "A exploração espacial nos ajuda a aprender mais sobre a Terra e o universo."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "shuttle",
+        "label": "space shuttle",
+        "x": 47.8,
+        "y": 9.5,
+        "w": 4.3,
+        "h": 15,
+        "sound": "sounds/shuttle-launch.mp3",
+        "translations": {
+          "es": "transbordador espacial",
+          "fr": "navette spatiale",
+          "de": "Raumschiff",
+          "it": "Space Shuttle",
+          "pt": "vaivém espacial",
+          "no": "Romferjen"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "flames",
+        "label": "rocket flames",
+        "x": 49.6,
+        "y": 24.4,
+        "w": 3.2,
+        "h": 19.5,
+        "sound": "",
+        "translations": {
+          "es": "llamas de cohetes",
+          "fr": "flammes de fusée",
+          "de": "raketenflammen",
+          "it": "fiamme di razzi",
+          "pt": "chamas de foguete",
+          "no": "rakettflammer"
+        }
+      },
+      {
+        "id": "smoke",
+        "label": "launch smoke",
+        "x": 64.5,
+        "y": 45.2,
+        "w": 14.3,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "lanzar humo",
+          "fr": "fumée de lancement",
+          "de": "rauch ausstoßen",
+          "it": "fumo di lancio",
+          "pt": "lançar fumo",
+          "no": "lansere røyk"
+        }
+      },
+      {
+        "id": "tower",
+        "label": "launch tower",
+        "x": 40.7,
+        "y": 34.2,
+        "w": 7.2,
+        "h": 23.2,
+        "sound": "",
+        "translations": {
+          "es": "torre de lanzamiento",
+          "fr": "tour de lancement",
+          "de": "startturm",
+          "it": "torre di lancio",
+          "pt": "torre de lançamento",
+          "no": "oppskytningstårn"
+        }
+      },
+      {
+        "id": "nasa-building",
+        "label": "NASA building",
+        "x": 13.5,
+        "y": 46.5,
+        "w": 13.5,
+        "h": 17.8,
+        "sound": "",
+        "translations": {
+          "es": "Edificio de la NASA",
+          "fr": "Bâtiment NASA",
+          "de": "NASA-Gebäude",
+          "it": "Edificio NASA",
+          "pt": "Edifício da NASA",
+          "no": "NASA-bygningen"
+        }
+      },
+      {
+        "id": "flag",
+        "label": "American flag",
+        "x": 20,
+        "y": 48.2,
+        "w": 2.1,
+        "h": 6.5,
+        "sound": "",
+        "translations": {
+          "es": "La bandera americana",
+          "fr": "Drapeau des États-Unis",
+          "de": "Die amerikanische Fahne",
+          "it": "Bandiera americana",
+          "pt": "Bandeira dos Estados Unidos",
+          "no": "USAs flagg"
+        }
+      },
+      {
+        "id": "water",
+        "label": "water",
+        "x": 1.5,
+        "y": 70,
+        "w": 24,
+        "h": 11,
+        "sound": "",
+        "translations": {
+          "es": "de agua",
+          "fr": "eau",
+          "de": "Wasser",
+          "it": "calda sanitaria",
+          "pt": "água",
+          "no": "vann"
+        }
+      },
+      {
+        "id": "deck",
+        "label": "wooden viewing deck",
+        "x": 20,
+        "y": 91,
+        "w": 35,
+        "h": 8,
+        "sound": "",
+        "translations": {
+          "es": "mirador de madera",
+          "fr": "terrasse panoramique en bois",
+          "de": "holzaussichtsplattform",
+          "it": "terrazza panoramica in legno",
+          "pt": "deck de visualização de madeira",
+          "no": "utsiktsdekk i tre"
+        }
+      },
+      {
+        "id": "photographer",
+        "label": "photographer",
+        "x": 58.5,
+        "y": 67,
+        "w": 10,
+        "h": 25,
+        "sound": "",
+        "translations": {
+          "es": "fotógrafo",
+          "fr": "photographe",
+          "de": "Fotograf*in",
+          "it": "Fotografo",
+          "pt": "fotógrafo",
+          "no": "fotograf"
+        }
+      },
+      {
+        "id": "children",
+        "label": "children",
+        "x": 43,
+        "y": 76,
+        "w": 14,
+        "h": 19,
+        "sound": "sounds/kids-talking.mp3",
+        "translations": {
+          "es": "hijos",
+          "fr": "d’enfants",
+          "de": "kinder",
+          "it": "bambini",
+          "pt": "filhos",
+          "no": "barn"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "dog",
+        "label": "golden dog",
+        "x": 55.8,
+        "y": 82,
+        "w": 7,
+        "h": 16,
+        "sound": "sounds/dog.mp3",
+        "translations": {
+          "es": "perro dorado",
+          "fr": "golden dog",
+          "de": "goldener Hund",
+          "it": "cane dorato",
+          "pt": "cão dourado",
+          "no": "gyllen hund"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "water-tower",
+        "label": "water tower",
+        "x": 31.4,
+        "y": 45,
+        "w": 3,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "torre de incendios",
+          "fr": "tour d'incendie",
+          "de": "Loeschturm",
+          "it": "torre antincendio",
+          "pt": "torre de água",
+          "no": "Vanntårn"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the Space Shuttle",
+        "target": "shuttle",
+        "translations": {
+          "es": "Encuentra el transbordador espacial",
+          "fr": "Trouvez la navette spatiale",
+          "de": "Finde die Raumfähre",
+          "it": "Trova lo space shuttle",
+          "no": "Finn romfergen",
+          "pt": "Encontre o ônibus espacial"
+        }
+      },
+      {
+        "prompt": "Find the Launch Tower",
+        "target": "tower",
+        "translations": {
+          "es": "Encuentra la torre de lanzamiento",
+          "fr": "Trouvez la tour de lancement",
+          "de": "Finde den Startturm",
+          "it": "Trova la torre di lancio",
+          "no": "Finn oppskytingstårnet",
+          "pt": "Encontre a torre de lançamento"
+        }
+      },
+      {
+        "prompt": "Find the NASA Building",
+        "target": "nasa-building",
+        "translations": {
+          "es": "Encuentra el edificio de la NASA",
+          "fr": "Trouvez le bâtiment de la NASA",
+          "de": "Finde das NASA-Gebäude",
+          "it": "Trova l’edificio della NASA",
+          "no": "Finn NASA-bygningen",
+          "pt": "Encontre o edifício da NASA"
+        }
+      },
+      {
+        "prompt": "Find the American Flag",
+        "target": "flag",
+        "translations": {
+          "es": "Encuentra la bandera estadounidense",
+          "fr": "Trouvez le drapeau américain",
+          "de": "Finde die amerikanische Flagge",
+          "it": "Trova la bandiera americana",
+          "no": "Finn det amerikanske flagget",
+          "pt": "Encontre a bandeira americana"
+        }
+      },
+      {
+        "prompt": "Find the Golden Dog",
+        "target": "dog",
+        "translations": {
+          "es": "Encuentra el perro dorado",
+          "fr": "Trouvez le chien doré",
+          "de": "Finde den goldfarbenen Hund",
+          "it": "Trova il cane dorato",
+          "no": "Finn den gylne hunden",
+          "pt": "Encontre o cachorro dourado"
+        }
+      },
+      {
+        "prompt": "Find the Water Tower",
+        "target": "water-tower",
+        "translations": {
+          "es": "Encuentra la torre de agua",
+          "fr": "Trouvez le château d’eau",
+          "de": "Finde den Wasserturm",
+          "it": "Trova la torre dell’acqua",
+          "no": "Finn vanntårnet",
+          "pt": "Encontre a torre de água"
+        }
+      }
+    ]
+  },
   "ski-jump": {
     "title": "Ski Jump",
     "image": "images/ski-jump.jpg",
@@ -39592,431 +41112,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Trova la Terra",
           "pt": "Encontrar Terra",
           "no": "Finn Jorden"
-        }
-      }
-    ]
-  },
-  "space-launch": {
-    "title": "Space-Launch",
-    "image": "images/space-launch.jpg",
-    "lessons": [
-      {
-        "text": "Welcome to Space Launch! Watch the spacecraft rise into the sky.",
-        "translations": {
-          "es": "¡Bienvenidos a Lanzamiento Espacial! Mira cómo la nave espacial sube al cielo.",
-          "fr": "Bienvenue à Lancement spatial ! Regardez le vaisseau spatial s’élever dans le ciel.",
-          "de": "Willkommen beim Weltraumstart! Sieh zu, wie das Raumschiff in den Himmel steigt.",
-          "it": "Benvenuti al lancio spaziale! Guarda la navicella salire nel cielo.",
-          "no": "Velkommen til romoppskytingen! Se romfartøyet stige opp mot himmelen.",
-          "pt": "Bem-vindos ao lançamento espacial! Veja a nave espacial subir ao céu."
-        }
-      },
-      {
-        "text": "The space shuttle lifts off with a powerful burst of fire.",
-        "translations": {
-          "es": "El transbordador espacial despega con una poderosa llamarada.",
-          "fr": "La navette spatiale décolle dans une puissante gerbe de feu.",
-          "de": "Die Raumfähre hebt mit einem gewaltigen Feuerstrahl ab.",
-          "it": "Lo space shuttle decolla con una potente fiammata.",
-          "no": "Romfergen tar av med en kraftig ildstråle.",
-          "pt": "O ônibus espacial decola com uma poderosa explosão de fogo."
-        }
-      },
-      {
-        "text": "The engines push the spacecraft upward against gravity.",
-        "translations": {
-          "es": "Los motores impulsan la nave espacial hacia arriba contra la gravedad.",
-          "fr": "Les moteurs poussent le vaisseau spatial vers le haut contre la gravité.",
-          "de": "Die Triebwerke schieben das Raumschiff gegen die Schwerkraft nach oben.",
-          "it": "I motori spingono la navicella verso l’alto contro la gravità.",
-          "no": "Motorene skyver romfartøyet oppover mot tyngdekraften.",
-          "pt": "Os motores empurram a nave espacial para cima contra a gravidade."
-        }
-      },
-      {
-        "text": "Huge clouds of smoke spread across the launch pad.",
-        "translations": {
-          "es": "Enormes nubes de humo se extienden por la plataforma de lanzamiento.",
-          "fr": "D’énormes nuages de fumée se répandent sur le pas de tir.",
-          "de": "Riesige Rauchwolken breiten sich über der Startrampe aus.",
-          "it": "Enormi nuvole di fumo si diffondono sulla rampa di lancio.",
-          "no": "Store røykskyer sprer seg over oppskytingsrampen.",
-          "pt": "Enormes nuvens de fumaça se espalham pela plataforma de lançamento."
-        }
-      },
-      {
-        "text": "The launch tower stands beside the spacecraft.",
-        "translations": {
-          "es": "La torre de lanzamiento está junto a la nave espacial.",
-          "fr": "La tour de lancement se dresse à côté du vaisseau spatial.",
-          "de": "Der Startturm steht neben dem Raumschiff.",
-          "it": "La torre di lancio si trova accanto alla navicella.",
-          "no": "Oppskytingstårnet står ved siden av romfartøyet.",
-          "pt": "A torre de lançamento fica ao lado da nave espacial."
-        }
-      },
-      {
-        "text": "The large NASA building is used to prepare spacecraft for launch.",
-        "translations": {
-          "es": "El gran edificio de la NASA se utiliza para preparar naves espaciales para el lanzamiento.",
-          "fr": "Le grand bâtiment de la NASA sert à préparer les engins spatiaux au lancement.",
-          "de": "Das große NASA-Gebäude dient dazu, Raumfahrzeuge für den Start vorzubereiten.",
-          "it": "Il grande edificio della NASA serve a preparare i veicoli spaziali al lancio.",
-          "no": "Den store NASA-bygningen brukes til å klargjøre romfartøy for oppskyting.",
-          "pt": "O grande edifício da NASA é usado para preparar naves espaciais para o lançamento."
-        }
-      },
-      {
-        "text": "Families gather at the viewing deck to watch the launch.",
-        "translations": {
-          "es": "Las familias se reúnen en la plataforma de observación para ver el lanzamiento.",
-          "fr": "Des familles se rassemblent sur la terrasse d’observation pour regarder le lancement.",
-          "de": "Familien versammeln sich auf der Aussichtsplattform, um den Start zu beobachten.",
-          "it": "Le famiglie si riuniscono sulla terrazza panoramica per assistere al lancio.",
-          "no": "Familier samles på utsiktsplattformen for å se oppskytingen.",
-          "pt": "As famílias se reúnem no mirante para assistir ao lançamento."
-        }
-      },
-      {
-        "text": "Photographers use cameras to capture the exciting moment.",
-        "translations": {
-          "es": "Los fotógrafos usan cámaras para captar este emocionante momento.",
-          "fr": "Les photographes utilisent des appareils photo pour immortaliser ce moment passionnant.",
-          "de": "Fotografen benutzen Kameras, um diesen aufregenden Moment festzuhalten.",
-          "it": "I fotografi usano le macchine fotografiche per immortalare questo momento emozionante.",
-          "no": "Fotografer bruker kameraer for å fange det spennende øyeblikket.",
-          "pt": "Os fotógrafos usam câmeras para registrar esse momento emocionante."
-        }
-      },
-      {
-        "text": "A golden dog watches from the wooden deck.",
-        "translations": {
-          "es": "Un perro dorado observa desde la plataforma de madera.",
-          "fr": "Un chien doré regarde depuis la terrasse en bois.",
-          "de": "Ein goldfarbener Hund schaut von der Holzplattform aus zu.",
-          "it": "Un cane dorato osserva dalla terrazza di legno.",
-          "no": "En gyllen hund følger med fra treplattformen.",
-          "pt": "Um cachorro dourado observa do deque de madeira."
-        }
-      },
-      {
-        "text": "The water reflects the bright light from the launch.",
-        "translations": {
-          "es": "El agua refleja la luz brillante del lanzamiento.",
-          "fr": "L’eau reflète la lumière éclatante du lancement.",
-          "de": "Das Wasser spiegelt das helle Licht des Starts wider.",
-          "it": "L’acqua riflette la luce intensa del lancio.",
-          "no": "Vannet speiler det sterke lyset fra oppskytingen.",
-          "pt": "A água reflete a luz brilhante do lançamento."
-        }
-      },
-      {
-        "text": "The American flag is displayed on the NASA building.",
-        "translations": {
-          "es": "La bandera estadounidense aparece en el edificio de la NASA.",
-          "fr": "Le drapeau américain est affiché sur le bâtiment de la NASA.",
-          "de": "Die amerikanische Flagge ist am NASA-Gebäude zu sehen.",
-          "it": "La bandiera americana è esposta sull’edificio della NASA.",
-          "no": "Det amerikanske flagget vises på NASA-bygningen.",
-          "pt": "A bandeira americana está no edifício da NASA."
-        }
-      },
-      {
-        "text": "Space exploration helps us learn more about Earth and the universe.",
-        "translations": {
-          "es": "La exploración espacial nos ayuda a aprender más sobre la Tierra y el universo.",
-          "fr": "L’exploration spatiale nous aide à mieux connaître la Terre et l’univers.",
-          "de": "Die Weltraumforschung hilft uns, mehr über die Erde und das Universum zu erfahren.",
-          "it": "L’esplorazione spaziale ci aiuta a conoscere meglio la Terra e l’universo.",
-          "no": "Romutforskning hjelper oss å lære mer om jorden og universet.",
-          "pt": "A exploração espacial nos ajuda a aprender mais sobre a Terra e o universo."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "shuttle",
-        "label": "space shuttle",
-        "x": 47.8,
-        "y": 9.5,
-        "w": 4.3,
-        "h": 15,
-        "sound": "sounds/shuttle-launch.mp3",
-        "translations": {
-          "es": "transbordador espacial",
-          "fr": "navette spatiale",
-          "de": "Raumschiff",
-          "it": "Space Shuttle",
-          "pt": "vaivém espacial",
-          "no": "Romferjen"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "flames",
-        "label": "rocket flames",
-        "x": 49.6,
-        "y": 24.4,
-        "w": 3.2,
-        "h": 19.5,
-        "sound": "",
-        "translations": {
-          "es": "llamas de cohetes",
-          "fr": "flammes de fusée",
-          "de": "raketenflammen",
-          "it": "fiamme di razzi",
-          "pt": "chamas de foguete",
-          "no": "rakettflammer"
-        }
-      },
-      {
-        "id": "smoke",
-        "label": "launch smoke",
-        "x": 64.5,
-        "y": 45.2,
-        "w": 14.3,
-        "h": 19,
-        "sound": "",
-        "translations": {
-          "es": "lanzar humo",
-          "fr": "fumée de lancement",
-          "de": "rauch ausstoßen",
-          "it": "fumo di lancio",
-          "pt": "lançar fumo",
-          "no": "lansere røyk"
-        }
-      },
-      {
-        "id": "tower",
-        "label": "launch tower",
-        "x": 40.7,
-        "y": 34.2,
-        "w": 7.2,
-        "h": 23.2,
-        "sound": "",
-        "translations": {
-          "es": "torre de lanzamiento",
-          "fr": "tour de lancement",
-          "de": "startturm",
-          "it": "torre di lancio",
-          "pt": "torre de lançamento",
-          "no": "oppskytningstårn"
-        }
-      },
-      {
-        "id": "nasa-building",
-        "label": "NASA building",
-        "x": 13.5,
-        "y": 46.5,
-        "w": 13.5,
-        "h": 17.8,
-        "sound": "",
-        "translations": {
-          "es": "Edificio de la NASA",
-          "fr": "Bâtiment NASA",
-          "de": "NASA-Gebäude",
-          "it": "Edificio NASA",
-          "pt": "Edifício da NASA",
-          "no": "NASA-bygningen"
-        }
-      },
-      {
-        "id": "flag",
-        "label": "American flag",
-        "x": 20,
-        "y": 48.2,
-        "w": 2.1,
-        "h": 6.5,
-        "sound": "",
-        "translations": {
-          "es": "La bandera americana",
-          "fr": "Drapeau des États-Unis",
-          "de": "Die amerikanische Fahne",
-          "it": "Bandiera americana",
-          "pt": "Bandeira dos Estados Unidos",
-          "no": "USAs flagg"
-        }
-      },
-      {
-        "id": "water",
-        "label": "water",
-        "x": 1.5,
-        "y": 70,
-        "w": 24,
-        "h": 11,
-        "sound": "",
-        "translations": {
-          "es": "de agua",
-          "fr": "eau",
-          "de": "Wasser",
-          "it": "calda sanitaria",
-          "pt": "água",
-          "no": "vann"
-        }
-      },
-      {
-        "id": "deck",
-        "label": "wooden viewing deck",
-        "x": 20,
-        "y": 91,
-        "w": 35,
-        "h": 8,
-        "sound": "",
-        "translations": {
-          "es": "mirador de madera",
-          "fr": "terrasse panoramique en bois",
-          "de": "holzaussichtsplattform",
-          "it": "terrazza panoramica in legno",
-          "pt": "deck de visualização de madeira",
-          "no": "utsiktsdekk i tre"
-        }
-      },
-      {
-        "id": "photographer",
-        "label": "photographer",
-        "x": 58.5,
-        "y": 67,
-        "w": 10,
-        "h": 25,
-        "sound": "",
-        "translations": {
-          "es": "fotógrafo",
-          "fr": "photographe",
-          "de": "Fotograf*in",
-          "it": "Fotografo",
-          "pt": "fotógrafo",
-          "no": "fotograf"
-        }
-      },
-      {
-        "id": "children",
-        "label": "children",
-        "x": 43,
-        "y": 76,
-        "w": 14,
-        "h": 19,
-        "sound": "sounds/kids-talking.mp3",
-        "translations": {
-          "es": "hijos",
-          "fr": "d’enfants",
-          "de": "kinder",
-          "it": "bambini",
-          "pt": "filhos",
-          "no": "barn"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "dog",
-        "label": "golden dog",
-        "x": 55.8,
-        "y": 82,
-        "w": 7,
-        "h": 16,
-        "sound": "sounds/dog.mp3",
-        "translations": {
-          "es": "perro dorado",
-          "fr": "golden dog",
-          "de": "goldener Hund",
-          "it": "cane dorato",
-          "pt": "cão dourado",
-          "no": "gyllen hund"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "water-tower",
-        "label": "water tower",
-        "x": 31.4,
-        "y": 45,
-        "w": 3,
-        "h": 19,
-        "sound": "",
-        "translations": {
-          "es": "torre de incendios",
-          "fr": "tour d'incendie",
-          "de": "Loeschturm",
-          "it": "torre antincendio",
-          "pt": "torre de água",
-          "no": "Vanntårn"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the Space Shuttle",
-        "target": "shuttle",
-        "translations": {
-          "es": "Encuentra el transbordador espacial",
-          "fr": "Trouvez la navette spatiale",
-          "de": "Finde die Raumfähre",
-          "it": "Trova lo space shuttle",
-          "no": "Finn romfergen",
-          "pt": "Encontre o ônibus espacial"
-        }
-      },
-      {
-        "prompt": "Find the Launch Tower",
-        "target": "tower",
-        "translations": {
-          "es": "Encuentra la torre de lanzamiento",
-          "fr": "Trouvez la tour de lancement",
-          "de": "Finde den Startturm",
-          "it": "Trova la torre di lancio",
-          "no": "Finn oppskytingstårnet",
-          "pt": "Encontre a torre de lançamento"
-        }
-      },
-      {
-        "prompt": "Find the NASA Building",
-        "target": "nasa-building",
-        "translations": {
-          "es": "Encuentra el edificio de la NASA",
-          "fr": "Trouvez le bâtiment de la NASA",
-          "de": "Finde das NASA-Gebäude",
-          "it": "Trova l’edificio della NASA",
-          "no": "Finn NASA-bygningen",
-          "pt": "Encontre o edifício da NASA"
-        }
-      },
-      {
-        "prompt": "Find the American Flag",
-        "target": "flag",
-        "translations": {
-          "es": "Encuentra la bandera estadounidense",
-          "fr": "Trouvez le drapeau américain",
-          "de": "Finde die amerikanische Flagge",
-          "it": "Trova la bandiera americana",
-          "no": "Finn det amerikanske flagget",
-          "pt": "Encontre a bandeira americana"
-        }
-      },
-      {
-        "prompt": "Find the Golden Dog",
-        "target": "dog",
-        "translations": {
-          "es": "Encuentra el perro dorado",
-          "fr": "Trouvez le chien doré",
-          "de": "Finde den goldfarbenen Hund",
-          "it": "Trova il cane dorato",
-          "no": "Finn den gylne hunden",
-          "pt": "Encontre o cachorro dourado"
-        }
-      },
-      {
-        "prompt": "Find the Water Tower",
-        "target": "water-tower",
-        "translations": {
-          "es": "Encuentra la torre de agua",
-          "fr": "Trouvez le château d’eau",
-          "de": "Finde den Wasserturm",
-          "it": "Trova la torre dell’acqua",
-          "no": "Finn vanntårnet",
-          "pt": "Encontre a torre de água"
         }
       }
     ]
