@@ -176,6 +176,16 @@ window.MEMORY_LANE_ITEMS = [
     "sound": "forest-gump.mp3"
   },
   {
+    "title": "John Candy",
+    "image": "john-candy.jpg",
+    "sound": "john-candy.mp3"
+  },
+  {
+    "title": "Rodney Dangerfield",
+    "image": "rodney-dangerfield.jpg",
+    "sound": "dangerfield.mp3"
+  },
+  {
     "title": "March On Washington 1963",
     "image": "march-on-washington-1963.jpg",
     "sound": "martin-luther-king.mp3"
