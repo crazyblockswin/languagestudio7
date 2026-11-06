@@ -36512,23 +36512,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         }
       },
       {
-        "id": "beard",
-        "label": "Beard",
-        "x": 18,
-        "y": 20,
-        "w": 12,
-        "h": 14,
-        "sound": "",
-        "translations": {
-          "es": "Barba",
-          "fr": "Barbe",
-          "de": "Bart",
-          "it": "Barba",
-          "pt": "Barba",
-          "no": "Skjegg"
-        }
-      },
-      {
         "id": "shirt",
         "label": "Shirt",
         "x": 3,
@@ -37280,6 +37263,25 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Donna all’emporio",
           "pt": "Mulher no posto",
           "no": "Kvinne ved handelsstasjonen"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "beard",
+        "label": "Beard",
+        "x": 18,
+        "y": 20,
+        "w": 12,
+        "h": 14,
+        "sound": "sounds/eastwood-make-my-day.mp3",
+        "translations": {
+          "es": "Barba",
+          "fr": "Barbe",
+          "de": "Bart",
+          "it": "Barba",
+          "pt": "Barba",
+          "no": "Skjegg"
         },
         "rotation": 0,
         "z": 0
