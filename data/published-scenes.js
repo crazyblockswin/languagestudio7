@@ -35514,7 +35514,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 23.658207463439815,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/waterfall.mp3",
         "translations": {
           "es": "cascada",
           "fr": "cascade",
@@ -35590,7 +35590,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 14.96558643718084,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/parrot.mp3",
         "translations": {
           "es": "loro",
           "fr": "perroquet",
@@ -35666,7 +35666,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 18.861922714573435,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/monkey.mp3",
         "translations": {
           "es": "mono",
           "fr": "singe",
@@ -36040,7 +36040,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 23.1036637226074,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/crowd-panic-scream.mp3",
         "translations": {
           "es": "pasajero",
           "fr": "passager",
@@ -36059,7 +36059,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 25.009049487632776,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/carnival.mp3",
         "translations": {
           "es": "noria",
           "fr": "grande roue",
@@ -36097,7 +36097,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 24.269353216840678,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/crowd-shopping.mp3",
         "translations": {
           "es": "multitud",
           "fr": "foule",
@@ -36452,7 +36452,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 35.60162169226437,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/stormy-seas.mp3",
         "translations": {
           "es": "vela blanca",
           "fr": "voile blanche",
@@ -37916,7 +37916,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 18.831587798642673,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/elephant.mp3",
         "translations": {
           "es": "elefante",
           "fr": "éléphant",
@@ -37935,7 +37935,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 14.262549155929392,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/giraffe.mp3",
         "translations": {
           "es": "jirafa",
           "fr": "girafe",
@@ -37954,7 +37954,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 14.726568136270917,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/zebra.mp3",
         "translations": {
           "es": "cebra",
           "fr": "zèbre",
@@ -37973,7 +37973,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 12.726568136270917,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/crickets-birds.mp3",
         "translations": {
           "es": "abrevadero",
           "fr": "point d'eau",
