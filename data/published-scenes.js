@@ -35977,10 +35977,10 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       {
         "id": "roller-coaster-track-4",
         "label": "roller coaster track",
-        "x": 0,
+        "x": 6.98173889843178,
         "y": 0,
-        "w": 48,
-        "h": 65,
+        "w": 22.91943807910363,
+        "h": 13.246705081531257,
         "rotation": 0,
         "z": 0,
         "sound": "",
@@ -36034,8 +36034,8 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       {
         "id": "passenger-3",
         "label": "passenger",
-        "x": 14.123525512949772,
-        "y": 10.170654921179988,
+        "x": 38.29108767059503,
+        "y": 44.893616277167396,
         "w": 11.212670318450606,
         "h": 23.1036637226074,
         "rotation": 0,
@@ -36078,7 +36078,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 7.4807538951462185,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/circus.mp3",
         "translations": {
           "es": "carpa de feria",
           "fr": "chapiteau de fête foraine",
