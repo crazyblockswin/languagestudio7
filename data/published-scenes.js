@@ -36465,7 +36465,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "y": 3,
         "w": 48,
         "h": 96,
-        "sound": "",
+        "sound": "sounds/eastwood-make-my-day.mp3",
         "translations": {
           "es": "Buscador de oro",
           "fr": "Chercheur d’or",
@@ -36473,7 +36473,9 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Cercatore d’oro",
           "pt": "Garimpeiro",
           "no": "Gullgraver"
-        }
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
         "id": "cowboy-hat",
@@ -36601,7 +36603,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "y": 83,
         "w": 10,
         "h": 17,
-        "sound": "",
+        "sound": "sounds/fish.mp3",
         "translations": {
           "es": "Agua cayendo",
           "fr": "Eau qui coule",
@@ -36609,7 +36611,9 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Acqua che scorre",
           "pt": "Água escorrendo",
           "no": "Rennende vann"
-        }
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
         "id": "stream",
@@ -36618,7 +36622,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "y": 75.41014508869479,
         "w": 38.665950273883794,
         "h": 24.589854911305213,
-        "sound": "",
+        "sound": "sounds/water-stream.mp3",
         "translations": {
           "es": "Arroyo de montaña",
           "fr": "Ruisseau de montagne",
@@ -36626,7 +36630,9 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Ruscello di montagna",
           "pt": "Riacho de montanha",
           "no": "Fjellbekk"
-        }
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
         "id": "river-rocks",
