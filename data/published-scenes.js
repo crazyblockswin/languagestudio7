@@ -7104,6 +7104,944 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "cafe": {
+    "title": "Cafe",
+    "image": "images/cafe.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "dining-table-4",
+        "label": "dining table",
+        "x": 33,
+        "y": 73,
+        "w": 42,
+        "h": 23,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mesa de comedor",
+          "fr": "table à manger",
+          "de": "Esstisch",
+          "it": "tavolo da pranzo",
+          "pt": "mesa de jantar",
+          "no": "spisebord"
+        }
+      },
+      {
+        "id": "waiter-1",
+        "label": "waiter",
+        "x": 43.522016785815524,
+        "y": 7.88953763027898,
+        "w": 15,
+        "h": 37,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "camarero",
+          "fr": "serveur",
+          "de": "Kellner",
+          "it": "cameriere",
+          "pt": "garçom",
+          "no": "servitør"
+        }
+      },
+      {
+        "id": "menu-board-2",
+        "label": "menu board",
+        "x": 5.348013239253309,
+        "y": 2.6084203393779823,
+        "w": 11.808807636245541,
+        "h": 30.838389152655125,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pizarra del menú",
+          "fr": "tableau du menu",
+          "de": "Menütafel",
+          "it": "lavagna del menù",
+          "pt": "quadro do cardápio",
+          "no": "menytavle"
+        }
+      },
+      {
+        "id": "coffee-cup-3",
+        "label": "water glass",
+        "x": 55.314713267107564,
+        "y": 70.20370983733595,
+        "w": 7,
+        "h": 12,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "taza de café",
+          "fr": "tasse de café",
+          "de": "Kaffeetasse",
+          "it": "tazza di caffè",
+          "pt": "xícara de café",
+          "no": "kaffekopp"
+        }
+      },
+      {
+        "id": "grandfather-5",
+        "label": "grandfather",
+        "x": 2,
+        "y": 46,
+        "w": 13.729323377587919,
+        "h": 39.97238237739562,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "abuelo",
+          "fr": "grand-père",
+          "de": "Großvater",
+          "it": "nonno",
+          "pt": "avô",
+          "no": "bestefar"
+        }
+      },
+      {
+        "id": "grandmother-6",
+        "label": "grandmother",
+        "x": 19,
+        "y": 41,
+        "w": 15.447903936497212,
+        "h": 31.87641220265664,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "abuela",
+          "fr": "grand-mère",
+          "de": "Großmutter",
+          "it": "nonna",
+          "pt": "avó",
+          "no": "bestemor"
+        }
+      },
+      {
+        "id": "woman-7",
+        "label": "woman",
+        "x": 84,
+        "y": 42.838389152655125,
+        "w": 16,
+        "h": 33,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mujer",
+          "fr": "femme",
+          "de": "Frau",
+          "it": "donna",
+          "pt": "mulher",
+          "no": "kvinne"
+        }
+      },
+      {
+        "id": "child-8",
+        "label": "child",
+        "x": 65.43179431807593,
+        "y": 42.675419658647066,
+        "w": 14.087004846345549,
+        "h": 26.161610847344875,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "niño",
+          "fr": "enfant",
+          "de": "Kind",
+          "it": "bambino",
+          "pt": "criança",
+          "no": "barn"
+        }
+      },
+      {
+        "id": "plate-of-food-9",
+        "label": "plate of food",
+        "x": 41.102036802528076,
+        "y": 51.04978983096067,
+        "w": 16.851774301363385,
+        "h": 7.74241627101731,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "plato de comida",
+          "fr": "assiette de nourriture",
+          "de": "Teller mit Essen",
+          "it": "piatto di cibo",
+          "pt": "prato de comida",
+          "no": "tallerken med mat"
+        }
+      },
+      {
+        "id": "sunflower-10",
+        "label": "sunflower",
+        "x": 42.524169037228575,
+        "y": 63.526936945823365,
+        "w": 7.885068127380242,
+        "h": 14.01176407406032,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "girasol",
+          "fr": "tournesol",
+          "de": "Sonnenblume",
+          "it": "girasole",
+          "pt": "girassol",
+          "no": "solsikke"
+        }
+      },
+      {
+        "id": "window-11",
+        "label": "window",
+        "x": 79,
+        "y": 5,
+        "w": 20.966700027854255,
+        "h": 21.522852885137297,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "ventana",
+          "fr": "fenêtre",
+          "de": "Fenster",
+          "it": "finestra",
+          "pt": "janela",
+          "no": "vindu"
+        }
+      },
+      {
+        "id": "drink-12",
+        "label": "drink",
+        "x": 73.73146948287209,
+        "y": 72.55319321486573,
+        "w": 8,
+        "h": 13,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "bebida",
+          "fr": "boisson",
+          "de": "Getränk",
+          "it": "bevanda",
+          "pt": "bebida",
+          "no": "drikke"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the waiter",
+        "target": "waiter-1",
+        "translations": {
+          "es": "Encuentra camarero",
+          "fr": "Trouve serveur",
+          "de": "Finde Kellner",
+          "it": "Trova cameriere",
+          "pt": "Encontre garçom",
+          "no": "Finn servitør"
+        }
+      },
+      {
+        "prompt": "Find the menu board",
+        "target": "menu-board-2",
+        "translations": {
+          "es": "Encuentra pizarra del menú",
+          "fr": "Trouve tableau du menu",
+          "de": "Finde Menütafel",
+          "it": "Trova lavagna del menù",
+          "pt": "Encontre quadro do cardápio",
+          "no": "Finn menytavle"
+        }
+      },
+      {
+        "prompt": "Find the coffee cup",
+        "target": "coffee-cup-3",
+        "translations": {
+          "es": "Encuentra taza de café",
+          "fr": "Trouve tasse de café",
+          "de": "Finde Kaffeetasse",
+          "it": "Trova tazza di caffè",
+          "pt": "Encontre xícara de café",
+          "no": "Finn kaffekopp"
+        }
+      },
+      {
+        "prompt": "Find the dining table",
+        "target": "dining-table-4",
+        "translations": {
+          "es": "Encuentra mesa de comedor",
+          "fr": "Trouve table à manger",
+          "de": "Finde Esstisch",
+          "it": "Trova tavolo da pranzo",
+          "pt": "Encontre mesa de jantar",
+          "no": "Finn spisebord"
+        }
+      },
+      {
+        "prompt": "Find the grandfather",
+        "target": "grandfather-5",
+        "translations": {
+          "es": "Encuentra abuelo",
+          "fr": "Trouve grand-père",
+          "de": "Finde Großvater",
+          "it": "Trova nonno",
+          "pt": "Encontre avô",
+          "no": "Finn bestefar"
+        }
+      },
+      {
+        "prompt": "Find the grandmother",
+        "target": "grandmother-6",
+        "translations": {
+          "es": "Encuentra abuela",
+          "fr": "Trouve grand-mère",
+          "de": "Finde Großmutter",
+          "it": "Trova nonna",
+          "pt": "Encontre avó",
+          "no": "Finn bestemor"
+        }
+      },
+      {
+        "prompt": "Find the woman",
+        "target": "woman-7",
+        "translations": {
+          "es": "Encuentra mujer",
+          "fr": "Trouve femme",
+          "de": "Finde Frau",
+          "it": "Trova donna",
+          "pt": "Encontre mulher",
+          "no": "Finn kvinne"
+        }
+      },
+      {
+        "prompt": "Find the child",
+        "target": "child-8",
+        "translations": {
+          "es": "Encuentra niño",
+          "fr": "Trouve enfant",
+          "de": "Finde Kind",
+          "it": "Trova bambino",
+          "pt": "Encontre criança",
+          "no": "Finn barn"
+        }
+      },
+      {
+        "prompt": "Find the plate of food",
+        "target": "plate-of-food-9",
+        "translations": {
+          "es": "Encuentra plato de comida",
+          "fr": "Trouve assiette de nourriture",
+          "de": "Finde Teller mit Essen",
+          "it": "Trova piatto di cibo",
+          "pt": "Encontre prato de comida",
+          "no": "Finn tallerken med mat"
+        }
+      },
+      {
+        "prompt": "Find the sunflower",
+        "target": "sunflower-10",
+        "translations": {
+          "es": "Encuentra girasol",
+          "fr": "Trouve tournesol",
+          "de": "Finde Sonnenblume",
+          "it": "Trova girasole",
+          "pt": "Encontre girassol",
+          "no": "Finn solsikke"
+        }
+      }
+    ]
+  },
+  "casino": {
+    "title": "Casino",
+    "image": "images/casino-blackjack.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "blackjack-table-3",
+        "label": "blackjack table",
+        "x": 33,
+        "y": 75,
+        "w": 66,
+        "h": 24,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mesa de blackjack",
+          "fr": "table de blackjack",
+          "de": "Blackjacktisch",
+          "it": "tavolo da blackjack",
+          "pt": "mesa de blackjack",
+          "no": "blackjackbord"
+        }
+      },
+      {
+        "id": "dealer-1",
+        "label": "dealer",
+        "x": 72.19441459474515,
+        "y": 26.227248813051933,
+        "w": 17.373791087178905,
+        "h": 38.86464542169748,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "crupier",
+          "fr": "croupier",
+          "de": "Croupier",
+          "it": "croupier",
+          "pt": "crupiê",
+          "no": "kortgiver"
+        }
+      },
+      {
+        "id": "playing-cards-2",
+        "label": "playing cards",
+        "x": 90.87647141398578,
+        "y": 77.29696001184972,
+        "w": 7.647688404049463,
+        "h": 11.810766116253076,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cartas",
+          "fr": "cartes à jouer",
+          "de": "Spielkarten",
+          "it": "carte da gioco",
+          "pt": "cartas de baralho",
+          "no": "spillkort"
+        }
+      },
+      {
+        "id": "poker-chips-4",
+        "label": "poker chips",
+        "x": 69.12674006127936,
+        "y": 68.21276203186756,
+        "w": 19.21481949679922,
+        "h": 6.323221694689747,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "fichas de póker",
+          "fr": "jetons de poker",
+          "de": "Pokerchips",
+          "it": "fiches da poker",
+          "pt": "fichas de pôquer",
+          "no": "pokerbrikker"
+        }
+      },
+      {
+        "id": "slot-machines-5",
+        "label": "slot machines",
+        "x": 0,
+        "y": 16.7541857588753,
+        "w": 22.663798022470736,
+        "h": 14.604341692489578,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "máquinas tragamonedas",
+          "fr": "machines à sous",
+          "de": "Spielautomaten",
+          "it": "slot machine",
+          "pt": "caça-níqueis",
+          "no": "spilleautomater"
+        }
+      },
+      {
+        "id": "casino-lights-6",
+        "label": "casino lights",
+        "x": 40.36197367932597,
+        "y": 0,
+        "w": 14.692802710983699,
+        "h": 16.45721491943024,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "luces del casino",
+          "fr": "lumières du casino",
+          "de": "Casinolichter",
+          "it": "luci del casinò",
+          "pt": "luzes do cassino",
+          "no": "kasinoets lys"
+        }
+      },
+      {
+        "id": "customer-7",
+        "label": "customer",
+        "x": 3.651986760746691,
+        "y": 41.47034576085025,
+        "w": 22,
+        "h": 35,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cliente",
+          "fr": "client",
+          "de": "Kunde",
+          "it": "cliente",
+          "pt": "cliente",
+          "no": "kunde"
+        }
+      },
+      {
+        "id": "chair-8",
+        "label": "chair",
+        "x": 50.954890302662434,
+        "y": 42.170660334977654,
+        "w": 8.307197289016301,
+        "h": 15.904027118362183,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "silla",
+          "fr": "chaise",
+          "de": "Stuhl",
+          "it": "sedia",
+          "pt": "cadeira",
+          "no": "stol"
+        }
+      },
+      {
+        "id": "green-felt-9",
+        "label": "green felt",
+        "x": 51,
+        "y": 81,
+        "w": 20,
+        "h": 15,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "fieltro verde",
+          "fr": "feutre vert",
+          "de": "grüner Filz",
+          "it": "feltro verde",
+          "pt": "feltro verde",
+          "no": "grønn filt"
+        }
+      },
+      {
+        "id": "betting-circle-10",
+        "label": "betting circle",
+        "x": 35.28249095720057,
+        "y": 79.1747416887649,
+        "w": 13,
+        "h": 10,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "círculo de apuestas",
+          "fr": "cercle de mise",
+          "de": "Wettkreis",
+          "it": "cerchio delle puntate",
+          "pt": "círculo de apostas",
+          "no": "innsatssirkel"
+        }
+      },
+      {
+        "id": "casino-sign-11",
+        "label": "casino sign",
+        "x": 72.46293896574419,
+        "y": 2.039383050114118,
+        "w": 24,
+        "h": 16,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "letrero del casino",
+          "fr": "enseigne du casino",
+          "de": "Casinoschild",
+          "it": "insegna del casinò",
+          "pt": "placa do cassino",
+          "no": "kasinoskilt"
+        }
+      },
+      {
+        "id": "woman-cheering-12",
+        "label": "woman cheering",
+        "x": 27.764769455017834,
+        "y": 33.21548473899161,
+        "w": 11.092374719152641,
+        "h": 27.984151865253608,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mujer animando",
+          "fr": "femme qui applaudit",
+          "de": "jubelnde Frau",
+          "it": "donna che esulta",
+          "pt": "mulher comemorando",
+          "no": "jublende kvinne"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the dealer",
+        "target": "dealer-1",
+        "translations": {
+          "es": "Encuentra crupier",
+          "fr": "Trouve croupier",
+          "de": "Finde Croupier",
+          "it": "Trova croupier",
+          "pt": "Encontre crupiê",
+          "no": "Finn kortgiver"
+        }
+      },
+      {
+        "prompt": "Find the playing cards",
+        "target": "playing-cards-2",
+        "translations": {
+          "es": "Encuentra cartas",
+          "fr": "Trouve cartes à jouer",
+          "de": "Finde Spielkarten",
+          "it": "Trova carte da gioco",
+          "pt": "Encontre cartas de baralho",
+          "no": "Finn spillkort"
+        }
+      },
+      {
+        "prompt": "Find the blackjack table",
+        "target": "blackjack-table-3",
+        "translations": {
+          "es": "Encuentra mesa de blackjack",
+          "fr": "Trouve table de blackjack",
+          "de": "Finde Blackjacktisch",
+          "it": "Trova tavolo da blackjack",
+          "pt": "Encontre mesa de blackjack",
+          "no": "Finn blackjackbord"
+        }
+      },
+      {
+        "prompt": "Find the poker chips",
+        "target": "poker-chips-4",
+        "translations": {
+          "es": "Encuentra fichas de póker",
+          "fr": "Trouve jetons de poker",
+          "de": "Finde Pokerchips",
+          "it": "Trova fiches da poker",
+          "pt": "Encontre fichas de pôquer",
+          "no": "Finn pokerbrikker"
+        }
+      },
+      {
+        "prompt": "Find the slot machines",
+        "target": "slot-machines-5",
+        "translations": {
+          "es": "Encuentra máquinas tragamonedas",
+          "fr": "Trouve machines à sous",
+          "de": "Finde Spielautomaten",
+          "it": "Trova slot machine",
+          "pt": "Encontre caça-níqueis",
+          "no": "Finn spilleautomater"
+        }
+      },
+      {
+        "prompt": "Find the casino lights",
+        "target": "casino-lights-6",
+        "translations": {
+          "es": "Encuentra luces del casino",
+          "fr": "Trouve lumières du casino",
+          "de": "Finde Casinolichter",
+          "it": "Trova luci del casinò",
+          "pt": "Encontre luzes do cassino",
+          "no": "Finn kasinoets lys"
+        }
+      },
+      {
+        "prompt": "Find the customer",
+        "target": "customer-7",
+        "translations": {
+          "es": "Encuentra cliente",
+          "fr": "Trouve client",
+          "de": "Finde Kunde",
+          "it": "Trova cliente",
+          "pt": "Encontre cliente",
+          "no": "Finn kunde"
+        }
+      },
+      {
+        "prompt": "Find the chair",
+        "target": "chair-8",
+        "translations": {
+          "es": "Encuentra silla",
+          "fr": "Trouve chaise",
+          "de": "Finde Stuhl",
+          "it": "Trova sedia",
+          "pt": "Encontre cadeira",
+          "no": "Finn stol"
+        }
+      },
+      {
+        "prompt": "Find the green felt",
+        "target": "green-felt-9",
+        "translations": {
+          "es": "Encuentra fieltro verde",
+          "fr": "Trouve feutre vert",
+          "de": "Finde grüner Filz",
+          "it": "Trova feltro verde",
+          "pt": "Encontre feltro verde",
+          "no": "Finn grønn filt"
+        }
+      },
+      {
+        "prompt": "Find the betting circle",
+        "target": "betting-circle-10",
+        "translations": {
+          "es": "Encuentra círculo de apuestas",
+          "fr": "Trouve cercle de mise",
+          "de": "Finde Wettkreis",
+          "it": "Trova cerchio delle puntate",
+          "pt": "Encontre círculo de apostas",
+          "no": "Finn innsatssirkel"
+        }
+      }
+    ]
+  },
   "cave-exploration": {
     "title": "Cave Exploration",
     "image": "images/Cave-Adventure.jpg",
@@ -8263,6 +9201,1805 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "crab-fishing": {
+    "title": "Crab Fishing",
+    "image": "images/crab-fishing.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "crab-pot-2",
+        "label": "crab pot",
+        "x": 4.1074097483996095,
+        "y": 65,
+        "w": 55,
+        "h": 35,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "trampa para cangrejos",
+          "fr": "casier à crabes",
+          "de": "Krabbenreuse",
+          "it": "nassa per granchi",
+          "pt": "armadilha para caranguejos",
+          "no": "krabbeteine"
+        }
+      },
+      {
+        "id": "fisherman-1",
+        "label": "fisherman",
+        "x": 53.87647756011467,
+        "y": 10.770031186722855,
+        "w": 28,
+        "h": 65,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pescador",
+          "fr": "pêcheur",
+          "de": "Fischer",
+          "it": "pescatore",
+          "pt": "pescador",
+          "no": "fisker"
+        }
+      },
+      {
+        "id": "crab-3",
+        "label": "crab",
+        "x": 32.86143945780326,
+        "y": 78.86464000789981,
+        "w": 19,
+        "h": 13,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cangrejo",
+          "fr": "crabe",
+          "de": "Krabbe",
+          "it": "granchio",
+          "pt": "caranguejo",
+          "no": "krabbe"
+        }
+      },
+      {
+        "id": "rope-4",
+        "label": "rope",
+        "x": 47.19978446755225,
+        "y": 75.40742508846958,
+        "w": 6.4994627054128475,
+        "h": 22.70031728102623,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cuerda",
+          "fr": "corde",
+          "de": "Seil",
+          "it": "corda",
+          "pt": "corda",
+          "no": "tau"
+        }
+      },
+      {
+        "id": "orange-buoy-5",
+        "label": "orange buoy",
+        "x": 91.95381725002035,
+        "y": 59.40742508846957,
+        "w": 7.777658378980632,
+        "h": 16.377092879437647,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "boya naranja",
+          "fr": "bouée orange",
+          "de": "orange Boje",
+          "it": "boa arancione",
+          "pt": "boia laranja",
+          "no": "oransje bøye"
+        }
+      },
+      {
+        "id": "fishing-boat-6",
+        "label": "fishing boat",
+        "x": 70.74973135270642,
+        "y": 5.216840678755965,
+        "w": 16.360902163216107,
+        "h": 20.53190237277007,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "barco pesquero",
+          "fr": "bateau de pêche",
+          "de": "Fischerboot",
+          "it": "peschereccio",
+          "pt": "barco de pesca",
+          "no": "fiskebåt"
+        }
+      },
+      {
+        "id": "ocean-waves-7",
+        "label": "ocean waves",
+        "x": 0,
+        "y": 16.4626576267795,
+        "w": 52.12460010212408,
+        "h": 19.40062373445712,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "olas del océano",
+          "fr": "vagues de l’océan",
+          "de": "Meereswellen",
+          "it": "onde dell’oceano",
+          "pt": "ondas do oceano",
+          "no": "havbølger"
+        }
+      },
+      {
+        "id": "rain-jacket-8",
+        "label": "rain jacket",
+        "x": 47.13533677467382,
+        "y": 25.22996610637831,
+        "w": 31.96884920620287,
+        "h": 31.726568136270917,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "chaqueta impermeable",
+          "fr": "veste de pluie",
+          "de": "Regenjacke",
+          "it": "giacca antipioggia",
+          "pt": "casaco de chuva",
+          "no": "regnjakke"
+        }
+      },
+      {
+        "id": "gloves-9",
+        "label": "gloves",
+        "x": 64.5746532169699,
+        "y": 58.31145220683176,
+        "w": 10.97207297372579,
+        "h": 14.538706433681357,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "guantes",
+          "fr": "gants",
+          "de": "Handschuhe",
+          "it": "guanti",
+          "pt": "luvas",
+          "no": "hansker"
+        }
+      },
+      {
+        "id": "fishing-crane-10",
+        "label": "fishing crane",
+        "x": 38,
+        "y": 0,
+        "w": 26.290010008356276,
+        "h": 14.1996352507958,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "grúa de pesca",
+          "fr": "grue de pêche",
+          "de": "Fischereikran",
+          "it": "gru da pesca",
+          "pt": "guindaste de pesca",
+          "no": "fiskekran"
+        }
+      },
+      {
+        "id": "deck-11",
+        "label": "deck",
+        "x": 69.77658647873771,
+        "y": 88.67677830531025,
+        "w": 8.65413132949864,
+        "h": 11.323221694689746,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cubierta",
+          "fr": "pont",
+          "de": "Deck",
+          "it": "ponte",
+          "pt": "convés",
+          "no": "dekk"
+        }
+      },
+      {
+        "id": "hood-12",
+        "label": "hood",
+        "x": 15.337271957106905,
+        "y": 29.216840678755965,
+        "w": 14.368421214371812,
+        "h": 20.607056278917124,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "capucha",
+          "fr": "capuche",
+          "de": "Kapuze",
+          "it": "cappuccio",
+          "pt": "capuz",
+          "no": "hette"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the fisherman",
+        "target": "fisherman-1",
+        "translations": {
+          "es": "Encuentra pescador",
+          "fr": "Trouve pêcheur",
+          "de": "Finde Fischer",
+          "it": "Trova pescatore",
+          "pt": "Encontre pescador",
+          "no": "Finn fisker"
+        }
+      },
+      {
+        "prompt": "Find the crab pot",
+        "target": "crab-pot-2",
+        "translations": {
+          "es": "Encuentra trampa para cangrejos",
+          "fr": "Trouve casier à crabes",
+          "de": "Finde Krabbenreuse",
+          "it": "Trova nassa per granchi",
+          "pt": "Encontre armadilha para caranguejos",
+          "no": "Finn krabbeteine"
+        }
+      },
+      {
+        "prompt": "Find the crab",
+        "target": "crab-3",
+        "translations": {
+          "es": "Encuentra cangrejo",
+          "fr": "Trouve crabe",
+          "de": "Finde Krabbe",
+          "it": "Trova granchio",
+          "pt": "Encontre caranguejo",
+          "no": "Finn krabbe"
+        }
+      },
+      {
+        "prompt": "Find the rope",
+        "target": "rope-4",
+        "translations": {
+          "es": "Encuentra cuerda",
+          "fr": "Trouve corde",
+          "de": "Finde Seil",
+          "it": "Trova corda",
+          "pt": "Encontre corda",
+          "no": "Finn tau"
+        }
+      },
+      {
+        "prompt": "Find the orange buoy",
+        "target": "orange-buoy-5",
+        "translations": {
+          "es": "Encuentra boya naranja",
+          "fr": "Trouve bouée orange",
+          "de": "Finde orange Boje",
+          "it": "Trova boa arancione",
+          "pt": "Encontre boia laranja",
+          "no": "Finn oransje bøye"
+        }
+      },
+      {
+        "prompt": "Find the fishing boat",
+        "target": "fishing-boat-6",
+        "translations": {
+          "es": "Encuentra barco pesquero",
+          "fr": "Trouve bateau de pêche",
+          "de": "Finde Fischerboot",
+          "it": "Trova peschereccio",
+          "pt": "Encontre barco de pesca",
+          "no": "Finn fiskebåt"
+        }
+      },
+      {
+        "prompt": "Find the ocean waves",
+        "target": "ocean-waves-7",
+        "translations": {
+          "es": "Encuentra olas del océano",
+          "fr": "Trouve vagues de l’océan",
+          "de": "Finde Meereswellen",
+          "it": "Trova onde dell’oceano",
+          "pt": "Encontre ondas do oceano",
+          "no": "Finn havbølger"
+        }
+      },
+      {
+        "prompt": "Find the rain jacket",
+        "target": "rain-jacket-8",
+        "translations": {
+          "es": "Encuentra chaqueta impermeable",
+          "fr": "Trouve veste de pluie",
+          "de": "Finde Regenjacke",
+          "it": "Trova giacca antipioggia",
+          "pt": "Encontre casaco de chuva",
+          "no": "Finn regnjakke"
+        }
+      },
+      {
+        "prompt": "Find the gloves",
+        "target": "gloves-9",
+        "translations": {
+          "es": "Encuentra guantes",
+          "fr": "Trouve gants",
+          "de": "Finde Handschuhe",
+          "it": "Trova guanti",
+          "pt": "Encontre luvas",
+          "no": "Finn hansker"
+        }
+      },
+      {
+        "prompt": "Find the fishing crane",
+        "target": "fishing-crane-10",
+        "translations": {
+          "es": "Encuentra grúa de pesca",
+          "fr": "Trouve grue de pêche",
+          "de": "Finde Fischereikran",
+          "it": "Trova gru da pesca",
+          "pt": "Encontre guindaste de pesca",
+          "no": "Finn fiskekran"
+        }
+      }
+    ]
+  },
+  "cruise-ship": {
+    "title": "Cruise Ship",
+    "image": "images/cruise-ship.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "lounge-chair-4",
+        "label": "lounge chair",
+        "x": 3,
+        "y": 75,
+        "w": 35,
+        "h": 22,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tumbona",
+          "fr": "chaise longue",
+          "de": "Liegestuhl",
+          "it": "sdraio",
+          "pt": "espreguiçadeira",
+          "no": "solstol"
+        }
+      },
+      {
+        "id": "cruise-ship-1",
+        "label": "cruise ship",
+        "x": 31.417832341471055,
+        "y": 14.151205419947743,
+        "w": 22.152522518801625,
+        "h": 18.5581640556101,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "crucero",
+          "fr": "bateau de croisière",
+          "de": "Kreuzfahrtschiff",
+          "it": "nave da crociera",
+          "pt": "navio de cruzeiro",
+          "no": "cruiseskip"
+        }
+      },
+      {
+        "id": "swimming-pool-2",
+        "label": "swimming pool",
+        "x": 58.430713582772746,
+        "y": 64.94612610835327,
+        "w": 29.728245715349168,
+        "h": 30.053873891646738,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "piscina",
+          "fr": "piscine",
+          "de": "Schwimmbecken",
+          "it": "piscina",
+          "pt": "piscina",
+          "no": "svømmebasseng"
+        }
+      },
+      {
+        "id": "passengers-3",
+        "label": "passengers",
+        "x": 51.66917404140672,
+        "y": 42.05387389164674,
+        "w": 22.934486937140587,
+        "h": 12.388859660396802,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pasajeros",
+          "fr": "passagers",
+          "de": "Passagiere",
+          "it": "passeggeri",
+          "pt": "passageiros",
+          "no": "passasjerer"
+        }
+      },
+      {
+        "id": "sun-hat-5",
+        "label": "sun hat",
+        "x": 0.10741128493183083,
+        "y": 54.01584813474639,
+        "w": 15.509130934917167,
+        "h": 10.119511857353794,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "sombrero para el sol",
+          "fr": "chapeau de soleil",
+          "de": "Sonnenhut",
+          "it": "cappello da sole",
+          "pt": "chapéu de sol",
+          "no": "solhatt"
+        }
+      },
+      {
+        "id": "whale-6",
+        "label": "whale",
+        "x": 73.50912786185272,
+        "y": 25.24309694779832,
+        "w": 10.61438843190372,
+        "h": 13.076043393104186,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "ballena",
+          "fr": "baleine",
+          "de": "Wal",
+          "it": "balena",
+          "pt": "baleia",
+          "no": "hval"
+        }
+      },
+      {
+        "id": "sunset-sky-7",
+        "label": "sunset sky",
+        "x": 78.8399599665749,
+        "y": 7.758263052314285,
+        "w": 20.535986445081512,
+        "h": 19.48483254203462,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cielo al atardecer",
+          "fr": "ciel au coucher du soleil",
+          "de": "Abendhimmel",
+          "it": "cielo al tramonto",
+          "pt": "céu ao pôr do sol",
+          "no": "solnedgangshimmel"
+        }
+      },
+      {
+        "id": "ship-railing-8",
+        "label": "ship railing",
+        "x": 82.1127857673356,
+        "y": 48.67677830531025,
+        "w": 16.860364868628952,
+        "h": 3.5504691542922586,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "barandilla del barco",
+          "fr": "rambarde du navire",
+          "de": "Schiffsreling",
+          "it": "ringhiera della nave",
+          "pt": "corrimão do navio",
+          "no": "skipsrekke"
+        }
+      },
+      {
+        "id": "deck-10",
+        "label": "deck",
+        "x": 1,
+        "y": 62,
+        "w": 31,
+        "h": 18,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cubierta",
+          "fr": "pont",
+          "de": "Deck",
+          "it": "ponte",
+          "pt": "convés",
+          "no": "dekk"
+        }
+      },
+      {
+        "id": "lifebuoy-12",
+        "label": "lifebuoy",
+        "x": 74.894739429949,
+        "y": 53.2851959377894,
+        "w": 6.475827889706979,
+        "h": 10.052512538084713,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "salvavidas",
+          "fr": "bouée de sauvetage",
+          "de": "Rettungsring",
+          "it": "salvagente",
+          "pt": "boia salva-vidas",
+          "no": "livbøye"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the cruise ship",
+        "target": "cruise-ship-1",
+        "translations": {
+          "es": "Encuentra crucero",
+          "fr": "Trouve bateau de croisière",
+          "de": "Finde Kreuzfahrtschiff",
+          "it": "Trova nave da crociera",
+          "pt": "Encontre navio de cruzeiro",
+          "no": "Finn cruiseskip"
+        }
+      },
+      {
+        "prompt": "Find the swimming pool",
+        "target": "swimming-pool-2",
+        "translations": {
+          "es": "Encuentra piscina",
+          "fr": "Trouve piscine",
+          "de": "Finde Schwimmbecken",
+          "it": "Trova piscina",
+          "pt": "Encontre piscina",
+          "no": "Finn svømmebasseng"
+        }
+      },
+      {
+        "prompt": "Find the passengers",
+        "target": "passengers-3",
+        "translations": {
+          "es": "Encuentra pasajeros",
+          "fr": "Trouve passagers",
+          "de": "Finde Passagiere",
+          "it": "Trova passeggeri",
+          "pt": "Encontre passageiros",
+          "no": "Finn passasjerer"
+        }
+      },
+      {
+        "prompt": "Find the lounge chair",
+        "target": "lounge-chair-4",
+        "translations": {
+          "es": "Encuentra tumbona",
+          "fr": "Trouve chaise longue",
+          "de": "Finde Liegestuhl",
+          "it": "Trova sdraio",
+          "pt": "Encontre espreguiçadeira",
+          "no": "Finn solstol"
+        }
+      },
+      {
+        "prompt": "Find the sun hat",
+        "target": "sun-hat-5",
+        "translations": {
+          "es": "Encuentra sombrero para el sol",
+          "fr": "Trouve chapeau de soleil",
+          "de": "Finde Sonnenhut",
+          "it": "Trova cappello da sole",
+          "pt": "Encontre chapéu de sol",
+          "no": "Finn solhatt"
+        }
+      },
+      {
+        "prompt": "Find the whale",
+        "target": "whale-6",
+        "translations": {
+          "es": "Encuentra ballena",
+          "fr": "Trouve baleine",
+          "de": "Finde Wal",
+          "it": "Trova balena",
+          "pt": "Encontre baleia",
+          "no": "Finn hval"
+        }
+      },
+      {
+        "prompt": "Find the sunset sky",
+        "target": "sunset-sky-7",
+        "translations": {
+          "es": "Encuentra cielo al atardecer",
+          "fr": "Trouve ciel au coucher du soleil",
+          "de": "Finde Abendhimmel",
+          "it": "Trova cielo al tramonto",
+          "pt": "Encontre céu ao pôr do sol",
+          "no": "Finn solnedgangshimmel"
+        }
+      },
+      {
+        "prompt": "Find the ship railing",
+        "target": "ship-railing-8",
+        "translations": {
+          "es": "Encuentra barandilla del barco",
+          "fr": "Trouve rambarde du navire",
+          "de": "Finde Schiffsreling",
+          "it": "Trova ringhiera della nave",
+          "pt": "Encontre corrimão do navio",
+          "no": "Finn skipsrekke"
+        }
+      },
+      {
+        "prompt": "Find the water slide",
+        "target": "water-slide-9",
+        "translations": {
+          "es": "Encuentra tobogán acuático",
+          "fr": "Trouve toboggan aquatique",
+          "de": "Finde Wasserrutsche",
+          "it": "Trova scivolo acquatico",
+          "pt": "Encontre toboágua",
+          "no": "Finn vannsklie"
+        }
+      },
+      {
+        "prompt": "Find the deck",
+        "target": "deck-10",
+        "translations": {
+          "es": "Encuentra cubierta",
+          "fr": "Trouve pont",
+          "de": "Finde Deck",
+          "it": "Trova ponte",
+          "pt": "Encontre convés",
+          "no": "Finn dekk"
+        }
+      }
+    ]
+  },
+  "dancing": {
+    "title": "Dancing",
+    "image": "images/dancing.jpg",
+    "lessons": [
+      {
+        "text": "Welcome to the lakeside dance party!",
+        "translations": {
+          "es": "¡Bienvenidos a la fiesta de baile junto al lago!",
+          "fr": "Bienvenue à la soirée dansante au bord du lac !",
+          "de": "Willkommen zur Tanzparty am See!",
+          "it": "Benvenuti alla festa da ballo sul lago!",
+          "pt": "Bem-vindos à festa de dança à beira do lago!",
+          "no": "Velkommen til dansefesten ved innsjøen!"
+        }
+      },
+      {
+        "text": "The band is playing live music on the stage.",
+        "translations": {
+          "es": "La banda toca música en vivo en el escenario.",
+          "fr": "Le groupe joue de la musique en direct sur scène.",
+          "de": "Die Band spielt Livemusik auf der Bühne.",
+          "it": "La band suona musica dal vivo sul palco.",
+          "pt": "A banda toca música ao vivo no palco.",
+          "no": "Bandet spiller levende musikk på scenen."
+        }
+      },
+      {
+        "text": "The singer uses a microphone so everyone can hear her.",
+        "translations": {
+          "es": "La cantante usa un micrófono para que todos puedan oírla.",
+          "fr": "La chanteuse utilise un microphone pour que tout le monde puisse l’entendre.",
+          "de": "Die Sängerin benutzt ein Mikrofon, damit alle sie hören können.",
+          "it": "La cantante usa un microfono perché tutti possano sentirla.",
+          "pt": "A cantora usa um microfone para que todos possam ouvi-la.",
+          "no": "Sangeren bruker en mikrofon slik at alle kan høre henne."
+        }
+      },
+      {
+        "text": "The guitar players make music with strings.",
+        "translations": {
+          "es": "Los guitarristas hacen música con cuerdas.",
+          "fr": "Les guitaristes font de la musique avec des cordes.",
+          "de": "Die Gitarristen machen Musik mit Saiten.",
+          "it": "I chitarristi fanno musica con le corde.",
+          "pt": "Os guitarristas fazem música com cordas.",
+          "no": "Gitaristene lager musikk med strenger."
+        }
+      },
+      {
+        "text": "The drummer keeps the beat for the band.",
+        "translations": {
+          "es": "El baterista mantiene el ritmo de la banda.",
+          "fr": "Le batteur donne le rythme au groupe.",
+          "de": "Der Schlagzeuger gibt den Takt für die Band vor.",
+          "it": "Il batterista tiene il ritmo della band.",
+          "pt": "O baterista mantém o ritmo da banda.",
+          "no": "Trommeslageren holder takten for bandet."
+        }
+      },
+      {
+        "text": "People are dancing together on the wooden floor.",
+        "translations": {
+          "es": "La gente baila junta sobre el suelo de madera.",
+          "fr": "Les gens dansent ensemble sur la piste en bois.",
+          "de": "Die Menschen tanzen zusammen auf dem Holzboden.",
+          "it": "Le persone ballano insieme sul pavimento di legno.",
+          "pt": "As pessoas dançam juntas no piso de madeira.",
+          "no": "Folk danser sammen på tregulvet."
+        }
+      },
+      {
+        "text": "Colorful dresses move as the dancers turn.",
+        "translations": {
+          "es": "Los vestidos coloridos se mueven cuando los bailarines giran.",
+          "fr": "Les robes colorées bougent lorsque les danseurs tournent.",
+          "de": "Bunte Kleider bewegen sich, wenn sich die Tanzenden drehen.",
+          "it": "Gli abiti colorati si muovono mentre i ballerini girano.",
+          "pt": "Os vestidos coloridos se movem quando os dançarinos giram.",
+          "no": "Fargerike kjoler beveger seg når danserne snurrer."
+        }
+      },
+      {
+        "text": "Warm lights hang above the outdoor dance floor.",
+        "translations": {
+          "es": "Luces cálidas cuelgan sobre la pista de baile al aire libre.",
+          "fr": "Des lumières chaleureuses sont suspendues au-dessus de la piste de danse.",
+          "de": "Warme Lichter hängen über der Tanzfläche im Freien.",
+          "it": "Luci calde sono appese sopra la pista da ballo all’aperto.",
+          "pt": "Luzes aconchegantes ficam penduradas sobre a pista de dança ao ar livre.",
+          "no": "Varme lys henger over dansegulvet utendørs."
+        }
+      },
+      {
+        "text": "A boat is waiting beside the dock.",
+        "translations": {
+          "es": "Un barco espera junto al muelle.",
+          "fr": "Un bateau attend près du quai.",
+          "de": "Ein Boot wartet am Steg.",
+          "it": "Una barca aspetta accanto al molo.",
+          "pt": "Um barco espera ao lado do cais.",
+          "no": "En båt venter ved brygga."
+        }
+      },
+      {
+        "text": "The lake reflects the colors of the evening sky.",
+        "translations": {
+          "es": "El lago refleja los colores del cielo al atardecer.",
+          "fr": "Le lac reflète les couleurs du ciel du soir.",
+          "de": "Der See spiegelt die Farben des Abendhimmels.",
+          "it": "Il lago riflette i colori del cielo serale.",
+          "pt": "O lago reflete as cores do céu ao entardecer.",
+          "no": "Innsjøen speiler fargene på kveldshimmelen."
+        }
+      },
+      {
+        "text": "Snow-covered mountains rise beyond the water.",
+        "translations": {
+          "es": "Las montañas cubiertas de nieve se elevan más allá del agua.",
+          "fr": "Des montagnes enneigées s’élèvent au-delà de l’eau.",
+          "de": "Schneebedeckte Berge ragen hinter dem Wasser auf.",
+          "it": "Montagne innevate si innalzano oltre l’acqua.",
+          "pt": "Montanhas cobertas de neve se erguem além da água.",
+          "no": "Snødekte fjell reiser seg på den andre siden av vannet."
+        }
+      },
+      {
+        "text": "Everyone is enjoying music, friendship, and a beautiful sunset.",
+        "translations": {
+          "es": "Todos disfrutan de la música, la amistad y una hermosa puesta de sol.",
+          "fr": "Tout le monde profite de la musique, de l’amitié et d’un beau coucher de soleil.",
+          "de": "Alle genießen Musik, Freundschaft und einen wunderschönen Sonnenuntergang.",
+          "it": "Tutti si godono la musica, l’amicizia e un bellissimo tramonto.",
+          "pt": "Todos aproveitam a música, a amizade e um lindo pôr do sol.",
+          "no": "Alle nyter musikk, vennskap og en vakker solnedgang."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "singer",
+        "label": "singer",
+        "x": 48,
+        "y": 36,
+        "w": 3,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "cantante",
+          "fr": "chanteuse",
+          "de": "Sänger*in",
+          "it": "Cantante",
+          "pt": "cantor",
+          "no": "Sanger"
+        }
+      },
+      {
+        "id": "microphone",
+        "label": "microphone",
+        "x": 47.1,
+        "y": 37.4,
+        "w": 2.2,
+        "h": 8.5,
+        "sound": "",
+        "translations": {
+          "es": "micrófono",
+          "fr": "microphone",
+          "de": "Mikrofon",
+          "it": "microfono",
+          "pt": "microfone",
+          "no": "Mikrofon"
+        }
+      },
+      {
+        "id": "left-guitar",
+        "label": "guitar",
+        "x": 38,
+        "y": 36,
+        "w": 7.3,
+        "h": 13,
+        "sound": "sounds/guitar.mp3",
+        "translations": {
+          "es": "guitarra",
+          "fr": "guitare",
+          "de": "Gitarre",
+          "it": "chitarra",
+          "pt": "guitarra",
+          "no": "gitar"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "right-guitar",
+        "label": "bass guitar",
+        "x": 54.8,
+        "y": 35.5,
+        "w": 7.2,
+        "h": 14.2,
+        "sound": "sounds/guitar3.mp3",
+        "translations": {
+          "es": "bass guitar",
+          "fr": "guitare basse",
+          "de": "Bass",
+          "it": "Basso elettrico",
+          "pt": "contrabaixo elétrico",
+          "no": "bassgitar"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "drums",
+        "label": "drums",
+        "x": 43.2,
+        "y": 41,
+        "w": 10,
+        "h": 8.4,
+        "sound": "sounds/energetic-bigbeat-drum1.mp3",
+        "translations": {
+          "es": "tambores",
+          "fr": "Tambours / machines",
+          "de": "Schlagzeug",
+          "it": "corvine",
+          "pt": "calafates",
+          "no": "Ledningstilkoplet"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "stage",
+        "label": "stage",
+        "x": 33.13157534612506,
+        "y": 24.29462200913681,
+        "w": 32.75789269212206,
+        "h": 7.713957451748325,
+        "sound": "",
+        "translations": {
+          "es": "etapa",
+          "fr": "précoce.",
+          "de": "erkennen",
+          "it": "Negoziazione",
+          "pt": "ESTÁGIO",
+          "no": "fase"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "dancers",
+        "label": "dancers",
+        "x": 19.184209014173987,
+        "y": 55.50347593721911,
+        "w": 65.5,
+        "h": 23.350029504215637,
+        "sound": "sounds/music-upbeat.mp3",
+        "translations": {
+          "es": "bailarín",
+          "fr": "danseurs",
+          "de": "Tänzer",
+          "it": "ballerini",
+          "pt": "Bailarinos",
+          "no": "Dans"
+        },
+        "rotation": 0,
+        "z": 0
+      },
+      {
+        "id": "red-dress",
+        "label": "red dress",
+        "x": 34.5,
+        "y": 53.5,
+        "w": 9,
+        "h": 31.5,
+        "sound": "",
+        "translations": {
+          "es": "red dress",
+          "fr": "Robe rouge",
+          "de": "Rotes Kleid",
+          "it": "Vestito rosso.",
+          "pt": "vestido vermelho",
+          "no": "rød kjole"
+        }
+      },
+      {
+        "id": "string-lights",
+        "label": "string lights",
+        "x": 31,
+        "y": 18,
+        "w": 36,
+        "h": 17,
+        "sound": "",
+        "translations": {
+          "es": "Cadena de luces",
+          "fr": "guirlande lumineuse;",
+          "de": "Lichterketten:",
+          "it": "Luci a corda",
+          "pt": "Cordão de luzes LED",
+          "no": "Strenglys"
+        }
+      },
+      {
+        "id": "boat",
+        "label": "boat",
+        "x": 5.4,
+        "y": 47.3,
+        "w": 9,
+        "h": 10,
+        "sound": "",
+        "translations": {
+          "es": "Barco",
+          "fr": "bateau",
+          "de": "Boot",
+          "it": "barca",
+          "pt": "Barcos",
+          "no": "båt"
+        }
+      },
+      {
+        "id": "lake",
+        "label": "lake",
+        "x": 0,
+        "y": 48,
+        "w": 16.5,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "lago",
+          "fr": "lac",
+          "de": "See",
+          "it": "lago",
+          "pt": "lago",
+          "no": "innsjø"
+        }
+      },
+      {
+        "id": "mountains",
+        "label": "mountains",
+        "x": 80.5,
+        "y": 30,
+        "w": 19.2,
+        "h": 15,
+        "sound": "",
+        "translations": {
+          "es": "montañas",
+          "fr": "montagnes",
+          "de": "Berge",
+          "it": "montagne",
+          "pt": "montanhas",
+          "no": "fjell"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the singer",
+        "target": "singer",
+        "translations": {
+          "es": "Encuentra a la cantante",
+          "fr": "Trouve la chanteuse",
+          "de": "Finde die Sängerin",
+          "it": "Trova la cantante",
+          "pt": "Encontre a cantora",
+          "no": "Finn sangeren"
+        }
+      },
+      {
+        "prompt": "Find the guitar",
+        "target": "left-guitar",
+        "translations": {
+          "es": "Encuentra la guitarra",
+          "fr": "Trouve la guitare",
+          "de": "Finde die Gitarre",
+          "it": "Trova la chitarra",
+          "pt": "Encontre a guitarra",
+          "no": "Finn gitaren"
+        }
+      },
+      {
+        "prompt": "Find the drums",
+        "target": "drums",
+        "translations": {
+          "es": "Encuentra la batería",
+          "fr": "Trouve la batterie",
+          "de": "Finde das Schlagzeug",
+          "it": "Trova la batteria",
+          "pt": "Encontre a bateria",
+          "no": "Finn trommene"
+        }
+      },
+      {
+        "prompt": "Find the dancers",
+        "target": "dancers",
+        "translations": {
+          "es": "Encuentra a los bailarines",
+          "fr": "Trouve les danseurs",
+          "de": "Finde die Tanzenden",
+          "it": "Trova i ballerini",
+          "pt": "Encontre os dançarinos",
+          "no": "Finn danserne"
+        }
+      },
+      {
+        "prompt": "Find the boat",
+        "target": "boat",
+        "translations": {
+          "es": "Encuentra el barco",
+          "fr": "Trouve le bateau",
+          "de": "Finde das Boot",
+          "it": "Trova la barca",
+          "pt": "Encontre o barco",
+          "no": "Finn båten"
+        }
+      },
+      {
+        "prompt": "Find the mountains",
+        "target": "mountains",
+        "translations": {
+          "es": "Encuentra las montañas",
+          "fr": "Trouve les montagnes",
+          "de": "Finde die Berge",
+          "it": "Trova le montagne",
+          "pt": "Encontre as montanhas",
+          "no": "Finn fjellene"
+        }
+      }
+    ]
+  },
+  "dinosaur-museum": {
+    "title": "Dinosaur Museum",
+    "image": "images/dinosaur-museum-adventure.jpg",
+    "lessons": [
+      {
+        "text": "We are at the dinosaur museum.",
+        "translations": {
+          "es": "Estamos en el museo de dinosaurios.",
+          "fr": "Nous sommes au musée des dinosaures.",
+          "de": "Wir sind im Dinosauriermuseum.",
+          "it": "Siamo al museo dei dinosauri.",
+          "pt": "Estamos no museu de dinossauros.",
+          "no": "Vi er på dinosaurmuseet."
+        }
+      },
+      {
+        "text": "Look at the giant dinosaur skeletons.",
+        "translations": {
+          "es": "Mira los esqueletos gigantes de dinosaurios.",
+          "fr": "Regarde les squelettes géants de dinosaures.",
+          "de": "Schau dir die riesigen Dinosaurierskelette an.",
+          "it": "Guarda gli enormi scheletri di dinosauro.",
+          "pt": "Olhe os esqueletos gigantes de dinossauros.",
+          "no": "Se på de enorme dinosaurskjelettene."
+        }
+      },
+      {
+        "text": "The T. rex was a powerful dinosaur.",
+        "translations": {
+          "es": "El T. rex era un dinosaurio poderoso.",
+          "fr": "Le T. rex était un dinosaure puissant.",
+          "de": "Der T. rex war ein mächtiger Dinosaurier.",
+          "it": "Il T. rex era un dinosauro potente.",
+          "pt": "O T. rex era um dinossauro poderoso.",
+          "no": "T. rex var en kraftig dinosaur."
+        }
+      },
+      {
+        "text": "Look at its enormous teeth.",
+        "translations": {
+          "es": "Mira sus enormes dientes.",
+          "fr": "Regarde ses énormes dents.",
+          "de": "Schau dir seine riesigen Zähne an.",
+          "it": "Guarda i suoi enormi denti.",
+          "pt": "Olhe seus dentes enormes.",
+          "no": "Se på de enorme tennene."
+        }
+      },
+      {
+        "text": "These are dinosaur eggs.",
+        "translations": {
+          "es": "Estos son huevos de dinosaurio.",
+          "fr": "Ce sont des œufs de dinosaure.",
+          "de": "Das sind Dinosauriereier.",
+          "it": "Queste sono uova di dinosauro.",
+          "pt": "Estes são ovos de dinossauro.",
+          "no": "Dette er dinosauregg."
+        }
+      },
+      {
+        "text": "The eggs are protected in the exhibit.",
+        "translations": {
+          "es": "Los huevos están protegidos en la exhibición.",
+          "fr": "Les œufs sont protégés dans l’exposition.",
+          "de": "Die Eier sind in der Ausstellung geschützt.",
+          "it": "Le uova sono protette nell’esposizione.",
+          "pt": "Os ovos estão protegidos na exposição.",
+          "no": "Eggene er beskyttet i utstillingen."
+        }
+      },
+      {
+        "text": "Follow the dinosaur footprints.",
+        "translations": {
+          "es": "Sigue las huellas de dinosaurio.",
+          "fr": "Suis les empreintes de dinosaure.",
+          "de": "Folge den Dinosaurierspuren.",
+          "it": "Segui le impronte di dinosauro.",
+          "pt": "Siga as pegadas de dinossauro.",
+          "no": "Følg dinosaursporene."
+        }
+      },
+      {
+        "text": "Where do the tracks lead?",
+        "translations": {
+          "es": "¿Adónde llevan las huellas?",
+          "fr": "Où mènent les traces ?",
+          "de": "Wohin führen die Spuren?",
+          "it": "Dove portano le tracce?",
+          "pt": "Aonde as pegadas levam?",
+          "no": "Hvor fører sporene?"
+        }
+      },
+      {
+        "text": "Look up at the flying reptile.",
+        "translations": {
+          "es": "Mira hacia arriba al reptil volador.",
+          "fr": "Regarde le reptile volant au-dessus de nous.",
+          "de": "Schau nach oben zu dem fliegenden Reptil.",
+          "it": "Guarda in alto il rettile volante.",
+          "pt": "Olhe para o réptil voador acima de nós.",
+          "no": "Se opp på flygeøglen."
+        }
+      },
+      {
+        "text": "The pterosaur is above us.",
+        "translations": {
+          "es": "El pterosaurio está sobre nosotros.",
+          "fr": "Le ptérosaure est au-dessus de nous.",
+          "de": "Der Flugsaurier ist über uns.",
+          "it": "Lo pterosauro è sopra di noi.",
+          "pt": "O pterossauro está acima de nós.",
+          "no": "Flygeøglen er over oss."
+        }
+      },
+      {
+        "text": "What do you see in the museum?",
+        "translations": {
+          "es": "¿Qué ves en el museo?",
+          "fr": "Que vois-tu dans le musée ?",
+          "de": "Was siehst du im Museum?",
+          "it": "Che cosa vedi nel museo?",
+          "pt": "O que você vê no museu?",
+          "no": "Hva ser du i museet?"
+        }
+      },
+      {
+        "text": "I see fossils, skeletons, and dinosaurs.",
+        "translations": {
+          "es": "Veo fósiles, esqueletos y dinosaurios.",
+          "fr": "Je vois des fossiles, des squelettes et des dinosaures.",
+          "de": "Ich sehe Fossilien, Skelette und Dinosaurier.",
+          "it": "Vedo fossili, scheletri e dinosauri.",
+          "pt": "Eu vejo fósseis, esqueletos e dinossauros.",
+          "no": "Jeg ser fossiler, skjeletter og dinosaurer."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "trex",
+        "label": "trex",
+        "x": 28.37,
+        "y": -1.56,
+        "w": 23.91,
+        "h": 33.67,
+        "sound": "sounds/dinosaur.mp3",
+        "translations": {
+          "es": "Trex",
+          "fr": "trex",
+          "de": "T Rex",
+          "it": "trex",
+          "pt": "trex",
+          "no": "trex"
+        }
+      },
+      {
+        "id": "triceratops",
+        "label": "triceratops",
+        "x": 83.31,
+        "y": 27.85,
+        "w": 18.61,
+        "h": 28.56,
+        "sound": "sounds/dinosaur-growl.mp3",
+        "translations": {
+          "es": "Tricerátops",
+          "fr": "Tricératops",
+          "de": "Triceratops",
+          "it": "Triceratopo",
+          "pt": "Triceratops",
+          "no": "Triceratops"
+        }
+      },
+      {
+        "id": "stegosaurus",
+        "label": "stegosaurus",
+        "x": 59.76,
+        "y": 45.85,
+        "w": 15.59,
+        "h": 16.52,
+        "sound": "sounds/dinosaur-growl.mp3",
+        "translations": {
+          "es": "estegosaurio",
+          "fr": "Le Stégosaure",
+          "de": "Stegosaurus",
+          "it": "Stegosaurus",
+          "pt": "Estegossauro",
+          "no": "Stegosaurus"
+        }
+      },
+      {
+        "id": "sauropod",
+        "label": "sauropod",
+        "x": 38.84,
+        "y": 31,
+        "w": 27,
+        "h": 31,
+        "sound": "sounds/dinosaur-growl.mp3",
+        "translations": {
+          "es": "Sauropoda",
+          "fr": "Sauropoda",
+          "de": "sauropoden",
+          "it": "sauropode",
+          "pt": "saurópodes",
+          "no": "Sauropoder"
+        }
+      },
+      {
+        "id": "pterosaur",
+        "label": "pterosaur",
+        "x": 73,
+        "y": 3,
+        "w": 24,
+        "h": 28,
+        "sound": "sounds/dino1.mp3",
+        "translations": {
+          "es": "Pterosauria",
+          "fr": "Pterosauria",
+          "de": "Flugsaurier",
+          "it": "Pterosauria",
+          "pt": "Pterossauro",
+          "no": "Flygeøgler"
+        }
+      },
+      {
+        "id": "bee",
+        "label": "bee",
+        "x": 57,
+        "y": 10,
+        "w": 14,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "abejas",
+          "fr": "Reine des abeilles",
+          "de": "Biene",
+          "it": "ape da",
+          "pt": "abelhas",
+          "no": "bie"
+        }
+      },
+      {
+        "id": "eggs",
+        "label": "eggs",
+        "x": 45.86,
+        "y": 65.5,
+        "w": 1,
+        "h": 2.89,
+        "sound": "sounds/hatching-egg.mp3",
+        "translations": {
+          "es": "huevos",
+          "fr": "œufs",
+          "de": "Eier",
+          "it": "uova",
+          "pt": "ovos",
+          "no": "egg"
+        }
+      },
+      {
+        "id": "footprints",
+        "label": "footprints",
+        "x": 48.46,
+        "y": 85.24,
+        "w": 22,
+        "h": 16,
+        "sound": "sounds/dinosaur-foot-steps.mp3",
+        "translations": {
+          "es": "de carbono",
+          "fr": "empreintes de pied",
+          "de": "Fußabdrücke",
+          "it": "IMPRONTE DEI PIEDINI",
+          "pt": "pegadas.",
+          "no": "“Fottrinn?”"
+        }
+      },
+      {
+        "id": "girl",
+        "label": "girl",
+        "x": 14.07,
+        "y": 59.93,
+        "w": 13,
+        "h": 34,
+        "sound": "sounds/child-laughing.mp3",
+        "translations": {
+          "es": "niña",
+          "fr": "fille",
+          "de": "Mädchen",
+          "it": "ragazza",
+          "pt": "menina",
+          "no": "jente"
+        }
+      },
+      {
+        "id": "boy",
+        "label": "boy",
+        "x": 32.4,
+        "y": 60.19,
+        "w": 11,
+        "h": 29,
+        "sound": "sounds/boy-laugh.mp3",
+        "translations": {
+          "es": "niño",
+          "fr": "garçon",
+          "de": "Junge",
+          "it": "ragazzo",
+          "pt": "menino",
+          "no": "gutt"
+        }
+      },
+      {
+        "id": "fossil",
+        "label": "fossil",
+        "x": 82,
+        "y": 61,
+        "w": 17,
+        "h": 18,
+        "sound": "sounds/rattling-bones.mp3",
+        "translations": {
+          "es": "fósiles",
+          "fr": "Fossiles",
+          "de": "Fossil",
+          "it": "fossile",
+          "pt": "fóssil",
+          "no": "Fossiler"
+        }
+      },
+      {
+        "id": "skeleton",
+        "label": "skeleton",
+        "x": 41,
+        "y": 38,
+        "w": 15,
+        "h": 25,
+        "sound": "sounds/rattling-bones.mp3",
+        "translations": {
+          "es": "esqueleto",
+          "fr": "squelette/le squelette/ossature",
+          "de": "Skelett",
+          "it": "scheletro",
+          "pt": "esqueleto",
+          "no": "Skjelett"
+        }
+      },
+      {
+        "id": "museum",
+        "label": "museum",
+        "x": 52.14,
+        "y": 6.84,
+        "w": 22.03,
+        "h": 15.87,
+        "sound": "sounds/dinosaur-museum.mp3",
+        "translations": {
+          "es": "museo",
+          "fr": "musée",
+          "de": "Museum",
+          "it": "museo",
+          "pt": "museus",
+          "no": "Muséer"
+        }
+      },
+      {
+        "id": "plants",
+        "label": "plants",
+        "x": 1.88,
+        "y": 69.84,
+        "w": 10.59,
+        "h": 32.5,
+        "sound": "",
+        "translations": {
+          "es": "tecnología",
+          "fr": "usines",
+          "de": "Kläranlagen",
+          "it": "piante",
+          "pt": "plantas",
+          "no": "Planter"
+        }
+      },
+      {
+        "id": "glassdome",
+        "label": "glassdome",
+        "x": 57.32,
+        "y": -2.78,
+        "w": 16.19,
+        "h": 9.02,
+        "sound": "",
+        "translations": {
+          "es": "glassdome",
+          "fr": "glassdome",
+          "de": "glaskuppel",
+          "it": "cupola di vetro",
+          "pt": "cúpula de vidro",
+          "no": "glasskuplen"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the T. rex",
+        "target": "trex",
+        "translations": {
+          "es": "Encuentra el T. rex",
+          "fr": "Trouvez le T. rex",
+          "de": "Finde den T. rex",
+          "it": "Trova il T. rex",
+          "pt": "Encontre o T. rex",
+          "no": "Finn T. rexen"
+        }
+      },
+      {
+        "prompt": "Find the Triceratops",
+        "target": "triceratops",
+        "translations": {
+          "es": "El Triceratops",
+          "fr": "Trouvez les Tricératops",
+          "de": "Finde den Triceratops",
+          "it": "Trova il Triceratopo",
+          "pt": "Encontre o Tricerátopo",
+          "no": "Finn triceratopsene"
+        }
+      },
+      {
+        "prompt": "Find the Stegosaurus",
+        "target": "stegosaurus",
+        "translations": {
+          "es": "Encuentra el estegosaurio",
+          "fr": "Trouvez le stégosaure",
+          "de": "Finde den Stegosaurus",
+          "it": "Trova lo stegosauro",
+          "pt": "Encontre o Estegossauro",
+          "no": "Finn stegosaurusen"
+        }
+      },
+      {
+        "prompt": "Find the Pterosaur",
+        "target": "pterosaur",
+        "translations": {
+          "es": "Encuentra el pterosaurio",
+          "fr": "Trouvez le ptérosaure",
+          "de": "Finde den Pterosaurier",
+          "it": "Trova lo pterosauro",
+          "pt": "Encontre o pterossauro",
+          "no": "Finn pterosauren"
+        }
+      },
+      {
+        "prompt": "Find the Dinosaur Eggs",
+        "target": "eggs",
+        "translations": {
+          "es": "Encuentra los huevos de dinosaurio",
+          "fr": "Trouvez les œufs de dinosaure",
+          "de": "Finde die Dinosaurier-Eier",
+          "it": "Trova le uova di dinosauro",
+          "pt": "Encontre os ovos de dinossauro",
+          "no": "Finn dinosaureggene"
+        }
+      },
+      {
+        "prompt": "Find the Footprints",
+        "target": "footprints",
+        "translations": {
+          "es": "después de la guerra.",
+          "fr": "Trouvez les empreintes",
+          "de": "Finde die Fußabdrücke",
+          "it": "Trova le impronte",
+          "pt": "Encontre as pegadas",
+          "no": "Finn fotsporene"
+        }
+      }
+    ]
+  },
   "dog-show": {
     "title": "Dog Show",
     "image": "images/Dog-Show-Adventure.jpg",
@@ -8753,476 +11490,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "dinosaur-museum": {
-    "title": "Dinosaur Museum",
-    "image": "images/dinosaur-museum-adventure.jpg",
-    "lessons": [
-      {
-        "text": "We are at the dinosaur museum.",
-        "translations": {
-          "es": "Estamos en el museo de dinosaurios.",
-          "fr": "Nous sommes au musée des dinosaures.",
-          "de": "Wir sind im Dinosauriermuseum.",
-          "it": "Siamo al museo dei dinosauri.",
-          "pt": "Estamos no museu de dinossauros.",
-          "no": "Vi er på dinosaurmuseet."
-        }
-      },
-      {
-        "text": "Look at the giant dinosaur skeletons.",
-        "translations": {
-          "es": "Mira los esqueletos gigantes de dinosaurios.",
-          "fr": "Regarde les squelettes géants de dinosaures.",
-          "de": "Schau dir die riesigen Dinosaurierskelette an.",
-          "it": "Guarda gli enormi scheletri di dinosauro.",
-          "pt": "Olhe os esqueletos gigantes de dinossauros.",
-          "no": "Se på de enorme dinosaurskjelettene."
-        }
-      },
-      {
-        "text": "The T. rex was a powerful dinosaur.",
-        "translations": {
-          "es": "El T. rex era un dinosaurio poderoso.",
-          "fr": "Le T. rex était un dinosaure puissant.",
-          "de": "Der T. rex war ein mächtiger Dinosaurier.",
-          "it": "Il T. rex era un dinosauro potente.",
-          "pt": "O T. rex era um dinossauro poderoso.",
-          "no": "T. rex var en kraftig dinosaur."
-        }
-      },
-      {
-        "text": "Look at its enormous teeth.",
-        "translations": {
-          "es": "Mira sus enormes dientes.",
-          "fr": "Regarde ses énormes dents.",
-          "de": "Schau dir seine riesigen Zähne an.",
-          "it": "Guarda i suoi enormi denti.",
-          "pt": "Olhe seus dentes enormes.",
-          "no": "Se på de enorme tennene."
-        }
-      },
-      {
-        "text": "These are dinosaur eggs.",
-        "translations": {
-          "es": "Estos son huevos de dinosaurio.",
-          "fr": "Ce sont des œufs de dinosaure.",
-          "de": "Das sind Dinosauriereier.",
-          "it": "Queste sono uova di dinosauro.",
-          "pt": "Estes são ovos de dinossauro.",
-          "no": "Dette er dinosauregg."
-        }
-      },
-      {
-        "text": "The eggs are protected in the exhibit.",
-        "translations": {
-          "es": "Los huevos están protegidos en la exhibición.",
-          "fr": "Les œufs sont protégés dans l’exposition.",
-          "de": "Die Eier sind in der Ausstellung geschützt.",
-          "it": "Le uova sono protette nell’esposizione.",
-          "pt": "Os ovos estão protegidos na exposição.",
-          "no": "Eggene er beskyttet i utstillingen."
-        }
-      },
-      {
-        "text": "Follow the dinosaur footprints.",
-        "translations": {
-          "es": "Sigue las huellas de dinosaurio.",
-          "fr": "Suis les empreintes de dinosaure.",
-          "de": "Folge den Dinosaurierspuren.",
-          "it": "Segui le impronte di dinosauro.",
-          "pt": "Siga as pegadas de dinossauro.",
-          "no": "Følg dinosaursporene."
-        }
-      },
-      {
-        "text": "Where do the tracks lead?",
-        "translations": {
-          "es": "¿Adónde llevan las huellas?",
-          "fr": "Où mènent les traces ?",
-          "de": "Wohin führen die Spuren?",
-          "it": "Dove portano le tracce?",
-          "pt": "Aonde as pegadas levam?",
-          "no": "Hvor fører sporene?"
-        }
-      },
-      {
-        "text": "Look up at the flying reptile.",
-        "translations": {
-          "es": "Mira hacia arriba al reptil volador.",
-          "fr": "Regarde le reptile volant au-dessus de nous.",
-          "de": "Schau nach oben zu dem fliegenden Reptil.",
-          "it": "Guarda in alto il rettile volante.",
-          "pt": "Olhe para o réptil voador acima de nós.",
-          "no": "Se opp på flygeøglen."
-        }
-      },
-      {
-        "text": "The pterosaur is above us.",
-        "translations": {
-          "es": "El pterosaurio está sobre nosotros.",
-          "fr": "Le ptérosaure est au-dessus de nous.",
-          "de": "Der Flugsaurier ist über uns.",
-          "it": "Lo pterosauro è sopra di noi.",
-          "pt": "O pterossauro está acima de nós.",
-          "no": "Flygeøglen er over oss."
-        }
-      },
-      {
-        "text": "What do you see in the museum?",
-        "translations": {
-          "es": "¿Qué ves en el museo?",
-          "fr": "Que vois-tu dans le musée ?",
-          "de": "Was siehst du im Museum?",
-          "it": "Che cosa vedi nel museo?",
-          "pt": "O que você vê no museu?",
-          "no": "Hva ser du i museet?"
-        }
-      },
-      {
-        "text": "I see fossils, skeletons, and dinosaurs.",
-        "translations": {
-          "es": "Veo fósiles, esqueletos y dinosaurios.",
-          "fr": "Je vois des fossiles, des squelettes et des dinosaures.",
-          "de": "Ich sehe Fossilien, Skelette und Dinosaurier.",
-          "it": "Vedo fossili, scheletri e dinosauri.",
-          "pt": "Eu vejo fósseis, esqueletos e dinossauros.",
-          "no": "Jeg ser fossiler, skjeletter og dinosaurer."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "trex",
-        "label": "trex",
-        "x": 28.37,
-        "y": -1.56,
-        "w": 23.91,
-        "h": 33.67,
-        "sound": "sounds/dinosaur.mp3",
-        "translations": {
-          "es": "Trex",
-          "fr": "trex",
-          "de": "T Rex",
-          "it": "trex",
-          "pt": "trex",
-          "no": "trex"
-        }
-      },
-      {
-        "id": "triceratops",
-        "label": "triceratops",
-        "x": 83.31,
-        "y": 27.85,
-        "w": 18.61,
-        "h": 28.56,
-        "sound": "sounds/dinosaur-growl.mp3",
-        "translations": {
-          "es": "Tricerátops",
-          "fr": "Tricératops",
-          "de": "Triceratops",
-          "it": "Triceratopo",
-          "pt": "Triceratops",
-          "no": "Triceratops"
-        }
-      },
-      {
-        "id": "stegosaurus",
-        "label": "stegosaurus",
-        "x": 59.76,
-        "y": 45.85,
-        "w": 15.59,
-        "h": 16.52,
-        "sound": "sounds/dinosaur-growl.mp3",
-        "translations": {
-          "es": "estegosaurio",
-          "fr": "Le Stégosaure",
-          "de": "Stegosaurus",
-          "it": "Stegosaurus",
-          "pt": "Estegossauro",
-          "no": "Stegosaurus"
-        }
-      },
-      {
-        "id": "sauropod",
-        "label": "sauropod",
-        "x": 38.84,
-        "y": 31,
-        "w": 27,
-        "h": 31,
-        "sound": "sounds/dinosaur-growl.mp3",
-        "translations": {
-          "es": "Sauropoda",
-          "fr": "Sauropoda",
-          "de": "sauropoden",
-          "it": "sauropode",
-          "pt": "saurópodes",
-          "no": "Sauropoder"
-        }
-      },
-      {
-        "id": "pterosaur",
-        "label": "pterosaur",
-        "x": 73,
-        "y": 3,
-        "w": 24,
-        "h": 28,
-        "sound": "sounds/dino1.mp3",
-        "translations": {
-          "es": "Pterosauria",
-          "fr": "Pterosauria",
-          "de": "Flugsaurier",
-          "it": "Pterosauria",
-          "pt": "Pterossauro",
-          "no": "Flygeøgler"
-        }
-      },
-      {
-        "id": "bee",
-        "label": "bee",
-        "x": 57,
-        "y": 10,
-        "w": 14,
-        "h": 19,
-        "sound": "",
-        "translations": {
-          "es": "abejas",
-          "fr": "Reine des abeilles",
-          "de": "Biene",
-          "it": "ape da",
-          "pt": "abelhas",
-          "no": "bie"
-        }
-      },
-      {
-        "id": "eggs",
-        "label": "eggs",
-        "x": 45.86,
-        "y": 65.5,
-        "w": 1,
-        "h": 2.89,
-        "sound": "sounds/hatching-egg.mp3",
-        "translations": {
-          "es": "huevos",
-          "fr": "œufs",
-          "de": "Eier",
-          "it": "uova",
-          "pt": "ovos",
-          "no": "egg"
-        }
-      },
-      {
-        "id": "footprints",
-        "label": "footprints",
-        "x": 48.46,
-        "y": 85.24,
-        "w": 22,
-        "h": 16,
-        "sound": "sounds/dinosaur-foot-steps.mp3",
-        "translations": {
-          "es": "de carbono",
-          "fr": "empreintes de pied",
-          "de": "Fußabdrücke",
-          "it": "IMPRONTE DEI PIEDINI",
-          "pt": "pegadas.",
-          "no": "“Fottrinn?”"
-        }
-      },
-      {
-        "id": "girl",
-        "label": "girl",
-        "x": 14.07,
-        "y": 59.93,
-        "w": 13,
-        "h": 34,
-        "sound": "sounds/child-laughing.mp3",
-        "translations": {
-          "es": "niña",
-          "fr": "fille",
-          "de": "Mädchen",
-          "it": "ragazza",
-          "pt": "menina",
-          "no": "jente"
-        }
-      },
-      {
-        "id": "boy",
-        "label": "boy",
-        "x": 32.4,
-        "y": 60.19,
-        "w": 11,
-        "h": 29,
-        "sound": "sounds/boy-laugh.mp3",
-        "translations": {
-          "es": "niño",
-          "fr": "garçon",
-          "de": "Junge",
-          "it": "ragazzo",
-          "pt": "menino",
-          "no": "gutt"
-        }
-      },
-      {
-        "id": "fossil",
-        "label": "fossil",
-        "x": 82,
-        "y": 61,
-        "w": 17,
-        "h": 18,
-        "sound": "sounds/rattling-bones.mp3",
-        "translations": {
-          "es": "fósiles",
-          "fr": "Fossiles",
-          "de": "Fossil",
-          "it": "fossile",
-          "pt": "fóssil",
-          "no": "Fossiler"
-        }
-      },
-      {
-        "id": "skeleton",
-        "label": "skeleton",
-        "x": 41,
-        "y": 38,
-        "w": 15,
-        "h": 25,
-        "sound": "sounds/rattling-bones.mp3",
-        "translations": {
-          "es": "esqueleto",
-          "fr": "squelette/le squelette/ossature",
-          "de": "Skelett",
-          "it": "scheletro",
-          "pt": "esqueleto",
-          "no": "Skjelett"
-        }
-      },
-      {
-        "id": "museum",
-        "label": "museum",
-        "x": 52.14,
-        "y": 6.84,
-        "w": 22.03,
-        "h": 15.87,
-        "sound": "sounds/dinosaur-museum.mp3",
-        "translations": {
-          "es": "museo",
-          "fr": "musée",
-          "de": "Museum",
-          "it": "museo",
-          "pt": "museus",
-          "no": "Muséer"
-        }
-      },
-      {
-        "id": "plants",
-        "label": "plants",
-        "x": 1.88,
-        "y": 69.84,
-        "w": 10.59,
-        "h": 32.5,
-        "sound": "",
-        "translations": {
-          "es": "tecnología",
-          "fr": "usines",
-          "de": "Kläranlagen",
-          "it": "piante",
-          "pt": "plantas",
-          "no": "Planter"
-        }
-      },
-      {
-        "id": "glassdome",
-        "label": "glassdome",
-        "x": 57.32,
-        "y": -2.78,
-        "w": 16.19,
-        "h": 9.02,
-        "sound": "",
-        "translations": {
-          "es": "glassdome",
-          "fr": "glassdome",
-          "de": "glaskuppel",
-          "it": "cupola di vetro",
-          "pt": "cúpula de vidro",
-          "no": "glasskuplen"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the T. rex",
-        "target": "trex",
-        "translations": {
-          "es": "Encuentra el T. rex",
-          "fr": "Trouvez le T. rex",
-          "de": "Finde den T. rex",
-          "it": "Trova il T. rex",
-          "pt": "Encontre o T. rex",
-          "no": "Finn T. rexen"
-        }
-      },
-      {
-        "prompt": "Find the Triceratops",
-        "target": "triceratops",
-        "translations": {
-          "es": "El Triceratops",
-          "fr": "Trouvez les Tricératops",
-          "de": "Finde den Triceratops",
-          "it": "Trova il Triceratopo",
-          "pt": "Encontre o Tricerátopo",
-          "no": "Finn triceratopsene"
-        }
-      },
-      {
-        "prompt": "Find the Stegosaurus",
-        "target": "stegosaurus",
-        "translations": {
-          "es": "Encuentra el estegosaurio",
-          "fr": "Trouvez le stégosaure",
-          "de": "Finde den Stegosaurus",
-          "it": "Trova lo stegosauro",
-          "pt": "Encontre o Estegossauro",
-          "no": "Finn stegosaurusen"
-        }
-      },
-      {
-        "prompt": "Find the Pterosaur",
-        "target": "pterosaur",
-        "translations": {
-          "es": "Encuentra el pterosaurio",
-          "fr": "Trouvez le ptérosaure",
-          "de": "Finde den Pterosaurier",
-          "it": "Trova lo pterosauro",
-          "pt": "Encontre o pterossauro",
-          "no": "Finn pterosauren"
-        }
-      },
-      {
-        "prompt": "Find the Dinosaur Eggs",
-        "target": "eggs",
-        "translations": {
-          "es": "Encuentra los huevos de dinosaurio",
-          "fr": "Trouvez les œufs de dinosaure",
-          "de": "Finde die Dinosaurier-Eier",
-          "it": "Trova le uova di dinosauro",
-          "pt": "Encontre os ovos de dinossauro",
-          "no": "Finn dinosaureggene"
-        }
-      },
-      {
-        "prompt": "Find the Footprints",
-        "target": "footprints",
-        "translations": {
-          "es": "después de la guerra.",
-          "fr": "Trouvez les empreintes",
-          "de": "Finde die Fußabdrücke",
-          "it": "Trova le impronte",
-          "pt": "Encontre as pegadas",
-          "no": "Finn fotsporene"
-        }
-      }
-    ]
-  },
   "dance-floor": {
     "title": "Dance Floor",
     "image": "images/Dance-Floor.jpg",
@@ -9516,435 +11783,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Trova la ballerina.",
           "pt": "Encontre a dançarina.",
           "no": "Finn danseren."
-        }
-      }
-    ]
-  },
-  "dancing": {
-    "title": "Dancing",
-    "image": "images/dancing.jpg",
-    "lessons": [
-      {
-        "text": "Welcome to the lakeside dance party!",
-        "translations": {
-          "es": "¡Bienvenidos a la fiesta de baile junto al lago!",
-          "fr": "Bienvenue à la soirée dansante au bord du lac !",
-          "de": "Willkommen zur Tanzparty am See!",
-          "it": "Benvenuti alla festa da ballo sul lago!",
-          "pt": "Bem-vindos à festa de dança à beira do lago!",
-          "no": "Velkommen til dansefesten ved innsjøen!"
-        }
-      },
-      {
-        "text": "The band is playing live music on the stage.",
-        "translations": {
-          "es": "La banda toca música en vivo en el escenario.",
-          "fr": "Le groupe joue de la musique en direct sur scène.",
-          "de": "Die Band spielt Livemusik auf der Bühne.",
-          "it": "La band suona musica dal vivo sul palco.",
-          "pt": "A banda toca música ao vivo no palco.",
-          "no": "Bandet spiller levende musikk på scenen."
-        }
-      },
-      {
-        "text": "The singer uses a microphone so everyone can hear her.",
-        "translations": {
-          "es": "La cantante usa un micrófono para que todos puedan oírla.",
-          "fr": "La chanteuse utilise un microphone pour que tout le monde puisse l’entendre.",
-          "de": "Die Sängerin benutzt ein Mikrofon, damit alle sie hören können.",
-          "it": "La cantante usa un microfono perché tutti possano sentirla.",
-          "pt": "A cantora usa um microfone para que todos possam ouvi-la.",
-          "no": "Sangeren bruker en mikrofon slik at alle kan høre henne."
-        }
-      },
-      {
-        "text": "The guitar players make music with strings.",
-        "translations": {
-          "es": "Los guitarristas hacen música con cuerdas.",
-          "fr": "Les guitaristes font de la musique avec des cordes.",
-          "de": "Die Gitarristen machen Musik mit Saiten.",
-          "it": "I chitarristi fanno musica con le corde.",
-          "pt": "Os guitarristas fazem música com cordas.",
-          "no": "Gitaristene lager musikk med strenger."
-        }
-      },
-      {
-        "text": "The drummer keeps the beat for the band.",
-        "translations": {
-          "es": "El baterista mantiene el ritmo de la banda.",
-          "fr": "Le batteur donne le rythme au groupe.",
-          "de": "Der Schlagzeuger gibt den Takt für die Band vor.",
-          "it": "Il batterista tiene il ritmo della band.",
-          "pt": "O baterista mantém o ritmo da banda.",
-          "no": "Trommeslageren holder takten for bandet."
-        }
-      },
-      {
-        "text": "People are dancing together on the wooden floor.",
-        "translations": {
-          "es": "La gente baila junta sobre el suelo de madera.",
-          "fr": "Les gens dansent ensemble sur la piste en bois.",
-          "de": "Die Menschen tanzen zusammen auf dem Holzboden.",
-          "it": "Le persone ballano insieme sul pavimento di legno.",
-          "pt": "As pessoas dançam juntas no piso de madeira.",
-          "no": "Folk danser sammen på tregulvet."
-        }
-      },
-      {
-        "text": "Colorful dresses move as the dancers turn.",
-        "translations": {
-          "es": "Los vestidos coloridos se mueven cuando los bailarines giran.",
-          "fr": "Les robes colorées bougent lorsque les danseurs tournent.",
-          "de": "Bunte Kleider bewegen sich, wenn sich die Tanzenden drehen.",
-          "it": "Gli abiti colorati si muovono mentre i ballerini girano.",
-          "pt": "Os vestidos coloridos se movem quando os dançarinos giram.",
-          "no": "Fargerike kjoler beveger seg når danserne snurrer."
-        }
-      },
-      {
-        "text": "Warm lights hang above the outdoor dance floor.",
-        "translations": {
-          "es": "Luces cálidas cuelgan sobre la pista de baile al aire libre.",
-          "fr": "Des lumières chaleureuses sont suspendues au-dessus de la piste de danse.",
-          "de": "Warme Lichter hängen über der Tanzfläche im Freien.",
-          "it": "Luci calde sono appese sopra la pista da ballo all’aperto.",
-          "pt": "Luzes aconchegantes ficam penduradas sobre a pista de dança ao ar livre.",
-          "no": "Varme lys henger over dansegulvet utendørs."
-        }
-      },
-      {
-        "text": "A boat is waiting beside the dock.",
-        "translations": {
-          "es": "Un barco espera junto al muelle.",
-          "fr": "Un bateau attend près du quai.",
-          "de": "Ein Boot wartet am Steg.",
-          "it": "Una barca aspetta accanto al molo.",
-          "pt": "Um barco espera ao lado do cais.",
-          "no": "En båt venter ved brygga."
-        }
-      },
-      {
-        "text": "The lake reflects the colors of the evening sky.",
-        "translations": {
-          "es": "El lago refleja los colores del cielo al atardecer.",
-          "fr": "Le lac reflète les couleurs du ciel du soir.",
-          "de": "Der See spiegelt die Farben des Abendhimmels.",
-          "it": "Il lago riflette i colori del cielo serale.",
-          "pt": "O lago reflete as cores do céu ao entardecer.",
-          "no": "Innsjøen speiler fargene på kveldshimmelen."
-        }
-      },
-      {
-        "text": "Snow-covered mountains rise beyond the water.",
-        "translations": {
-          "es": "Las montañas cubiertas de nieve se elevan más allá del agua.",
-          "fr": "Des montagnes enneigées s’élèvent au-delà de l’eau.",
-          "de": "Schneebedeckte Berge ragen hinter dem Wasser auf.",
-          "it": "Montagne innevate si innalzano oltre l’acqua.",
-          "pt": "Montanhas cobertas de neve se erguem além da água.",
-          "no": "Snødekte fjell reiser seg på den andre siden av vannet."
-        }
-      },
-      {
-        "text": "Everyone is enjoying music, friendship, and a beautiful sunset.",
-        "translations": {
-          "es": "Todos disfrutan de la música, la amistad y una hermosa puesta de sol.",
-          "fr": "Tout le monde profite de la musique, de l’amitié et d’un beau coucher de soleil.",
-          "de": "Alle genießen Musik, Freundschaft und einen wunderschönen Sonnenuntergang.",
-          "it": "Tutti si godono la musica, l’amicizia e un bellissimo tramonto.",
-          "pt": "Todos aproveitam a música, a amizade e um lindo pôr do sol.",
-          "no": "Alle nyter musikk, vennskap og en vakker solnedgang."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "singer",
-        "label": "singer",
-        "x": 48,
-        "y": 36,
-        "w": 3,
-        "h": 13,
-        "sound": "",
-        "translations": {
-          "es": "cantante",
-          "fr": "chanteuse",
-          "de": "Sänger*in",
-          "it": "Cantante",
-          "pt": "cantor",
-          "no": "Sanger"
-        }
-      },
-      {
-        "id": "microphone",
-        "label": "microphone",
-        "x": 47.1,
-        "y": 37.4,
-        "w": 2.2,
-        "h": 8.5,
-        "sound": "",
-        "translations": {
-          "es": "micrófono",
-          "fr": "microphone",
-          "de": "Mikrofon",
-          "it": "microfono",
-          "pt": "microfone",
-          "no": "Mikrofon"
-        }
-      },
-      {
-        "id": "left-guitar",
-        "label": "guitar",
-        "x": 38,
-        "y": 36,
-        "w": 7.3,
-        "h": 13,
-        "sound": "sounds/guitar.mp3",
-        "translations": {
-          "es": "guitarra",
-          "fr": "guitare",
-          "de": "Gitarre",
-          "it": "chitarra",
-          "pt": "guitarra",
-          "no": "gitar"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "right-guitar",
-        "label": "bass guitar",
-        "x": 54.8,
-        "y": 35.5,
-        "w": 7.2,
-        "h": 14.2,
-        "sound": "sounds/guitar3.mp3",
-        "translations": {
-          "es": "bass guitar",
-          "fr": "guitare basse",
-          "de": "Bass",
-          "it": "Basso elettrico",
-          "pt": "contrabaixo elétrico",
-          "no": "bassgitar"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "drums",
-        "label": "drums",
-        "x": 43.2,
-        "y": 41,
-        "w": 10,
-        "h": 8.4,
-        "sound": "sounds/energetic-bigbeat-drum1.mp3",
-        "translations": {
-          "es": "tambores",
-          "fr": "Tambours / machines",
-          "de": "Schlagzeug",
-          "it": "corvine",
-          "pt": "calafates",
-          "no": "Ledningstilkoplet"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "stage",
-        "label": "stage",
-        "x": 33.13157534612506,
-        "y": 24.29462200913681,
-        "w": 32.75789269212206,
-        "h": 7.713957451748325,
-        "sound": "",
-        "translations": {
-          "es": "etapa",
-          "fr": "précoce.",
-          "de": "erkennen",
-          "it": "Negoziazione",
-          "pt": "ESTÁGIO",
-          "no": "fase"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "dancers",
-        "label": "dancers",
-        "x": 19.184209014173987,
-        "y": 55.50347593721911,
-        "w": 65.5,
-        "h": 23.350029504215637,
-        "sound": "sounds/music-upbeat.mp3",
-        "translations": {
-          "es": "bailarín",
-          "fr": "danseurs",
-          "de": "Tänzer",
-          "it": "ballerini",
-          "pt": "Bailarinos",
-          "no": "Dans"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "red-dress",
-        "label": "red dress",
-        "x": 34.5,
-        "y": 53.5,
-        "w": 9,
-        "h": 31.5,
-        "sound": "",
-        "translations": {
-          "es": "red dress",
-          "fr": "Robe rouge",
-          "de": "Rotes Kleid",
-          "it": "Vestito rosso.",
-          "pt": "vestido vermelho",
-          "no": "rød kjole"
-        }
-      },
-      {
-        "id": "string-lights",
-        "label": "string lights",
-        "x": 31,
-        "y": 18,
-        "w": 36,
-        "h": 17,
-        "sound": "",
-        "translations": {
-          "es": "Cadena de luces",
-          "fr": "guirlande lumineuse;",
-          "de": "Lichterketten:",
-          "it": "Luci a corda",
-          "pt": "Cordão de luzes LED",
-          "no": "Strenglys"
-        }
-      },
-      {
-        "id": "boat",
-        "label": "boat",
-        "x": 5.4,
-        "y": 47.3,
-        "w": 9,
-        "h": 10,
-        "sound": "",
-        "translations": {
-          "es": "Barco",
-          "fr": "bateau",
-          "de": "Boot",
-          "it": "barca",
-          "pt": "Barcos",
-          "no": "båt"
-        }
-      },
-      {
-        "id": "lake",
-        "label": "lake",
-        "x": 0,
-        "y": 48,
-        "w": 16.5,
-        "h": 13,
-        "sound": "",
-        "translations": {
-          "es": "lago",
-          "fr": "lac",
-          "de": "See",
-          "it": "lago",
-          "pt": "lago",
-          "no": "innsjø"
-        }
-      },
-      {
-        "id": "mountains",
-        "label": "mountains",
-        "x": 80.5,
-        "y": 30,
-        "w": 19.2,
-        "h": 15,
-        "sound": "",
-        "translations": {
-          "es": "montañas",
-          "fr": "montagnes",
-          "de": "Berge",
-          "it": "montagne",
-          "pt": "montanhas",
-          "no": "fjell"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the singer",
-        "target": "singer",
-        "translations": {
-          "es": "Encuentra a la cantante",
-          "fr": "Trouve la chanteuse",
-          "de": "Finde die Sängerin",
-          "it": "Trova la cantante",
-          "pt": "Encontre a cantora",
-          "no": "Finn sangeren"
-        }
-      },
-      {
-        "prompt": "Find the guitar",
-        "target": "left-guitar",
-        "translations": {
-          "es": "Encuentra la guitarra",
-          "fr": "Trouve la guitare",
-          "de": "Finde die Gitarre",
-          "it": "Trova la chitarra",
-          "pt": "Encontre a guitarra",
-          "no": "Finn gitaren"
-        }
-      },
-      {
-        "prompt": "Find the drums",
-        "target": "drums",
-        "translations": {
-          "es": "Encuentra la batería",
-          "fr": "Trouve la batterie",
-          "de": "Finde das Schlagzeug",
-          "it": "Trova la batteria",
-          "pt": "Encontre a bateria",
-          "no": "Finn trommene"
-        }
-      },
-      {
-        "prompt": "Find the dancers",
-        "target": "dancers",
-        "translations": {
-          "es": "Encuentra a los bailarines",
-          "fr": "Trouve les danseurs",
-          "de": "Finde die Tanzenden",
-          "it": "Trova i ballerini",
-          "pt": "Encontre os dançarinos",
-          "no": "Finn danserne"
-        }
-      },
-      {
-        "prompt": "Find the boat",
-        "target": "boat",
-        "translations": {
-          "es": "Encuentra el barco",
-          "fr": "Trouve le bateau",
-          "de": "Finde das Boot",
-          "it": "Trova la barca",
-          "pt": "Encontre o barco",
-          "no": "Finn båten"
-        }
-      },
-      {
-        "prompt": "Find the mountains",
-        "target": "mountains",
-        "translations": {
-          "es": "Encuentra las montañas",
-          "fr": "Trouve les montagnes",
-          "de": "Finde die Berge",
-          "it": "Trova le montagne",
-          "pt": "Encontre as montanhas",
-          "no": "Finn fjellene"
         }
       }
     ]
@@ -14208,6 +16046,514 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Trova la torre idrica",
           "pt": "Encontre a torre de água",
           "no": "Finn vanntårnet"
+        }
+      }
+    ]
+  },
+  "mountain-ski-resort": {
+    "title": "Mountain Ski Resort",
+    "image": "images/Mountain-Ski-Resort-Adventure.jpg",
+    "lessons": [
+      {
+        "text": "We have arrived at the mountain ski resort.",
+        "translations": {
+          "es": "Hemos llegado a la estación de esquí.",
+          "fr": "Nous sommes arrivés à la station de ski.",
+          "de": "Wir sind im Skigebiet angekommen.",
+          "it": "Siamo arrivati alla stazione sciistica.",
+          "pt": "Chegamos à estação de esqui.",
+          "no": "Vi har kommet til skianlegget."
+        }
+      },
+      {
+        "text": "The snowy mountain is ready for a day of adventure.",
+        "translations": {
+          "es": "La montaña nevada está lista para un día de aventura.",
+          "fr": "La montagne enneigée est prête pour une journée d'aventure.",
+          "de": "Der verschneite Berg ist bereit für einen Abenteuertag.",
+          "it": "La montagna innevata è pronta per una giornata di avventura.",
+          "pt": "A montanha nevada está pronta para um dia de aventura.",
+          "no": "Det snødekte fjellet er klart for en dag med eventyr."
+        }
+      },
+      {
+        "text": "We need skis, boots, poles, and warm clothes.",
+        "translations": {
+          "es": "Necesitamos esquís, botas, bastones y ropa abrigada.",
+          "fr": "Nous avons besoin de skis, de bottes, de bâtons et de vêtements chauds.",
+          "de": "Wir brauchen Skier, Stiefel, Stöcke und warme Kleidung.",
+          "it": "Ci servono sci, scarponi, bastoncini e vestiti caldi.",
+          "pt": "Precisamos de esquis, botas, bastões e roupas quentes.",
+          "no": "Vi trenger ski, støvler, staver og varme klær."
+        }
+      },
+      {
+        "text": "The rental area has equipment for the slopes.",
+        "translations": {
+          "es": "La zona de alquiler tiene equipo para las pistas.",
+          "fr": "La location propose du matériel pour les pistes.",
+          "de": "Beim Skiverleih gibt es Ausrüstung für die Pisten.",
+          "it": "Il noleggio ha l'attrezzatura per le piste.",
+          "pt": "A área de aluguel tem equipamentos para as pistas.",
+          "no": "Skiutleien har utstyr til bakkene."
+        }
+      },
+      {
+        "text": "The chairlift carries skiers up the mountain.",
+        "translations": {
+          "es": "El telesilla lleva a los esquiadores montaña arriba.",
+          "fr": "Le télésiège transporte les skieurs en haut de la montagne.",
+          "de": "Der Sessellift bringt Skifahrer den Berg hinauf.",
+          "it": "La seggiovia porta gli sciatori sulla montagna.",
+          "pt": "O teleférico leva os esquiadores montanha acima.",
+          "no": "Stolheisen frakter skiløpere opp fjellet."
+        }
+      },
+      {
+        "text": "We sit safely and enjoy the view on the way up.",
+        "translations": {
+          "es": "Nos sentamos con seguridad y disfrutamos de la vista.",
+          "fr": "Nous nous asseyons en sécurité et profitons de la vue.",
+          "de": "Wir sitzen sicher und genießen die Aussicht.",
+          "it": "Ci sediamo in sicurezza e ci godiamo il panorama.",
+          "pt": "Sentamos com segurança e apreciamos a vista.",
+          "no": "Vi sitter trygt og nyter utsikten på vei opp."
+        }
+      },
+      {
+        "text": "Skiers glide down the snowy trails.",
+        "translations": {
+          "es": "Los esquiadores bajan por las pistas nevadas.",
+          "fr": "Les skieurs glissent sur les pistes enneigées.",
+          "de": "Skifahrer gleiten die verschneiten Pisten hinunter.",
+          "it": "Gli sciatori scivolano sulle piste innevate.",
+          "pt": "Os esquiadores deslizam pelas pistas nevadas.",
+          "no": "Skiløpere glir ned de snødekte løypene."
+        }
+      },
+      {
+        "text": "Some trails are gentle and others are steep.",
+        "translations": {
+          "es": "Algunas pistas son suaves y otras son empinadas.",
+          "fr": "Certaines pistes sont douces et d'autres sont raides.",
+          "de": "Manche Pisten sind sanft und andere steil.",
+          "it": "Alcune piste sono dolci e altre sono ripide.",
+          "pt": "Algumas pistas são suaves e outras são íngremes.",
+          "no": "Noen løyper er slake og andre er bratte."
+        }
+      },
+      {
+        "text": "The ski lodge is warm and cozy.",
+        "translations": {
+          "es": "El refugio de esquí es cálido y acogedor.",
+          "fr": "Le chalet de ski est chaud et confortable.",
+          "de": "Die Skihütte ist warm und gemütlich.",
+          "it": "Il rifugio sciistico è caldo e accogliente.",
+          "pt": "O chalé de esqui é quente e aconchegante.",
+          "no": "Skihytta er varm og koselig."
+        }
+      },
+      {
+        "text": "People can rest, eat, and warm up inside.",
+        "translations": {
+          "es": "La gente puede descansar, comer y calentarse dentro.",
+          "fr": "On peut s'y reposer, manger et se réchauffer.",
+          "de": "Drinnen kann man sich ausruhen, essen und aufwärmen.",
+          "it": "Dentro si può riposare, mangiare e riscaldarsi.",
+          "pt": "As pessoas podem descansar, comer e se aquecer lá dentro.",
+          "no": "Folk kan hvile, spise og varme seg inne."
+        }
+      },
+      {
+        "text": "There are many ways to enjoy a snowy mountain.",
+        "translations": {
+          "es": "Hay muchas maneras de disfrutar de una montaña nevada.",
+          "fr": "Il y a beaucoup de façons de profiter d'une montagne enneigée.",
+          "de": "Auf einem verschneiten Berg gibt es viel zu erleben.",
+          "it": "Ci sono molti modi per divertirsi su una montagna innevata.",
+          "pt": "Há muitas maneiras de aproveitar uma montanha nevada.",
+          "no": "Det finnes mange måter å nyte et snødekt fjell på."
+        }
+      },
+      {
+        "text": "We can ski, snowboard, relax by the fire, and play in the snow.",
+        "translations": {
+          "es": "Podemos esquiar, hacer snowboard, descansar junto al fuego y jugar en la nieve.",
+          "fr": "Nous pouvons skier, faire du snowboard, nous détendre près du feu et jouer dans la neige.",
+          "de": "Wir können Ski fahren, snowboarden, am Feuer sitzen und im Schnee spielen.",
+          "it": "Possiamo sciare, fare snowboard, rilassarci vicino al fuoco e giocare nella neve.",
+          "pt": "Podemos esquiar, praticar snowboard, relaxar perto do fogo e brincar na neve.",
+          "no": "Vi kan stå på ski, kjøre snowboard, slappe av ved bålet og leke i snøen."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "mountain",
+        "label": "mountain",
+        "x": 19,
+        "y": 2,
+        "w": 38,
+        "h": 28,
+        "sound": "",
+        "translations": {
+          "es": "montaña",
+          "fr": "Montagne",
+          "de": "Berg",
+          "it": "in montagna",
+          "pt": "montanha",
+          "no": "berg"
+        }
+      },
+      {
+        "id": "chairlift",
+        "label": "chairlift",
+        "x": 59,
+        "y": 0,
+        "w": 27,
+        "h": 22,
+        "sound": "",
+        "translations": {
+          "es": "Telesilla",
+          "fr": "télésiège",
+          "de": "SESSELLIFT",
+          "it": "del Monte Lema",
+          "pt": "Teleférico#Tipos de telef.C3.A9rico",
+          "no": "Stolheis"
+        }
+      },
+      {
+        "id": "skiers",
+        "label": "skiers",
+        "x": 48,
+        "y": 24,
+        "w": 20,
+        "h": 25,
+        "sound": "",
+        "translations": {
+          "es": "esquiador",
+          "fr": "skieurs",
+          "de": "Ski",
+          "it": "Sci",
+          "pt": "esquiadores",
+          "no": "skiløpere"
+        }
+      },
+      {
+        "id": "trails",
+        "label": "trails",
+        "x": 34,
+        "y": 34,
+        "w": 9,
+        "h": 8,
+        "sound": "",
+        "translations": {
+          "es": "senderos",
+          "fr": "Excursions",
+          "de": "verstreut.",
+          "it": "Percorsi",
+          "pt": "percursos",
+          "no": "Spor"
+        }
+      },
+      {
+        "id": "lift",
+        "label": "lift",
+        "x": 34,
+        "y": 40,
+        "w": 9,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "ascensor",
+          "de": "heben",
+          "it": "sollevare",
+          "pt": "elevador",
+          "no": "heis"
+        }
+      },
+      {
+        "id": "rentals",
+        "label": "rentals",
+        "x": 34,
+        "y": 46,
+        "w": 9,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "alquileres",
+          "fr": "de locations",
+          "de": "Vermietungen",
+          "it": "noleggi",
+          "pt": "Locações",
+          "no": "Husleie"
+        }
+      },
+      {
+        "id": "school",
+        "label": "school",
+        "x": 34,
+        "y": 52,
+        "w": 10,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "escuela",
+          "fr": "école",
+          "de": "Schule",
+          "it": "di secondo grado",
+          "pt": "Estabelecimento de Ensino",
+          "no": "skole"
+        }
+      },
+      {
+        "id": "cafe",
+        "label": "cafe",
+        "x": 34,
+        "y": 58,
+        "w": 9,
+        "h": 7,
+        "sound": "",
+        "translations": {
+          "es": "Cafetería",
+          "fr": "café",
+          "de": "Café",
+          "it": "Caffetteria",
+          "pt": "9.",
+          "no": "cafe"
+        }
+      },
+      {
+        "id": "skis",
+        "label": "skis",
+        "x": 43,
+        "y": 46,
+        "w": 10,
+        "h": 21,
+        "sound": "",
+        "translations": {
+          "es": "esquíes",
+          "fr": "skis",
+          "de": "Ski",
+          "it": "Sci",
+          "pt": "esquis",
+          "no": "Ski"
+        }
+      },
+      {
+        "id": "snowboard",
+        "label": "snowboard",
+        "x": 38,
+        "y": 59,
+        "w": 11,
+        "h": 9,
+        "sound": "",
+        "translations": {
+          "es": "snowboard",
+          "fr": "snowboard",
+          "de": "Snowboard",
+          "it": "tavola nivometrica",
+          "pt": "mesa de neve",
+          "no": "Snowboard"
+        }
+      },
+      {
+        "id": "grandma",
+        "label": "grandma",
+        "x": 54.64,
+        "y": 43.25,
+        "w": 6.61,
+        "h": 32.17,
+        "sound": "",
+        "translations": {
+          "es": "abuela",
+          "fr": "grand-mère",
+          "de": "Oma",
+          "it": "nonna",
+          "pt": "avó",
+          "no": "bestemor"
+        }
+      },
+      {
+        "id": "grandpa",
+        "label": "grandpa",
+        "x": 64.52,
+        "y": 41,
+        "w": 5.73,
+        "h": 35.7,
+        "sound": "",
+        "translations": {
+          "es": "abuelo",
+          "fr": "grand-père",
+          "de": "Opa",
+          "it": "nonno",
+          "pt": "avô",
+          "no": "bestefar"
+        }
+      },
+      {
+        "id": "lodge",
+        "label": "lodge",
+        "x": 70,
+        "y": 21,
+        "w": 30,
+        "h": 38,
+        "sound": "sounds/crowd-shopping.mp3",
+        "translations": {
+          "es": "logia",
+          "fr": "interjeter appel",
+          "de": "Hütte",
+          "it": "tenda (indiana)",
+          "pt": "clube",
+          "no": "forening"
+        }
+      },
+      {
+        "id": "resortsign",
+        "label": "resortsign",
+        "x": 86,
+        "y": 31,
+        "w": 13,
+        "h": 10,
+        "sound": "",
+        "translations": {
+          "es": "resortsign",
+          "fr": "resortsign",
+          "de": "resortsign",
+          "it": "resortsign",
+          "pt": "resortsign",
+          "no": "feriestedskilt"
+        }
+      },
+      {
+        "id": "firepit",
+        "label": "firepit",
+        "x": 86,
+        "y": 58,
+        "w": 10.15,
+        "h": 12.69,
+        "sound": "",
+        "translations": {
+          "es": "Firepit",
+          "fr": "firepit",
+          "de": "feuerstelle",
+          "it": "firepit",
+          "pt": "fogueira",
+          "no": "bålplass"
+        }
+      },
+      {
+        "id": "chairs",
+        "label": "chairs",
+        "x": 74,
+        "y": 59,
+        "w": 15,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "cátedras",
+          "fr": "chaises",
+          "de": "Stuehle",
+          "it": "sedie",
+          "pt": "cadeiras",
+          "no": "stoler"
+        }
+      },
+      {
+        "id": "trees",
+        "label": "trees",
+        "x": 0,
+        "y": 8,
+        "w": 28,
+        "h": 51,
+        "sound": "",
+        "translations": {
+          "es": "Árboles",
+          "fr": "trees",
+          "de": "Bäume",
+          "it": "di ulivo",
+          "pt": "Árvores",
+          "no": "Trær"
+        }
+      },
+      {
+        "id": "snow",
+        "label": "snow",
+        "x": 20.86,
+        "y": 71.87,
+        "w": 21.8,
+        "h": 19.06,
+        "sound": "",
+        "translations": {
+          "es": "Nieve",
+          "fr": "hi",
+          "de": "Schnee",
+          "it": "bamba",
+          "pt": "neve",
+          "no": "snø"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the Chairlift",
+        "target": "chairlift",
+        "translations": {
+          "es": "Encuentra el telesilla",
+          "fr": "Trouvez le télésiège",
+          "de": "Finde den Sessellift",
+          "it": "Trova la seggiovia",
+          "pt": "Encontre o Chairlift",
+          "no": "Finn stolheisen"
+        }
+      },
+      {
+        "prompt": "Find the Skis",
+        "target": "skis",
+        "translations": {
+          "es": "Encuentra los esquís",
+          "fr": "Trouvez les skis",
+          "de": "Finde die Skier",
+          "it": "Trova gli sci",
+          "pt": "Encontrar os esquis",
+          "no": "Finn skiene"
+        }
+      },
+      {
+        "prompt": "Find Grandma",
+        "target": "grandma",
+        "translations": {
+          "es": "Encuentra a la abuela",
+          "fr": "Trouver grand-mère",
+          "de": "Oma finden",
+          "it": "Trova la nonna",
+          "pt": "Encontrar a avó",
+          "no": "Finn bestemor"
+        }
+      },
+      {
+        "prompt": "Find Grandpa",
+        "target": "grandpa",
+        "translations": {
+          "es": "Encuentra al abuelo",
+          "fr": "Trouver grand-père",
+          "de": "Großvater finden",
+          "it": "Trova il nonno",
+          "pt": "Encontrar o vovô",
+          "no": "Finn bestefar"
+        }
+      },
+      {
+        "prompt": "Find the Fire Pit",
+        "target": "firepit",
+        "translations": {
+          "es": "Encuentra el pozo de fuego",
+          "fr": "Trouvez le foyer",
+          "de": "Finde die Feuerstelle",
+          "it": "Trova il Pozzo del Fuoco",
+          "pt": "Encontre a fogueira",
+          "no": "Finn bålplassen"
         }
       }
     ]
@@ -18661,514 +21007,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "mountain-ski-resort": {
-    "title": "Mountain Ski Resort",
-    "image": "images/Mountain-Ski-Resort-Adventure.jpg",
-    "lessons": [
-      {
-        "text": "We have arrived at the mountain ski resort.",
-        "translations": {
-          "es": "Hemos llegado a la estación de esquí.",
-          "fr": "Nous sommes arrivés à la station de ski.",
-          "de": "Wir sind im Skigebiet angekommen.",
-          "it": "Siamo arrivati alla stazione sciistica.",
-          "pt": "Chegamos à estação de esqui.",
-          "no": "Vi har kommet til skianlegget."
-        }
-      },
-      {
-        "text": "The snowy mountain is ready for a day of adventure.",
-        "translations": {
-          "es": "La montaña nevada está lista para un día de aventura.",
-          "fr": "La montagne enneigée est prête pour une journée d'aventure.",
-          "de": "Der verschneite Berg ist bereit für einen Abenteuertag.",
-          "it": "La montagna innevata è pronta per una giornata di avventura.",
-          "pt": "A montanha nevada está pronta para um dia de aventura.",
-          "no": "Det snødekte fjellet er klart for en dag med eventyr."
-        }
-      },
-      {
-        "text": "We need skis, boots, poles, and warm clothes.",
-        "translations": {
-          "es": "Necesitamos esquís, botas, bastones y ropa abrigada.",
-          "fr": "Nous avons besoin de skis, de bottes, de bâtons et de vêtements chauds.",
-          "de": "Wir brauchen Skier, Stiefel, Stöcke und warme Kleidung.",
-          "it": "Ci servono sci, scarponi, bastoncini e vestiti caldi.",
-          "pt": "Precisamos de esquis, botas, bastões e roupas quentes.",
-          "no": "Vi trenger ski, støvler, staver og varme klær."
-        }
-      },
-      {
-        "text": "The rental area has equipment for the slopes.",
-        "translations": {
-          "es": "La zona de alquiler tiene equipo para las pistas.",
-          "fr": "La location propose du matériel pour les pistes.",
-          "de": "Beim Skiverleih gibt es Ausrüstung für die Pisten.",
-          "it": "Il noleggio ha l'attrezzatura per le piste.",
-          "pt": "A área de aluguel tem equipamentos para as pistas.",
-          "no": "Skiutleien har utstyr til bakkene."
-        }
-      },
-      {
-        "text": "The chairlift carries skiers up the mountain.",
-        "translations": {
-          "es": "El telesilla lleva a los esquiadores montaña arriba.",
-          "fr": "Le télésiège transporte les skieurs en haut de la montagne.",
-          "de": "Der Sessellift bringt Skifahrer den Berg hinauf.",
-          "it": "La seggiovia porta gli sciatori sulla montagna.",
-          "pt": "O teleférico leva os esquiadores montanha acima.",
-          "no": "Stolheisen frakter skiløpere opp fjellet."
-        }
-      },
-      {
-        "text": "We sit safely and enjoy the view on the way up.",
-        "translations": {
-          "es": "Nos sentamos con seguridad y disfrutamos de la vista.",
-          "fr": "Nous nous asseyons en sécurité et profitons de la vue.",
-          "de": "Wir sitzen sicher und genießen die Aussicht.",
-          "it": "Ci sediamo in sicurezza e ci godiamo il panorama.",
-          "pt": "Sentamos com segurança e apreciamos a vista.",
-          "no": "Vi sitter trygt og nyter utsikten på vei opp."
-        }
-      },
-      {
-        "text": "Skiers glide down the snowy trails.",
-        "translations": {
-          "es": "Los esquiadores bajan por las pistas nevadas.",
-          "fr": "Les skieurs glissent sur les pistes enneigées.",
-          "de": "Skifahrer gleiten die verschneiten Pisten hinunter.",
-          "it": "Gli sciatori scivolano sulle piste innevate.",
-          "pt": "Os esquiadores deslizam pelas pistas nevadas.",
-          "no": "Skiløpere glir ned de snødekte løypene."
-        }
-      },
-      {
-        "text": "Some trails are gentle and others are steep.",
-        "translations": {
-          "es": "Algunas pistas son suaves y otras son empinadas.",
-          "fr": "Certaines pistes sont douces et d'autres sont raides.",
-          "de": "Manche Pisten sind sanft und andere steil.",
-          "it": "Alcune piste sono dolci e altre sono ripide.",
-          "pt": "Algumas pistas são suaves e outras são íngremes.",
-          "no": "Noen løyper er slake og andre er bratte."
-        }
-      },
-      {
-        "text": "The ski lodge is warm and cozy.",
-        "translations": {
-          "es": "El refugio de esquí es cálido y acogedor.",
-          "fr": "Le chalet de ski est chaud et confortable.",
-          "de": "Die Skihütte ist warm und gemütlich.",
-          "it": "Il rifugio sciistico è caldo e accogliente.",
-          "pt": "O chalé de esqui é quente e aconchegante.",
-          "no": "Skihytta er varm og koselig."
-        }
-      },
-      {
-        "text": "People can rest, eat, and warm up inside.",
-        "translations": {
-          "es": "La gente puede descansar, comer y calentarse dentro.",
-          "fr": "On peut s'y reposer, manger et se réchauffer.",
-          "de": "Drinnen kann man sich ausruhen, essen und aufwärmen.",
-          "it": "Dentro si può riposare, mangiare e riscaldarsi.",
-          "pt": "As pessoas podem descansar, comer e se aquecer lá dentro.",
-          "no": "Folk kan hvile, spise og varme seg inne."
-        }
-      },
-      {
-        "text": "There are many ways to enjoy a snowy mountain.",
-        "translations": {
-          "es": "Hay muchas maneras de disfrutar de una montaña nevada.",
-          "fr": "Il y a beaucoup de façons de profiter d'une montagne enneigée.",
-          "de": "Auf einem verschneiten Berg gibt es viel zu erleben.",
-          "it": "Ci sono molti modi per divertirsi su una montagna innevata.",
-          "pt": "Há muitas maneiras de aproveitar uma montanha nevada.",
-          "no": "Det finnes mange måter å nyte et snødekt fjell på."
-        }
-      },
-      {
-        "text": "We can ski, snowboard, relax by the fire, and play in the snow.",
-        "translations": {
-          "es": "Podemos esquiar, hacer snowboard, descansar junto al fuego y jugar en la nieve.",
-          "fr": "Nous pouvons skier, faire du snowboard, nous détendre près du feu et jouer dans la neige.",
-          "de": "Wir können Ski fahren, snowboarden, am Feuer sitzen und im Schnee spielen.",
-          "it": "Possiamo sciare, fare snowboard, rilassarci vicino al fuoco e giocare nella neve.",
-          "pt": "Podemos esquiar, praticar snowboard, relaxar perto do fogo e brincar na neve.",
-          "no": "Vi kan stå på ski, kjøre snowboard, slappe av ved bålet og leke i snøen."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "mountain",
-        "label": "mountain",
-        "x": 19,
-        "y": 2,
-        "w": 38,
-        "h": 28,
-        "sound": "",
-        "translations": {
-          "es": "montaña",
-          "fr": "Montagne",
-          "de": "Berg",
-          "it": "in montagna",
-          "pt": "montanha",
-          "no": "berg"
-        }
-      },
-      {
-        "id": "chairlift",
-        "label": "chairlift",
-        "x": 59,
-        "y": 0,
-        "w": 27,
-        "h": 22,
-        "sound": "",
-        "translations": {
-          "es": "Telesilla",
-          "fr": "télésiège",
-          "de": "SESSELLIFT",
-          "it": "del Monte Lema",
-          "pt": "Teleférico#Tipos de telef.C3.A9rico",
-          "no": "Stolheis"
-        }
-      },
-      {
-        "id": "skiers",
-        "label": "skiers",
-        "x": 48,
-        "y": 24,
-        "w": 20,
-        "h": 25,
-        "sound": "",
-        "translations": {
-          "es": "esquiador",
-          "fr": "skieurs",
-          "de": "Ski",
-          "it": "Sci",
-          "pt": "esquiadores",
-          "no": "skiløpere"
-        }
-      },
-      {
-        "id": "trails",
-        "label": "trails",
-        "x": 34,
-        "y": 34,
-        "w": 9,
-        "h": 8,
-        "sound": "",
-        "translations": {
-          "es": "senderos",
-          "fr": "Excursions",
-          "de": "verstreut.",
-          "it": "Percorsi",
-          "pt": "percursos",
-          "no": "Spor"
-        }
-      },
-      {
-        "id": "lift",
-        "label": "lift",
-        "x": 34,
-        "y": 40,
-        "w": 9,
-        "h": 7,
-        "sound": "",
-        "translations": {
-          "es": "ascensor",
-          "de": "heben",
-          "it": "sollevare",
-          "pt": "elevador",
-          "no": "heis"
-        }
-      },
-      {
-        "id": "rentals",
-        "label": "rentals",
-        "x": 34,
-        "y": 46,
-        "w": 9,
-        "h": 7,
-        "sound": "",
-        "translations": {
-          "es": "alquileres",
-          "fr": "de locations",
-          "de": "Vermietungen",
-          "it": "noleggi",
-          "pt": "Locações",
-          "no": "Husleie"
-        }
-      },
-      {
-        "id": "school",
-        "label": "school",
-        "x": 34,
-        "y": 52,
-        "w": 10,
-        "h": 7,
-        "sound": "",
-        "translations": {
-          "es": "escuela",
-          "fr": "école",
-          "de": "Schule",
-          "it": "di secondo grado",
-          "pt": "Estabelecimento de Ensino",
-          "no": "skole"
-        }
-      },
-      {
-        "id": "cafe",
-        "label": "cafe",
-        "x": 34,
-        "y": 58,
-        "w": 9,
-        "h": 7,
-        "sound": "",
-        "translations": {
-          "es": "Cafetería",
-          "fr": "café",
-          "de": "Café",
-          "it": "Caffetteria",
-          "pt": "9.",
-          "no": "cafe"
-        }
-      },
-      {
-        "id": "skis",
-        "label": "skis",
-        "x": 43,
-        "y": 46,
-        "w": 10,
-        "h": 21,
-        "sound": "",
-        "translations": {
-          "es": "esquíes",
-          "fr": "skis",
-          "de": "Ski",
-          "it": "Sci",
-          "pt": "esquis",
-          "no": "Ski"
-        }
-      },
-      {
-        "id": "snowboard",
-        "label": "snowboard",
-        "x": 38,
-        "y": 59,
-        "w": 11,
-        "h": 9,
-        "sound": "",
-        "translations": {
-          "es": "snowboard",
-          "fr": "snowboard",
-          "de": "Snowboard",
-          "it": "tavola nivometrica",
-          "pt": "mesa de neve",
-          "no": "Snowboard"
-        }
-      },
-      {
-        "id": "grandma",
-        "label": "grandma",
-        "x": 54.64,
-        "y": 43.25,
-        "w": 6.61,
-        "h": 32.17,
-        "sound": "",
-        "translations": {
-          "es": "abuela",
-          "fr": "grand-mère",
-          "de": "Oma",
-          "it": "nonna",
-          "pt": "avó",
-          "no": "bestemor"
-        }
-      },
-      {
-        "id": "grandpa",
-        "label": "grandpa",
-        "x": 64.52,
-        "y": 41,
-        "w": 5.73,
-        "h": 35.7,
-        "sound": "",
-        "translations": {
-          "es": "abuelo",
-          "fr": "grand-père",
-          "de": "Opa",
-          "it": "nonno",
-          "pt": "avô",
-          "no": "bestefar"
-        }
-      },
-      {
-        "id": "lodge",
-        "label": "lodge",
-        "x": 70,
-        "y": 21,
-        "w": 30,
-        "h": 38,
-        "sound": "sounds/crowd-shopping.mp3",
-        "translations": {
-          "es": "logia",
-          "fr": "interjeter appel",
-          "de": "Hütte",
-          "it": "tenda (indiana)",
-          "pt": "clube",
-          "no": "forening"
-        }
-      },
-      {
-        "id": "resortsign",
-        "label": "resortsign",
-        "x": 86,
-        "y": 31,
-        "w": 13,
-        "h": 10,
-        "sound": "",
-        "translations": {
-          "es": "resortsign",
-          "fr": "resortsign",
-          "de": "resortsign",
-          "it": "resortsign",
-          "pt": "resortsign",
-          "no": "feriestedskilt"
-        }
-      },
-      {
-        "id": "firepit",
-        "label": "firepit",
-        "x": 86,
-        "y": 58,
-        "w": 10.15,
-        "h": 12.69,
-        "sound": "",
-        "translations": {
-          "es": "Firepit",
-          "fr": "firepit",
-          "de": "feuerstelle",
-          "it": "firepit",
-          "pt": "fogueira",
-          "no": "bålplass"
-        }
-      },
-      {
-        "id": "chairs",
-        "label": "chairs",
-        "x": 74,
-        "y": 59,
-        "w": 15,
-        "h": 19,
-        "sound": "",
-        "translations": {
-          "es": "cátedras",
-          "fr": "chaises",
-          "de": "Stuehle",
-          "it": "sedie",
-          "pt": "cadeiras",
-          "no": "stoler"
-        }
-      },
-      {
-        "id": "trees",
-        "label": "trees",
-        "x": 0,
-        "y": 8,
-        "w": 28,
-        "h": 51,
-        "sound": "",
-        "translations": {
-          "es": "Árboles",
-          "fr": "trees",
-          "de": "Bäume",
-          "it": "di ulivo",
-          "pt": "Árvores",
-          "no": "Trær"
-        }
-      },
-      {
-        "id": "snow",
-        "label": "snow",
-        "x": 20.86,
-        "y": 71.87,
-        "w": 21.8,
-        "h": 19.06,
-        "sound": "",
-        "translations": {
-          "es": "Nieve",
-          "fr": "hi",
-          "de": "Schnee",
-          "it": "bamba",
-          "pt": "neve",
-          "no": "snø"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the Chairlift",
-        "target": "chairlift",
-        "translations": {
-          "es": "Encuentra el telesilla",
-          "fr": "Trouvez le télésiège",
-          "de": "Finde den Sessellift",
-          "it": "Trova la seggiovia",
-          "pt": "Encontre o Chairlift",
-          "no": "Finn stolheisen"
-        }
-      },
-      {
-        "prompt": "Find the Skis",
-        "target": "skis",
-        "translations": {
-          "es": "Encuentra los esquís",
-          "fr": "Trouvez les skis",
-          "de": "Finde die Skier",
-          "it": "Trova gli sci",
-          "pt": "Encontrar os esquis",
-          "no": "Finn skiene"
-        }
-      },
-      {
-        "prompt": "Find Grandma",
-        "target": "grandma",
-        "translations": {
-          "es": "Encuentra a la abuela",
-          "fr": "Trouver grand-mère",
-          "de": "Oma finden",
-          "it": "Trova la nonna",
-          "pt": "Encontrar a avó",
-          "no": "Finn bestemor"
-        }
-      },
-      {
-        "prompt": "Find Grandpa",
-        "target": "grandpa",
-        "translations": {
-          "es": "Encuentra al abuelo",
-          "fr": "Trouver grand-père",
-          "de": "Großvater finden",
-          "it": "Trova il nonno",
-          "pt": "Encontrar o vovô",
-          "no": "Finn bestefar"
-        }
-      },
-      {
-        "prompt": "Find the Fire Pit",
-        "target": "firepit",
-        "translations": {
-          "es": "Encuentra el pozo de fuego",
-          "fr": "Trouvez le foyer",
-          "de": "Finde die Feuerstelle",
-          "it": "Trova il Pozzo del Fuoco",
-          "pt": "Encontre a fogueira",
-          "no": "Finn bålplassen"
-        }
-      }
-    ]
-  },
   "nighttime-campground": {
     "title": "Nighttime Campground",
     "image": "images/nighttime-campground-adventure.jpg",
@@ -21574,6 +23412,475 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Trova il traghetto",
           "pt": "Encontre a balsa",
           "no": "Finn fergen"
+        }
+      }
+    ]
+  },
+  "rain-forest": {
+    "title": "Rain Forest",
+    "image": "images/rainforest.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "toucan-1",
+        "label": "toucan",
+        "x": 2.28893541918197,
+        "y": 0.6346752549709223,
+        "w": 26.85177122829894,
+        "h": 14.780439321018822,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tucán",
+          "fr": "toucan",
+          "de": "Tukan",
+          "it": "tucano",
+          "pt": "tucano",
+          "no": "tukan"
+        }
+      },
+      {
+        "id": "snake-2",
+        "label": "snake",
+        "x": 66.69925024602954,
+        "y": 8.135354578302517,
+        "w": 24.634799480086663,
+        "h": 22.007690840969587,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "serpiente",
+          "fr": "serpent",
+          "de": "Schlange",
+          "it": "serpente",
+          "pt": "cobra",
+          "no": "slange"
+        }
+      },
+      {
+        "id": "waterfall-3",
+        "label": "waterfall",
+        "x": 47.47261026831295,
+        "y": 14.78179796768201,
+        "w": 15.888291894903162,
+        "h": 22.48211524870824,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cascada",
+          "fr": "cascade",
+          "de": "Wasserfall",
+          "it": "cascata",
+          "pt": "cachoeira",
+          "no": "foss"
+        }
+      },
+      {
+        "id": "frog-4",
+        "label": "frog",
+        "x": 54.78303439791661,
+        "y": 51.377090172538814,
+        "w": 10.458646755175838,
+        "h": 15.94204746146486,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rana",
+          "fr": "grenouille",
+          "de": "Frosch",
+          "it": "rana",
+          "pt": "sapo",
+          "no": "frosk"
+        }
+      },
+      {
+        "id": "butterfly-5",
+        "label": "butterfly",
+        "x": 31.0601493361812,
+        "y": 13.397910501478998,
+        "w": 14.522019858879965,
+        "h": 15.538703726782522,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mariposa",
+          "fr": "papillon",
+          "de": "Schmetterling",
+          "it": "farfalla",
+          "pt": "borboleta",
+          "no": "sommerfugl"
+        }
+      },
+      {
+        "id": "river-6",
+        "label": "river",
+        "x": 39.10204294865696,
+        "y": 39.75146846554892,
+        "w": 12.099893770308341,
+        "h": 26.512444750841333,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "río",
+          "fr": "rivière",
+          "de": "Fluss",
+          "it": "fiume",
+          "pt": "rio",
+          "no": "elv"
+        }
+      },
+      {
+        "id": "flowers-7",
+        "label": "flowers",
+        "x": 3,
+        "y": 35,
+        "w": 8.336197367932595,
+        "h": 15.47034576085025,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "flores",
+          "fr": "fleurs",
+          "de": "Blumen",
+          "it": "fiori",
+          "pt": "flores",
+          "no": "blomster"
+        }
+      },
+      {
+        "id": "tree-branch-8",
+        "label": "tree branch",
+        "x": 29.334049726116202,
+        "y": 0,
+        "w": 7.547799243337777,
+        "h": 16.11950915045496,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rama de árbol",
+          "fr": "branche d’arbre",
+          "de": "Ast",
+          "it": "ramo",
+          "pt": "galho de árvore",
+          "no": "tregren"
+        }
+      },
+      {
+        "id": "bird-9",
+        "label": "praying mantis",
+        "x": 12.943072894809497,
+        "y": 34.95110506979414,
+        "w": 17.373794160243346,
+        "h": 19.337708475874116,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pájaro",
+          "fr": "oiseau",
+          "de": "Vogel",
+          "it": "uccello",
+          "pt": "pássaro",
+          "no": "fugl"
+        }
+      },
+      {
+        "id": "leaves-10",
+        "label": "leaves",
+        "x": 51.489791402844084,
+        "y": 1.4191945763275633,
+        "w": 18.025777847925596,
+        "h": 7.831587798642673,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "hojas",
+          "fr": "feuilles",
+          "de": "Blätter",
+          "it": "foglie",
+          "pt": "folhas",
+          "no": "blader"
+        }
+      },
+      {
+        "id": "tree-roots-11",
+        "label": "tree roots",
+        "x": 71.78732353542051,
+        "y": 72.70303998815028,
+        "w": 8.878620592334403,
+        "h": 27.29696001184972,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "raíces de árbol",
+          "fr": "racines d'arbre",
+          "de": "Baumwurzeln",
+          "it": "radici dell'albero",
+          "pt": "raízes de árvore",
+          "no": "trerøtter"
+        }
+      },
+      {
+        "id": "pink-flower-12",
+        "label": "pink flower",
+        "x": 71.87647756011467,
+        "y": 40.25894237564588,
+        "w": 8.312564088758952,
+        "h": 6.873692202431421,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "flor rosa",
+          "fr": "fleur rose",
+          "de": "rosa Blume",
+          "it": "fiore rosa",
+          "pt": "flor rosa",
+          "no": "rosa blomst"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the toucan",
+        "target": "toucan-1",
+        "translations": {
+          "es": "Encuentra tucán",
+          "fr": "Trouve toucan",
+          "de": "Finde Tukan",
+          "it": "Trova tucano",
+          "pt": "Encontre tucano",
+          "no": "Finn tukan"
+        }
+      },
+      {
+        "prompt": "Find the snake",
+        "target": "snake-2",
+        "translations": {
+          "es": "Encuentra serpiente",
+          "fr": "Trouve serpent",
+          "de": "Finde Schlange",
+          "it": "Trova serpente",
+          "pt": "Encontre cobra",
+          "no": "Finn slange"
+        }
+      },
+      {
+        "prompt": "Find the waterfall",
+        "target": "waterfall-3",
+        "translations": {
+          "es": "Encuentra cascada",
+          "fr": "Trouve cascade",
+          "de": "Finde Wasserfall",
+          "it": "Trova cascata",
+          "pt": "Encontre cachoeira",
+          "no": "Finn foss"
+        }
+      },
+      {
+        "prompt": "Find the frog",
+        "target": "frog-4",
+        "translations": {
+          "es": "Encuentra rana",
+          "fr": "Trouve grenouille",
+          "de": "Finde Frosch",
+          "it": "Trova rana",
+          "pt": "Encontre sapo",
+          "no": "Finn frosk"
+        }
+      },
+      {
+        "prompt": "Find the butterfly",
+        "target": "butterfly-5",
+        "translations": {
+          "es": "Encuentra mariposa",
+          "fr": "Trouve papillon",
+          "de": "Finde Schmetterling",
+          "it": "Trova farfalla",
+          "pt": "Encontre borboleta",
+          "no": "Finn sommerfugl"
+        }
+      },
+      {
+        "prompt": "Find the river",
+        "target": "river-6",
+        "translations": {
+          "es": "Encuentra río",
+          "fr": "Trouve rivière",
+          "de": "Finde Fluss",
+          "it": "Trova fiume",
+          "pt": "Encontre rio",
+          "no": "Finn elv"
+        }
+      },
+      {
+        "prompt": "Find the flowers",
+        "target": "flowers-7",
+        "translations": {
+          "es": "Encuentra flores",
+          "fr": "Trouve fleurs",
+          "de": "Finde Blumen",
+          "it": "Trova fiori",
+          "pt": "Encontre flores",
+          "no": "Finn blomster"
+        }
+      },
+      {
+        "prompt": "Find the tree branch",
+        "target": "tree-branch-8",
+        "translations": {
+          "es": "Encuentra rama de árbol",
+          "fr": "Trouve branche d’arbre",
+          "de": "Finde Ast",
+          "it": "Trova ramo",
+          "pt": "Encontre galho de árvore",
+          "no": "Finn tregren"
+        }
+      },
+      {
+        "prompt": "Find the bird",
+        "target": "bird-9",
+        "translations": {
+          "es": "Encuentra pájaro",
+          "fr": "Trouve oiseau",
+          "de": "Finde Vogel",
+          "it": "Trova uccello",
+          "pt": "Encontre pássaro",
+          "no": "Finn fugl"
+        }
+      },
+      {
+        "prompt": "Find the leaves",
+        "target": "leaves-10",
+        "translations": {
+          "es": "Encuentra hojas",
+          "fr": "Trouve feuilles",
+          "de": "Finde Blätter",
+          "it": "Trova foglie",
+          "pt": "Encontre folhas",
+          "no": "Finn blader"
         }
       }
     ]
@@ -24955,6 +27262,602 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "stormy-seas": {
+    "title": "Stormy Seas",
+    "image": "images/stormy-seas.jpg",
+    "lessons": [
+      {
+        "text": "The old sailing ship is fighting its way through a powerful storm.",
+        "translations": {
+          "es": "El viejo velero se abre camino a través de una poderosa tormenta.",
+          "fr": "Le vieux voilier se fraye un chemin à travers une puissante tempête.",
+          "de": "Das alte Segelschiff kämpft sich durch einen mächtigen Sturm.",
+          "it": "Il vecchio veliero si sta facendo strada attraverso una potente tempesta.",
+          "pt": "O velho veleiro está abrindo caminho através de uma tempestade poderosa.",
+          "no": "Det gamle seilskipet kjemper seg gjennom en kraftig storm."
+        }
+      },
+      {
+        "text": "The skipper wears a yellow raincoat and hat to stay dry.",
+        "translations": {
+          "es": "El patrón lleva un impermeable amarillo y un sombrero para mantenerse seco.",
+          "fr": "Le skipper porte un imperméable jaune et un chapeau pour rester au sec.",
+          "de": "Der Skipper trägt einen gelben Regenmantel und eine Mütze, um trocken zu bleiben.",
+          "it": "Lo skipper indossa un impermeabile giallo e un cappello per rimanere asciutto.",
+          "pt": "O capitão usa uma capa de chuva amarela e um chapéu para se manter seco.",
+          "no": "Skipperen har på seg gul regnfrakk og lue for å holde seg tørr."
+        }
+      },
+      {
+        "text": "He grips the wooden ship’s wheel to steer through the waves.",
+        "translations": {
+          "es": "Agarra el volante del barco de madera para navegar a través de las olas.",
+          "fr": "Il saisit la roue du navire en bois pour se diriger à travers les vagues.",
+          "de": "Er greift nach dem hölzernen Schiffsrad, um durch die Wellen zu lenken.",
+          "it": "Afferra il volante della nave di legno per guidare tra le onde.",
+          "pt": "Ele agarra a roda do navio de madeira para atravessar as ondas.",
+          "no": "Han griper tak i rattet på treskipet for å styre gjennom bølgene."
+        }
+      },
+      {
+        "text": "The wind has torn large holes in the ship’s sails.",
+        "translations": {
+          "es": "El viento ha abierto grandes agujeros en las velas del barco.",
+          "fr": "Le vent a déchiré de grands trous dans les voiles du navire.",
+          "de": "Der Wind hat große Löcher in die Segel des Schiffes gerissen.",
+          "it": "Il vento ha lacerato grandi buchi nelle vele della nave.",
+          "pt": "O vento abriu grandes buracos nas velas do navio.",
+          "no": "Vinden har revet store hull i skipets seil."
+        }
+      },
+      {
+        "text": "The tall mast supports the sails high above the deck.",
+        "translations": {
+          "es": "El alto mástil sostiene las velas por encima de la cubierta.",
+          "fr": "Le grand mât soutient les voiles au-dessus du pont.",
+          "de": "Der hohe Mast stützt die Segel hoch über dem Deck.",
+          "it": "L'alto albero sostiene le vele alte sopra il ponte.",
+          "pt": "O mastro alto sustenta as velas bem acima do convés.",
+          "no": "Den høye masten støtter seilene høyt over dekk."
+        }
+      },
+      {
+        "text": "Ropes and rigging help the crew control the sails.",
+        "translations": {
+          "es": "Las cuerdas y el aparejo ayudan a la tripulación a controlar las velas.",
+          "fr": "Les cordes et le gréement aident l'équipage à contrôler les voiles.",
+          "de": "Seile und Takelagen helfen der Besatzung, die Segel zu kontrollieren.",
+          "it": "Corde e sartiame aiutano l'equipaggio a controllare le vele.",
+          "pt": "Cordas e cordame ajudam a tripulação a controlar as velas.",
+          "no": "Tau og rigg hjelper mannskapet med å kontrollere seilene."
+        }
+      },
+      {
+        "text": "Bright lightning flashes across the dark storm clouds.",
+        "translations": {
+          "es": "Relámpagos brillantes brillan a través de las oscuras nubes de tormenta.",
+          "fr": "La foudre brillante éclaire les nuages sombres de la tempête.",
+          "de": "Helle Blitze blitzen über den dunklen Gewitterwolken.",
+          "it": "Lampi luminosi attraversano le nuvole scure della tempesta.",
+          "pt": "Relâmpagos brilhantes brilham através das nuvens escuras da tempestade.",
+          "no": "Kraftige lyn blinker over de mørke stormskyene."
+        }
+      },
+      {
+        "text": "A giant wave rises beside the ship and crashes against its side.",
+        "translations": {
+          "es": "Una ola gigante se eleva al lado del barco y se estrella contra su costado.",
+          "fr": "Une vague géante se lève à côté du navire et s'écrase sur le côté.",
+          "de": "Eine riesige Welle erhebt sich neben dem Schiff und stürzt gegen seine Seite.",
+          "it": "Un'onda gigante si alza accanto alla nave e si schianta contro il suo fianco.",
+          "pt": "Uma onda gigante sobe ao lado do navio e bate contra o seu lado.",
+          "no": "En gigantisk bølge stiger ved siden av skipet og slår mot siden."
+        }
+      },
+      {
+        "text": "Cold seawater sprays over the railing and onto the wooden deck.",
+        "translations": {
+          "es": "El agua de mar fría se rocía sobre la barandilla y sobre la cubierta de madera.",
+          "fr": "L'eau de mer froide pulvérise sur la balustrade et sur la terrasse en bois.",
+          "de": "Kaltes Meerwasser spritzt über das Geländer und auf das Holzdeck.",
+          "it": "L'acqua fredda del mare spruzza sulla ringhiera e sul ponte di legno.",
+          "pt": "A água do mar fria pulveriza sobre o corrimão e sobre o convés de madeira.",
+          "no": "Kaldt sjøvann spruter over rekkverket og ned på tredekket."
+        }
+      },
+      {
+        "text": "Warm lanterns glow beside the cabin despite the heavy rain.",
+        "translations": {
+          "es": "Linternas cálidas brillan al lado de la cabina a pesar de la fuerte lluvia.",
+          "fr": "Des lanternes chaudes brillent à côté de la cabine malgré la forte pluie.",
+          "de": "Warme Laternen leuchten trotz des starken Regens neben der Kabine.",
+          "it": "Le calde lanterne brillano accanto alla cabina nonostante la pioggia battente.",
+          "pt": "Lanternas quentes brilham ao lado da cabine, apesar da chuva forte.",
+          "no": "Varme lykter lyser ved siden av hytta til tross for det kraftige regnet."
+        }
+      },
+      {
+        "text": "The crew must keep loose ropes and equipment secure during the storm.",
+        "translations": {
+          "es": "La cuadrilla debe mantener las cuerdas y el equipo sueltos y seguros durante la tormenta.",
+          "fr": "L'équipage doit garder les cordes et l'équipement desserrés en sécurité pendant la tempête.",
+          "de": "Die Besatzung muss lose Seile und Ausrüstung während des Sturms sicher aufbewahren.",
+          "it": "L'equipaggio deve tenere al sicuro corde e attrezzature allentate durante la tempesta.",
+          "pt": "A tripulação deve manter cordas soltas e equipamentos seguros durante a tempestade.",
+          "no": "Mannskapet må holde løse tau og utstyr sikkert på plass under stormen."
+        }
+      },
+      {
+        "text": "The skipper stays alert and guides the ship toward safer waters.",
+        "translations": {
+          "es": "El patrón se mantiene alerta y guía el barco hacia aguas más seguras.",
+          "fr": "Le skipper reste alerte et guide le navire vers des eaux plus sûres.",
+          "de": "Der Skipper bleibt wachsam und führt das Schiff in sicherere Gewässer.",
+          "it": "Lo skipper rimane vigile e guida la nave verso acque più sicure.",
+          "pt": "O capitão fica alerta e guia o navio em direção a águas mais seguras.",
+          "no": "Skipperen holder seg årvåken og styrer skipet mot tryggere farvann."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "skipper",
+        "label": "Skipper",
+        "x": 6.616841236653403,
+        "y": 28.3806268359225,
+        "w": 10.98210513952366,
+        "h": 51.90835889074336,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/stormy-seas.mp3",
+        "translations": {
+          "es": "Capital",
+          "fr": "Skipper",
+          "de": "Kapitän",
+          "it": "Skipper",
+          "pt": "Patrão",
+          "no": "Skipper"
+        }
+      },
+      {
+        "id": "yellow-hat",
+        "label": "Yellow rain hat",
+        "x": 12.696841598045783,
+        "y": 20.522983552659852,
+        "w": 7.16,
+        "h": 8.89,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "lluvia amarilla",
+          "fr": "pluies jaunes",
+          "de": "gelber Regen",
+          "it": "pioggia gialla",
+          "pt": "Chapéu de chuva amarelo",
+          "no": "Gul regnhatt"
+        }
+      },
+      {
+        "id": "yellow-raincoat",
+        "label": "Yellow raincoat",
+        "x": 5.21,
+        "y": 34.18,
+        "w": 20.18,
+        "h": 41.99,
+        "translations": {
+          "es": "Chubasquero amarillo",
+          "fr": "Imperméable jaune",
+          "de": "REGENJACKE GELB",
+          "it": "Impermeabile Giallo",
+          "pt": "Capa de chuva amarela",
+          "no": "Gul regnfrakk"
+        }
+      },
+      {
+        "id": "ships-wheel",
+        "label": "Ship wheel",
+        "x": 20.736843073731336,
+        "y": 67.1117917362093,
+        "w": 5.02105241918167,
+        "h": 13.389031471198722,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "Timón de barco",
+          "fr": "Roue de navire",
+          "de": "Schiffsrad",
+          "it": "Timone",
+          "pt": "Roda DO navio",
+          "no": "Skipshjul"
+        }
+      },
+      {
+        "id": "main-mast",
+        "label": "Main mast",
+        "x": 21.16,
+        "y": 0,
+        "w": 10.42,
+        "h": 47.85,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/stormy-seas.mp3",
+        "translations": {
+          "es": "palo mayor",
+          "fr": "grand mât",
+          "de": "Hauptmast",
+          "it": "MONTANTE PRINCIPALE..........................................................................",
+          "pt": "Mastro principal",
+          "no": "Hovedmast"
+        }
+      },
+      {
+        "id": "torn-sails",
+        "label": "Torn sails",
+        "x": 43.00684677800323,
+        "y": 0,
+        "w": 31.079473037508375,
+        "h": 19.80535650971443,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "Velas rasgadas",
+          "fr": "Voiles déchirées",
+          "de": "ZERRISSENE SEGEL",
+          "it": "Vele strappate",
+          "pt": "Velas rasgadas",
+          "no": "Revet seil"
+        }
+      },
+      {
+        "id": "rigging",
+        "label": "Rigging",
+        "x": 36.13,
+        "y": 8.79,
+        "w": 11.39,
+        "h": 52.25,
+        "translations": {
+          "es": "Aparejo",
+          "fr": "Gréement",
+          "de": "Ausrüstung",
+          "it": "Legatura",
+          "pt": "Rigging",
+          "no": "Rigging"
+        }
+      },
+      {
+        "id": "rope-ladder",
+        "label": "Rope ladder",
+        "x": 39.71,
+        "y": 7.81,
+        "w": 8.14,
+        "h": 45.41,
+        "translations": {
+          "es": "Escalera de mano",
+          "fr": "Échelle en corde",
+          "de": "Strickleiter",
+          "it": "Scala in corda",
+          "pt": "Escada de Corda",
+          "no": "Stige"
+        }
+      },
+      {
+        "id": "lantern",
+        "label": "Lantern",
+        "x": 30.34,
+        "y": 47.85,
+        "w": 5.14,
+        "h": 13.18,
+        "translations": {
+          "es": "Farol",
+          "fr": "Lanterne",
+          "de": "Laterne",
+          "it": "Lanterna",
+          "pt": "Lanterna",
+          "no": "Lykt"
+        }
+      },
+      {
+        "id": "cabin",
+        "label": "Ship cabin",
+        "x": 19.53,
+        "y": 42.97,
+        "w": 25.39,
+        "h": 21.97,
+        "translations": {
+          "es": "Camarote del barco",
+          "fr": "Cabine de navire",
+          "de": "Schiffskabine",
+          "it": "Cabina della nave",
+          "pt": "Cabine do navio",
+          "no": "Skipslugar"
+        }
+      },
+      {
+        "id": "wooden-deck",
+        "label": "Wooden deck",
+        "x": 31.9,
+        "y": 68.36,
+        "w": 27.34,
+        "h": 30.27,
+        "translations": {
+          "es": "Cubierta de madera",
+          "fr": "Terrasse en bois",
+          "de": "Holzdeck",
+          "it": "Ponte in legno",
+          "pt": "Convés de madeira",
+          "no": "Treterrasse"
+        }
+      },
+      {
+        "id": "ship-railing",
+        "label": "Ship railing",
+        "x": 61.2,
+        "y": 61.52,
+        "w": 35.81,
+        "h": 18.55,
+        "translations": {
+          "es": "Barandas",
+          "fr": "Garde-corps de navire",
+          "de": "Schiffsgeländer",
+          "it": "Ringhiera della nave",
+          "pt": "Guarda-corpo do navio",
+          "no": "Skipsrekkverk"
+        }
+      },
+      {
+        "id": "giant-wave",
+        "label": "Giant wave",
+        "x": 63.8,
+        "y": 34.18,
+        "w": 33.85,
+        "h": 38.09,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/stormy-seas.mp3",
+        "translations": {
+          "es": "",
+          "fr": "Onde géante",
+          "de": "Riesenwelle",
+          "it": "Onda gigante",
+          "pt": "Onda gigante",
+          "no": "Kjempebølge"
+        }
+      },
+      {
+        "id": "lightning",
+        "label": "Lightning",
+        "x": 61.59157715308695,
+        "y": 2.047732054820858,
+        "w": 29.040000000000006,
+        "h": 34.3996771354903,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/stormy-seas.mp3",
+        "translations": {
+          "es": "Lightning",
+          "fr": "Foudre",
+          "de": "Blitzschlag",
+          "it": "Saetta",
+          "pt": "Raios",
+          "no": "Lyn"
+        }
+      },
+      {
+        "id": "rope-coil",
+        "label": "Coiled rope",
+        "x": 65.1,
+        "y": 67.38,
+        "w": 9.44,
+        "h": 12.21,
+        "translations": {
+          "es": "Cuerda enrollada",
+          "fr": "Câble métallique enroulé",
+          "de": "Spiralseil",
+          "it": "Corda arrotolata",
+          "pt": "Corda enrolada",
+          "no": "Kveilet tau"
+        }
+      },
+      {
+        "id": "pulley",
+        "label": "Pulley",
+        "x": 93.1,
+        "y": 28.81,
+        "w": 6.51,
+        "h": 17.58,
+        "translations": {
+          "es": "Polea",
+          "fr": "Galet",
+          "de": "Riemenscheibe",
+          "it": "Carrucola",
+          "pt": "Polia",
+          "no": "Trinse"
+        }
+      },
+      {
+        "id": "sea-spray",
+        "label": "Sea spray",
+        "x": 53.71,
+        "y": 45.9,
+        "w": 21.16,
+        "h": 26.37,
+        "translations": {
+          "es": "Rociones marinos",
+          "fr": "Brouillard salin",
+          "de": "MEERES-GISCHT",
+          "it": "Sea spray",
+          "pt": "Maresia",
+          "no": "Sjøsprøyt"
+        }
+      },
+      {
+        "id": "wooden-barrel",
+        "label": "Wooden barrel",
+        "x": 32.55,
+        "y": 63.96,
+        "w": 5.86,
+        "h": 12.21,
+        "translations": {
+          "es": "Barril de madera",
+          "fr": "Tonneau en bois",
+          "de": "Holzfass",
+          "it": "Bittija ta' l-injam",
+          "pt": "Barril de madeira",
+          "no": "Tretønne"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the skipper",
+        "target": "skipper",
+        "translations": {
+          "es": "Encuentra al patrón",
+          "fr": "Le patron",
+          "de": "Finde den Skipper",
+          "it": "Trova lo skipper",
+          "pt": "Encontre o capitão",
+          "no": "Finn skipperen"
+        }
+      },
+      {
+        "prompt": "Find the yellow rain hat",
+        "target": "yellow-hat",
+        "translations": {
+          "es": "Encuentra el sombrero amarillo para la lluvia",
+          "fr": "Trouvez le chapeau de pluie jaune",
+          "de": "Finde den gelben Regenhut",
+          "it": "Trova il cappello da pioggia giallo",
+          "pt": "Encontre o chapéu de chuva amarelo",
+          "no": "Finn den gule regnhatten"
+        }
+      },
+      {
+        "prompt": "Find the ship’s wheel",
+        "target": "ships-wheel",
+        "translations": {
+          "es": "Encuentra la rueda del barco",
+          "fr": "Trouvez la roue du navire",
+          "de": "Finde das Schiffsrad",
+          "it": "Trova la ruota della nave",
+          "pt": "Encontre a roda do navio",
+          "no": "Finn skipets ratt"
+        }
+      },
+      {
+        "prompt": "Find the torn sails",
+        "target": "torn-sails",
+        "translations": {
+          "es": "Encuentra las velas rotas",
+          "fr": "Trouvez les voiles déchirées",
+          "de": "Finde die zerrissenen Segel",
+          "it": "Trova le vele strappate",
+          "pt": "Encontre as velas rasgadas",
+          "no": "Finn de revne seilene"
+        }
+      },
+      {
+        "prompt": "Find the main mast",
+        "target": "main-mast",
+        "translations": {
+          "es": "Encuentra el mástil principal",
+          "fr": "Trouvez le mât principal",
+          "de": "Finden Sie den Hauptmast",
+          "it": "Trova l'albero principale",
+          "pt": "Encontre o mastro principal",
+          "no": "Finn hovedmasten"
+        }
+      },
+      {
+        "prompt": "Find the rope ladder",
+        "target": "rope-ladder",
+        "translations": {
+          "es": "Encuentra la escalera de cuerda",
+          "fr": "Trouvez l'échelle de corde",
+          "de": "Finde die Strickleiter",
+          "it": "Trova la scala di corda",
+          "pt": "Encontre a escada de corda",
+          "no": "Finn taustigen"
+        }
+      },
+      {
+        "prompt": "Find the lantern",
+        "target": "lantern",
+        "translations": {
+          "es": "Encuentra la linterna",
+          "fr": "Trouvez la lanterne",
+          "de": "Finde die Laterne",
+          "it": "Trova la lanterna",
+          "pt": "Encontre a lanterna",
+          "no": "Finn lykten"
+        }
+      },
+      {
+        "prompt": "Find the ship’s cabin",
+        "target": "cabin",
+        "translations": {
+          "es": "Encuentra el camarote del barco",
+          "fr": "Trouver la cabine du navire",
+          "de": "Finde die Schiffskabine",
+          "it": "Trova la cabina della nave",
+          "pt": "Encontre a cabine do navio",
+          "no": "Finn skipets lugar"
+        }
+      },
+      {
+        "prompt": "Find the wooden deck",
+        "target": "wooden-deck",
+        "translations": {
+          "es": "Encuentra la cubierta de madera",
+          "fr": "Retrouvez la terrasse en bois",
+          "de": "Finde das Holzdeck",
+          "it": "Trova il ponte in legno",
+          "pt": "Encontre o deck de madeira",
+          "no": "Finn treterrassen"
+        }
+      },
+      {
+        "prompt": "Find the ship’s railing",
+        "target": "ship-railing",
+        "translations": {
+          "es": "Encuentra la barandilla del barco",
+          "fr": "Trouvez la balustrade du navire",
+          "de": "Finden Sie das Schiffsgeländer",
+          "it": "Trova la ringhiera della nave",
+          "pt": "Encontre o corrimão do navio",
+          "no": "Finn skipets rekkverk"
+        }
+      },
+      {
+        "prompt": "Find the giant wave",
+        "target": "giant-wave",
+        "translations": {
+          "es": "Encuentra la ola gigante",
+          "fr": "Trouvez la vague géante",
+          "de": "Finde die Riesenwelle",
+          "it": "Trova l'onda gigante",
+          "pt": "Encontre a onda gigante",
+          "no": "Finn den gigantiske bølgen"
+        }
+      },
+      {
+        "prompt": "Find the lightning",
+        "target": "lightning",
+        "translations": {
+          "es": "EL RAYO",
+          "fr": "Trouvez la foudre",
+          "de": "Finde den Blitz",
+          "it": "Trova il fulmine",
+          "pt": "O relâmpago",
+          "no": "Finn lynet"
+        }
+      }
+    ]
+  },
   "train-engineer": {
     "title": "Train Engineer",
     "image": "images/Steam-Train-Adventure.jpg",
@@ -25921,602 +28824,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "de": "Finde die Seerosen",
           "no": "Finn vannliljene",
           "pt": "Encontre os nenúfares"
-        }
-      }
-    ]
-  },
-  "stormy-seas": {
-    "title": "Stormy Seas",
-    "image": "images/stormy-seas.jpg",
-    "lessons": [
-      {
-        "text": "The old sailing ship is fighting its way through a powerful storm.",
-        "translations": {
-          "es": "El viejo velero se abre camino a través de una poderosa tormenta.",
-          "fr": "Le vieux voilier se fraye un chemin à travers une puissante tempête.",
-          "de": "Das alte Segelschiff kämpft sich durch einen mächtigen Sturm.",
-          "it": "Il vecchio veliero si sta facendo strada attraverso una potente tempesta.",
-          "pt": "O velho veleiro está abrindo caminho através de uma tempestade poderosa.",
-          "no": "Det gamle seilskipet kjemper seg gjennom en kraftig storm."
-        }
-      },
-      {
-        "text": "The skipper wears a yellow raincoat and hat to stay dry.",
-        "translations": {
-          "es": "El patrón lleva un impermeable amarillo y un sombrero para mantenerse seco.",
-          "fr": "Le skipper porte un imperméable jaune et un chapeau pour rester au sec.",
-          "de": "Der Skipper trägt einen gelben Regenmantel und eine Mütze, um trocken zu bleiben.",
-          "it": "Lo skipper indossa un impermeabile giallo e un cappello per rimanere asciutto.",
-          "pt": "O capitão usa uma capa de chuva amarela e um chapéu para se manter seco.",
-          "no": "Skipperen har på seg gul regnfrakk og lue for å holde seg tørr."
-        }
-      },
-      {
-        "text": "He grips the wooden ship’s wheel to steer through the waves.",
-        "translations": {
-          "es": "Agarra el volante del barco de madera para navegar a través de las olas.",
-          "fr": "Il saisit la roue du navire en bois pour se diriger à travers les vagues.",
-          "de": "Er greift nach dem hölzernen Schiffsrad, um durch die Wellen zu lenken.",
-          "it": "Afferra il volante della nave di legno per guidare tra le onde.",
-          "pt": "Ele agarra a roda do navio de madeira para atravessar as ondas.",
-          "no": "Han griper tak i rattet på treskipet for å styre gjennom bølgene."
-        }
-      },
-      {
-        "text": "The wind has torn large holes in the ship’s sails.",
-        "translations": {
-          "es": "El viento ha abierto grandes agujeros en las velas del barco.",
-          "fr": "Le vent a déchiré de grands trous dans les voiles du navire.",
-          "de": "Der Wind hat große Löcher in die Segel des Schiffes gerissen.",
-          "it": "Il vento ha lacerato grandi buchi nelle vele della nave.",
-          "pt": "O vento abriu grandes buracos nas velas do navio.",
-          "no": "Vinden har revet store hull i skipets seil."
-        }
-      },
-      {
-        "text": "The tall mast supports the sails high above the deck.",
-        "translations": {
-          "es": "El alto mástil sostiene las velas por encima de la cubierta.",
-          "fr": "Le grand mât soutient les voiles au-dessus du pont.",
-          "de": "Der hohe Mast stützt die Segel hoch über dem Deck.",
-          "it": "L'alto albero sostiene le vele alte sopra il ponte.",
-          "pt": "O mastro alto sustenta as velas bem acima do convés.",
-          "no": "Den høye masten støtter seilene høyt over dekk."
-        }
-      },
-      {
-        "text": "Ropes and rigging help the crew control the sails.",
-        "translations": {
-          "es": "Las cuerdas y el aparejo ayudan a la tripulación a controlar las velas.",
-          "fr": "Les cordes et le gréement aident l'équipage à contrôler les voiles.",
-          "de": "Seile und Takelagen helfen der Besatzung, die Segel zu kontrollieren.",
-          "it": "Corde e sartiame aiutano l'equipaggio a controllare le vele.",
-          "pt": "Cordas e cordame ajudam a tripulação a controlar as velas.",
-          "no": "Tau og rigg hjelper mannskapet med å kontrollere seilene."
-        }
-      },
-      {
-        "text": "Bright lightning flashes across the dark storm clouds.",
-        "translations": {
-          "es": "Relámpagos brillantes brillan a través de las oscuras nubes de tormenta.",
-          "fr": "La foudre brillante éclaire les nuages sombres de la tempête.",
-          "de": "Helle Blitze blitzen über den dunklen Gewitterwolken.",
-          "it": "Lampi luminosi attraversano le nuvole scure della tempesta.",
-          "pt": "Relâmpagos brilhantes brilham através das nuvens escuras da tempestade.",
-          "no": "Kraftige lyn blinker over de mørke stormskyene."
-        }
-      },
-      {
-        "text": "A giant wave rises beside the ship and crashes against its side.",
-        "translations": {
-          "es": "Una ola gigante se eleva al lado del barco y se estrella contra su costado.",
-          "fr": "Une vague géante se lève à côté du navire et s'écrase sur le côté.",
-          "de": "Eine riesige Welle erhebt sich neben dem Schiff und stürzt gegen seine Seite.",
-          "it": "Un'onda gigante si alza accanto alla nave e si schianta contro il suo fianco.",
-          "pt": "Uma onda gigante sobe ao lado do navio e bate contra o seu lado.",
-          "no": "En gigantisk bølge stiger ved siden av skipet og slår mot siden."
-        }
-      },
-      {
-        "text": "Cold seawater sprays over the railing and onto the wooden deck.",
-        "translations": {
-          "es": "El agua de mar fría se rocía sobre la barandilla y sobre la cubierta de madera.",
-          "fr": "L'eau de mer froide pulvérise sur la balustrade et sur la terrasse en bois.",
-          "de": "Kaltes Meerwasser spritzt über das Geländer und auf das Holzdeck.",
-          "it": "L'acqua fredda del mare spruzza sulla ringhiera e sul ponte di legno.",
-          "pt": "A água do mar fria pulveriza sobre o corrimão e sobre o convés de madeira.",
-          "no": "Kaldt sjøvann spruter over rekkverket og ned på tredekket."
-        }
-      },
-      {
-        "text": "Warm lanterns glow beside the cabin despite the heavy rain.",
-        "translations": {
-          "es": "Linternas cálidas brillan al lado de la cabina a pesar de la fuerte lluvia.",
-          "fr": "Des lanternes chaudes brillent à côté de la cabine malgré la forte pluie.",
-          "de": "Warme Laternen leuchten trotz des starken Regens neben der Kabine.",
-          "it": "Le calde lanterne brillano accanto alla cabina nonostante la pioggia battente.",
-          "pt": "Lanternas quentes brilham ao lado da cabine, apesar da chuva forte.",
-          "no": "Varme lykter lyser ved siden av hytta til tross for det kraftige regnet."
-        }
-      },
-      {
-        "text": "The crew must keep loose ropes and equipment secure during the storm.",
-        "translations": {
-          "es": "La cuadrilla debe mantener las cuerdas y el equipo sueltos y seguros durante la tormenta.",
-          "fr": "L'équipage doit garder les cordes et l'équipement desserrés en sécurité pendant la tempête.",
-          "de": "Die Besatzung muss lose Seile und Ausrüstung während des Sturms sicher aufbewahren.",
-          "it": "L'equipaggio deve tenere al sicuro corde e attrezzature allentate durante la tempesta.",
-          "pt": "A tripulação deve manter cordas soltas e equipamentos seguros durante a tempestade.",
-          "no": "Mannskapet må holde løse tau og utstyr sikkert på plass under stormen."
-        }
-      },
-      {
-        "text": "The skipper stays alert and guides the ship toward safer waters.",
-        "translations": {
-          "es": "El patrón se mantiene alerta y guía el barco hacia aguas más seguras.",
-          "fr": "Le skipper reste alerte et guide le navire vers des eaux plus sûres.",
-          "de": "Der Skipper bleibt wachsam und führt das Schiff in sicherere Gewässer.",
-          "it": "Lo skipper rimane vigile e guida la nave verso acque più sicure.",
-          "pt": "O capitão fica alerta e guia o navio em direção a águas mais seguras.",
-          "no": "Skipperen holder seg årvåken og styrer skipet mot tryggere farvann."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "skipper",
-        "label": "Skipper",
-        "x": 6.616841236653403,
-        "y": 28.3806268359225,
-        "w": 10.98210513952366,
-        "h": 51.90835889074336,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/stormy-seas.mp3",
-        "translations": {
-          "es": "Capital",
-          "fr": "Skipper",
-          "de": "Kapitän",
-          "it": "Skipper",
-          "pt": "Patrão",
-          "no": "Skipper"
-        }
-      },
-      {
-        "id": "yellow-hat",
-        "label": "Yellow rain hat",
-        "x": 12.696841598045783,
-        "y": 20.522983552659852,
-        "w": 7.16,
-        "h": 8.89,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "lluvia amarilla",
-          "fr": "pluies jaunes",
-          "de": "gelber Regen",
-          "it": "pioggia gialla",
-          "pt": "Chapéu de chuva amarelo",
-          "no": "Gul regnhatt"
-        }
-      },
-      {
-        "id": "yellow-raincoat",
-        "label": "Yellow raincoat",
-        "x": 5.21,
-        "y": 34.18,
-        "w": 20.18,
-        "h": 41.99,
-        "translations": {
-          "es": "Chubasquero amarillo",
-          "fr": "Imperméable jaune",
-          "de": "REGENJACKE GELB",
-          "it": "Impermeabile Giallo",
-          "pt": "Capa de chuva amarela",
-          "no": "Gul regnfrakk"
-        }
-      },
-      {
-        "id": "ships-wheel",
-        "label": "Ship wheel",
-        "x": 20.736843073731336,
-        "y": 67.1117917362093,
-        "w": 5.02105241918167,
-        "h": 13.389031471198722,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "Timón de barco",
-          "fr": "Roue de navire",
-          "de": "Schiffsrad",
-          "it": "Timone",
-          "pt": "Roda DO navio",
-          "no": "Skipshjul"
-        }
-      },
-      {
-        "id": "main-mast",
-        "label": "Main mast",
-        "x": 21.16,
-        "y": 0,
-        "w": 10.42,
-        "h": 47.85,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/stormy-seas.mp3",
-        "translations": {
-          "es": "palo mayor",
-          "fr": "grand mât",
-          "de": "Hauptmast",
-          "it": "MONTANTE PRINCIPALE..........................................................................",
-          "pt": "Mastro principal",
-          "no": "Hovedmast"
-        }
-      },
-      {
-        "id": "torn-sails",
-        "label": "Torn sails",
-        "x": 43.00684677800323,
-        "y": 0,
-        "w": 31.079473037508375,
-        "h": 19.80535650971443,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "Velas rasgadas",
-          "fr": "Voiles déchirées",
-          "de": "ZERRISSENE SEGEL",
-          "it": "Vele strappate",
-          "pt": "Velas rasgadas",
-          "no": "Revet seil"
-        }
-      },
-      {
-        "id": "rigging",
-        "label": "Rigging",
-        "x": 36.13,
-        "y": 8.79,
-        "w": 11.39,
-        "h": 52.25,
-        "translations": {
-          "es": "Aparejo",
-          "fr": "Gréement",
-          "de": "Ausrüstung",
-          "it": "Legatura",
-          "pt": "Rigging",
-          "no": "Rigging"
-        }
-      },
-      {
-        "id": "rope-ladder",
-        "label": "Rope ladder",
-        "x": 39.71,
-        "y": 7.81,
-        "w": 8.14,
-        "h": 45.41,
-        "translations": {
-          "es": "Escalera de mano",
-          "fr": "Échelle en corde",
-          "de": "Strickleiter",
-          "it": "Scala in corda",
-          "pt": "Escada de Corda",
-          "no": "Stige"
-        }
-      },
-      {
-        "id": "lantern",
-        "label": "Lantern",
-        "x": 30.34,
-        "y": 47.85,
-        "w": 5.14,
-        "h": 13.18,
-        "translations": {
-          "es": "Farol",
-          "fr": "Lanterne",
-          "de": "Laterne",
-          "it": "Lanterna",
-          "pt": "Lanterna",
-          "no": "Lykt"
-        }
-      },
-      {
-        "id": "cabin",
-        "label": "Ship cabin",
-        "x": 19.53,
-        "y": 42.97,
-        "w": 25.39,
-        "h": 21.97,
-        "translations": {
-          "es": "Camarote del barco",
-          "fr": "Cabine de navire",
-          "de": "Schiffskabine",
-          "it": "Cabina della nave",
-          "pt": "Cabine do navio",
-          "no": "Skipslugar"
-        }
-      },
-      {
-        "id": "wooden-deck",
-        "label": "Wooden deck",
-        "x": 31.9,
-        "y": 68.36,
-        "w": 27.34,
-        "h": 30.27,
-        "translations": {
-          "es": "Cubierta de madera",
-          "fr": "Terrasse en bois",
-          "de": "Holzdeck",
-          "it": "Ponte in legno",
-          "pt": "Convés de madeira",
-          "no": "Treterrasse"
-        }
-      },
-      {
-        "id": "ship-railing",
-        "label": "Ship railing",
-        "x": 61.2,
-        "y": 61.52,
-        "w": 35.81,
-        "h": 18.55,
-        "translations": {
-          "es": "Barandas",
-          "fr": "Garde-corps de navire",
-          "de": "Schiffsgeländer",
-          "it": "Ringhiera della nave",
-          "pt": "Guarda-corpo do navio",
-          "no": "Skipsrekkverk"
-        }
-      },
-      {
-        "id": "giant-wave",
-        "label": "Giant wave",
-        "x": 63.8,
-        "y": 34.18,
-        "w": 33.85,
-        "h": 38.09,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/stormy-seas.mp3",
-        "translations": {
-          "es": "",
-          "fr": "Onde géante",
-          "de": "Riesenwelle",
-          "it": "Onda gigante",
-          "pt": "Onda gigante",
-          "no": "Kjempebølge"
-        }
-      },
-      {
-        "id": "lightning",
-        "label": "Lightning",
-        "x": 61.59157715308695,
-        "y": 2.047732054820858,
-        "w": 29.040000000000006,
-        "h": 34.3996771354903,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/stormy-seas.mp3",
-        "translations": {
-          "es": "Lightning",
-          "fr": "Foudre",
-          "de": "Blitzschlag",
-          "it": "Saetta",
-          "pt": "Raios",
-          "no": "Lyn"
-        }
-      },
-      {
-        "id": "rope-coil",
-        "label": "Coiled rope",
-        "x": 65.1,
-        "y": 67.38,
-        "w": 9.44,
-        "h": 12.21,
-        "translations": {
-          "es": "Cuerda enrollada",
-          "fr": "Câble métallique enroulé",
-          "de": "Spiralseil",
-          "it": "Corda arrotolata",
-          "pt": "Corda enrolada",
-          "no": "Kveilet tau"
-        }
-      },
-      {
-        "id": "pulley",
-        "label": "Pulley",
-        "x": 93.1,
-        "y": 28.81,
-        "w": 6.51,
-        "h": 17.58,
-        "translations": {
-          "es": "Polea",
-          "fr": "Galet",
-          "de": "Riemenscheibe",
-          "it": "Carrucola",
-          "pt": "Polia",
-          "no": "Trinse"
-        }
-      },
-      {
-        "id": "sea-spray",
-        "label": "Sea spray",
-        "x": 53.71,
-        "y": 45.9,
-        "w": 21.16,
-        "h": 26.37,
-        "translations": {
-          "es": "Rociones marinos",
-          "fr": "Brouillard salin",
-          "de": "MEERES-GISCHT",
-          "it": "Sea spray",
-          "pt": "Maresia",
-          "no": "Sjøsprøyt"
-        }
-      },
-      {
-        "id": "wooden-barrel",
-        "label": "Wooden barrel",
-        "x": 32.55,
-        "y": 63.96,
-        "w": 5.86,
-        "h": 12.21,
-        "translations": {
-          "es": "Barril de madera",
-          "fr": "Tonneau en bois",
-          "de": "Holzfass",
-          "it": "Bittija ta' l-injam",
-          "pt": "Barril de madeira",
-          "no": "Tretønne"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the skipper",
-        "target": "skipper",
-        "translations": {
-          "es": "Encuentra al patrón",
-          "fr": "Le patron",
-          "de": "Finde den Skipper",
-          "it": "Trova lo skipper",
-          "pt": "Encontre o capitão",
-          "no": "Finn skipperen"
-        }
-      },
-      {
-        "prompt": "Find the yellow rain hat",
-        "target": "yellow-hat",
-        "translations": {
-          "es": "Encuentra el sombrero amarillo para la lluvia",
-          "fr": "Trouvez le chapeau de pluie jaune",
-          "de": "Finde den gelben Regenhut",
-          "it": "Trova il cappello da pioggia giallo",
-          "pt": "Encontre o chapéu de chuva amarelo",
-          "no": "Finn den gule regnhatten"
-        }
-      },
-      {
-        "prompt": "Find the ship’s wheel",
-        "target": "ships-wheel",
-        "translations": {
-          "es": "Encuentra la rueda del barco",
-          "fr": "Trouvez la roue du navire",
-          "de": "Finde das Schiffsrad",
-          "it": "Trova la ruota della nave",
-          "pt": "Encontre a roda do navio",
-          "no": "Finn skipets ratt"
-        }
-      },
-      {
-        "prompt": "Find the torn sails",
-        "target": "torn-sails",
-        "translations": {
-          "es": "Encuentra las velas rotas",
-          "fr": "Trouvez les voiles déchirées",
-          "de": "Finde die zerrissenen Segel",
-          "it": "Trova le vele strappate",
-          "pt": "Encontre as velas rasgadas",
-          "no": "Finn de revne seilene"
-        }
-      },
-      {
-        "prompt": "Find the main mast",
-        "target": "main-mast",
-        "translations": {
-          "es": "Encuentra el mástil principal",
-          "fr": "Trouvez le mât principal",
-          "de": "Finden Sie den Hauptmast",
-          "it": "Trova l'albero principale",
-          "pt": "Encontre o mastro principal",
-          "no": "Finn hovedmasten"
-        }
-      },
-      {
-        "prompt": "Find the rope ladder",
-        "target": "rope-ladder",
-        "translations": {
-          "es": "Encuentra la escalera de cuerda",
-          "fr": "Trouvez l'échelle de corde",
-          "de": "Finde die Strickleiter",
-          "it": "Trova la scala di corda",
-          "pt": "Encontre a escada de corda",
-          "no": "Finn taustigen"
-        }
-      },
-      {
-        "prompt": "Find the lantern",
-        "target": "lantern",
-        "translations": {
-          "es": "Encuentra la linterna",
-          "fr": "Trouvez la lanterne",
-          "de": "Finde die Laterne",
-          "it": "Trova la lanterna",
-          "pt": "Encontre a lanterna",
-          "no": "Finn lykten"
-        }
-      },
-      {
-        "prompt": "Find the ship’s cabin",
-        "target": "cabin",
-        "translations": {
-          "es": "Encuentra el camarote del barco",
-          "fr": "Trouver la cabine du navire",
-          "de": "Finde die Schiffskabine",
-          "it": "Trova la cabina della nave",
-          "pt": "Encontre a cabine do navio",
-          "no": "Finn skipets lugar"
-        }
-      },
-      {
-        "prompt": "Find the wooden deck",
-        "target": "wooden-deck",
-        "translations": {
-          "es": "Encuentra la cubierta de madera",
-          "fr": "Retrouvez la terrasse en bois",
-          "de": "Finde das Holzdeck",
-          "it": "Trova il ponte in legno",
-          "pt": "Encontre o deck de madeira",
-          "no": "Finn treterrassen"
-        }
-      },
-      {
-        "prompt": "Find the ship’s railing",
-        "target": "ship-railing",
-        "translations": {
-          "es": "Encuentra la barandilla del barco",
-          "fr": "Trouvez la balustrade du navire",
-          "de": "Finden Sie das Schiffsgeländer",
-          "it": "Trova la ringhiera della nave",
-          "pt": "Encontre o corrimão do navio",
-          "no": "Finn skipets rekkverk"
-        }
-      },
-      {
-        "prompt": "Find the giant wave",
-        "target": "giant-wave",
-        "translations": {
-          "es": "Encuentra la ola gigante",
-          "fr": "Trouvez la vague géante",
-          "de": "Finde die Riesenwelle",
-          "it": "Trova l'onda gigante",
-          "pt": "Encontre a onda gigante",
-          "no": "Finn den gigantiske bølgen"
-        }
-      },
-      {
-        "prompt": "Find the lightning",
-        "target": "lightning",
-        "translations": {
-          "es": "EL RAYO",
-          "fr": "Trouvez la foudre",
-          "de": "Finde den Blitz",
-          "it": "Trova il fulmine",
-          "pt": "O relâmpago",
-          "no": "Finn lynet"
         }
       }
     ]
@@ -30457,6 +32764,332 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
+  "tsunami": {
+    "title": "Tsunami",
+    "image": "images/tsunami.jpg",
+    "lessons": [
+      {
+        "text": "A huge wave is approaching the coastal town.",
+        "translations": {
+          "es": "Una enorme ola se acerca a la ciudad costera.",
+          "fr": "Une énorme vague s'approche de la ville côtière.",
+          "de": "Eine riesige Welle nähert sich der Küstenstadt.",
+          "it": "Un'onda enorme si sta avvicinando alla città costiera.",
+          "pt": "Uma enorme onda se aproxima da cidade costeira.",
+          "no": "En enorm bølge nærmer seg kystbyen."
+        }
+      },
+      {
+        "text": "The ocean is flooding the coastline.",
+        "translations": {
+          "es": "El océano está inundando la costa.",
+          "fr": "L'océan inonde le littoral.",
+          "de": "Das Meer überschwemmt die Küste.",
+          "it": "L'oceano sta inondando la costa.",
+          "pt": "O oceano está inundando a costa.",
+          "no": "Havet oversvømmer kystlinjen."
+        }
+      },
+      {
+        "text": "People are running uphill to reach safer ground.",
+        "translations": {
+          "es": "La gente corre cuesta arriba para llegar a un terreno más seguro.",
+          "fr": "Les gens montent en courant pour atteindre un terrain plus sûr.",
+          "de": "Die Menschen rennen bergauf, um sichereren Boden zu erreichen.",
+          "it": "Le persone corrono in salita per raggiungere un terreno più sicuro.",
+          "pt": "As pessoas correm ladeira acima para chegar a um terreno mais seguro.",
+          "no": "Folk løper oppoverbakke for å komme til tryggere terreng."
+        }
+      },
+      {
+        "text": "Vehicles are trying to leave the danger zone.",
+        "translations": {
+          "es": "Los vehículos intentan salir de la zona de peligro.",
+          "fr": "Les véhicules tentent de quitter la zone de danger.",
+          "de": "Fahrzeuge versuchen, den Gefahrenbereich zu verlassen.",
+          "it": "I veicoli stanno cercando di lasciare la zona di pericolo.",
+          "pt": "Os veículos estão a tentar sair da zona de perigo.",
+          "no": "Kjøretøy prøver å forlate faresonen."
+        }
+      },
+      {
+        "text": "Buildings stand close to the shore.",
+        "translations": {
+          "es": "Los edificios se encuentran cerca de la orilla.",
+          "fr": "Les bâtiments se tiennent près du rivage.",
+          "de": "Gebäude stehen in Küstennähe.",
+          "it": "Gli edifici sorgono vicino alla riva.",
+          "pt": "Os edifícios ficam perto da costa.",
+          "no": "Bygningene står nær kysten."
+        }
+      },
+      {
+        "text": "Palm trees grow along the coast.",
+        "translations": {
+          "es": "Las palmeras crecen a lo largo de la costa.",
+          "fr": "Des palmiers poussent le long de la côte.",
+          "de": "An der Küste wachsen Palmen.",
+          "it": "Lungo la costa crescono palme.",
+          "pt": "Palmeiras crescem ao longo da costa.",
+          "no": "Palmer vokser langs kysten."
+        }
+      },
+      {
+        "text": "Boats are floating in the marina.",
+        "translations": {
+          "es": "Los barcos están flotando en el puerto deportivo.",
+          "fr": "Des bateaux flottent dans la marina.",
+          "de": "Im Yachthafen treiben Boote.",
+          "it": "Le barche galleggiano nel porto turistico.",
+          "pt": "Os barcos estão flutuando na marina.",
+          "no": "Båter flyter i marinaen."
+        }
+      },
+      {
+        "text": "Mountains rise behind the coastal city.",
+        "translations": {
+          "es": "Las montañas se elevan detrás de la ciudad costera.",
+          "fr": "Les montagnes s'élèvent derrière la ville côtière.",
+          "de": "Hinter der Küstenstadt erheben sich Berge.",
+          "it": "Le montagne si ergono dietro la città costiera.",
+          "pt": "Montanhas se erguem atrás da cidade costeira.",
+          "no": "Fjell reiser seg bak kystbyen."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "tsunami-wave",
+        "label": "tsunami wave",
+        "x": 39,
+        "y": 3,
+        "w": 59,
+        "h": 40,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/tsunami.mp3",
+        "translations": {
+          "es": "Ola del tsunami",
+          "fr": "vague de tsunami",
+          "de": "tsunami-Welle",
+          "it": "onda tsunami",
+          "pt": "onda tsunami",
+          "no": "tsunamibølge"
+        }
+      },
+      {
+        "id": "ocean",
+        "label": "ocean",
+        "x": 58,
+        "y": 43,
+        "w": 39,
+        "h": 18,
+        "translations": {
+          "es": "oceánicas",
+          "fr": "océan",
+          "de": "Ozean",
+          "it": "oceano",
+          "pt": "oceano",
+          "no": "hav"
+        }
+      },
+      {
+        "id": "people-evacuating",
+        "label": "people evacuating",
+        "x": 2,
+        "y": 62,
+        "w": 37,
+        "h": 37,
+        "translations": {
+          "es": "personas evacuando",
+          "fr": "personnes évacuées",
+          "de": "menschen, die evakuieren",
+          "it": "persone che evacuano",
+          "pt": "evacuação de pessoas",
+          "no": "folk som evakuerer"
+        }
+      },
+      {
+        "id": "traffic",
+        "label": "traffic",
+        "x": 25,
+        "y": 56,
+        "w": 69,
+        "h": 41,
+        "translations": {
+          "es": "tráfico",
+          "fr": "trafic",
+          "de": "Datentransfer",
+          "it": "traffico",
+          "pt": "tráfego",
+          "no": "trafikk"
+        }
+      },
+      {
+        "id": "coastal-buildings",
+        "label": "coastal buildings",
+        "x": 12,
+        "y": 30,
+        "w": 30,
+        "h": 17,
+        "translations": {
+          "es": "edificios costeros",
+          "fr": "bâtiments côtiers",
+          "de": "küstenbauten",
+          "it": "edifici costieri",
+          "pt": "edifícios costeiros",
+          "no": "kystbygninger"
+        }
+      },
+      {
+        "id": "palm-trees",
+        "label": "palm trees",
+        "x": 41,
+        "y": 40,
+        "w": 28,
+        "h": 16,
+        "translations": {
+          "es": "palmeras",
+          "fr": "palmiers",
+          "de": "Palmen",
+          "it": "Palme",
+          "pt": "palmeiras",
+          "no": "palmer"
+        }
+      },
+      {
+        "id": "marina",
+        "label": "marina",
+        "x": 74,
+        "y": 47,
+        "w": 24,
+        "h": 19,
+        "translations": {
+          "es": "marina",
+          "fr": "port de plaisance, marina",
+          "de": "Yachthafen",
+          "it": "marina (porto turistico",
+          "pt": "marinas",
+          "no": "Lystbåthavn"
+        }
+      },
+      {
+        "id": "mountains",
+        "label": "mountains",
+        "x": 0,
+        "y": 12,
+        "w": 22,
+        "h": 22,
+        "translations": {
+          "es": "montañas",
+          "fr": "montagnes",
+          "de": "Berge",
+          "it": "montagne",
+          "pt": "montanhas",
+          "no": "fjell"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the tsunami wave",
+        "target": "tsunami-wave",
+        "translations": {
+          "es": "Encuentra la ola del tsunami",
+          "fr": "Trouvez la vague du tsunami",
+          "de": "Finde die Tsunami-Welle",
+          "it": "Trova l'onda dello tsunami",
+          "pt": "Encontre a onda do tsunami",
+          "no": "Finn tsunamibølgen"
+        }
+      },
+      {
+        "prompt": "Find the ocean",
+        "target": "ocean",
+        "translations": {
+          "es": "El Mar",
+          "fr": "l’océan",
+          "de": "Finde den Ozean",
+          "it": "L'oceano",
+          "pt": "o oceano",
+          "no": "Finn havet"
+        }
+      },
+      {
+        "prompt": "Find the people evacuating",
+        "target": "people-evacuating",
+        "translations": {
+          "es": "Encuentra a las personas que están evacuando",
+          "fr": "Trouvez les personnes évacuées",
+          "de": "Finde die Evakuierenden",
+          "it": "Trova le persone che stanno evacuando",
+          "pt": "Encontre as pessoas a evacuar",
+          "no": "Finn menneskene som evakuerer"
+        }
+      },
+      {
+        "prompt": "Find the traffic",
+        "target": "traffic",
+        "translations": {
+          "es": "El tráfico",
+          "fr": "La circulation routière",
+          "de": "Finde den Verkehr",
+          "it": "Trova il traffico",
+          "pt": "O trânsito",
+          "no": "Finn trafikken"
+        }
+      },
+      {
+        "prompt": "Find the coastal buildings",
+        "target": "coastal-buildings",
+        "translations": {
+          "es": "Encuentra los edificios costeros",
+          "fr": "Retrouvez les bâtiments côtiers",
+          "de": "Finde die Küstengebäude",
+          "it": "Trova gli edifici costieri",
+          "pt": "Encontre os edifícios costeiros",
+          "no": "Finn kystbygningene"
+        }
+      },
+      {
+        "prompt": "Find the palm trees",
+        "target": "palm-trees",
+        "translations": {
+          "es": "Encuentra las palmeras",
+          "fr": "Les Palmiers",
+          "de": "die Palmen",
+          "it": "Trova le palme",
+          "pt": "Encontre as palmeiras",
+          "no": "Finn palmene"
+        }
+      },
+      {
+        "prompt": "Find the marina",
+        "target": "marina",
+        "translations": {
+          "es": "Encuentra el puerto deportivo",
+          "fr": "LA MARINE",
+          "de": "DIE MARINA",
+          "it": "LA MARINA",
+          "pt": "Encontre o Porto",
+          "no": "Finn marinaen"
+        }
+      },
+      {
+        "prompt": "Find the mountains",
+        "target": "mountains",
+        "translations": {
+          "es": "La Montaña",
+          "fr": "montagne",
+          "de": "Gebirge",
+          "it": "La Montagna",
+          "pt": "A escola-oficina recupera a montanha",
+          "no": "Finn fjellene"
+        }
+      }
+    ]
+  },
   "tornado": {
     "title": "Tornado",
     "image": "images/tornado.jpg",
@@ -31435,328 +34068,471 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "tsunami": {
-    "title": "Tsunami",
-    "image": "images/tsunami.jpg",
+  "future-world": {
+    "title": "Future World",
+    "image": "images/future-world.jpg",
     "lessons": [
       {
-        "text": "A huge wave is approaching the coastal town.",
+        "text": "Look carefully at this scene.",
         "translations": {
-          "es": "Una enorme ola se acerca a la ciudad costera.",
-          "fr": "Une énorme vague s'approche de la ville côtière.",
-          "de": "Eine riesige Welle nähert sich der Küstenstadt.",
-          "it": "Un'onda enorme si sta avvicinando alla città costiera.",
-          "pt": "Uma enorme onda se aproxima da cidade costeira.",
-          "no": "En enorm bølge nærmer seg kystbyen."
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
         }
       },
       {
-        "text": "The ocean is flooding the coastline.",
+        "text": "What can you see in this picture?",
         "translations": {
-          "es": "El océano está inundando la costa.",
-          "fr": "L'océan inonde le littoral.",
-          "de": "Das Meer überschwemmt die Küste.",
-          "it": "L'oceano sta inondando la costa.",
-          "pt": "O oceano está inundando a costa.",
-          "no": "Havet oversvømmer kystlinjen."
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
         }
       },
       {
-        "text": "People are running uphill to reach safer ground.",
+        "text": "There are many interesting details here.",
         "translations": {
-          "es": "La gente corre cuesta arriba para llegar a un terreno más seguro.",
-          "fr": "Les gens montent en courant pour atteindre un terrain plus sûr.",
-          "de": "Die Menschen rennen bergauf, um sichereren Boden zu erreichen.",
-          "it": "Le persone corrono in salita per raggiungere un terreno più sicuro.",
-          "pt": "As pessoas correm ladeira acima para chegar a um terreno mais seguro.",
-          "no": "Folk løper oppoverbakke for å komme til tryggere terreng."
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
         }
       },
       {
-        "text": "Vehicles are trying to leave the danger zone.",
+        "text": "Look at the objects in the picture.",
         "translations": {
-          "es": "Los vehículos intentan salir de la zona de peligro.",
-          "fr": "Les véhicules tentent de quitter la zone de danger.",
-          "de": "Fahrzeuge versuchen, den Gefahrenbereich zu verlassen.",
-          "it": "I veicoli stanno cercando di lasciare la zona di pericolo.",
-          "pt": "Os veículos estão a tentar sair da zona de perigo.",
-          "no": "Kjøretøy prøver å forlate faresonen."
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
         }
       },
       {
-        "text": "Buildings stand close to the shore.",
+        "text": "Describe what is happening.",
         "translations": {
-          "es": "Los edificios se encuentran cerca de la orilla.",
-          "fr": "Les bâtiments se tiennent près du rivage.",
-          "de": "Gebäude stehen in Küstennähe.",
-          "it": "Gli edifici sorgono vicino alla riva.",
-          "pt": "Os edifícios ficam perto da costa.",
-          "no": "Bygningene står nær kysten."
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
         }
       },
       {
-        "text": "Palm trees grow along the coast.",
+        "text": "Which colors can you recognize?",
         "translations": {
-          "es": "Las palmeras crecen a lo largo de la costa.",
-          "fr": "Des palmiers poussent le long de la côte.",
-          "de": "An der Küste wachsen Palmen.",
-          "it": "Lungo la costa crescono palme.",
-          "pt": "Palmeiras crescem ao longo da costa.",
-          "no": "Palmer vokser langs kysten."
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
         }
       },
       {
-        "text": "Boats are floating in the marina.",
+        "text": "Look at the background of the scene.",
         "translations": {
-          "es": "Los barcos están flotando en el puerto deportivo.",
-          "fr": "Des bateaux flottent dans la marina.",
-          "de": "Im Yachthafen treiben Boote.",
-          "it": "Le barche galleggiano nel porto turistico.",
-          "pt": "Os barcos estão flutuando na marina.",
-          "no": "Båter flyter i marinaen."
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
         }
       },
       {
-        "text": "Mountains rise behind the coastal city.",
+        "text": "Which people or animals can you see?",
         "translations": {
-          "es": "Las montañas se elevan detrás de la ciudad costera.",
-          "fr": "Les montagnes s'élèvent derrière la ville côtière.",
-          "de": "Hinter der Küstenstadt erheben sich Berge.",
-          "it": "Le montagne si ergono dietro la città costiera.",
-          "pt": "Montanhas se erguem atrás da cidade costeira.",
-          "no": "Fjell reiser seg bak kystbyen."
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
         }
       }
     ],
     "hotspots": [
       {
-        "id": "tsunami-wave",
-        "label": "tsunami wave",
-        "x": 39,
-        "y": 3,
-        "w": 59,
-        "h": 40,
+        "id": "family-2",
+        "label": "family",
+        "x": 9,
+        "y": 37,
+        "w": 44,
+        "h": 62,
         "rotation": 0,
         "z": 0,
-        "sound": "sounds/tsunami.mp3",
+        "sound": "",
         "translations": {
-          "es": "Ola del tsunami",
-          "fr": "vague de tsunami",
-          "de": "tsunami-Welle",
-          "it": "onda tsunami",
-          "pt": "onda tsunami",
-          "no": "tsunamibølge"
+          "es": "familia",
+          "fr": "famille",
+          "de": "Familie",
+          "it": "famiglia",
+          "pt": "família",
+          "no": "familie"
         }
       },
       {
-        "id": "ocean",
-        "label": "ocean",
-        "x": 58,
-        "y": 43,
-        "w": 39,
-        "h": 18,
+        "id": "robot-1",
+        "label": "robot",
+        "x": 54,
+        "y": 27,
+        "w": 15,
+        "h": 61,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "oceánicas",
-          "fr": "océan",
-          "de": "Ozean",
-          "it": "oceano",
-          "pt": "oceano",
-          "no": "hav"
+          "es": "robot",
+          "fr": "robot",
+          "de": "Roboter",
+          "it": "robot",
+          "pt": "robô",
+          "no": "robot"
         }
       },
       {
-        "id": "people-evacuating",
-        "label": "people evacuating",
-        "x": 2,
-        "y": 62,
-        "w": 37,
-        "h": 37,
+        "id": "flying-car-3",
+        "label": "flying car",
+        "x": 52.151449466159534,
+        "y": 1.4151159294391604,
+        "w": 9.271748138521946,
+        "h": 7.349477963732102,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "personas evacuando",
-          "fr": "personnes évacuées",
-          "de": "menschen, die evakuieren",
-          "it": "persone che evacuano",
-          "pt": "evacuação de pessoas",
-          "no": "folk som evakuerer"
+          "es": "coche volador",
+          "fr": "voiture volante",
+          "de": "fliegendes Auto",
+          "it": "auto volante",
+          "pt": "carro voador",
+          "no": "flyvende bil"
         }
       },
       {
-        "id": "traffic",
-        "label": "traffic",
-        "x": 25,
-        "y": 56,
-        "w": 69,
-        "h": 41,
+        "id": "skyscraper-4",
+        "label": "skyscraper",
+        "x": 45.12889538575686,
+        "y": 0,
+        "w": 5.84962512301477,
+        "h": 15.03530169632688,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "tráfico",
-          "fr": "trafic",
-          "de": "Datentransfer",
-          "it": "traffico",
-          "pt": "tráfego",
-          "no": "trafikk"
+          "es": "rascacielos",
+          "fr": "gratte-ciel",
+          "de": "Wolkenkratzer",
+          "it": "grattacielo",
+          "pt": "arranha-céu",
+          "no": "skyskraper"
         }
       },
       {
-        "id": "coastal-buildings",
-        "label": "coastal buildings",
-        "x": 12,
-        "y": 30,
-        "w": 30,
-        "h": 17,
+        "id": "sky-bridge-5",
+        "label": "sky bridge",
+        "x": 8.181519524653474,
+        "y": 18.311454913730593,
+        "w": 63.97958895181706,
+        "h": 12.173380335202863,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "edificios costeros",
-          "fr": "bâtiments côtiers",
-          "de": "küstenbauten",
-          "it": "edifici costieri",
-          "pt": "edifícios costeiros",
-          "no": "kystbygninger"
+          "es": "puente elevado",
+          "fr": "passerelle aérienne",
+          "de": "Himmelsbrücke",
+          "it": "ponte sospeso",
+          "pt": "passarela elevada",
+          "no": "luftbro"
         }
       },
       {
-        "id": "palm-trees",
-        "label": "palm trees",
-        "x": 41,
-        "y": 40,
-        "w": 28,
-        "h": 16,
+        "id": "flower-garden-6",
+        "label": "flower garden",
+        "x": 90.75617274162337,
+        "y": 58.497957969656966,
+        "w": 9.24382725837662,
+        "h": 10.18514440926318,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "palmeras",
-          "fr": "palmiers",
-          "de": "Palmen",
-          "it": "Palme",
-          "pt": "palmeiras",
-          "no": "palmer"
+          "es": "jardín de flores",
+          "fr": "jardin fleuri",
+          "de": "Blumengarten",
+          "it": "giardino fiorito",
+          "pt": "jardim de flores",
+          "no": "blomsterhage"
         }
       },
       {
-        "id": "marina",
-        "label": "marina",
-        "x": 74,
-        "y": 47,
-        "w": 24,
-        "h": 19,
+        "id": "spaceport-sign-7",
+        "label": "spaceport sign",
+        "x": 84.69817565685523,
+        "y": 28.01312542762234,
+        "w": 15.301824343144768,
+        "h": 7.403349148480006,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "marina",
-          "fr": "port de plaisance, marina",
-          "de": "Yachthafen",
-          "it": "marina (porto turistico",
-          "pt": "marinas",
-          "no": "Lystbåthavn"
+          "es": "letrero del puerto espacial",
+          "fr": "panneau du port spatial",
+          "de": "Weltraumbahnhof-Schild",
+          "it": "insegna dello spazioporto",
+          "pt": "placa do porto espacial",
+          "no": "skilt til romhavnen"
         }
       },
       {
-        "id": "mountains",
-        "label": "mountains",
+        "id": "pedestrians-8",
+        "label": "pedestrians",
+        "x": 72,
+        "y": 46,
+        "w": 19.764769455017834,
+        "h": 15.94205287526253,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "peatones",
+          "fr": "piétons",
+          "de": "Fußgänger",
+          "it": "pedoni",
+          "pt": "pedestres",
+          "no": "fotgjengere"
+        }
+      },
+      {
+        "id": "city-street-9",
+        "label": "city street",
+        "x": 76.5467261906957,
+        "y": 81.6111403396032,
+        "w": 17.003217621394036,
+        "h": 17.631956608195125,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "calle de la ciudad",
+          "fr": "rue de la ville",
+          "de": "Stadtstraße",
+          "it": "strada cittadina",
+          "pt": "rua da cidade",
+          "no": "bygate"
+        }
+      },
+      {
+        "id": "futuristic-tower-10",
+        "label": "futuristic tower",
+        "x": 66.43072587503052,
+        "y": 3.9737450844070596,
+        "w": 6.984968043817474,
+        "h": 15.15889084711966,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "torre futurista",
+          "fr": "tour futuriste",
+          "de": "futuristischer Turm",
+          "it": "torre futuristica",
+          "pt": "torre futurista",
+          "no": "futuristisk tårn"
+        }
+      },
+      {
+        "id": "backpack-11",
+        "label": "backpack",
+        "x": 27.058001694364812,
+        "y": 74.0316908556951,
+        "w": 4.836733125987529,
+        "h": 16.82118507814438,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mochila",
+          "fr": "sac à dos",
+          "de": "Rucksack",
+          "it": "zaino",
+          "pt": "mochila",
+          "no": "ryggsekk"
+        }
+      },
+      {
+        "id": "trees-12",
+        "label": "trees",
         "x": 0,
-        "y": 12,
-        "w": 22,
-        "h": 22,
+        "y": 0.3232216946897468,
+        "w": 7.481203140376846,
+        "h": 10.196911190222334,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
         "translations": {
-          "es": "montañas",
-          "fr": "montagnes",
-          "de": "Berge",
-          "it": "montagne",
-          "pt": "montanhas",
-          "no": "fjell"
+          "es": "árboles",
+          "fr": "arbres",
+          "de": "Bäume",
+          "it": "alberi",
+          "pt": "árvores",
+          "no": "trær"
         }
       }
     ],
     "overlays": [],
     "challenges": [
       {
-        "prompt": "Find the tsunami wave",
-        "target": "tsunami-wave",
+        "prompt": "Find the robot",
+        "target": "robot-1",
         "translations": {
-          "es": "Encuentra la ola del tsunami",
-          "fr": "Trouvez la vague du tsunami",
-          "de": "Finde die Tsunami-Welle",
-          "it": "Trova l'onda dello tsunami",
-          "pt": "Encontre a onda do tsunami",
-          "no": "Finn tsunamibølgen"
+          "es": "Encuentra robot",
+          "fr": "Trouve robot",
+          "de": "Finde Roboter",
+          "it": "Trova robot",
+          "pt": "Encontre robô",
+          "no": "Finn robot"
         }
       },
       {
-        "prompt": "Find the ocean",
-        "target": "ocean",
+        "prompt": "Find the family",
+        "target": "family-2",
         "translations": {
-          "es": "El Mar",
-          "fr": "l’océan",
-          "de": "Finde den Ozean",
-          "it": "L'oceano",
-          "pt": "o oceano",
-          "no": "Finn havet"
+          "es": "Encuentra familia",
+          "fr": "Trouve famille",
+          "de": "Finde Familie",
+          "it": "Trova famiglia",
+          "pt": "Encontre família",
+          "no": "Finn familie"
         }
       },
       {
-        "prompt": "Find the people evacuating",
-        "target": "people-evacuating",
+        "prompt": "Find the flying car",
+        "target": "flying-car-3",
         "translations": {
-          "es": "Encuentra a las personas que están evacuando",
-          "fr": "Trouvez les personnes évacuées",
-          "de": "Finde die Evakuierenden",
-          "it": "Trova le persone che stanno evacuando",
-          "pt": "Encontre as pessoas a evacuar",
-          "no": "Finn menneskene som evakuerer"
+          "es": "Encuentra coche volador",
+          "fr": "Trouve voiture volante",
+          "de": "Finde fliegendes Auto",
+          "it": "Trova auto volante",
+          "pt": "Encontre carro voador",
+          "no": "Finn flyvende bil"
         }
       },
       {
-        "prompt": "Find the traffic",
-        "target": "traffic",
+        "prompt": "Find the skyscraper",
+        "target": "skyscraper-4",
         "translations": {
-          "es": "El tráfico",
-          "fr": "La circulation routière",
-          "de": "Finde den Verkehr",
-          "it": "Trova il traffico",
-          "pt": "O trânsito",
-          "no": "Finn trafikken"
+          "es": "Encuentra rascacielos",
+          "fr": "Trouve gratte-ciel",
+          "de": "Finde Wolkenkratzer",
+          "it": "Trova grattacielo",
+          "pt": "Encontre arranha-céu",
+          "no": "Finn skyskraper"
         }
       },
       {
-        "prompt": "Find the coastal buildings",
-        "target": "coastal-buildings",
+        "prompt": "Find the sky bridge",
+        "target": "sky-bridge-5",
         "translations": {
-          "es": "Encuentra los edificios costeros",
-          "fr": "Retrouvez les bâtiments côtiers",
-          "de": "Finde die Küstengebäude",
-          "it": "Trova gli edifici costieri",
-          "pt": "Encontre os edifícios costeiros",
-          "no": "Finn kystbygningene"
+          "es": "Encuentra puente elevado",
+          "fr": "Trouve passerelle aérienne",
+          "de": "Finde Himmelsbrücke",
+          "it": "Trova ponte sospeso",
+          "pt": "Encontre passarela elevada",
+          "no": "Finn luftbro"
         }
       },
       {
-        "prompt": "Find the palm trees",
-        "target": "palm-trees",
+        "prompt": "Find the flower garden",
+        "target": "flower-garden-6",
         "translations": {
-          "es": "Encuentra las palmeras",
-          "fr": "Les Palmiers",
-          "de": "die Palmen",
-          "it": "Trova le palme",
-          "pt": "Encontre as palmeiras",
-          "no": "Finn palmene"
+          "es": "Encuentra jardín de flores",
+          "fr": "Trouve jardin fleuri",
+          "de": "Finde Blumengarten",
+          "it": "Trova giardino fiorito",
+          "pt": "Encontre jardim de flores",
+          "no": "Finn blomsterhage"
         }
       },
       {
-        "prompt": "Find the marina",
-        "target": "marina",
+        "prompt": "Find the spaceport sign",
+        "target": "spaceport-sign-7",
         "translations": {
-          "es": "Encuentra el puerto deportivo",
-          "fr": "LA MARINE",
-          "de": "DIE MARINA",
-          "it": "LA MARINA",
-          "pt": "Encontre o Porto",
-          "no": "Finn marinaen"
+          "es": "Encuentra letrero del puerto espacial",
+          "fr": "Trouve panneau du port spatial",
+          "de": "Finde Weltraumbahnhof-Schild",
+          "it": "Trova insegna dello spazioporto",
+          "pt": "Encontre placa do porto espacial",
+          "no": "Finn skilt til romhavnen"
         }
       },
       {
-        "prompt": "Find the mountains",
-        "target": "mountains",
+        "prompt": "Find the pedestrians",
+        "target": "pedestrians-8",
         "translations": {
-          "es": "La Montaña",
-          "fr": "montagne",
-          "de": "Gebirge",
-          "it": "La Montagna",
-          "pt": "A escola-oficina recupera a montanha",
-          "no": "Finn fjellene"
+          "es": "Encuentra peatones",
+          "fr": "Trouve piétons",
+          "de": "Finde Fußgänger",
+          "it": "Trova pedoni",
+          "pt": "Encontre pedestres",
+          "no": "Finn fotgjengere"
+        }
+      },
+      {
+        "prompt": "Find the city street",
+        "target": "city-street-9",
+        "translations": {
+          "es": "Encuentra calle de la ciudad",
+          "fr": "Trouve rue de la ville",
+          "de": "Finde Stadtstraße",
+          "it": "Trova strada cittadina",
+          "pt": "Encontre rua da cidade",
+          "no": "Finn bygate"
+        }
+      },
+      {
+        "prompt": "Find the futuristic tower",
+        "target": "futuristic-tower-10",
+        "translations": {
+          "es": "Encuentra torre futurista",
+          "fr": "Trouve tour futuriste",
+          "de": "Finde futuristischer Turm",
+          "it": "Trova torre futuristica",
+          "pt": "Encontre torre futurista",
+          "no": "Finn futuristisk tårn"
         }
       }
     ]
@@ -32083,6 +34859,4246 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
           "it": "Trova la roccia nera",
           "pt": "Encontre a rocha negra",
           "no": "Finn den svarte steinen"
+        }
+      }
+    ]
+  },
+  "moon": {
+    "title": "Moon",
+    "image": "images/Moon-Adventure.jpg",
+    "lessons": [
+      {
+        "text": "The Moon crew is exploring the lunar surface in spacesuits while gathering moon surface samples.",
+        "translations": {
+          "es": "La tripulación lunar está explorando la superficie lunar en trajes espaciales mientras recoge muestras de la superficie lunar.",
+          "fr": "L'équipage explore la surface lunaire en combinaison spatiale tandis que l'abeille participe à l'expédition.",
+          "de": "Die Mondbesatzung erkundet die Oberfläche in Raumanzügen, während die Biene an der Expedition teilnimmt.",
+          "it": "L'equipaggio esplora la superficie lunare con tute spaziali mentre l'ape partecipa alla spedizione.",
+          "pt": "A tripulação explora a superfície lunar em trajes espaciais enquanto a abelha participa da expedição.",
+          "no": "Mannskapet utforsker måneoverflaten i romdrakter mens bien blir med på ekspedisjonen."
+        }
+      },
+      {
+        "text": "Astronauts need life-support equipment because the Moon has essentially no breathable atmosphere.",
+        "translations": {
+          "es": "Los astronautas necesitan equipos de soporte vital porque la Luna prácticamente no tiene una atmósfera respirable.",
+          "fr": "Les astronautes ont besoin d'équipements de survie car la Lune n'a pratiquement pas d'atmosphère respirable.",
+          "de": "Astronauten brauchen Lebenserhaltungssysteme, weil der Mond praktisch keine atembare Atmosphäre besitzt.",
+          "it": "Gli astronauti hanno bisogno di sistemi di supporto vitale perché la Luna non ha praticamente un'atmosfera respirabile.",
+          "pt": "Astronautas precisam de sistemas de suporte à vida porque a Lua praticamente não tem atmosfera respirável.",
+          "no": "Astronauter trenger livsoppholdssystemer fordi månen praktisk talt ikke har noen pustbar atmosfære."
+        }
+      },
+      {
+        "text": "The Moon's surface is covered by broken rock and fine material called regolith, with craters and rugged terrain.",
+        "translations": {
+          "es": "La superficie de la Luna está cubierta de roca fragmentada y material fino llamado regolito, además de cráteres y terreno accidentado.",
+          "fr": "La surface de la Lune est couverte de roche fragmentée et d'une matière fine appelée régolithe, avec des cratères et un terrain accidenté.",
+          "de": "Die Mondoberfläche ist mit zerbrochenem Gestein und feinem Material namens Regolith bedeckt und weist Krater sowie unebenes Gelände auf.",
+          "it": "La superficie lunare è coperta da roccia frantumata e materiale fine chiamato regolite, con crateri e terreno accidentato.",
+          "pt": "A superfície da Lua é coberta por rocha fragmentada e material fino chamado regolito, com crateras e terreno irregular.",
+          "no": "Måneoverflaten er dekket av knust stein og fint materiale som kalles regolitt, med kratere og ulendt terreng."
+        }
+      },
+      {
+        "text": "With much weaker gravity than Earth, astronauts would weigh less on the Moon.",
+        "translations": {
+          "es": "Con una gravedad mucho menor que la de la Tierra, los astronautas pesarían menos en la Luna.",
+          "fr": "Avec une gravité beaucoup plus faible que sur Terre, les astronautes pèseraient moins sur la Lune.",
+          "de": "Wegen der viel schwächeren Schwerkraft würden Astronauten auf dem Mond weniger wiegen als auf der Erde.",
+          "it": "Con una gravità molto più debole rispetto alla Terra, gli astronauti peserebbero meno sulla Luna.",
+          "pt": "Com gravidade muito mais fraca que a da Terra, os astronautas pesariam menos na Lua.",
+          "no": "Med mye svakere tyngdekraft enn på jorden ville astronauter veie mindre på månen."
+        }
+      },
+      {
+        "text": "A lunar lander is designed to carry astronauts or equipment between lunar orbit and the Moon's surface.",
+        "translations": {
+          "es": "Un módulo lunar está diseñado para transportar astronautas o equipos entre la órbita lunar y la superficie.",
+          "fr": "Un module lunaire est conçu pour transporter des astronautes ou du matériel entre l'orbite lunaire et la surface.",
+          "de": "Eine Mondlandefähre transportiert Astronauten oder Ausrüstung zwischen der Mondumlaufbahn und der Oberfläche.",
+          "it": "Un modulo lunare è progettato per trasportare astronauti o attrezzature tra l'orbita lunare e la superficie.",
+          "pt": "Um módulo lunar é projetado para transportar astronautas ou equipamentos entre a órbita lunar e a superfície.",
+          "no": "En månelander er laget for å frakte astronauter eller utstyr mellom månebane og overflaten."
+        }
+      },
+      {
+        "text": "Landing safely requires careful navigation because the surface contains rocks, slopes, and craters.",
+        "translations": {
+          "es": "Aterrizar con seguridad requiere una navegación cuidadosa porque hay rocas, pendientes y cráteres.",
+          "fr": "Un atterrissage sûr exige une navigation précise à cause des rochers, pentes et cratères.",
+          "de": "Eine sichere Landung erfordert sorgfältige Navigation wegen Felsen, Hängen und Kratern.",
+          "it": "Atterrare in sicurezza richiede una navigazione attenta a causa di rocce, pendii e crateri.",
+          "pt": "Pousar com segurança exige navegação cuidadosa por causa de rochas, inclinações e crateras.",
+          "no": "En trygg landing krever nøye navigasjon på grunn av steiner, skråninger og kratere."
+        }
+      },
+      {
+        "text": "A lunar rover helps astronauts travel farther across the Moon and carry equipment.",
+        "translations": {
+          "es": "Un vehículo lunar ayuda a los astronautas a viajar más lejos y transportar equipos.",
+          "fr": "Un rover lunaire aide les astronautes à voyager plus loin et à transporter du matériel.",
+          "de": "Ein Mondrover hilft Astronauten, größere Entfernungen zurückzulegen und Ausrüstung zu transportieren.",
+          "it": "Un rover lunare aiuta gli astronauti a viaggiare più lontano e trasportare attrezzature.",
+          "pt": "Um veículo lunar ajuda astronautas a viajar mais longe e transportar equipamentos.",
+          "no": "En månebil hjelper astronauter å reise lenger og frakte utstyr."
+        }
+      },
+      {
+        "text": "Rovers can also support scientific exploration by moving tools, samples, and instruments.",
+        "translations": {
+          "es": "Los vehículos también pueden apoyar la exploración científica moviendo herramientas, muestras e instrumentos.",
+          "fr": "Les rovers peuvent aussi soutenir la recherche scientifique en déplaçant outils, échantillons et instruments.",
+          "de": "Rover können die wissenschaftliche Erforschung unterstützen, indem sie Werkzeuge, Proben und Instrumente bewegen.",
+          "it": "I rover possono sostenere l'esplorazione scientifica spostando strumenti, campioni e attrezzature.",
+          "pt": "Veículos também podem apoiar a exploração científica transportando ferramentas, amostras e instrumentos.",
+          "no": "Rovere kan også støtte vitenskapelig utforskning ved å flytte verktøy, prøver og instrumenter."
+        }
+      },
+      {
+        "text": "Future lunar habitats could give crews protected places to live and work during longer missions.",
+        "translations": {
+          "es": "Los futuros hábitats lunares podrían ofrecer lugares protegidos para vivir y trabajar durante misiones más largas.",
+          "fr": "De futurs habitats lunaires pourraient offrir des espaces protégés pour vivre et travailler pendant des missions plus longues.",
+          "de": "Zukünftige Mondhabitate könnten Besatzungen geschützte Orte zum Leben und Arbeiten während längerer Missionen bieten.",
+          "it": "Futuri habitat lunari potrebbero offrire agli equipaggi luoghi protetti dove vivere e lavorare durante missioni più lunghe.",
+          "pt": "Futuros habitats lunares poderiam oferecer locais protegidos para equipes viverem e trabalharem durante missões mais longas.",
+          "no": "Fremtidige månehabitater kan gi mannskap beskyttede steder å bo og arbeide under lengre oppdrag."
+        }
+      },
+      {
+        "text": "A Moon base would need systems for power, communication, temperature control, air, water, and other supplies.",
+        "translations": {
+          "es": "Una base lunar necesitaría sistemas de energía, comunicación, control de temperatura, aire, agua y otros suministros.",
+          "fr": "Une base lunaire aurait besoin de systèmes pour l'énergie, les communications, la température, l'air, l'eau et d'autres fournitures.",
+          "de": "Eine Mondbasis bräuchte Systeme für Energie, Kommunikation, Temperaturkontrolle, Luft, Wasser und weitere Vorräte.",
+          "it": "Una base lunare avrebbe bisogno di sistemi per energia, comunicazioni, temperatura, aria, acqua e altre risorse.",
+          "pt": "Uma base lunar precisaria de sistemas para energia, comunicação, temperatura, ar, água e outros suprimentos.",
+          "no": "En månebase trenger systemer for strøm, kommunikasjon, temperaturkontroll, luft, vann og andre forsyninger."
+        }
+      },
+      {
+        "text": "From the Moon, Earth appears as a bright world hanging in the dark sky.",
+        "translations": {
+          "es": "Desde la Luna, la Tierra aparece como un mundo brillante suspendido en el cielo oscuro.",
+          "fr": "Depuis la Lune, la Terre apparaît comme un monde lumineux suspendu dans le ciel sombre.",
+          "de": "Vom Mond aus erscheint die Erde als helle Welt am dunklen Himmel.",
+          "it": "Dalla Luna, la Terra appare come un mondo luminoso sospeso nel cielo scuro.",
+          "pt": "Da Lua, a Terra aparece como um mundo brilhante suspenso no céu escuro.",
+          "no": "Fra månen ser jorden ut som en lys verden på den mørke himmelen."
+        }
+      },
+      {
+        "text": "Earth is about 384,400 kilometers, or roughly 239,000 miles, from the Moon on average.",
+        "translations": {
+          "es": "La Tierra está a unos 384.400 kilómetros, aproximadamente 239.000 millas, de la Luna en promedio.",
+          "fr": "La Terre se trouve en moyenne à environ 384 400 kilomètres, soit environ 239 000 miles, de la Lune.",
+          "de": "Die Erde ist im Durchschnitt etwa 384.400 Kilometer vom Mond entfernt.",
+          "it": "La Terra dista in media circa 384.400 chilometri dalla Luna.",
+          "pt": "A Terra fica, em média, a cerca de 384.400 quilômetros da Lua.",
+          "no": "Jorden ligger i gjennomsnitt omtrent 384 400 kilometer fra månen."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "crew",
+        "label": "crew",
+        "x": 22.68,
+        "y": 51.57,
+        "w": 46.47,
+        "h": 20.19,
+        "sound": "",
+        "translations": {
+          "es": "tripulación",
+          "fr": "équipage",
+          "de": "Crew",
+          "it": "crew (troupe/cast)",
+          "pt": "equipa",
+          "no": "crew"
+        }
+      },
+      {
+        "id": "mooncastle",
+        "label": "mooncastle",
+        "x": 41.48,
+        "y": 75.37,
+        "w": 12,
+        "h": 11,
+        "sound": "",
+        "translations": {
+          "es": "mooncastle",
+          "fr": "mooncastle",
+          "de": "mooncastle",
+          "it": "mooncastle",
+          "pt": "mooncastle",
+          "no": "måneslott"
+        }
+      },
+      {
+        "id": "moonrock",
+        "label": "moonrock",
+        "x": 52.58,
+        "y": 82.41,
+        "w": 10,
+        "h": 12,
+        "sound": "",
+        "translations": {
+          "es": "ROCA LUNAR",
+          "fr": "moonrock",
+          "de": "mondgestein",
+          "it": "roccia lunare",
+          "pt": "moonrock",
+          "no": "månestein"
+        }
+      },
+      {
+        "id": "surface",
+        "label": "surface",
+        "x": 73.21,
+        "y": 67.16,
+        "w": 27.45,
+        "h": 20.06,
+        "sound": "",
+        "translations": {
+          "es": "de sellado",
+          "fr": "surface",
+          "de": "Oberfläche",
+          "it": "pistone",
+          "pt": "superfície",
+          "no": "overflaten."
+        }
+      },
+      {
+        "id": "lander",
+        "label": "lander",
+        "x": 1.65,
+        "y": 19.01,
+        "w": 14.58,
+        "h": 23.33,
+        "sound": "",
+        "translations": {
+          "es": "vehículo de aterrizaje",
+          "fr": "module d'atterissage",
+          "de": "Lander",
+          "it": "Lander",
+          "pt": "módulo de aterragem",
+          "no": "Lander"
+        }
+      },
+      {
+        "id": "ladder",
+        "label": "ladder",
+        "x": 18.44,
+        "y": 32.35,
+        "w": 7.06,
+        "h": 11.52,
+        "sound": "",
+        "translations": {
+          "es": "escalera de mano (objeto físico)",
+          "fr": "Échelle",
+          "de": "Leiter",
+          "it": "scala a pioli",
+          "pt": "escada",
+          "no": "stige"
+        }
+      },
+      {
+        "id": "flag",
+        "label": "flag",
+        "x": 38.57,
+        "y": 33.74,
+        "w": 5.99,
+        "h": 11.63,
+        "sound": "",
+        "translations": {
+          "es": "indicador",
+          "fr": "test",
+          "de": "Flagge",
+          "it": "bandiera",
+          "pt": "marcar",
+          "no": "flagg"
+        }
+      },
+      {
+        "id": "rover",
+        "label": "rover",
+        "x": 81.77,
+        "y": 31.03,
+        "w": 23,
+        "h": 22,
+        "sound": "",
+        "translations": {
+          "es": "vehículo todo terreno",
+          "fr": "bancbrocheur",
+          "de": "rover",
+          "it": "Rover",
+          "pt": "operador de banco-têxtil",
+          "no": "Rovers"
+        }
+      },
+      {
+        "id": "antenna",
+        "label": "antenna",
+        "x": 12.17,
+        "y": 5.22,
+        "w": 11,
+        "h": 18,
+        "sound": "",
+        "translations": {
+          "es": "antena",
+          "fr": "Antenne",
+          "de": "Antenne",
+          "it": "antenna",
+          "pt": "antena",
+          "no": "Antenne"
+        }
+      },
+      {
+        "id": "base",
+        "label": "base",
+        "x": 68,
+        "y": 42,
+        "w": 29,
+        "h": 20,
+        "sound": "",
+        "translations": {
+          "es": "Base",
+          "fr": "base",
+          "de": "unedel",
+          "it": "bassa",
+          "pt": "base",
+          "no": "basis"
+        }
+      },
+      {
+        "id": "habitat",
+        "label": "habitat",
+        "x": 72,
+        "y": 42,
+        "w": 18,
+        "h": 17,
+        "sound": "",
+        "translations": {
+          "es": "hábitat",
+          "fr": "habitat",
+          "de": "Habitat",
+          "it": "habitat",
+          "pt": "habitat",
+          "no": "Habitat"
+        }
+      },
+      {
+        "id": "smallrover",
+        "label": "smallrover",
+        "x": 86,
+        "y": 52,
+        "w": 12,
+        "h": 13,
+        "sound": "",
+        "translations": {
+          "es": "smallrover",
+          "fr": "smallrover",
+          "de": "kleinrover",
+          "it": "smallrover",
+          "pt": "smallrover",
+          "no": "litenrover"
+        }
+      },
+      {
+        "id": "instrument",
+        "label": "instrument",
+        "x": 91,
+        "y": 60,
+        "w": 9,
+        "h": 19,
+        "sound": "",
+        "translations": {
+          "es": "instrumento",
+          "fr": "i",
+          "de": "Instrument",
+          "it": "strumento",
+          "pt": "assinatura do",
+          "no": "instrument"
+        }
+      },
+      {
+        "id": "earth",
+        "label": "earth",
+        "x": 60.45,
+        "y": 3.65,
+        "w": 19,
+        "h": 30,
+        "sound": "sounds/one-small-step-for-man.mp3",
+        "translations": {
+          "es": "tierra",
+          "fr": "Terre",
+          "de": "Erde",
+          "it": "terra.",
+          "pt": "terra",
+          "no": "bakke"
+        }
+      },
+      {
+        "id": "sun",
+        "label": "sun",
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 20,
+        "sound": "",
+        "translations": {
+          "es": "dom",
+          "fr": "soleil",
+          "de": "Sonne",
+          "it": "dom",
+          "pt": "eno",
+          "no": "solen"
+        }
+      },
+      {
+        "id": "stars",
+        "label": "stars",
+        "x": 24.51,
+        "y": 6.02,
+        "w": 21.28,
+        "h": 17.72,
+        "sound": "",
+        "translations": {
+          "es": "Estrellas",
+          "fr": "étoiles",
+          "de": "Sterne",
+          "it": "stelle",
+          "pt": "estrelas",
+          "no": "stjerner"
+        }
+      },
+      {
+        "id": "mountains",
+        "label": "mountains",
+        "x": 12.35,
+        "y": 24.89,
+        "w": 41.14,
+        "h": 9.67,
+        "sound": "",
+        "translations": {
+          "es": "montañas",
+          "fr": "montagnes",
+          "de": "Berge",
+          "it": "montagne",
+          "pt": "montanhas",
+          "no": "fjell"
+        }
+      },
+      {
+        "id": "camera",
+        "label": "camera",
+        "x": 2.02,
+        "y": 49.13,
+        "w": 8.34,
+        "h": 18.37,
+        "sound": "",
+        "translations": {
+          "es": "cámara",
+          "fr": "caméra",
+          "de": "Kamera",
+          "it": "Videocamera",
+          "pt": "câmara",
+          "no": "fotoapparat"
+        }
+      },
+      {
+        "id": "tool-case",
+        "label": "tool case",
+        "x": 25.75,
+        "y": 79.89,
+        "w": 17.61,
+        "h": 15.59,
+        "sound": "",
+        "translations": {
+          "es": "cajón para herramientas",
+          "fr": "boîte à outils",
+          "de": "Werkzeugtasche",
+          "it": "porta attrezzi",
+          "pt": "estojo para ferramentas",
+          "no": "Redskap"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find Earth",
+        "target": "earth",
+        "translations": {
+          "es": "Encontrar Tierra",
+          "fr": "Trouver la Terre",
+          "de": "Erde finden",
+          "it": "Trova la Terra",
+          "pt": "Encontrar Terra",
+          "no": "Finn Jorden"
+        }
+      },
+      {
+        "prompt": "Find the American Flag",
+        "target": "flag",
+        "translations": {
+          "es": "La Bandera Americana.",
+          "fr": "Trouvez le drapeau américain",
+          "de": "Finde die amerikanische Flagge",
+          "it": "Trova la bandiera americana",
+          "pt": "Encontre a bandeira americana",
+          "no": "Finn det amerikanske flagget"
+        }
+      },
+      {
+        "prompt": "Find the Lunar Lander",
+        "target": "lander",
+        "translations": {
+          "es": "Encuentra el Lunar Lander",
+          "fr": "Trouvez l'atterrisseur lunaire",
+          "de": "Finde den Mondlander",
+          "it": "Trova il lander lunare",
+          "pt": "Encontre o Lunar Lander",
+          "no": "Finn månelanderen"
+        }
+      },
+      {
+        "prompt": "Find the Moon Rover",
+        "target": "rover",
+        "translations": {
+          "es": "Encuentra el Moon Rover",
+          "fr": "Trouvez le rover lunaire",
+          "de": "Finde den Mond-Rover",
+          "it": "Trova il rover lunare",
+          "pt": "Encontre o Moon Rover",
+          "no": "Finn måneroveren"
+        }
+      },
+      {
+        "prompt": "Find the Moon Castle",
+        "target": "mooncastle",
+        "translations": {
+          "es": "Encuentra el Castillo de la Luna",
+          "fr": "Trouvez le château de la Lune",
+          "de": "Finde das Mondschloss",
+          "it": "Trova il Castello della Luna",
+          "pt": "Encontre o Castelo da Lua",
+          "no": "Finn måneborgen"
+        }
+      }
+    ]
+  },
+  "jungle": {
+    "title": "Jungle",
+    "image": "images/jungle.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "waterfall-4",
+        "label": "waterfall",
+        "x": 44.1611207687283,
+        "y": 31.595292204856804,
+        "w": 12.430719728901629,
+        "h": 23.658207463439815,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cascada",
+          "fr": "cascade",
+          "de": "Wasserfall",
+          "it": "cascata",
+          "pt": "cachoeira",
+          "no": "foss"
+        }
+      },
+      {
+        "id": "tree-branch-8",
+        "label": "tree branch",
+        "x": 18,
+        "y": 0,
+        "w": 35.918368099525985,
+        "h": 7.819822371132936,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rama de árbol",
+          "fr": "branche d’arbre",
+          "de": "Ast",
+          "it": "ramo",
+          "pt": "galho de árvore",
+          "no": "tregren"
+        }
+      },
+      {
+        "id": "jaguar-1",
+        "label": "jaguar",
+        "x": 0,
+        "y": 26,
+        "w": 26.375940265527518,
+        "h": 36.754185758875295,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "jaguar",
+          "fr": "jaguar",
+          "de": "Jaguar",
+          "it": "giaguaro",
+          "pt": "onça-pintada",
+          "no": "jaguar"
+        }
+      },
+      {
+        "id": "sloth-2",
+        "label": "sloth",
+        "x": 23.5606897038328,
+        "y": 0,
+        "w": 19.120298672362406,
+        "h": 24.091891527850578,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "perezoso",
+          "fr": "paresseux",
+          "de": "Faultier",
+          "it": "bradipo",
+          "pt": "bicho-preguiça",
+          "no": "dovendyr"
+        }
+      },
+      {
+        "id": "parrot-3",
+        "label": "parrot",
+        "x": 76,
+        "y": 6,
+        "w": 23.194414594745158,
+        "h": 14.96558643718084,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "loro",
+          "fr": "perroquet",
+          "de": "Papagei",
+          "it": "pappagallo",
+          "pt": "papagaio",
+          "no": "papegøye"
+        }
+      },
+      {
+        "id": "river-5",
+        "label": "river",
+        "x": 54.28570857859461,
+        "y": 54.45722033322791,
+        "w": 12.490872138147278,
+        "h": 10.482104421112899,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "río",
+          "fr": "rivière",
+          "de": "Fluss",
+          "it": "fiume",
+          "pt": "rio",
+          "no": "elv"
+        }
+      },
+      {
+        "id": "butterfly-6",
+        "label": "butterfly",
+        "x": 29,
+        "y": 72,
+        "w": 12.555316757961265,
+        "h": 14.904027118362183,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mariposa",
+          "fr": "papillon",
+          "de": "Schmetterling",
+          "it": "farfalla",
+          "pt": "borboleta",
+          "no": "sommerfugl"
+        }
+      },
+      {
+        "id": "flowers-7",
+        "label": "flowers",
+        "x": 56.80021553244775,
+        "y": 11.555438641587209,
+        "w": 9.48443074923032,
+        "h": 16.065637965707058,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "flores",
+          "fr": "fleurs",
+          "de": "Blumen",
+          "it": "fiori",
+          "pt": "flores",
+          "no": "blomster"
+        }
+      },
+      {
+        "id": "monkey-9",
+        "label": "monkey",
+        "x": 68.1074097483996,
+        "y": 21.377092879437647,
+        "w": 15.534911855907204,
+        "h": 18.861922714573435,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mono",
+          "fr": "singe",
+          "de": "Affe",
+          "it": "scimmia",
+          "pt": "macaco",
+          "no": "ape"
+        }
+      },
+      {
+        "id": "green-leaves-10",
+        "label": "green leaves",
+        "x": 49.71643138056068,
+        "y": 85.53012407558052,
+        "w": 20.583243784235474,
+        "h": 7.873693555880841,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "hojas verdes",
+          "fr": "feuilles vertes",
+          "de": "grüne Blätter",
+          "it": "foglie verdi",
+          "pt": "folhas verdes",
+          "no": "grønne blader"
+        }
+      },
+      {
+        "id": "rocks-12",
+        "label": "logs",
+        "x": 56,
+        "y": 73,
+        "w": 32,
+        "h": 27,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rocas",
+          "fr": "rochers",
+          "de": "Felsen",
+          "it": "rocce",
+          "pt": "rochas",
+          "no": "steiner"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the jaguar",
+        "target": "jaguar-1",
+        "translations": {
+          "es": "Encuentra jaguar",
+          "fr": "Trouve jaguar",
+          "de": "Finde Jaguar",
+          "it": "Trova giaguaro",
+          "pt": "Encontre onça-pintada",
+          "no": "Finn jaguar"
+        }
+      },
+      {
+        "prompt": "Find the sloth",
+        "target": "sloth-2",
+        "translations": {
+          "es": "Encuentra perezoso",
+          "fr": "Trouve paresseux",
+          "de": "Finde Faultier",
+          "it": "Trova bradipo",
+          "pt": "Encontre bicho-preguiça",
+          "no": "Finn dovendyr"
+        }
+      },
+      {
+        "prompt": "Find the parrot",
+        "target": "parrot-3",
+        "translations": {
+          "es": "Encuentra loro",
+          "fr": "Trouve perroquet",
+          "de": "Finde Papagei",
+          "it": "Trova pappagallo",
+          "pt": "Encontre papagaio",
+          "no": "Finn papegøye"
+        }
+      },
+      {
+        "prompt": "Find the waterfall",
+        "target": "waterfall-4",
+        "translations": {
+          "es": "Encuentra cascada",
+          "fr": "Trouve cascade",
+          "de": "Finde Wasserfall",
+          "it": "Trova cascata",
+          "pt": "Encontre cachoeira",
+          "no": "Finn foss"
+        }
+      },
+      {
+        "prompt": "Find the river",
+        "target": "river-5",
+        "translations": {
+          "es": "Encuentra río",
+          "fr": "Trouve rivière",
+          "de": "Finde Fluss",
+          "it": "Trova fiume",
+          "pt": "Encontre rio",
+          "no": "Finn elv"
+        }
+      },
+      {
+        "prompt": "Find the butterfly",
+        "target": "butterfly-6",
+        "translations": {
+          "es": "Encuentra mariposa",
+          "fr": "Trouve papillon",
+          "de": "Finde Schmetterling",
+          "it": "Trova farfalla",
+          "pt": "Encontre borboleta",
+          "no": "Finn sommerfugl"
+        }
+      },
+      {
+        "prompt": "Find the flowers",
+        "target": "flowers-7",
+        "translations": {
+          "es": "Encuentra flores",
+          "fr": "Trouve fleurs",
+          "de": "Finde Blumen",
+          "it": "Trova fiori",
+          "pt": "Encontre flores",
+          "no": "Finn blomster"
+        }
+      },
+      {
+        "prompt": "Find the tree branch",
+        "target": "tree-branch-8",
+        "translations": {
+          "es": "Encuentra rama de árbol",
+          "fr": "Trouve branche d’arbre",
+          "de": "Finde Ast",
+          "it": "Trova ramo",
+          "pt": "Encontre galho de árvore",
+          "no": "Finn tregren"
+        }
+      },
+      {
+        "prompt": "Find the monkey",
+        "target": "monkey-9",
+        "translations": {
+          "es": "Encuentra mono",
+          "fr": "Trouve singe",
+          "de": "Finde Affe",
+          "it": "Trova scimmia",
+          "pt": "Encontre macaco",
+          "no": "Finn ape"
+        }
+      },
+      {
+        "prompt": "Find the green leaves",
+        "target": "green-leaves-10",
+        "translations": {
+          "es": "Encuentra hojas verdes",
+          "fr": "Trouve feuilles vertes",
+          "de": "Finde grüne Blätter",
+          "it": "Trova foglie verdi",
+          "pt": "Encontre folhas verdes",
+          "no": "Finn grønne blader"
+        }
+      }
+    ]
+  },
+  "roller-coaster": {
+    "title": "Roller Coaster",
+    "image": "images/roller-coaster.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "amusement-park-10",
+        "label": "amusement park",
+        "x": 46,
+        "y": 13.212762031867562,
+        "w": 54,
+        "h": 67,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "parque de atracciones",
+          "fr": "parc d'attractions",
+          "de": "Vergnügungspark",
+          "it": "parco divertimenti",
+          "pt": "parque de diversões",
+          "no": "fornøyelsespark"
+        }
+      },
+      {
+        "id": "roller-coaster-track-4",
+        "label": "roller coaster track",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 65,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "vía de montaña rusa",
+          "fr": "rail de montagnes russes",
+          "de": "Achterbahnschiene",
+          "it": "binario delle montagne russe",
+          "pt": "trilho da montanha-russa",
+          "no": "berg-og-dal-bane-skinne"
+        }
+      },
+      {
+        "id": "roller-coaster-car-1",
+        "label": "roller coaster car",
+        "x": 15.28571165165905,
+        "y": 81.3010440725358,
+        "w": 46.0128889239628,
+        "h": 14.346760670405725,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "vagón de montaña rusa",
+          "fr": "wagon de montagnes russes",
+          "de": "Achterbahnwagen",
+          "it": "vagone delle montagne russe",
+          "pt": "carrinho da montanha-russa",
+          "no": "berg-og-dal-banevogn"
+        }
+      },
+      {
+        "id": "front-rider-2",
+        "label": "front rider",
+        "x": 17.19656223656155,
+        "y": 40.56903593581445,
+        "w": 15.48872142326644,
+        "h": 34.1181450899941,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pasajero delantero",
+          "fr": "passager à l'avant",
+          "de": "vorderer Fahrgast",
+          "it": "passeggero davanti",
+          "pt": "passageiro da frente",
+          "no": "passasjer foran"
+        }
+      },
+      {
+        "id": "passenger-3",
+        "label": "passenger",
+        "x": 14.123525512949772,
+        "y": 10.170654921179988,
+        "w": 11.212670318450606,
+        "h": 23.1036637226074,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pasajero",
+          "fr": "passager",
+          "de": "Fahrgast",
+          "it": "passeggero",
+          "pt": "passageiro",
+          "no": "passasjer"
+        }
+      },
+      {
+        "id": "ferris-wheel-5",
+        "label": "ferris wheel",
+        "x": 58.34264643951066,
+        "y": 2.526936945823369,
+        "w": 25.583243784235474,
+        "h": 25.009049487632776,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "noria",
+          "fr": "grande roue",
+          "de": "Riesenrad",
+          "it": "ruota panoramica",
+          "pt": "roda-gigante",
+          "no": "pariserhjul"
+        }
+      },
+      {
+        "id": "carnival-tent-6",
+        "label": "carnival tent",
+        "x": 51.54242783399847,
+        "y": 26.779077967456793,
+        "w": 8.834587020703356,
+        "h": 7.4807538951462185,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "carpa de feria",
+          "fr": "chapiteau de fête foraine",
+          "de": "Jahrmarktzelt",
+          "it": "tenda da luna park",
+          "pt": "tenda de parque de diversões",
+          "no": "tivolitelt"
+        }
+      },
+      {
+        "id": "crowd-7",
+        "label": "crowd",
+        "x": 76.00107458917431,
+        "y": 69.0538630640514,
+        "w": 10.035449150494358,
+        "h": 24.269353216840678,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "multitud",
+          "fr": "foule",
+          "de": "Menschenmenge",
+          "it": "folla",
+          "pt": "multidão",
+          "no": "folkemengde"
+        }
+      },
+      {
+        "id": "blue-sky-8",
+        "label": "blue sky",
+        "x": 45.67024555751658,
+        "y": 0,
+        "w": 9.452199220129998,
+        "h": 14.065637965707056,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cielo azul",
+          "fr": "ciel bleu",
+          "de": "blauer Himmel",
+          "it": "cielo azzurro",
+          "pt": "céu azul",
+          "no": "blå himmel"
+        }
+      },
+      {
+        "id": "safety-bar-9",
+        "label": "safety bar",
+        "x": 10,
+        "y": 71,
+        "w": 52.15252405533384,
+        "h": 8.674055598186206,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "barra de seguridad",
+          "fr": "barre de sécurité",
+          "de": "Sicherheitsbügel",
+          "it": "barra di sicurezza",
+          "pt": "barra de segurança",
+          "no": "sikkerhetsbøyle"
+        }
+      },
+      {
+        "id": "red-rails-11",
+        "label": "red rails",
+        "x": 0,
+        "y": 0,
+        "w": 11.939849895552687,
+        "h": 39.56631864248807,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rieles rojos",
+          "fr": "rails rouges",
+          "de": "rote Schienen",
+          "it": "binari rossi",
+          "pt": "trilhos vermelhos",
+          "no": "røde skinner"
+        }
+      },
+      {
+        "id": "colorful-flags-12",
+        "label": "colorful flags",
+        "x": 70.03329997214574,
+        "y": 57.881854910005906,
+        "w": 17.059071673942455,
+        "h": 5.077407453565047,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "banderas de colores",
+          "fr": "drapeaux colorés",
+          "de": "bunte Fahnen",
+          "it": "bandiere colorate",
+          "pt": "bandeiras coloridas",
+          "no": "fargerike flagg"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the roller coaster car",
+        "target": "roller-coaster-car-1",
+        "translations": {
+          "es": "Encuentra vagón de montaña rusa",
+          "fr": "Trouve wagon de montagnes russes",
+          "de": "Finde Achterbahnwagen",
+          "it": "Trova vagone delle montagne russe",
+          "pt": "Encontre carrinho da montanha-russa",
+          "no": "Finn berg-og-dal-banevogn"
+        }
+      },
+      {
+        "prompt": "Find the front rider",
+        "target": "front-rider-2",
+        "translations": {
+          "es": "Encuentra pasajero delantero",
+          "fr": "Trouve passager à l'avant",
+          "de": "Finde vorderer Fahrgast",
+          "it": "Trova passeggero davanti",
+          "pt": "Encontre passageiro da frente",
+          "no": "Finn passasjer foran"
+        }
+      },
+      {
+        "prompt": "Find the passenger",
+        "target": "passenger-3",
+        "translations": {
+          "es": "Encuentra pasajero",
+          "fr": "Trouve passager",
+          "de": "Finde Fahrgast",
+          "it": "Trova passeggero",
+          "pt": "Encontre passageiro",
+          "no": "Finn passasjer"
+        }
+      },
+      {
+        "prompt": "Find the roller coaster track",
+        "target": "roller-coaster-track-4",
+        "translations": {
+          "es": "Encuentra vía de montaña rusa",
+          "fr": "Trouve rail de montagnes russes",
+          "de": "Finde Achterbahnschiene",
+          "it": "Trova binario delle montagne russe",
+          "pt": "Encontre trilho da montanha-russa",
+          "no": "Finn berg-og-dal-bane-skinne"
+        }
+      },
+      {
+        "prompt": "Find the ferris wheel",
+        "target": "ferris-wheel-5",
+        "translations": {
+          "es": "Encuentra noria",
+          "fr": "Trouve grande roue",
+          "de": "Finde Riesenrad",
+          "it": "Trova ruota panoramica",
+          "pt": "Encontre roda-gigante",
+          "no": "Finn pariserhjul"
+        }
+      },
+      {
+        "prompt": "Find the carnival tent",
+        "target": "carnival-tent-6",
+        "translations": {
+          "es": "Encuentra carpa de feria",
+          "fr": "Trouve chapiteau de fête foraine",
+          "de": "Finde Jahrmarktzelt",
+          "it": "Trova tenda da luna park",
+          "pt": "Encontre tenda de parque de diversões",
+          "no": "Finn tivolitelt"
+        }
+      },
+      {
+        "prompt": "Find the crowd",
+        "target": "crowd-7",
+        "translations": {
+          "es": "Encuentra multitud",
+          "fr": "Trouve foule",
+          "de": "Finde Menschenmenge",
+          "it": "Trova folla",
+          "pt": "Encontre multidão",
+          "no": "Finn folkemengde"
+        }
+      },
+      {
+        "prompt": "Find the blue sky",
+        "target": "blue-sky-8",
+        "translations": {
+          "es": "Encuentra cielo azul",
+          "fr": "Trouve ciel bleu",
+          "de": "Finde blauer Himmel",
+          "it": "Trova cielo azzurro",
+          "pt": "Encontre céu azul",
+          "no": "Finn blå himmel"
+        }
+      },
+      {
+        "prompt": "Find the safety bar",
+        "target": "safety-bar-9",
+        "translations": {
+          "es": "Encuentra barra de seguridad",
+          "fr": "Trouve barre de sécurité",
+          "de": "Finde Sicherheitsbügel",
+          "it": "Trova barra di sicurezza",
+          "pt": "Encontre barra de segurança",
+          "no": "Finn sikkerhetsbøyle"
+        }
+      },
+      {
+        "prompt": "Find the amusement park",
+        "target": "amusement-park-10",
+        "translations": {
+          "es": "Encuentra parque de atracciones",
+          "fr": "Trouve parc d'attractions",
+          "de": "Finde Vergnügungspark",
+          "it": "Trova parco divertimenti",
+          "pt": "Encontre parque de diversões",
+          "no": "Finn fornøyelsespark"
+        }
+      }
+    ]
+  },
+  "sailboat-storm": {
+    "title": "Sailboat Storm",
+    "image": "images/Stormy-Sailboat.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "dark-clouds-9",
+        "label": "dark clouds",
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 35,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "nubes oscuras",
+          "fr": "nuages sombres",
+          "de": "dunkle Wolken",
+          "it": "nuvole scure",
+          "pt": "nuvens escuras",
+          "no": "mørke skyer"
+        }
+      },
+      {
+        "id": "white-sail-2",
+        "label": "white sail",
+        "x": 41.355529217344575,
+        "y": 0,
+        "w": 17.18797013276376,
+        "h": 35.60162169226437,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "vela blanca",
+          "fr": "voile blanche",
+          "de": "weißes Segel",
+          "it": "vela bianca",
+          "pt": "vela branca",
+          "no": "hvitt seil"
+        }
+      },
+      {
+        "id": "sailboat-1",
+        "label": "sailboat",
+        "x": 24.959184049762992,
+        "y": 59.79539661535866,
+        "w": 27.091297056913895,
+        "h": 9.037549829947196,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "velero",
+          "fr": "voilier",
+          "de": "Segelboot",
+          "it": "barca a vela",
+          "pt": "veleiro",
+          "no": "seilbåt"
+        }
+      },
+      {
+        "id": "ocean-waves-3",
+        "label": "ocean waves",
+        "x": 0,
+        "y": 73.8673654219227,
+        "w": 93.0923716460882,
+        "h": 16.522852885137297,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "olas del océano",
+          "fr": "vagues de l’océan",
+          "de": "Meereswellen",
+          "it": "onde dell’oceano",
+          "pt": "ondas do oceano",
+          "no": "havbølger"
+        }
+      },
+      {
+        "id": "lightning-4",
+        "label": "lightning",
+        "x": 78.24919866771593,
+        "y": 1.70303457435261,
+        "w": 19.088077898987635,
+        "h": 30.953816949322846,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "relámpago",
+          "fr": "éclair",
+          "de": "Blitz",
+          "it": "fulmine",
+          "pt": "relâmpago",
+          "no": "lyn"
+        }
+      },
+      {
+        "id": "sailor-5",
+        "label": "sailor",
+        "x": 10.471534142606416,
+        "y": 40.29152542519696,
+        "w": 16,
+        "h": 23,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "marinero",
+          "fr": "marin",
+          "de": "Seemann",
+          "it": "marinaio",
+          "pt": "marinheiro",
+          "no": "sjømann"
+        }
+      },
+      {
+        "id": "mast-6",
+        "label": "mast",
+        "x": 44.08485566799693,
+        "y": 0,
+        "w": 9.764769455017834,
+        "h": 46.30465626661697,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mástil",
+          "fr": "mât",
+          "de": "Mast",
+          "it": "albero maestro",
+          "pt": "mastro",
+          "no": "mast"
+        }
+      },
+      {
+        "id": "rope-7",
+        "label": "rope",
+        "x": 29.325459158850634,
+        "y": 37.98551321881563,
+        "w": 11.158971590379686,
+        "h": 5.789494222449264,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cuerda",
+          "fr": "corde",
+          "de": "Seil",
+          "it": "corda",
+          "pt": "corda",
+          "no": "tau"
+        }
+      },
+      {
+        "id": "boat-hull-8",
+        "label": "boat hull",
+        "x": 4.850696639124633,
+        "y": 62.80805965052203,
+        "w": 22.530613499209977,
+        "h": 13.674061011983875,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "casco del barco",
+          "fr": "coque du bateau",
+          "de": "Bootsrumpf",
+          "it": "scafo della barca",
+          "pt": "casco do barco",
+          "no": "båtskrog"
+        }
+      },
+      {
+        "id": "storm-spray-10",
+        "label": "storm spray",
+        "x": 51.60902163216107,
+        "y": 43.336347122312084,
+        "w": 28.931257023488783,
+        "h": 9.846079993624713,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rocío de la tormenta",
+          "fr": "embruns de tempête",
+          "de": "Sturmgischt",
+          "it": "spruzzi della tempesta",
+          "pt": "respingos da tempestade",
+          "no": "stormsprøyt"
+        }
+      },
+      {
+        "id": "boat-cabin-11",
+        "label": "boat cabin",
+        "x": 30.66594720081935,
+        "y": 47.65821287723748,
+        "w": 8.99033177049568,
+        "h": 12.349477963732102,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cabina del barco",
+          "fr": "cabine du bateau",
+          "de": "Bootskabine",
+          "it": "cabina della barca",
+          "pt": "cabine do barco",
+          "no": "båtkabin"
+        }
+      },
+      {
+        "id": "railing-12",
+        "label": "railing",
+        "x": 7.952739587781593,
+        "y": 53.07741286736272,
+        "w": 36.74435840683489,
+        "h": 6.349477963732102,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "barandilla",
+          "fr": "rambarde",
+          "de": "Geländer",
+          "it": "ringhiera",
+          "pt": "corrimão",
+          "no": "rekkverk"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the sailboat",
+        "target": "sailboat-1",
+        "translations": {
+          "es": "Encuentra velero",
+          "fr": "Trouve voilier",
+          "de": "Finde Segelboot",
+          "it": "Trova barca a vela",
+          "pt": "Encontre veleiro",
+          "no": "Finn seilbåt"
+        }
+      },
+      {
+        "prompt": "Find the white sail",
+        "target": "white-sail-2",
+        "translations": {
+          "es": "Encuentra vela blanca",
+          "fr": "Trouve voile blanche",
+          "de": "Finde weißes Segel",
+          "it": "Trova vela bianca",
+          "pt": "Encontre vela branca",
+          "no": "Finn hvitt seil"
+        }
+      },
+      {
+        "prompt": "Find the ocean waves",
+        "target": "ocean-waves-3",
+        "translations": {
+          "es": "Encuentra olas del océano",
+          "fr": "Trouve vagues de l’océan",
+          "de": "Finde Meereswellen",
+          "it": "Trova onde dell’oceano",
+          "pt": "Encontre ondas do oceano",
+          "no": "Finn havbølger"
+        }
+      },
+      {
+        "prompt": "Find the lightning",
+        "target": "lightning-4",
+        "translations": {
+          "es": "Encuentra relámpago",
+          "fr": "Trouve éclair",
+          "de": "Finde Blitz",
+          "it": "Trova fulmine",
+          "pt": "Encontre relâmpago",
+          "no": "Finn lyn"
+        }
+      },
+      {
+        "prompt": "Find the sailor",
+        "target": "sailor-5",
+        "translations": {
+          "es": "Encuentra marinero",
+          "fr": "Trouve marin",
+          "de": "Finde Seemann",
+          "it": "Trova marinaio",
+          "pt": "Encontre marinheiro",
+          "no": "Finn sjømann"
+        }
+      },
+      {
+        "prompt": "Find the mast",
+        "target": "mast-6",
+        "translations": {
+          "es": "Encuentra mástil",
+          "fr": "Trouve mât",
+          "de": "Finde Mast",
+          "it": "Trova albero maestro",
+          "pt": "Encontre mastro",
+          "no": "Finn mast"
+        }
+      },
+      {
+        "prompt": "Find the rope",
+        "target": "rope-7",
+        "translations": {
+          "es": "Encuentra cuerda",
+          "fr": "Trouve corde",
+          "de": "Finde Seil",
+          "it": "Trova corda",
+          "pt": "Encontre corda",
+          "no": "Finn tau"
+        }
+      },
+      {
+        "prompt": "Find the boat hull",
+        "target": "boat-hull-8",
+        "translations": {
+          "es": "Encuentra casco del barco",
+          "fr": "Trouve coque du bateau",
+          "de": "Finde Bootsrumpf",
+          "it": "Trova scafo della barca",
+          "pt": "Encontre casco do barco",
+          "no": "Finn båtskrog"
+        }
+      },
+      {
+        "prompt": "Find the dark clouds",
+        "target": "dark-clouds-9",
+        "translations": {
+          "es": "Encuentra nubes oscuras",
+          "fr": "Trouve nuages sombres",
+          "de": "Finde dunkle Wolken",
+          "it": "Trova nuvole scure",
+          "pt": "Encontre nuvens escuras",
+          "no": "Finn mørke skyer"
+        }
+      },
+      {
+        "prompt": "Find the storm spray",
+        "target": "storm-spray-10",
+        "translations": {
+          "es": "Encuentra rocío de la tormenta",
+          "fr": "Trouve embruns de tempête",
+          "de": "Finde Sturmgischt",
+          "it": "Trova spruzzi della tempesta",
+          "pt": "Encontre respingos da tempestade",
+          "no": "Finn stormsprøyt"
+        }
+      }
+    ]
+  },
+  "ship-storm": {
+    "title": "Ship Storm",
+    "image": "images/ship-storm.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "ocean-waves-5",
+        "label": "ocean waves",
+        "x": 53.729320304523476,
+        "y": 15.550470507741675,
+        "w": 33.831363253180434,
+        "h": 32.9157911924225,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "olas del océano",
+          "fr": "vagues de l’océan",
+          "de": "Meereswellen",
+          "it": "onde dell’oceano",
+          "pt": "ondas do oceano",
+          "no": "havbølger"
+        }
+      },
+      {
+        "id": "captain-1",
+        "label": "captain",
+        "x": 9.559613578126273,
+        "y": 45.90810576525058,
+        "w": 19.586466015226176,
+        "h": 46.83431050576672,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "capitán",
+          "fr": "capitaine",
+          "de": "Kapitän",
+          "it": "capitano",
+          "pt": "capitão",
+          "no": "kaptein"
+        }
+      },
+      {
+        "id": "ship-wheel-2",
+        "label": "ship wheel",
+        "x": 30.365197446848892,
+        "y": 61.18922305615158,
+        "w": 25,
+        "h": 37,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "timón",
+          "fr": "barre du navire",
+          "de": "Steuerrad",
+          "it": "timone",
+          "pt": "leme",
+          "no": "skipsratt"
+        }
+      },
+      {
+        "id": "crew-member-3",
+        "label": "crew member",
+        "x": 32.12030174542685,
+        "y": 32,
+        "w": 10.578948500602689,
+        "h": 25.116789150229746,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tripulante",
+          "fr": "membre d'équipage",
+          "de": "Besatzungsmitglied",
+          "it": "membro dell'equipaggio",
+          "pt": "tripulante",
+          "no": "besetningsmedlem"
+        }
+      },
+      {
+        "id": "bridge-window-4",
+        "label": "bridge window",
+        "x": 59.452203829726656,
+        "y": 12.205071190897977,
+        "w": 31.41783080493883,
+        "h": 45.52013559181092,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "ventana del puente de mando",
+          "fr": "fenêtre de la passerelle",
+          "de": "Brückenfenster",
+          "it": "finestra del ponte di comando",
+          "pt": "janela da ponte de comando",
+          "no": "vindu på kommandobroen"
+        }
+      },
+      {
+        "id": "radar-screen-6",
+        "label": "radar screen",
+        "x": 56,
+        "y": 69,
+        "w": 20,
+        "h": 29,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pantalla de radar",
+          "fr": "écran radar",
+          "de": "Radarbildschirm",
+          "it": "schermo radar",
+          "pt": "tela de radar",
+          "no": "radarskjerm"
+        }
+      },
+      {
+        "id": "navigation-display-7",
+        "label": "navigation display",
+        "x": 77,
+        "y": 70,
+        "w": 20,
+        "h": 28,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pantalla de navegación",
+          "fr": "écran de navigation",
+          "de": "Navigationsanzeige",
+          "it": "schermo di navigazione",
+          "pt": "tela de navegação",
+          "no": "navigasjonsskjerm"
+        }
+      },
+      {
+        "id": "rain-8",
+        "label": "rain",
+        "x": 67.96133322811161,
+        "y": 0.9434101684763014,
+        "w": 32.038666771888394,
+        "h": 9.504287457064521,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "lluvia",
+          "fr": "pluie",
+          "de": "Regen",
+          "it": "pioggia",
+          "pt": "chuva",
+          "no": "regn"
+        }
+      },
+      {
+        "id": "dark-clouds-9",
+        "label": "dark clouds",
+        "x": 68.08915402469417,
+        "y": 2.0814847470040316,
+        "w": 14.336192758335935,
+        "h": 10.292888132208406,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "nubes oscuras",
+          "fr": "nuages sombres",
+          "de": "dunkle Wolken",
+          "it": "nuvole scure",
+          "pt": "nuvens escuras",
+          "no": "mørke skyer"
+        }
+      },
+      {
+        "id": "control-panel-10",
+        "label": "control panel",
+        "x": 40.37594026552752,
+        "y": 72.01176407406032,
+        "w": 58,
+        "h": 18,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "panel de control",
+          "fr": "panneau de commande",
+          "de": "Bedienfeld",
+          "it": "pannello di controllo",
+          "pt": "painel de controle",
+          "no": "kontrollpanel"
+        }
+      },
+      {
+        "id": "windshield-wiper-11",
+        "label": "windshield wiper",
+        "x": 80.5864675517584,
+        "y": 6.622907120562351,
+        "w": 11.332975136941899,
+        "h": 23.342673902820813,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "limpiaparabrisas",
+          "fr": "essuie-glace",
+          "de": "Scheibenwischer",
+          "it": "tergicristallo",
+          "pt": "limpador de para-brisa",
+          "no": "vindusvisker"
+        }
+      },
+      {
+        "id": "ship-railing-12",
+        "label": "ship railing",
+        "x": 59.60150565406981,
+        "y": 44.64644338937949,
+        "w": 30,
+        "h": 20,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "barandilla del barco",
+          "fr": "rambarde du navire",
+          "de": "Schiffsreling",
+          "it": "ringhiera della nave",
+          "pt": "corrimão do navio",
+          "no": "skipsrekke"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the captain",
+        "target": "captain-1",
+        "translations": {
+          "es": "Encuentra capitán",
+          "fr": "Trouve capitaine",
+          "de": "Finde Kapitän",
+          "it": "Trova capitano",
+          "pt": "Encontre capitão",
+          "no": "Finn kaptein"
+        }
+      },
+      {
+        "prompt": "Find the ship wheel",
+        "target": "ship-wheel-2",
+        "translations": {
+          "es": "Encuentra timón",
+          "fr": "Trouve barre du navire",
+          "de": "Finde Steuerrad",
+          "it": "Trova timone",
+          "pt": "Encontre leme",
+          "no": "Finn skipsratt"
+        }
+      },
+      {
+        "prompt": "Find the crew member",
+        "target": "crew-member-3",
+        "translations": {
+          "es": "Encuentra tripulante",
+          "fr": "Trouve membre d'équipage",
+          "de": "Finde Besatzungsmitglied",
+          "it": "Trova membro dell'equipaggio",
+          "pt": "Encontre tripulante",
+          "no": "Finn besetningsmedlem"
+        }
+      },
+      {
+        "prompt": "Find the bridge window",
+        "target": "bridge-window-4",
+        "translations": {
+          "es": "Encuentra ventana del puente de mando",
+          "fr": "Trouve fenêtre de la passerelle",
+          "de": "Finde Brückenfenster",
+          "it": "Trova finestra del ponte di comando",
+          "pt": "Encontre janela da ponte de comando",
+          "no": "Finn vindu på kommandobroen"
+        }
+      },
+      {
+        "prompt": "Find the ocean waves",
+        "target": "ocean-waves-5",
+        "translations": {
+          "es": "Encuentra olas del océano",
+          "fr": "Trouve vagues de l’océan",
+          "de": "Finde Meereswellen",
+          "it": "Trova onde dell’oceano",
+          "pt": "Encontre ondas do oceano",
+          "no": "Finn havbølger"
+        }
+      },
+      {
+        "prompt": "Find the radar screen",
+        "target": "radar-screen-6",
+        "translations": {
+          "es": "Encuentra pantalla de radar",
+          "fr": "Trouve écran radar",
+          "de": "Finde Radarbildschirm",
+          "it": "Trova schermo radar",
+          "pt": "Encontre tela de radar",
+          "no": "Finn radarskjerm"
+        }
+      },
+      {
+        "prompt": "Find the navigation display",
+        "target": "navigation-display-7",
+        "translations": {
+          "es": "Encuentra pantalla de navegación",
+          "fr": "Trouve écran de navigation",
+          "de": "Finde Navigationsanzeige",
+          "it": "Trova schermo di navigazione",
+          "pt": "Encontre tela de navegação",
+          "no": "Finn navigasjonsskjerm"
+        }
+      },
+      {
+        "prompt": "Find the rain",
+        "target": "rain-8",
+        "translations": {
+          "es": "Encuentra lluvia",
+          "fr": "Trouve pluie",
+          "de": "Finde Regen",
+          "it": "Trova pioggia",
+          "pt": "Encontre chuva",
+          "no": "Finn regn"
+        }
+      },
+      {
+        "prompt": "Find the dark clouds",
+        "target": "dark-clouds-9",
+        "translations": {
+          "es": "Encuentra nubes oscuras",
+          "fr": "Trouve nuages sombres",
+          "de": "Finde dunkle Wolken",
+          "it": "Trova nuvole scure",
+          "pt": "Encontre nuvens escuras",
+          "no": "Finn mørke skyer"
+        }
+      },
+      {
+        "prompt": "Find the control panel",
+        "target": "control-panel-10",
+        "translations": {
+          "es": "Encuentra panel de control",
+          "fr": "Trouve panneau de commande",
+          "de": "Finde Bedienfeld",
+          "it": "Trova pannello di controllo",
+          "pt": "Encontre painel de controle",
+          "no": "Finn kontrollpanel"
+        }
+      }
+    ]
+  },
+  "ship-wreck": {
+    "title": "Ship Wreck",
+    "image": "images/shipwreck.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "shipwreck-1",
+        "label": "shipwreck",
+        "x": 44.413535521306045,
+        "y": 25.232691520401193,
+        "w": 27.902249261911383,
+        "h": 21.703918647512072,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "naufragio",
+          "fr": "épave",
+          "de": "Schiffswrack",
+          "it": "relitto",
+          "pt": "naufrágio",
+          "no": "skipsvrak"
+        }
+      },
+      {
+        "id": "scuba-diver-2",
+        "label": "scuba diver",
+        "x": 26.208379644414485,
+        "y": 52.32322169468975,
+        "w": 10.512350092843423,
+        "h": 29.038020343102676,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/scuba-diver.mp3",
+        "translations": {
+          "es": "buceador",
+          "fr": "plongeur",
+          "de": "Taucher",
+          "it": "subacqueo",
+          "pt": "mergulhador",
+          "no": "dykker"
+        }
+      },
+      {
+        "id": "second-diver-3",
+        "label": "second diver",
+        "x": 5.082705721382208,
+        "y": 49.64508203581747,
+        "w": 10.693877300158004,
+        "h": 25.323221694689746,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "segundo buzo",
+          "fr": "deuxième plongeur",
+          "de": "zweiter Taucher",
+          "it": "secondo subacqueo",
+          "pt": "segundo mergulhador",
+          "no": "andre dykker"
+        }
+      },
+      {
+        "id": "sea-turtle-4",
+        "label": "sea turtle",
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 26,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tortuga marina",
+          "fr": "tortue de mer",
+          "de": "Meeresschildkröte",
+          "it": "tartaruga marina",
+          "pt": "tartaruga marinha",
+          "no": "havskilpadde"
+        }
+      },
+      {
+        "id": "shark-5",
+        "label": "shark",
+        "x": 76,
+        "y": 1,
+        "w": 24,
+        "h": 18,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tiburón",
+          "fr": "requin",
+          "de": "Hai",
+          "it": "squalo",
+          "pt": "tubarão",
+          "no": "hai"
+        }
+      },
+      {
+        "id": "coral-reef-6",
+        "label": "coral reef",
+        "x": 0,
+        "y": 79,
+        "w": 60,
+        "h": 20,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "arrecife de coral",
+          "fr": "récif corallien",
+          "de": "Korallenriff",
+          "it": "barriera corallina",
+          "pt": "recife de coral",
+          "no": "korallrev"
+        }
+      },
+      {
+        "id": "tropical-fish-7",
+        "label": "tropical fish",
+        "x": 37.74006619626655,
+        "y": 69.33770847587411,
+        "w": 20.864663225326183,
+        "h": 14.200997957807244,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "peces tropicales",
+          "fr": "poissons tropicaux",
+          "de": "tropische Fische",
+          "it": "pesci tropicali",
+          "pt": "peixes tropicais",
+          "no": "tropiske fisk"
+        }
+      },
+      {
+        "id": "ship-mast-8",
+        "label": "ship mast",
+        "x": 63.226639977716594,
+        "y": 0,
+        "w": 3.962398598092585,
+        "h": 23.89994576457495,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "mástil del barco",
+          "fr": "mât du navire",
+          "de": "Schiffsmast",
+          "it": "albero della nave",
+          "pt": "mastro do navio",
+          "no": "skipsmast"
+        }
+      },
+      {
+        "id": "wooden-hull-9",
+        "label": "wooden hull",
+        "x": 56.974222152074404,
+        "y": 55.0552298314111,
+        "w": 20.70461704577219,
+        "h": 20.26527456995228,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "casco de madera",
+          "fr": "coque en bois",
+          "de": "Holzrumpf",
+          "it": "scafo di legno",
+          "pt": "casco de madeira",
+          "no": "treskrog"
+        }
+      },
+      {
+        "id": "blue-water-10",
+        "label": "blue water",
+        "x": 50.697101067680926,
+        "y": 3.973745084407061,
+        "w": 6.400640451214366,
+        "h": 14.700314574127395,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "agua azul",
+          "fr": "eau bleue",
+          "de": "blaues Wasser",
+          "it": "acqua blu",
+          "pt": "água azul",
+          "no": "blått vann"
+        }
+      },
+      {
+        "id": "air-tank-11",
+        "label": "air tank",
+        "x": 4.1331899011235365,
+        "y": 43.68446914627984,
+        "w": 6.407089522792427,
+        "h": 9.496596616094937,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tanque de aire",
+          "fr": "bouteille d'air",
+          "de": "Druckluftflasche",
+          "it": "bombola d'aria",
+          "pt": "cilindro de ar",
+          "no": "lufttank"
+        }
+      },
+      {
+        "id": "sea-plants-12",
+        "label": "sea plants",
+        "x": 80,
+        "y": 80,
+        "w": 19,
+        "h": 19,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "plantas marinas",
+          "fr": "plantes marines",
+          "de": "Meerespflanzen",
+          "it": "piante marine",
+          "pt": "plantas marinhas",
+          "no": "sjøplanter"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the shipwreck",
+        "target": "shipwreck-1",
+        "translations": {
+          "es": "Encuentra naufragio",
+          "fr": "Trouve épave",
+          "de": "Finde Schiffswrack",
+          "it": "Trova relitto",
+          "pt": "Encontre naufrágio",
+          "no": "Finn skipsvrak"
+        }
+      },
+      {
+        "prompt": "Find the scuba diver",
+        "target": "scuba-diver-2",
+        "translations": {
+          "es": "Encuentra buceador",
+          "fr": "Trouve plongeur",
+          "de": "Finde Taucher",
+          "it": "Trova subacqueo",
+          "pt": "Encontre mergulhador",
+          "no": "Finn dykker"
+        }
+      },
+      {
+        "prompt": "Find the second diver",
+        "target": "second-diver-3",
+        "translations": {
+          "es": "Encuentra segundo buzo",
+          "fr": "Trouve deuxième plongeur",
+          "de": "Finde zweiter Taucher",
+          "it": "Trova secondo subacqueo",
+          "pt": "Encontre segundo mergulhador",
+          "no": "Finn andre dykker"
+        }
+      },
+      {
+        "prompt": "Find the sea turtle",
+        "target": "sea-turtle-4",
+        "translations": {
+          "es": "Encuentra tortuga marina",
+          "fr": "Trouve tortue de mer",
+          "de": "Finde Meeresschildkröte",
+          "it": "Trova tartaruga marina",
+          "pt": "Encontre tartaruga marinha",
+          "no": "Finn havskilpadde"
+        }
+      },
+      {
+        "prompt": "Find the shark",
+        "target": "shark-5",
+        "translations": {
+          "es": "Encuentra tiburón",
+          "fr": "Trouve requin",
+          "de": "Finde Hai",
+          "it": "Trova squalo",
+          "pt": "Encontre tubarão",
+          "no": "Finn hai"
+        }
+      },
+      {
+        "prompt": "Find the coral reef",
+        "target": "coral-reef-6",
+        "translations": {
+          "es": "Encuentra arrecife de coral",
+          "fr": "Trouve récif corallien",
+          "de": "Finde Korallenriff",
+          "it": "Trova barriera corallina",
+          "pt": "Encontre recife de coral",
+          "no": "Finn korallrev"
+        }
+      },
+      {
+        "prompt": "Find the tropical fish",
+        "target": "tropical-fish-7",
+        "translations": {
+          "es": "Encuentra peces tropicales",
+          "fr": "Trouve poissons tropicaux",
+          "de": "Finde tropische Fische",
+          "it": "Trova pesci tropicali",
+          "pt": "Encontre peixes tropicais",
+          "no": "Finn tropiske fisk"
+        }
+      },
+      {
+        "prompt": "Find the ship mast",
+        "target": "ship-mast-8",
+        "translations": {
+          "es": "Encuentra mástil del barco",
+          "fr": "Trouve mât du navire",
+          "de": "Finde Schiffsmast",
+          "it": "Trova albero della nave",
+          "pt": "Encontre mastro do navio",
+          "no": "Finn skipsmast"
+        }
+      },
+      {
+        "prompt": "Find the wooden hull",
+        "target": "wooden-hull-9",
+        "translations": {
+          "es": "Encuentra casco de madera",
+          "fr": "Trouve coque en bois",
+          "de": "Finde Holzrumpf",
+          "it": "Trova scafo di legno",
+          "pt": "Encontre casco de madeira",
+          "no": "Finn treskrog"
+        }
+      },
+      {
+        "prompt": "Find the blue water",
+        "target": "blue-water-10",
+        "translations": {
+          "es": "Encuentra agua azul",
+          "fr": "Trouve eau bleue",
+          "de": "Finde blaues Wasser",
+          "it": "Trova acqua blu",
+          "pt": "Encontre água azul",
+          "no": "Finn blått vann"
+        }
+      }
+    ]
+  },
+  "safari": {
+    "title": "Safari",
+    "image": "images/safari.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "safari-jeep-1",
+        "label": "safari jeep",
+        "x": 7.894739429949004,
+        "y": 80.53373288603815,
+        "w": 48.21267339151505,
+        "h": 19.466267113961848,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "jeep de safari",
+          "fr": "jeep de safari",
+          "de": "Safari-Jeep",
+          "it": "jeep da safari",
+          "pt": "jipe de safári",
+          "no": "safarijeep"
+        }
+      },
+      {
+        "id": "driver-2",
+        "label": "driver",
+        "x": 0,
+        "y": 25,
+        "w": 22,
+        "h": 55,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "conductor",
+          "fr": "conducteur",
+          "de": "Fahrer",
+          "it": "autista",
+          "pt": "motorista",
+          "no": "sjåfør"
+        }
+      },
+      {
+        "id": "tourist-3",
+        "label": "tourist",
+        "x": 24.509130934917167,
+        "y": 17.307373559943354,
+        "w": 23,
+        "h": 41,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "turista",
+          "fr": "touriste",
+          "de": "Tourist",
+          "it": "turista",
+          "pt": "turista",
+          "no": "turist"
+        }
+      },
+      {
+        "id": "binoculars-4",
+        "label": "binoculars",
+        "x": 11.129967670132839,
+        "y": 61.66365287768791,
+        "w": 14,
+        "h": 20,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "binoculares",
+          "fr": "jumelles",
+          "de": "Fernglas",
+          "it": "binocolo",
+          "pt": "binóculos",
+          "no": "kikkert"
+        }
+      },
+      {
+        "id": "elephant-5",
+        "label": "elephant",
+        "x": 57,
+        "y": 23,
+        "w": 20.0794827221254,
+        "h": 18.831587798642673,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "elefante",
+          "fr": "éléphant",
+          "de": "Elefant",
+          "it": "elefante",
+          "pt": "elefante",
+          "no": "elefant"
+        }
+      },
+      {
+        "id": "giraffe-6",
+        "label": "giraffe",
+        "x": 82.22234162101937,
+        "y": 14.745136271242524,
+        "w": 13.174009692691097,
+        "h": 14.262549155929392,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "jirafa",
+          "fr": "girafe",
+          "de": "Giraffe",
+          "it": "giraffa",
+          "pt": "girafa",
+          "no": "sjiraff"
+        }
+      },
+      {
+        "id": "zebra-7",
+        "label": "zebra",
+        "x": 78.18152567078236,
+        "y": 34.92892203384251,
+        "w": 21.281419441090705,
+        "h": 14.726568136270917,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cebra",
+          "fr": "zèbre",
+          "de": "Zebra",
+          "it": "zebra",
+          "pt": "zebra",
+          "no": "sebra"
+        }
+      },
+      {
+        "id": "waterhole-8",
+        "label": "waterhole",
+        "x": 60.557459790181,
+        "y": 49.40199050181681,
+        "w": 37.818474329217636,
+        "h": 12.726568136270917,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "abrevadero",
+          "fr": "point d'eau",
+          "de": "Wasserstelle",
+          "it": "pozza d'acqua",
+          "pt": "bebedouro natural",
+          "no": "vannhull"
+        }
+      },
+      {
+        "id": "acacia-tree-9",
+        "label": "acacia tree",
+        "x": 50.268524370999025,
+        "y": 3.595293558306222,
+        "w": 8.100968359482653,
+        "h": 19.145765419497316,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "acacia",
+          "fr": "acacia",
+          "de": "Akazie",
+          "it": "acacia",
+          "pt": "acácia",
+          "no": "akasietre"
+        }
+      },
+      {
+        "id": "savanna-grass-10",
+        "label": "savanna grass",
+        "x": 69.02470325875129,
+        "y": 71.6070616927148,
+        "w": 28,
+        "h": 22,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "hierba de la sabana",
+          "fr": "herbe de la savane",
+          "de": "Savannengras",
+          "it": "erba della savana",
+          "pt": "capim da savana",
+          "no": "savannegress"
+        }
+      },
+      {
+        "id": "camera-11",
+        "label": "camera",
+        "x": 22.842106071859064,
+        "y": 19.965583730282006,
+        "w": 8.83136632624488,
+        "h": 10.37709287943765,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cámara",
+          "fr": "appareil photo",
+          "de": "Kamera",
+          "it": "macchina fotografica",
+          "pt": "câmera",
+          "no": "kamera"
+        }
+      },
+      {
+        "id": "hat-12",
+        "label": "hat",
+        "x": 5,
+        "y": 25,
+        "w": 15,
+        "h": 15,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "sombrero",
+          "fr": "chapeau",
+          "de": "Hut",
+          "it": "cappello",
+          "pt": "chapéu",
+          "no": "hatt"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the safari jeep",
+        "target": "safari-jeep-1",
+        "translations": {
+          "es": "Encuentra jeep de safari",
+          "fr": "Trouve jeep de safari",
+          "de": "Finde Safari-Jeep",
+          "it": "Trova jeep da safari",
+          "pt": "Encontre jipe de safári",
+          "no": "Finn safarijeep"
+        }
+      },
+      {
+        "prompt": "Find the driver",
+        "target": "driver-2",
+        "translations": {
+          "es": "Encuentra conductor",
+          "fr": "Trouve conducteur",
+          "de": "Finde Fahrer",
+          "it": "Trova autista",
+          "pt": "Encontre motorista",
+          "no": "Finn sjåfør"
+        }
+      },
+      {
+        "prompt": "Find the tourist",
+        "target": "tourist-3",
+        "translations": {
+          "es": "Encuentra turista",
+          "fr": "Trouve touriste",
+          "de": "Finde Tourist",
+          "it": "Trova turista",
+          "pt": "Encontre turista",
+          "no": "Finn turist"
+        }
+      },
+      {
+        "prompt": "Find the binoculars",
+        "target": "binoculars-4",
+        "translations": {
+          "es": "Encuentra binoculares",
+          "fr": "Trouve jumelles",
+          "de": "Finde Fernglas",
+          "it": "Trova binocolo",
+          "pt": "Encontre binóculos",
+          "no": "Finn kikkert"
+        }
+      },
+      {
+        "prompt": "Find the elephant",
+        "target": "elephant-5",
+        "translations": {
+          "es": "Encuentra elefante",
+          "fr": "Trouve éléphant",
+          "de": "Finde Elefant",
+          "it": "Trova elefante",
+          "pt": "Encontre elefante",
+          "no": "Finn elefant"
+        }
+      },
+      {
+        "prompt": "Find the giraffe",
+        "target": "giraffe-6",
+        "translations": {
+          "es": "Encuentra jirafa",
+          "fr": "Trouve girafe",
+          "de": "Finde Giraffe",
+          "it": "Trova giraffa",
+          "pt": "Encontre girafa",
+          "no": "Finn sjiraff"
+        }
+      },
+      {
+        "prompt": "Find the zebra",
+        "target": "zebra-7",
+        "translations": {
+          "es": "Encuentra cebra",
+          "fr": "Trouve zèbre",
+          "de": "Finde Zebra",
+          "it": "Trova zebra",
+          "pt": "Encontre zebra",
+          "no": "Finn sebra"
+        }
+      },
+      {
+        "prompt": "Find the waterhole",
+        "target": "waterhole-8",
+        "translations": {
+          "es": "Encuentra abrevadero",
+          "fr": "Trouve point d'eau",
+          "de": "Finde Wasserstelle",
+          "it": "Trova pozza d'acqua",
+          "pt": "Encontre bebedouro natural",
+          "no": "Finn vannhull"
+        }
+      },
+      {
+        "prompt": "Find the acacia tree",
+        "target": "acacia-tree-9",
+        "translations": {
+          "es": "Encuentra acacia",
+          "fr": "Trouve acacia",
+          "de": "Finde Akazie",
+          "it": "Trova acacia",
+          "pt": "Encontre acácia",
+          "no": "Finn akasietre"
+        }
+      },
+      {
+        "prompt": "Find the savanna grass",
+        "target": "savanna-grass-10",
+        "translations": {
+          "es": "Encuentra hierba de la sabana",
+          "fr": "Trouve herbe de la savane",
+          "de": "Finde Savannengras",
+          "it": "Trova erba della savana",
+          "pt": "Encontre capim da savana",
+          "no": "Finn savannegress"
+        }
+      }
+    ]
+  },
+  "shopping-mall": {
+    "title": "Shopping Mall",
+    "image": "images/shopping-mall.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "family-11",
+        "label": "family",
+        "x": 13.509127861852726,
+        "y": 42.10277152875144,
+        "w": 57.85499192275742,
+        "h": 46.57672136298636,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "familia",
+          "fr": "famille",
+          "de": "Familie",
+          "it": "famiglia",
+          "pt": "família",
+          "no": "familie"
+        }
+      },
+      {
+        "id": "shopping-cart-1",
+        "label": "shopping cart",
+        "x": 11.922664919690993,
+        "y": 83.46129898011631,
+        "w": 31.91621892117737,
+        "h": 16.53870101988369,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "carrito de compras",
+          "fr": "chariot",
+          "de": "Einkaufswagen",
+          "it": "carrello",
+          "pt": "carrinho de compras",
+          "no": "handlevogn"
+        }
+      },
+      {
+        "id": "mother-2",
+        "label": "mother",
+        "x": 23.327605264134807,
+        "y": 39.487552542259834,
+        "w": 16.092371646088196,
+        "h": 31.22452610592788,
+        "rotation": 0,
+        "z": 0,
+        "sound": "sounds/talking-people.mp3",
+        "translations": {
+          "es": "madre",
+          "fr": "mère",
+          "de": "Mutter",
+          "it": "madre",
+          "pt": "mãe",
+          "no": "mor"
+        }
+      },
+      {
+        "id": "child-3",
+        "label": "child",
+        "x": 47.67024863058103,
+        "y": 51.10773966259697,
+        "w": 12.218043264322139,
+        "h": 38.377090172538814,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "niño",
+          "fr": "enfant",
+          "de": "Kind",
+          "it": "bambino",
+          "pt": "criança",
+          "no": "barn"
+        }
+      },
+      {
+        "id": "shopping-bags-4",
+        "label": "shopping bags",
+        "x": 78.51879916442148,
+        "y": 67.94612610835327,
+        "w": 7.914075888957644,
+        "h": 32.05387389164674,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "bolsas de compras",
+          "fr": "sacs de courses",
+          "de": "Einkaufstaschen",
+          "it": "borse della spesa",
+          "pt": "sacolas de compras",
+          "no": "handleposer"
+        }
+      },
+      {
+        "id": "clothing-store-5",
+        "label": "clothing store",
+        "x": 0,
+        "y": 0,
+        "w": 22.755102762045738,
+        "h": 34.53870101988369,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "tienda de ropa",
+          "fr": "magasin de vêtements",
+          "de": "Bekleidungsgeschäft",
+          "it": "negozio di abbigliamento",
+          "pt": "loja de roupas",
+          "no": "klesbutikk"
+        }
+      },
+      {
+        "id": "sale-sign-6",
+        "label": "sale sign",
+        "x": 18.659507348434616,
+        "y": 26.13535457830252,
+        "w": 6.179376492433747,
+        "h": 13.714798648412929,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cartel de rebajas",
+          "fr": "panneau de soldes",
+          "de": "Sonderangebotsschild",
+          "it": "cartello dei saldi",
+          "pt": "placa de promoção",
+          "no": "salgsskilt"
+        }
+      },
+      {
+        "id": "glass-roof-7",
+        "label": "glass roof",
+        "x": 71.6401724259582,
+        "y": 0,
+        "w": 7.273897316870557,
+        "h": 17.17337492140519,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "techo de cristal",
+          "fr": "toit en verre",
+          "de": "Glasdach",
+          "it": "tetto di vetro",
+          "pt": "telhado de vidro",
+          "no": "glasstak"
+        }
+      },
+      {
+        "id": "palm-tree-8",
+        "label": "palm tree",
+        "x": 55.83888230433614,
+        "y": 0,
+        "w": 5.693877300158004,
+        "h": 45.3494779637321,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "palmera",
+          "fr": "palmier",
+          "de": "Palme",
+          "it": "palma",
+          "pt": "palmeira",
+          "no": "palmetre"
+        }
+      },
+      {
+        "id": "shop-window-10",
+        "label": "shop window",
+        "x": 27.133187596325207,
+        "y": 20.892257630504194,
+        "w": 11.555316757961265,
+        "h": 8.696233220340154,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "escaparate",
+          "fr": "vitrine de magasin",
+          "de": "Schaufenster",
+          "it": "vetrina del negozio",
+          "pt": "vitrine de loja",
+          "no": "butikkvindu"
+        }
+      },
+      {
+        "id": "teddy-bear-12",
+        "label": "teddy bear",
+        "x": 52.77765837898063,
+        "y": 60.82390101802134,
+        "w": 7.138560542196739,
+        "h": 27.135355931751935,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "oso de peluche",
+          "fr": "ours en peluche",
+          "de": "Teddybär",
+          "it": "orsacchiotto",
+          "pt": "ursinho de pelúcia",
+          "no": "teddybjørn"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the shopping cart",
+        "target": "shopping-cart-1",
+        "translations": {
+          "es": "Encuentra carrito de compras",
+          "fr": "Trouve chariot",
+          "de": "Finde Einkaufswagen",
+          "it": "Trova carrello",
+          "pt": "Encontre carrinho de compras",
+          "no": "Finn handlevogn"
+        }
+      },
+      {
+        "prompt": "Find the mother",
+        "target": "mother-2",
+        "translations": {
+          "es": "Encuentra madre",
+          "fr": "Trouve mère",
+          "de": "Finde Mutter",
+          "it": "Trova madre",
+          "pt": "Encontre mãe",
+          "no": "Finn mor"
+        }
+      },
+      {
+        "prompt": "Find the child",
+        "target": "child-3",
+        "translations": {
+          "es": "Encuentra niño",
+          "fr": "Trouve enfant",
+          "de": "Finde Kind",
+          "it": "Trova bambino",
+          "pt": "Encontre criança",
+          "no": "Finn barn"
+        }
+      },
+      {
+        "prompt": "Find the shopping bags",
+        "target": "shopping-bags-4",
+        "translations": {
+          "es": "Encuentra bolsas de compras",
+          "fr": "Trouve sacs de courses",
+          "de": "Finde Einkaufstaschen",
+          "it": "Trova borse della spesa",
+          "pt": "Encontre sacolas de compras",
+          "no": "Finn handleposer"
+        }
+      },
+      {
+        "prompt": "Find the clothing store",
+        "target": "clothing-store-5",
+        "translations": {
+          "es": "Encuentra tienda de ropa",
+          "fr": "Trouve magasin de vêtements",
+          "de": "Finde Bekleidungsgeschäft",
+          "it": "Trova negozio di abbigliamento",
+          "pt": "Encontre loja de roupas",
+          "no": "Finn klesbutikk"
+        }
+      },
+      {
+        "prompt": "Find the sale sign",
+        "target": "sale-sign-6",
+        "translations": {
+          "es": "Encuentra cartel de rebajas",
+          "fr": "Trouve panneau de soldes",
+          "de": "Finde Sonderangebotsschild",
+          "it": "Trova cartello dei saldi",
+          "pt": "Encontre placa de promoção",
+          "no": "Finn salgsskilt"
+        }
+      },
+      {
+        "prompt": "Find the glass roof",
+        "target": "glass-roof-7",
+        "translations": {
+          "es": "Encuentra techo de cristal",
+          "fr": "Trouve toit en verre",
+          "de": "Finde Glasdach",
+          "it": "Trova tetto di vetro",
+          "pt": "Encontre telhado de vidro",
+          "no": "Finn glasstak"
+        }
+      },
+      {
+        "prompt": "Find the palm tree",
+        "target": "palm-tree-8",
+        "translations": {
+          "es": "Encuentra palmera",
+          "fr": "Trouve palmier",
+          "de": "Finde Palme",
+          "it": "Trova palma",
+          "pt": "Encontre palmeira",
+          "no": "Finn palmetre"
+        }
+      },
+      {
+        "prompt": "Find the escalator",
+        "target": "escalator-9",
+        "translations": {
+          "es": "Encuentra escalera mecánica",
+          "fr": "Trouve escalier mécanique",
+          "de": "Finde Rolltreppe",
+          "it": "Trova scala mobile",
+          "pt": "Encontre escada rolante",
+          "no": "Finn rulletrapp"
+        }
+      },
+      {
+        "prompt": "Find the shop window",
+        "target": "shop-window-10",
+        "translations": {
+          "es": "Encuentra escaparate",
+          "fr": "Trouve vitrine de magasin",
+          "de": "Finde Schaufenster",
+          "it": "Trova vetrina del negozio",
+          "pt": "Encontre vitrine de loja",
+          "no": "Finn butikkvindu"
+        }
+      }
+    ]
+  },
+  "ski-jump": {
+    "title": "Ski Jump",
+    "image": "images/ski-jump.jpg",
+    "lessons": [
+      {
+        "text": "Look carefully at this scene.",
+        "translations": {
+          "es": "Observa esta escena con atención.",
+          "fr": "Observe attentivement cette scène.",
+          "de": "Schau dir diese Szene genau an.",
+          "it": "Osserva attentamente questa scena.",
+          "pt": "Observe esta cena com atenção.",
+          "no": "Se nøye på denne scenen."
+        }
+      },
+      {
+        "text": "What can you see in this picture?",
+        "translations": {
+          "es": "¿Qué puedes ver en esta imagen?",
+          "fr": "Que vois-tu sur cette image ?",
+          "de": "Was kannst du auf diesem Bild sehen?",
+          "it": "Che cosa riesci a vedere in questa immagine?",
+          "pt": "O que você consegue ver nesta imagem?",
+          "no": "Hva kan du se på dette bildet?"
+        }
+      },
+      {
+        "text": "There are many interesting details here.",
+        "translations": {
+          "es": "Hay muchos detalles interesantes aquí.",
+          "fr": "Il y a beaucoup de détails intéressants ici.",
+          "de": "Hier gibt es viele interessante Einzelheiten.",
+          "it": "Qui ci sono molti dettagli interessanti.",
+          "pt": "Há muitos detalhes interessantes aqui.",
+          "no": "Det er mange interessante detaljer her."
+        }
+      },
+      {
+        "text": "Look at the objects in the picture.",
+        "translations": {
+          "es": "Mira los objetos de la imagen.",
+          "fr": "Regarde les objets sur cette image.",
+          "de": "Sieh dir die Gegenstände auf dem Bild an.",
+          "it": "Guarda gli oggetti nell’immagine.",
+          "pt": "Olhe para os objetos na imagem.",
+          "no": "Se på gjenstandene i bildet."
+        }
+      },
+      {
+        "text": "Describe what is happening.",
+        "translations": {
+          "es": "Describe lo que está pasando.",
+          "fr": "Décris ce qui se passe.",
+          "de": "Beschreibe, was gerade passiert.",
+          "it": "Descrivi quello che sta succedendo.",
+          "pt": "Descreva o que está acontecendo.",
+          "no": "Beskriv hva som skjer."
+        }
+      },
+      {
+        "text": "Which colors can you recognize?",
+        "translations": {
+          "es": "¿Qué colores puedes identificar?",
+          "fr": "Quelles couleurs peux-tu reconnaître ?",
+          "de": "Welche Farben kannst du erkennen?",
+          "it": "Quali colori riesci a riconoscere?",
+          "pt": "Quais cores você consegue identificar?",
+          "no": "Hvilke farger kan du kjenne igjen?"
+        }
+      },
+      {
+        "text": "Look at the background of the scene.",
+        "translations": {
+          "es": "Observa el fondo de la escena.",
+          "fr": "Observe l’arrière-plan de la scène.",
+          "de": "Betrachte den Hintergrund der Szene.",
+          "it": "Osserva lo sfondo della scena.",
+          "pt": "Observe o fundo da cena.",
+          "no": "Se på bakgrunnen i scenen."
+        }
+      },
+      {
+        "text": "Which people or animals can you see?",
+        "translations": {
+          "es": "¿Qué personas o animales puedes ver?",
+          "fr": "Quelles personnes ou quels animaux vois-tu ?",
+          "de": "Welche Menschen oder Tiere kannst du sehen?",
+          "it": "Quali persone o animali riesci a vedere?",
+          "pt": "Que pessoas ou animais você consegue ver?",
+          "no": "Hvilke mennesker eller dyr kan du se?"
+        }
+      },
+      {
+        "text": "Learn new words with this adventure.",
+        "translations": {
+          "es": "Aprende nuevas palabras con esta aventura.",
+          "fr": "Apprends de nouveaux mots avec cette aventure.",
+          "de": "Lerne mit diesem Abenteuer neue Wörter.",
+          "it": "Impara nuove parole con questa avventura.",
+          "pt": "Aprenda novas palavras com esta aventura.",
+          "no": "Lær nye ord med dette eventyret."
+        }
+      },
+      {
+        "text": "Explore the picture and discover something new.",
+        "translations": {
+          "es": "Explora la imagen y descubre algo nuevo.",
+          "fr": "Explore l’image et découvre quelque chose de nouveau.",
+          "de": "Erkunde das Bild und entdecke etwas Neues.",
+          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
+          "pt": "Explore a imagem e descubra algo novo.",
+          "no": "Utforsk bildet og oppdag noe nytt."
+        }
+      }
+    ],
+    "hotspots": [
+      {
+        "id": "ski-jumper-1",
+        "label": "ski jumper",
+        "x": 42,
+        "y": 3,
+        "w": 24.277121084393478,
+        "h": 51.173380335202864,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "saltador de esquí",
+          "fr": "sauteur à ski",
+          "de": "Skispringer",
+          "it": "saltatore con gli sci",
+          "pt": "saltador de esqui",
+          "no": "skihopper"
+        }
+      },
+      {
+        "id": "skis-2",
+        "label": "skis",
+        "x": 28.783031324852175,
+        "y": 51.718882709099,
+        "w": 20.250265574229132,
+        "h": 13.334985768750066,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "esquís",
+          "fr": "skis",
+          "de": "Skier",
+          "it": "sci",
+          "pt": "esquis",
+          "no": "ski"
+        }
+      },
+      {
+        "id": "ski-helmet-3",
+        "label": "ski helmet",
+        "x": 62,
+        "y": 3,
+        "w": 6.138560542196739,
+        "h": 10.065639319156473,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "casco de esquí",
+          "fr": "casque de ski",
+          "de": "Skihelm",
+          "it": "casco da sci",
+          "pt": "capacete de esqui",
+          "no": "skihjelm"
+        }
+      },
+      {
+        "id": "jump-ramp-4",
+        "label": "jump ramp",
+        "x": 11.707842349827331,
+        "y": 12.961974243099656,
+        "w": 14.612246936216211,
+        "h": 56.708002708198144,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "rampa de salto",
+          "fr": "tremplin de saut",
+          "de": "Sprungschanze",
+          "it": "trampolino per il salto",
+          "pt": "rampa de salto",
+          "no": "hoppbakke"
+        }
+      },
+      {
+        "id": "snowy-mountain-5",
+        "label": "snowy mountain",
+        "x": 75.49087213814728,
+        "y": 50.11045966282219,
+        "w": 24.509127861852722,
+        "h": 11.72384542914687,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "montaña nevada",
+          "fr": "montagne enneigée",
+          "de": "verschneiter Berg",
+          "it": "montagna innevata",
+          "pt": "montanha nevada",
+          "no": "snødekt fjell"
+        }
+      },
+      {
+        "id": "pine-trees-6",
+        "label": "pine trees",
+        "x": 51.380232476095856,
+        "y": 71.74785085767007,
+        "w": 20.83673619905197,
+        "h": 9.600260338702341,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "pinos",
+          "fr": "pins",
+          "de": "Kiefern",
+          "it": "pini",
+          "pt": "pinheiros",
+          "no": "furutrær"
+        }
+      },
+      {
+        "id": "spectators-7",
+        "label": "spectators",
+        "x": 0,
+        "y": 73.6885532069659,
+        "w": 23.295379881163367,
+        "h": 23.797646102428402,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "espectadores",
+          "fr": "spectateurs",
+          "de": "Zuschauer",
+          "it": "spettatori",
+          "pt": "espectadores",
+          "no": "tilskuere"
+        }
+      },
+      {
+        "id": "blue-sky-8",
+        "label": "blue sky",
+        "x": 74,
+        "y": 0,
+        "w": 23.17400354656221,
+        "h": 19.808054236724367,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "cielo azul",
+          "fr": "ciel bleu",
+          "de": "blauer Himmel",
+          "it": "cielo azzurro",
+          "pt": "céu azul",
+          "no": "blå himmel"
+        }
+      },
+      {
+        "id": "ski-suit-9",
+        "label": "ski suit",
+        "x": 51.342643366446225,
+        "y": 1.4191945763275633,
+        "w": 7.082703416583879,
+        "h": 47.838389152655125,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "traje de esquí",
+          "fr": "combinaison de ski",
+          "de": "Skianzug",
+          "it": "tuta da sci",
+          "pt": "macacão de esqui",
+          "no": "skidress"
+        }
+      },
+      {
+        "id": "ski-boots-10",
+        "label": "ski boots",
+        "x": 42.01073974561419,
+        "y": 53.91987525310858,
+        "w": 6.647691477113906,
+        "h": 11.241735594236298,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "botas de esquí",
+          "fr": "chaussures de ski",
+          "de": "Skischuhe",
+          "it": "scarponi da sci",
+          "pt": "botas de esqui",
+          "no": "skistøvler"
+        }
+      },
+      {
+        "id": "stadium-11",
+        "label": "stadium",
+        "x": 0,
+        "y": 55.99727729287595,
+        "w": 14.421051499397311,
+        "h": 24.931644740966565,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "estadio",
+          "fr": "stade",
+          "de": "Stadion",
+          "it": "stadio",
+          "pt": "estádio",
+          "no": "stadion"
+        }
+      },
+      {
+        "id": "snow-12",
+        "label": "snow",
+        "x": 34.17830343979167,
+        "y": 86.01585354854406,
+        "w": 6.926961739855998,
+        "h": 11.564951875128376,
+        "rotation": 0,
+        "z": 0,
+        "sound": "",
+        "translations": {
+          "es": "nieve",
+          "fr": "neige",
+          "de": "Schnee",
+          "it": "neve",
+          "pt": "neve",
+          "no": "snø"
+        }
+      }
+    ],
+    "overlays": [],
+    "challenges": [
+      {
+        "prompt": "Find the ski jumper",
+        "target": "ski-jumper-1",
+        "translations": {
+          "es": "Encuentra saltador de esquí",
+          "fr": "Trouve sauteur à ski",
+          "de": "Finde Skispringer",
+          "it": "Trova saltatore con gli sci",
+          "pt": "Encontre saltador de esqui",
+          "no": "Finn skihopper"
+        }
+      },
+      {
+        "prompt": "Find the skis",
+        "target": "skis-2",
+        "translations": {
+          "es": "Encuentra esquís",
+          "fr": "Trouve skis",
+          "de": "Finde Skier",
+          "it": "Trova sci",
+          "pt": "Encontre esquis",
+          "no": "Finn ski"
+        }
+      },
+      {
+        "prompt": "Find the ski helmet",
+        "target": "ski-helmet-3",
+        "translations": {
+          "es": "Encuentra casco de esquí",
+          "fr": "Trouve casque de ski",
+          "de": "Finde Skihelm",
+          "it": "Trova casco da sci",
+          "pt": "Encontre capacete de esqui",
+          "no": "Finn skihjelm"
+        }
+      },
+      {
+        "prompt": "Find the jump ramp",
+        "target": "jump-ramp-4",
+        "translations": {
+          "es": "Encuentra rampa de salto",
+          "fr": "Trouve tremplin de saut",
+          "de": "Finde Sprungschanze",
+          "it": "Trova trampolino per il salto",
+          "pt": "Encontre rampa de salto",
+          "no": "Finn hoppbakke"
+        }
+      },
+      {
+        "prompt": "Find the snowy mountain",
+        "target": "snowy-mountain-5",
+        "translations": {
+          "es": "Encuentra montaña nevada",
+          "fr": "Trouve montagne enneigée",
+          "de": "Finde verschneiter Berg",
+          "it": "Trova montagna innevata",
+          "pt": "Encontre montanha nevada",
+          "no": "Finn snødekt fjell"
+        }
+      },
+      {
+        "prompt": "Find the pine trees",
+        "target": "pine-trees-6",
+        "translations": {
+          "es": "Encuentra pinos",
+          "fr": "Trouve pins",
+          "de": "Finde Kiefern",
+          "it": "Trova pini",
+          "pt": "Encontre pinheiros",
+          "no": "Finn furutrær"
+        }
+      },
+      {
+        "prompt": "Find the spectators",
+        "target": "spectators-7",
+        "translations": {
+          "es": "Encuentra espectadores",
+          "fr": "Trouve spectateurs",
+          "de": "Finde Zuschauer",
+          "it": "Trova spettatori",
+          "pt": "Encontre espectadores",
+          "no": "Finn tilskuere"
+        }
+      },
+      {
+        "prompt": "Find the blue sky",
+        "target": "blue-sky-8",
+        "translations": {
+          "es": "Encuentra cielo azul",
+          "fr": "Trouve ciel bleu",
+          "de": "Finde blauer Himmel",
+          "it": "Trova cielo azzurro",
+          "pt": "Encontre céu azul",
+          "no": "Finn blå himmel"
+        }
+      },
+      {
+        "prompt": "Find the ski suit",
+        "target": "ski-suit-9",
+        "translations": {
+          "es": "Encuentra traje de esquí",
+          "fr": "Trouve combinaison de ski",
+          "de": "Finde Skianzug",
+          "it": "Trova tuta da sci",
+          "pt": "Encontre macacão de esqui",
+          "no": "Finn skidress"
+        }
+      },
+      {
+        "prompt": "Find the ski boots",
+        "target": "ski-boots-10",
+        "translations": {
+          "es": "Encuentra botas de esquí",
+          "fr": "Trouve chaussures de ski",
+          "de": "Finde Skischuhe",
+          "it": "Trova scarponi da sci",
+          "pt": "Encontre botas de esqui",
+          "no": "Finn skistøvler"
         }
       }
     ]
@@ -33496,532 +40512,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "moon": {
-    "title": "Moon",
-    "image": "images/Moon-Adventure.jpg",
-    "lessons": [
-      {
-        "text": "The Moon crew is exploring the lunar surface in spacesuits while gathering moon surface samples.",
-        "translations": {
-          "es": "La tripulación lunar está explorando la superficie lunar en trajes espaciales mientras recoge muestras de la superficie lunar.",
-          "fr": "L'équipage explore la surface lunaire en combinaison spatiale tandis que l'abeille participe à l'expédition.",
-          "de": "Die Mondbesatzung erkundet die Oberfläche in Raumanzügen, während die Biene an der Expedition teilnimmt.",
-          "it": "L'equipaggio esplora la superficie lunare con tute spaziali mentre l'ape partecipa alla spedizione.",
-          "pt": "A tripulação explora a superfície lunar em trajes espaciais enquanto a abelha participa da expedição.",
-          "no": "Mannskapet utforsker måneoverflaten i romdrakter mens bien blir med på ekspedisjonen."
-        }
-      },
-      {
-        "text": "Astronauts need life-support equipment because the Moon has essentially no breathable atmosphere.",
-        "translations": {
-          "es": "Los astronautas necesitan equipos de soporte vital porque la Luna prácticamente no tiene una atmósfera respirable.",
-          "fr": "Les astronautes ont besoin d'équipements de survie car la Lune n'a pratiquement pas d'atmosphère respirable.",
-          "de": "Astronauten brauchen Lebenserhaltungssysteme, weil der Mond praktisch keine atembare Atmosphäre besitzt.",
-          "it": "Gli astronauti hanno bisogno di sistemi di supporto vitale perché la Luna non ha praticamente un'atmosfera respirabile.",
-          "pt": "Astronautas precisam de sistemas de suporte à vida porque a Lua praticamente não tem atmosfera respirável.",
-          "no": "Astronauter trenger livsoppholdssystemer fordi månen praktisk talt ikke har noen pustbar atmosfære."
-        }
-      },
-      {
-        "text": "The Moon's surface is covered by broken rock and fine material called regolith, with craters and rugged terrain.",
-        "translations": {
-          "es": "La superficie de la Luna está cubierta de roca fragmentada y material fino llamado regolito, además de cráteres y terreno accidentado.",
-          "fr": "La surface de la Lune est couverte de roche fragmentée et d'une matière fine appelée régolithe, avec des cratères et un terrain accidenté.",
-          "de": "Die Mondoberfläche ist mit zerbrochenem Gestein und feinem Material namens Regolith bedeckt und weist Krater sowie unebenes Gelände auf.",
-          "it": "La superficie lunare è coperta da roccia frantumata e materiale fine chiamato regolite, con crateri e terreno accidentato.",
-          "pt": "A superfície da Lua é coberta por rocha fragmentada e material fino chamado regolito, com crateras e terreno irregular.",
-          "no": "Måneoverflaten er dekket av knust stein og fint materiale som kalles regolitt, med kratere og ulendt terreng."
-        }
-      },
-      {
-        "text": "With much weaker gravity than Earth, astronauts would weigh less on the Moon.",
-        "translations": {
-          "es": "Con una gravedad mucho menor que la de la Tierra, los astronautas pesarían menos en la Luna.",
-          "fr": "Avec une gravité beaucoup plus faible que sur Terre, les astronautes pèseraient moins sur la Lune.",
-          "de": "Wegen der viel schwächeren Schwerkraft würden Astronauten auf dem Mond weniger wiegen als auf der Erde.",
-          "it": "Con una gravità molto più debole rispetto alla Terra, gli astronauti peserebbero meno sulla Luna.",
-          "pt": "Com gravidade muito mais fraca que a da Terra, os astronautas pesariam menos na Lua.",
-          "no": "Med mye svakere tyngdekraft enn på jorden ville astronauter veie mindre på månen."
-        }
-      },
-      {
-        "text": "A lunar lander is designed to carry astronauts or equipment between lunar orbit and the Moon's surface.",
-        "translations": {
-          "es": "Un módulo lunar está diseñado para transportar astronautas o equipos entre la órbita lunar y la superficie.",
-          "fr": "Un module lunaire est conçu pour transporter des astronautes ou du matériel entre l'orbite lunaire et la surface.",
-          "de": "Eine Mondlandefähre transportiert Astronauten oder Ausrüstung zwischen der Mondumlaufbahn und der Oberfläche.",
-          "it": "Un modulo lunare è progettato per trasportare astronauti o attrezzature tra l'orbita lunare e la superficie.",
-          "pt": "Um módulo lunar é projetado para transportar astronautas ou equipamentos entre a órbita lunar e a superfície.",
-          "no": "En månelander er laget for å frakte astronauter eller utstyr mellom månebane og overflaten."
-        }
-      },
-      {
-        "text": "Landing safely requires careful navigation because the surface contains rocks, slopes, and craters.",
-        "translations": {
-          "es": "Aterrizar con seguridad requiere una navegación cuidadosa porque hay rocas, pendientes y cráteres.",
-          "fr": "Un atterrissage sûr exige une navigation précise à cause des rochers, pentes et cratères.",
-          "de": "Eine sichere Landung erfordert sorgfältige Navigation wegen Felsen, Hängen und Kratern.",
-          "it": "Atterrare in sicurezza richiede una navigazione attenta a causa di rocce, pendii e crateri.",
-          "pt": "Pousar com segurança exige navegação cuidadosa por causa de rochas, inclinações e crateras.",
-          "no": "En trygg landing krever nøye navigasjon på grunn av steiner, skråninger og kratere."
-        }
-      },
-      {
-        "text": "A lunar rover helps astronauts travel farther across the Moon and carry equipment.",
-        "translations": {
-          "es": "Un vehículo lunar ayuda a los astronautas a viajar más lejos y transportar equipos.",
-          "fr": "Un rover lunaire aide les astronautes à voyager plus loin et à transporter du matériel.",
-          "de": "Ein Mondrover hilft Astronauten, größere Entfernungen zurückzulegen und Ausrüstung zu transportieren.",
-          "it": "Un rover lunare aiuta gli astronauti a viaggiare più lontano e trasportare attrezzature.",
-          "pt": "Um veículo lunar ajuda astronautas a viajar mais longe e transportar equipamentos.",
-          "no": "En månebil hjelper astronauter å reise lenger og frakte utstyr."
-        }
-      },
-      {
-        "text": "Rovers can also support scientific exploration by moving tools, samples, and instruments.",
-        "translations": {
-          "es": "Los vehículos también pueden apoyar la exploración científica moviendo herramientas, muestras e instrumentos.",
-          "fr": "Les rovers peuvent aussi soutenir la recherche scientifique en déplaçant outils, échantillons et instruments.",
-          "de": "Rover können die wissenschaftliche Erforschung unterstützen, indem sie Werkzeuge, Proben und Instrumente bewegen.",
-          "it": "I rover possono sostenere l'esplorazione scientifica spostando strumenti, campioni e attrezzature.",
-          "pt": "Veículos também podem apoiar a exploração científica transportando ferramentas, amostras e instrumentos.",
-          "no": "Rovere kan også støtte vitenskapelig utforskning ved å flytte verktøy, prøver og instrumenter."
-        }
-      },
-      {
-        "text": "Future lunar habitats could give crews protected places to live and work during longer missions.",
-        "translations": {
-          "es": "Los futuros hábitats lunares podrían ofrecer lugares protegidos para vivir y trabajar durante misiones más largas.",
-          "fr": "De futurs habitats lunaires pourraient offrir des espaces protégés pour vivre et travailler pendant des missions plus longues.",
-          "de": "Zukünftige Mondhabitate könnten Besatzungen geschützte Orte zum Leben und Arbeiten während längerer Missionen bieten.",
-          "it": "Futuri habitat lunari potrebbero offrire agli equipaggi luoghi protetti dove vivere e lavorare durante missioni più lunghe.",
-          "pt": "Futuros habitats lunares poderiam oferecer locais protegidos para equipes viverem e trabalharem durante missões mais longas.",
-          "no": "Fremtidige månehabitater kan gi mannskap beskyttede steder å bo og arbeide under lengre oppdrag."
-        }
-      },
-      {
-        "text": "A Moon base would need systems for power, communication, temperature control, air, water, and other supplies.",
-        "translations": {
-          "es": "Una base lunar necesitaría sistemas de energía, comunicación, control de temperatura, aire, agua y otros suministros.",
-          "fr": "Une base lunaire aurait besoin de systèmes pour l'énergie, les communications, la température, l'air, l'eau et d'autres fournitures.",
-          "de": "Eine Mondbasis bräuchte Systeme für Energie, Kommunikation, Temperaturkontrolle, Luft, Wasser und weitere Vorräte.",
-          "it": "Una base lunare avrebbe bisogno di sistemi per energia, comunicazioni, temperatura, aria, acqua e altre risorse.",
-          "pt": "Uma base lunar precisaria de sistemas para energia, comunicação, temperatura, ar, água e outros suprimentos.",
-          "no": "En månebase trenger systemer for strøm, kommunikasjon, temperaturkontroll, luft, vann og andre forsyninger."
-        }
-      },
-      {
-        "text": "From the Moon, Earth appears as a bright world hanging in the dark sky.",
-        "translations": {
-          "es": "Desde la Luna, la Tierra aparece como un mundo brillante suspendido en el cielo oscuro.",
-          "fr": "Depuis la Lune, la Terre apparaît comme un monde lumineux suspendu dans le ciel sombre.",
-          "de": "Vom Mond aus erscheint die Erde als helle Welt am dunklen Himmel.",
-          "it": "Dalla Luna, la Terra appare come un mondo luminoso sospeso nel cielo scuro.",
-          "pt": "Da Lua, a Terra aparece como um mundo brilhante suspenso no céu escuro.",
-          "no": "Fra månen ser jorden ut som en lys verden på den mørke himmelen."
-        }
-      },
-      {
-        "text": "Earth is about 384,400 kilometers, or roughly 239,000 miles, from the Moon on average.",
-        "translations": {
-          "es": "La Tierra está a unos 384.400 kilómetros, aproximadamente 239.000 millas, de la Luna en promedio.",
-          "fr": "La Terre se trouve en moyenne à environ 384 400 kilomètres, soit environ 239 000 miles, de la Lune.",
-          "de": "Die Erde ist im Durchschnitt etwa 384.400 Kilometer vom Mond entfernt.",
-          "it": "La Terra dista in media circa 384.400 chilometri dalla Luna.",
-          "pt": "A Terra fica, em média, a cerca de 384.400 quilômetros da Lua.",
-          "no": "Jorden ligger i gjennomsnitt omtrent 384 400 kilometer fra månen."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "crew",
-        "label": "crew",
-        "x": 22.68,
-        "y": 51.57,
-        "w": 46.47,
-        "h": 20.19,
-        "sound": "",
-        "translations": {
-          "es": "tripulación",
-          "fr": "équipage",
-          "de": "Crew",
-          "it": "crew (troupe/cast)",
-          "pt": "equipa",
-          "no": "crew"
-        }
-      },
-      {
-        "id": "mooncastle",
-        "label": "mooncastle",
-        "x": 41.48,
-        "y": 75.37,
-        "w": 12,
-        "h": 11,
-        "sound": "",
-        "translations": {
-          "es": "mooncastle",
-          "fr": "mooncastle",
-          "de": "mooncastle",
-          "it": "mooncastle",
-          "pt": "mooncastle",
-          "no": "måneslott"
-        }
-      },
-      {
-        "id": "moonrock",
-        "label": "moonrock",
-        "x": 52.58,
-        "y": 82.41,
-        "w": 10,
-        "h": 12,
-        "sound": "",
-        "translations": {
-          "es": "ROCA LUNAR",
-          "fr": "moonrock",
-          "de": "mondgestein",
-          "it": "roccia lunare",
-          "pt": "moonrock",
-          "no": "månestein"
-        }
-      },
-      {
-        "id": "surface",
-        "label": "surface",
-        "x": 73.21,
-        "y": 67.16,
-        "w": 27.45,
-        "h": 20.06,
-        "sound": "",
-        "translations": {
-          "es": "de sellado",
-          "fr": "surface",
-          "de": "Oberfläche",
-          "it": "pistone",
-          "pt": "superfície",
-          "no": "overflaten."
-        }
-      },
-      {
-        "id": "lander",
-        "label": "lander",
-        "x": 1.65,
-        "y": 19.01,
-        "w": 14.58,
-        "h": 23.33,
-        "sound": "",
-        "translations": {
-          "es": "vehículo de aterrizaje",
-          "fr": "module d'atterissage",
-          "de": "Lander",
-          "it": "Lander",
-          "pt": "módulo de aterragem",
-          "no": "Lander"
-        }
-      },
-      {
-        "id": "ladder",
-        "label": "ladder",
-        "x": 18.44,
-        "y": 32.35,
-        "w": 7.06,
-        "h": 11.52,
-        "sound": "",
-        "translations": {
-          "es": "escalera de mano (objeto físico)",
-          "fr": "Échelle",
-          "de": "Leiter",
-          "it": "scala a pioli",
-          "pt": "escada",
-          "no": "stige"
-        }
-      },
-      {
-        "id": "flag",
-        "label": "flag",
-        "x": 38.57,
-        "y": 33.74,
-        "w": 5.99,
-        "h": 11.63,
-        "sound": "",
-        "translations": {
-          "es": "indicador",
-          "fr": "test",
-          "de": "Flagge",
-          "it": "bandiera",
-          "pt": "marcar",
-          "no": "flagg"
-        }
-      },
-      {
-        "id": "rover",
-        "label": "rover",
-        "x": 81.77,
-        "y": 31.03,
-        "w": 23,
-        "h": 22,
-        "sound": "",
-        "translations": {
-          "es": "vehículo todo terreno",
-          "fr": "bancbrocheur",
-          "de": "rover",
-          "it": "Rover",
-          "pt": "operador de banco-têxtil",
-          "no": "Rovers"
-        }
-      },
-      {
-        "id": "antenna",
-        "label": "antenna",
-        "x": 12.17,
-        "y": 5.22,
-        "w": 11,
-        "h": 18,
-        "sound": "",
-        "translations": {
-          "es": "antena",
-          "fr": "Antenne",
-          "de": "Antenne",
-          "it": "antenna",
-          "pt": "antena",
-          "no": "Antenne"
-        }
-      },
-      {
-        "id": "base",
-        "label": "base",
-        "x": 68,
-        "y": 42,
-        "w": 29,
-        "h": 20,
-        "sound": "",
-        "translations": {
-          "es": "Base",
-          "fr": "base",
-          "de": "unedel",
-          "it": "bassa",
-          "pt": "base",
-          "no": "basis"
-        }
-      },
-      {
-        "id": "habitat",
-        "label": "habitat",
-        "x": 72,
-        "y": 42,
-        "w": 18,
-        "h": 17,
-        "sound": "",
-        "translations": {
-          "es": "hábitat",
-          "fr": "habitat",
-          "de": "Habitat",
-          "it": "habitat",
-          "pt": "habitat",
-          "no": "Habitat"
-        }
-      },
-      {
-        "id": "smallrover",
-        "label": "smallrover",
-        "x": 86,
-        "y": 52,
-        "w": 12,
-        "h": 13,
-        "sound": "",
-        "translations": {
-          "es": "smallrover",
-          "fr": "smallrover",
-          "de": "kleinrover",
-          "it": "smallrover",
-          "pt": "smallrover",
-          "no": "litenrover"
-        }
-      },
-      {
-        "id": "instrument",
-        "label": "instrument",
-        "x": 91,
-        "y": 60,
-        "w": 9,
-        "h": 19,
-        "sound": "",
-        "translations": {
-          "es": "instrumento",
-          "fr": "i",
-          "de": "Instrument",
-          "it": "strumento",
-          "pt": "assinatura do",
-          "no": "instrument"
-        }
-      },
-      {
-        "id": "earth",
-        "label": "earth",
-        "x": 60.45,
-        "y": 3.65,
-        "w": 19,
-        "h": 30,
-        "sound": "sounds/one-small-step-for-man.mp3",
-        "translations": {
-          "es": "tierra",
-          "fr": "Terre",
-          "de": "Erde",
-          "it": "terra.",
-          "pt": "terra",
-          "no": "bakke"
-        }
-      },
-      {
-        "id": "sun",
-        "label": "sun",
-        "x": 0,
-        "y": 0,
-        "w": 12,
-        "h": 20,
-        "sound": "",
-        "translations": {
-          "es": "dom",
-          "fr": "soleil",
-          "de": "Sonne",
-          "it": "dom",
-          "pt": "eno",
-          "no": "solen"
-        }
-      },
-      {
-        "id": "stars",
-        "label": "stars",
-        "x": 24.51,
-        "y": 6.02,
-        "w": 21.28,
-        "h": 17.72,
-        "sound": "",
-        "translations": {
-          "es": "Estrellas",
-          "fr": "étoiles",
-          "de": "Sterne",
-          "it": "stelle",
-          "pt": "estrelas",
-          "no": "stjerner"
-        }
-      },
-      {
-        "id": "mountains",
-        "label": "mountains",
-        "x": 12.35,
-        "y": 24.89,
-        "w": 41.14,
-        "h": 9.67,
-        "sound": "",
-        "translations": {
-          "es": "montañas",
-          "fr": "montagnes",
-          "de": "Berge",
-          "it": "montagne",
-          "pt": "montanhas",
-          "no": "fjell"
-        }
-      },
-      {
-        "id": "camera",
-        "label": "camera",
-        "x": 2.02,
-        "y": 49.13,
-        "w": 8.34,
-        "h": 18.37,
-        "sound": "",
-        "translations": {
-          "es": "cámara",
-          "fr": "caméra",
-          "de": "Kamera",
-          "it": "Videocamera",
-          "pt": "câmara",
-          "no": "fotoapparat"
-        }
-      },
-      {
-        "id": "tool-case",
-        "label": "tool case",
-        "x": 25.75,
-        "y": 79.89,
-        "w": 17.61,
-        "h": 15.59,
-        "sound": "",
-        "translations": {
-          "es": "cajón para herramientas",
-          "fr": "boîte à outils",
-          "de": "Werkzeugtasche",
-          "it": "porta attrezzi",
-          "pt": "estojo para ferramentas",
-          "no": "Redskap"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find Earth",
-        "target": "earth",
-        "translations": {
-          "es": "Encontrar Tierra",
-          "fr": "Trouver la Terre",
-          "de": "Erde finden",
-          "it": "Trova la Terra",
-          "pt": "Encontrar Terra",
-          "no": "Finn Jorden"
-        }
-      },
-      {
-        "prompt": "Find the American Flag",
-        "target": "flag",
-        "translations": {
-          "es": "La Bandera Americana.",
-          "fr": "Trouvez le drapeau américain",
-          "de": "Finde die amerikanische Flagge",
-          "it": "Trova la bandiera americana",
-          "pt": "Encontre a bandeira americana",
-          "no": "Finn det amerikanske flagget"
-        }
-      },
-      {
-        "prompt": "Find the Lunar Lander",
-        "target": "lander",
-        "translations": {
-          "es": "Encuentra el Lunar Lander",
-          "fr": "Trouvez l'atterrisseur lunaire",
-          "de": "Finde den Mondlander",
-          "it": "Trova il lander lunare",
-          "pt": "Encontre o Lunar Lander",
-          "no": "Finn månelanderen"
-        }
-      },
-      {
-        "prompt": "Find the Moon Rover",
-        "target": "rover",
-        "translations": {
-          "es": "Encuentra el Moon Rover",
-          "fr": "Trouvez le rover lunaire",
-          "de": "Finde den Mond-Rover",
-          "it": "Trova il rover lunare",
-          "pt": "Encontre o Moon Rover",
-          "no": "Finn måneroveren"
-        }
-      },
-      {
-        "prompt": "Find the Moon Castle",
-        "target": "mooncastle",
-        "translations": {
-          "es": "Encuentra el Castillo de la Luna",
-          "fr": "Trouvez le château de la Lune",
-          "de": "Finde das Mondschloss",
-          "it": "Trova il Castello della Luna",
-          "pt": "Encontre o Castelo da Lua",
-          "no": "Finn måneborgen"
-        }
-      }
-    ]
-  },
   "spaceship-window-saturn": {
     "title": "Spaceship Window Saturn",
     "image": "images/Saturn-Spacecraft-Adventure.jpg",
@@ -35154,6258 +41644,6 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "congratulations": {
-    "title": "congratulations",
-    "image": "images/everest-celebration.jpg",
-    "lessons": [
-      {
-        "text": "Congratulations for achieving this level of language education. ",
-        "translations": {
-          "en": "",
-          "es": "Enhorabuena por alcanzar este nivel de enseñanza de idiomas.",
-          "fr": "Félicitations pour avoir atteint ce niveau d'enseignement des langues.",
-          "de": "Herzlichen Glückwunsch zum Erreichen dieses Sprachniveaus.",
-          "it": "Congratulazioni per aver raggiunto questo livello di istruzione linguistica.",
-          "pt": "Parabéns por atingir esse nível de ensino de idiomas.",
-          "no": "Gratulerer med å ha oppnådd dette nivået av språkopplæring."
-        }
-      },
-      {
-        "text": "We are at a very high elevation and have reached the mountains summit.",
-        "translations": {
-          "en": "",
-          "es": "Estamos a una altitud muy alta y hemos llegado a la cima de la montaña.",
-          "fr": "Nous sommes à une très haute altitude et avons atteint le sommet des montagnes.",
-          "de": "Wir befinden uns auf einer sehr hohen Erhebung und haben den Berggipfel erreicht.",
-          "it": "Siamo ad altissima quota e abbiamo raggiunto la vetta delle montagne.",
-          "pt": "Estamos em uma elevação muito alta e chegamos ao cume das montanhas.",
-          "no": "Vi er i veldig høy høyde og har nådd toppen av fjellet."
-        }
-      },
-      {
-        "text": "There is someone or something floating down on a parachute.",
-        "translations": {
-          "en": "",
-          "es": "Hay alguien o algo flotando en un paracaídas.",
-          "fr": "Il y a quelqu'un ou quelque chose qui flotte sur un parachute.",
-          "de": "Da schwebt jemand oder etwas auf einem Fallschirm.",
-          "it": "C'è qualcuno o qualcosa che galleggia su un paracadute.",
-          "pt": "Há alguém ou algo flutuando num pára-quedas.",
-          "no": "Det er noen eller noe som svever ned i en fallskjerm."
-        }
-      },
-      {
-        "text": "The oxygen is low at this elevation and we are required to bring oxygen tanks with us.",
-        "translations": {
-          "en": "",
-          "es": "El oxígeno es bajo a esta altura y estamos obligados a traer tanques de oxígeno con nosotros.",
-          "fr": "L'oxygène est faible à cette altitude et nous sommes tenus d'apporter des réservoirs d'oxygène avec nous.",
-          "de": "Der Sauerstoff ist in dieser Höhe niedrig und wir müssen Sauerstofftanks mitbringen.",
-          "it": "L'ossigeno è basso a questa altitudine e siamo tenuti a portare con noi bombole di ossigeno.",
-          "pt": "O oxigénio é baixo nesta elevação e somos obrigados a trazer tanques de oxigénio connosco.",
-          "no": "Oksygennivået er lavt i denne høyden, og vi må ta med oss ​​oksygentanker."
-        }
-      },
-      {
-        "text": "The two teachers and the language website developer and his dog have reached the summit of mount Everest. It is very cold and we must climb back down the mountain very soon.",
-        "translations": {
-          "en": "",
-          "es": "Los dos profesores y el desarrollador del sitio web de idiomas y su perro han alcanzado la cima del monte Everest. Hace mucho frío y debemos volver a bajar la montaña muy pronto.",
-          "fr": "Les deux professeurs et le développeur du site de langue et son chien ont atteint le sommet du mont Everest. Il fait très froid et il faut redescendre la montagne très vite.",
-          "de": "Die beiden Lehrer und der Sprachwebsite-Entwickler haben mit seinem Hund den Gipfel des Mount Everest erreicht. Es ist sehr kalt und wir müssen sehr bald wieder den Berg hinunter.",
-          "it": "I due insegnanti, lo sviluppatore del sito web linguistico e il suo cane hanno raggiunto la vetta dell'Everest. Fa molto freddo e dobbiamo ridiscendere la montagna molto presto.",
-          "pt": "Os dois professores, o desenvolvedor do site de idiomas e seu cão chegaram ao cume do Monte Everest. Está muito frio e devemos descer a montanha muito em breve.",
-          "no": "De to lærerne, språknettutvikleren og hunden hans har nådd toppen av Mount Everest. Det er veldig kaldt, og vi må klatre ned fjellet igjen veldig snart."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "hotspot-1792621582717",
-        "label": "Look who is coming! It's the fat guy again.",
-        "x": 69.3684111016607,
-        "y": 0.22253425985377895,
-        "w": 27.421057297978805,
-        "h": 67.22207150896581,
-        "sound": "sounds/parachute.mp3",
-        "translations": {
-          "en": "",
-          "es": "¡Mira quién viene! Es Buzz matar en un paracaídas",
-          "fr": "Regarde qui arrive ! C'est Buzz kill en parachute",
-          "de": "Schau, wer kommt! Es ist Buzz Kill im Fallschirm",
-          "it": "Guarda chi arriva! È Buzz che uccide con un paracadute",
-          "pt": "Olha quem está vindo! É Buzz matar num pára-quedas",
-          "no": "Se hvem som kommer! Det er Buzz drept i fallskjerm"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "hotspot-1792636742124",
-        "label": "Congratulations on your language achievments",
-        "x": 23.21052708295575,
-        "y": 60.58414314738727,
-        "w": 41.9473728370139,
-        "h": 22.252198066717835,
-        "sound": "",
-        "translations": {
-          "en": "",
-          "es": "Enhorabuena por tus logros lingüísticos",
-          "fr": "Félicitations pour vos réalisations linguistiques",
-          "de": "Herzlichen Glückwunsch zu Ihren Sprachleistungen",
-          "it": "Congratulazioni per i tuoi risultati linguistici",
-          "pt": "Parabéns pelas suas conquistas linguísticas",
-          "no": "Gratulerer med språkprestasjonene dine"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "hotspot-1792636982204",
-        "label": "woman language teacher",
-        "x": 9.315789660720613,
-        "y": 17.561431214961424,
-        "w": 11.00000018069619,
-        "h": 57.11543188791857,
-        "sound": "",
-        "translations": {
-          "en": "",
-          "es": "mujer profesora de idiomas",
-          "fr": "professeur de langue femme",
-          "de": "frau Sprachlehrerin",
-          "it": "insegnante di lingua donna",
-          "pt": "professora de língua feminina",
-          "no": "kvinnelig språklærer"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "hotspot-1792637171813",
-        "label": "Man Language Teacher",
-        "x": 24.052631559926716,
-        "y": 11.070928219283442,
-        "w": 9.368422003664158,
-        "h": 48.95595377669346,
-        "sound": "",
-        "translations": {
-          "en": "",
-          "es": "Profesor de idiomas",
-          "fr": "Professeur de langue",
-          "de": "Sprachlehrer",
-          "it": "Insegnante di lingue",
-          "pt": "professor de línguas",
-          "no": "Mannlig språklærer"
-        },
-        "rotation": 0,
-        "z": 0
-      },
-      {
-        "id": "hotspot-1792637441276",
-        "label": "Website Developer",
-        "x": 37.99999825327017,
-        "y": 22.66110304489235,
-        "w": 9.000000542088571,
-        "h": 38.1075598172638,
-        "sound": "",
-        "translations": {
-          "en": "",
-          "es": "Webmaster",
-          "fr": "DÉVELOPPEUR DE SITE",
-          "de": "Website Hersteller",
-          "it": "Sviluppatore di siti web",
-          "pt": "Website Developer",
-          "no": "Nettstedutvikler"
-        },
-        "rotation": 0,
-        "z": 0
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the fat guy in a parachute",
-        "target": "hotspot-1792621582717",
-        "translations": {
-          "es": "Encuentra a la abeja gorda en un paracaídas",
-          "fr": "Trouvez la grosse guy en parachute",
-          "de": "Finde die dicke Biene im Fallschirm",
-          "it": "Trova l'ape grassa su un paracadute",
-          "pt": "Encontre a abelha gorda num pára-quedas",
-          "no": "Finn den fete bien i en fallskjerm"
-        }
-      },
-      {
-        "prompt": "This sign is for you! You deserve it!",
-        "target": "hotspot-1792636742124",
-        "translations": {
-          "es": "¡Este letrero es para ti! ¡Te lo mereces!",
-          "fr": "Ce signe est pour vous ! Tu le mérites !",
-          "de": "Dieses Schild ist für dich! Du hast es dir verdient!",
-          "it": "Questo cartello è per te! Te lo meriti!",
-          "pt": "Este sinal é para você! Você merece!",
-          "no": "Dette skiltet er til deg! Du fortjener det!"
-        }
-      },
-      {
-        "prompt": "Find Woman Language Teacher",
-        "target": "hotspot-1792636982204",
-        "translations": {
-          "es": "Encuentra a una mujer profesora de idiomas",
-          "fr": "Trouver une professeure de langue féminine",
-          "de": "Sprachlehrerin für Frauen finden",
-          "it": "Trova insegnante di lingua donna",
-          "pt": "Encontrar Professora de Língua Feminina",
-          "no": "Finn kvinnelig språklærer"
-        }
-      },
-      {
-        "prompt": "Find the man language teacher",
-        "target": "hotspot-1792637171813",
-        "translations": {
-          "es": "Encuentra al profesor de idiomas Man",
-          "fr": "Trouver le professeur de langue Man",
-          "de": "Finden Sie den MAN-Sprachlehrer",
-          "it": "Trova l'insegnante di lingue uomo",
-          "pt": "Encontre o professor de idiomas Man",
-          "no": "Finn den mannlige språklæreren"
-        }
-      },
-      {
-        "prompt": "Find the Language Website Developer and His Dog",
-        "target": "hotspot-1792637441276",
-        "translations": {
-          "es": "Encuentra al desarrollador del sitio web de idiomas y a su perro",
-          "fr": "Trouver le développeur de site Web de langue et son chien",
-          "de": "Finden Sie den Sprachwebsite-Entwickler und seinen Hund",
-          "it": "Trova lo sviluppatore del sito web in lingua e il suo cane",
-          "pt": "Encontre o desenvolvedor do site Language e o cão dele",
-          "no": "Finn språknettutvikleren og hunden hans"
-        }
-      }
-    ]
-  },
-  "cafe": {
-    "title": "Cafe",
-    "image": "images/cafe.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "dining-table-4",
-        "label": "dining table",
-        "x": 33,
-        "y": 73,
-        "w": 42,
-        "h": 23,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mesa de comedor",
-          "fr": "table à manger",
-          "de": "Esstisch",
-          "it": "tavolo da pranzo",
-          "pt": "mesa de jantar",
-          "no": "spisebord"
-        }
-      },
-      {
-        "id": "waiter-1",
-        "label": "waiter",
-        "x": 43.522016785815524,
-        "y": 7.88953763027898,
-        "w": 15,
-        "h": 37,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "camarero",
-          "fr": "serveur",
-          "de": "Kellner",
-          "it": "cameriere",
-          "pt": "garçom",
-          "no": "servitør"
-        }
-      },
-      {
-        "id": "menu-board-2",
-        "label": "menu board",
-        "x": 5.348013239253309,
-        "y": 2.6084203393779823,
-        "w": 11.808807636245541,
-        "h": 30.838389152655125,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pizarra del menú",
-          "fr": "tableau du menu",
-          "de": "Menütafel",
-          "it": "lavagna del menù",
-          "pt": "quadro do cardápio",
-          "no": "menytavle"
-        }
-      },
-      {
-        "id": "coffee-cup-3",
-        "label": "water glass",
-        "x": 55.314713267107564,
-        "y": 70.20370983733595,
-        "w": 7,
-        "h": 12,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "taza de café",
-          "fr": "tasse de café",
-          "de": "Kaffeetasse",
-          "it": "tazza di caffè",
-          "pt": "xícara de café",
-          "no": "kaffekopp"
-        }
-      },
-      {
-        "id": "grandfather-5",
-        "label": "grandfather",
-        "x": 2,
-        "y": 46,
-        "w": 13.729323377587919,
-        "h": 39.97238237739562,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "abuelo",
-          "fr": "grand-père",
-          "de": "Großvater",
-          "it": "nonno",
-          "pt": "avô",
-          "no": "bestefar"
-        }
-      },
-      {
-        "id": "grandmother-6",
-        "label": "grandmother",
-        "x": 19,
-        "y": 41,
-        "w": 15.447903936497212,
-        "h": 31.87641220265664,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "abuela",
-          "fr": "grand-mère",
-          "de": "Großmutter",
-          "it": "nonna",
-          "pt": "avó",
-          "no": "bestemor"
-        }
-      },
-      {
-        "id": "woman-7",
-        "label": "woman",
-        "x": 84,
-        "y": 42.838389152655125,
-        "w": 16,
-        "h": 33,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mujer",
-          "fr": "femme",
-          "de": "Frau",
-          "it": "donna",
-          "pt": "mulher",
-          "no": "kvinne"
-        }
-      },
-      {
-        "id": "child-8",
-        "label": "child",
-        "x": 65.43179431807593,
-        "y": 42.675419658647066,
-        "w": 14.087004846345549,
-        "h": 26.161610847344875,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "niño",
-          "fr": "enfant",
-          "de": "Kind",
-          "it": "bambino",
-          "pt": "criança",
-          "no": "barn"
-        }
-      },
-      {
-        "id": "plate-of-food-9",
-        "label": "plate of food",
-        "x": 41.102036802528076,
-        "y": 51.04978983096067,
-        "w": 16.851774301363385,
-        "h": 7.74241627101731,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "plato de comida",
-          "fr": "assiette de nourriture",
-          "de": "Teller mit Essen",
-          "it": "piatto di cibo",
-          "pt": "prato de comida",
-          "no": "tallerken med mat"
-        }
-      },
-      {
-        "id": "sunflower-10",
-        "label": "sunflower",
-        "x": 42.524169037228575,
-        "y": 63.526936945823365,
-        "w": 7.885068127380242,
-        "h": 14.01176407406032,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "girasol",
-          "fr": "tournesol",
-          "de": "Sonnenblume",
-          "it": "girasole",
-          "pt": "girassol",
-          "no": "solsikke"
-        }
-      },
-      {
-        "id": "window-11",
-        "label": "window",
-        "x": 79,
-        "y": 5,
-        "w": 20.966700027854255,
-        "h": 21.522852885137297,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "ventana",
-          "fr": "fenêtre",
-          "de": "Fenster",
-          "it": "finestra",
-          "pt": "janela",
-          "no": "vindu"
-        }
-      },
-      {
-        "id": "drink-12",
-        "label": "drink",
-        "x": 73.73146948287209,
-        "y": 72.55319321486573,
-        "w": 8,
-        "h": 13,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "bebida",
-          "fr": "boisson",
-          "de": "Getränk",
-          "it": "bevanda",
-          "pt": "bebida",
-          "no": "drikke"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the waiter",
-        "target": "waiter-1",
-        "translations": {
-          "es": "Encuentra camarero",
-          "fr": "Trouve serveur",
-          "de": "Finde Kellner",
-          "it": "Trova cameriere",
-          "pt": "Encontre garçom",
-          "no": "Finn servitør"
-        }
-      },
-      {
-        "prompt": "Find the menu board",
-        "target": "menu-board-2",
-        "translations": {
-          "es": "Encuentra pizarra del menú",
-          "fr": "Trouve tableau du menu",
-          "de": "Finde Menütafel",
-          "it": "Trova lavagna del menù",
-          "pt": "Encontre quadro do cardápio",
-          "no": "Finn menytavle"
-        }
-      },
-      {
-        "prompt": "Find the coffee cup",
-        "target": "coffee-cup-3",
-        "translations": {
-          "es": "Encuentra taza de café",
-          "fr": "Trouve tasse de café",
-          "de": "Finde Kaffeetasse",
-          "it": "Trova tazza di caffè",
-          "pt": "Encontre xícara de café",
-          "no": "Finn kaffekopp"
-        }
-      },
-      {
-        "prompt": "Find the dining table",
-        "target": "dining-table-4",
-        "translations": {
-          "es": "Encuentra mesa de comedor",
-          "fr": "Trouve table à manger",
-          "de": "Finde Esstisch",
-          "it": "Trova tavolo da pranzo",
-          "pt": "Encontre mesa de jantar",
-          "no": "Finn spisebord"
-        }
-      },
-      {
-        "prompt": "Find the grandfather",
-        "target": "grandfather-5",
-        "translations": {
-          "es": "Encuentra abuelo",
-          "fr": "Trouve grand-père",
-          "de": "Finde Großvater",
-          "it": "Trova nonno",
-          "pt": "Encontre avô",
-          "no": "Finn bestefar"
-        }
-      },
-      {
-        "prompt": "Find the grandmother",
-        "target": "grandmother-6",
-        "translations": {
-          "es": "Encuentra abuela",
-          "fr": "Trouve grand-mère",
-          "de": "Finde Großmutter",
-          "it": "Trova nonna",
-          "pt": "Encontre avó",
-          "no": "Finn bestemor"
-        }
-      },
-      {
-        "prompt": "Find the woman",
-        "target": "woman-7",
-        "translations": {
-          "es": "Encuentra mujer",
-          "fr": "Trouve femme",
-          "de": "Finde Frau",
-          "it": "Trova donna",
-          "pt": "Encontre mulher",
-          "no": "Finn kvinne"
-        }
-      },
-      {
-        "prompt": "Find the child",
-        "target": "child-8",
-        "translations": {
-          "es": "Encuentra niño",
-          "fr": "Trouve enfant",
-          "de": "Finde Kind",
-          "it": "Trova bambino",
-          "pt": "Encontre criança",
-          "no": "Finn barn"
-        }
-      },
-      {
-        "prompt": "Find the plate of food",
-        "target": "plate-of-food-9",
-        "translations": {
-          "es": "Encuentra plato de comida",
-          "fr": "Trouve assiette de nourriture",
-          "de": "Finde Teller mit Essen",
-          "it": "Trova piatto di cibo",
-          "pt": "Encontre prato de comida",
-          "no": "Finn tallerken med mat"
-        }
-      },
-      {
-        "prompt": "Find the sunflower",
-        "target": "sunflower-10",
-        "translations": {
-          "es": "Encuentra girasol",
-          "fr": "Trouve tournesol",
-          "de": "Finde Sonnenblume",
-          "it": "Trova girasole",
-          "pt": "Encontre girassol",
-          "no": "Finn solsikke"
-        }
-      }
-    ]
-  },
-  "casino": {
-    "title": "Casino",
-    "image": "images/casino-blackjack.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "blackjack-table-3",
-        "label": "blackjack table",
-        "x": 33,
-        "y": 75,
-        "w": 66,
-        "h": 24,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mesa de blackjack",
-          "fr": "table de blackjack",
-          "de": "Blackjacktisch",
-          "it": "tavolo da blackjack",
-          "pt": "mesa de blackjack",
-          "no": "blackjackbord"
-        }
-      },
-      {
-        "id": "dealer-1",
-        "label": "dealer",
-        "x": 72.19441459474515,
-        "y": 26.227248813051933,
-        "w": 17.373791087178905,
-        "h": 38.86464542169748,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "crupier",
-          "fr": "croupier",
-          "de": "Croupier",
-          "it": "croupier",
-          "pt": "crupiê",
-          "no": "kortgiver"
-        }
-      },
-      {
-        "id": "playing-cards-2",
-        "label": "playing cards",
-        "x": 90.87647141398578,
-        "y": 77.29696001184972,
-        "w": 7.647688404049463,
-        "h": 11.810766116253076,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cartas",
-          "fr": "cartes à jouer",
-          "de": "Spielkarten",
-          "it": "carte da gioco",
-          "pt": "cartas de baralho",
-          "no": "spillkort"
-        }
-      },
-      {
-        "id": "poker-chips-4",
-        "label": "poker chips",
-        "x": 69.12674006127936,
-        "y": 68.21276203186756,
-        "w": 19.21481949679922,
-        "h": 6.323221694689747,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "fichas de póker",
-          "fr": "jetons de poker",
-          "de": "Pokerchips",
-          "it": "fiches da poker",
-          "pt": "fichas de pôquer",
-          "no": "pokerbrikker"
-        }
-      },
-      {
-        "id": "slot-machines-5",
-        "label": "slot machines",
-        "x": 0,
-        "y": 16.7541857588753,
-        "w": 22.663798022470736,
-        "h": 14.604341692489578,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "máquinas tragamonedas",
-          "fr": "machines à sous",
-          "de": "Spielautomaten",
-          "it": "slot machine",
-          "pt": "caça-níqueis",
-          "no": "spilleautomater"
-        }
-      },
-      {
-        "id": "casino-lights-6",
-        "label": "casino lights",
-        "x": 40.36197367932597,
-        "y": 0,
-        "w": 14.692802710983699,
-        "h": 16.45721491943024,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "luces del casino",
-          "fr": "lumières du casino",
-          "de": "Casinolichter",
-          "it": "luci del casinò",
-          "pt": "luzes do cassino",
-          "no": "kasinoets lys"
-        }
-      },
-      {
-        "id": "customer-7",
-        "label": "customer",
-        "x": 3.651986760746691,
-        "y": 41.47034576085025,
-        "w": 22,
-        "h": 35,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cliente",
-          "fr": "client",
-          "de": "Kunde",
-          "it": "cliente",
-          "pt": "cliente",
-          "no": "kunde"
-        }
-      },
-      {
-        "id": "chair-8",
-        "label": "chair",
-        "x": 50.954890302662434,
-        "y": 42.170660334977654,
-        "w": 8.307197289016301,
-        "h": 15.904027118362183,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "silla",
-          "fr": "chaise",
-          "de": "Stuhl",
-          "it": "sedia",
-          "pt": "cadeira",
-          "no": "stol"
-        }
-      },
-      {
-        "id": "green-felt-9",
-        "label": "green felt",
-        "x": 51,
-        "y": 81,
-        "w": 20,
-        "h": 15,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "fieltro verde",
-          "fr": "feutre vert",
-          "de": "grüner Filz",
-          "it": "feltro verde",
-          "pt": "feltro verde",
-          "no": "grønn filt"
-        }
-      },
-      {
-        "id": "betting-circle-10",
-        "label": "betting circle",
-        "x": 35.28249095720057,
-        "y": 79.1747416887649,
-        "w": 13,
-        "h": 10,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "círculo de apuestas",
-          "fr": "cercle de mise",
-          "de": "Wettkreis",
-          "it": "cerchio delle puntate",
-          "pt": "círculo de apostas",
-          "no": "innsatssirkel"
-        }
-      },
-      {
-        "id": "casino-sign-11",
-        "label": "casino sign",
-        "x": 72.46293896574419,
-        "y": 2.039383050114118,
-        "w": 24,
-        "h": 16,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "letrero del casino",
-          "fr": "enseigne du casino",
-          "de": "Casinoschild",
-          "it": "insegna del casinò",
-          "pt": "placa do cassino",
-          "no": "kasinoskilt"
-        }
-      },
-      {
-        "id": "woman-cheering-12",
-        "label": "woman cheering",
-        "x": 27.764769455017834,
-        "y": 33.21548473899161,
-        "w": 11.092374719152641,
-        "h": 27.984151865253608,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mujer animando",
-          "fr": "femme qui applaudit",
-          "de": "jubelnde Frau",
-          "it": "donna che esulta",
-          "pt": "mulher comemorando",
-          "no": "jublende kvinne"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the dealer",
-        "target": "dealer-1",
-        "translations": {
-          "es": "Encuentra crupier",
-          "fr": "Trouve croupier",
-          "de": "Finde Croupier",
-          "it": "Trova croupier",
-          "pt": "Encontre crupiê",
-          "no": "Finn kortgiver"
-        }
-      },
-      {
-        "prompt": "Find the playing cards",
-        "target": "playing-cards-2",
-        "translations": {
-          "es": "Encuentra cartas",
-          "fr": "Trouve cartes à jouer",
-          "de": "Finde Spielkarten",
-          "it": "Trova carte da gioco",
-          "pt": "Encontre cartas de baralho",
-          "no": "Finn spillkort"
-        }
-      },
-      {
-        "prompt": "Find the blackjack table",
-        "target": "blackjack-table-3",
-        "translations": {
-          "es": "Encuentra mesa de blackjack",
-          "fr": "Trouve table de blackjack",
-          "de": "Finde Blackjacktisch",
-          "it": "Trova tavolo da blackjack",
-          "pt": "Encontre mesa de blackjack",
-          "no": "Finn blackjackbord"
-        }
-      },
-      {
-        "prompt": "Find the poker chips",
-        "target": "poker-chips-4",
-        "translations": {
-          "es": "Encuentra fichas de póker",
-          "fr": "Trouve jetons de poker",
-          "de": "Finde Pokerchips",
-          "it": "Trova fiches da poker",
-          "pt": "Encontre fichas de pôquer",
-          "no": "Finn pokerbrikker"
-        }
-      },
-      {
-        "prompt": "Find the slot machines",
-        "target": "slot-machines-5",
-        "translations": {
-          "es": "Encuentra máquinas tragamonedas",
-          "fr": "Trouve machines à sous",
-          "de": "Finde Spielautomaten",
-          "it": "Trova slot machine",
-          "pt": "Encontre caça-níqueis",
-          "no": "Finn spilleautomater"
-        }
-      },
-      {
-        "prompt": "Find the casino lights",
-        "target": "casino-lights-6",
-        "translations": {
-          "es": "Encuentra luces del casino",
-          "fr": "Trouve lumières du casino",
-          "de": "Finde Casinolichter",
-          "it": "Trova luci del casinò",
-          "pt": "Encontre luzes do cassino",
-          "no": "Finn kasinoets lys"
-        }
-      },
-      {
-        "prompt": "Find the customer",
-        "target": "customer-7",
-        "translations": {
-          "es": "Encuentra cliente",
-          "fr": "Trouve client",
-          "de": "Finde Kunde",
-          "it": "Trova cliente",
-          "pt": "Encontre cliente",
-          "no": "Finn kunde"
-        }
-      },
-      {
-        "prompt": "Find the chair",
-        "target": "chair-8",
-        "translations": {
-          "es": "Encuentra silla",
-          "fr": "Trouve chaise",
-          "de": "Finde Stuhl",
-          "it": "Trova sedia",
-          "pt": "Encontre cadeira",
-          "no": "Finn stol"
-        }
-      },
-      {
-        "prompt": "Find the green felt",
-        "target": "green-felt-9",
-        "translations": {
-          "es": "Encuentra fieltro verde",
-          "fr": "Trouve feutre vert",
-          "de": "Finde grüner Filz",
-          "it": "Trova feltro verde",
-          "pt": "Encontre feltro verde",
-          "no": "Finn grønn filt"
-        }
-      },
-      {
-        "prompt": "Find the betting circle",
-        "target": "betting-circle-10",
-        "translations": {
-          "es": "Encuentra círculo de apuestas",
-          "fr": "Trouve cercle de mise",
-          "de": "Finde Wettkreis",
-          "it": "Trova cerchio delle puntate",
-          "pt": "Encontre círculo de apostas",
-          "no": "Finn innsatssirkel"
-        }
-      }
-    ]
-  },
-  "crab-fishing": {
-    "title": "Crab Fishing",
-    "image": "images/crab-fishing.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "crab-pot-2",
-        "label": "crab pot",
-        "x": 4.1074097483996095,
-        "y": 65,
-        "w": 55,
-        "h": 35,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "trampa para cangrejos",
-          "fr": "casier à crabes",
-          "de": "Krabbenreuse",
-          "it": "nassa per granchi",
-          "pt": "armadilha para caranguejos",
-          "no": "krabbeteine"
-        }
-      },
-      {
-        "id": "fisherman-1",
-        "label": "fisherman",
-        "x": 53.87647756011467,
-        "y": 10.770031186722855,
-        "w": 28,
-        "h": 65,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pescador",
-          "fr": "pêcheur",
-          "de": "Fischer",
-          "it": "pescatore",
-          "pt": "pescador",
-          "no": "fisker"
-        }
-      },
-      {
-        "id": "crab-3",
-        "label": "crab",
-        "x": 32.86143945780326,
-        "y": 78.86464000789981,
-        "w": 19,
-        "h": 13,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cangrejo",
-          "fr": "crabe",
-          "de": "Krabbe",
-          "it": "granchio",
-          "pt": "caranguejo",
-          "no": "krabbe"
-        }
-      },
-      {
-        "id": "rope-4",
-        "label": "rope",
-        "x": 47.19978446755225,
-        "y": 75.40742508846958,
-        "w": 6.4994627054128475,
-        "h": 22.70031728102623,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cuerda",
-          "fr": "corde",
-          "de": "Seil",
-          "it": "corda",
-          "pt": "corda",
-          "no": "tau"
-        }
-      },
-      {
-        "id": "orange-buoy-5",
-        "label": "orange buoy",
-        "x": 91.95381725002035,
-        "y": 59.40742508846957,
-        "w": 7.777658378980632,
-        "h": 16.377092879437647,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "boya naranja",
-          "fr": "bouée orange",
-          "de": "orange Boje",
-          "it": "boa arancione",
-          "pt": "boia laranja",
-          "no": "oransje bøye"
-        }
-      },
-      {
-        "id": "fishing-boat-6",
-        "label": "fishing boat",
-        "x": 70.74973135270642,
-        "y": 5.216840678755965,
-        "w": 16.360902163216107,
-        "h": 20.53190237277007,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "barco pesquero",
-          "fr": "bateau de pêche",
-          "de": "Fischerboot",
-          "it": "peschereccio",
-          "pt": "barco de pesca",
-          "no": "fiskebåt"
-        }
-      },
-      {
-        "id": "ocean-waves-7",
-        "label": "ocean waves",
-        "x": 0,
-        "y": 16.4626576267795,
-        "w": 52.12460010212408,
-        "h": 19.40062373445712,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "olas del océano",
-          "fr": "vagues de l’océan",
-          "de": "Meereswellen",
-          "it": "onde dell’oceano",
-          "pt": "ondas do oceano",
-          "no": "havbølger"
-        }
-      },
-      {
-        "id": "rain-jacket-8",
-        "label": "rain jacket",
-        "x": 47.13533677467382,
-        "y": 25.22996610637831,
-        "w": 31.96884920620287,
-        "h": 31.726568136270917,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "chaqueta impermeable",
-          "fr": "veste de pluie",
-          "de": "Regenjacke",
-          "it": "giacca antipioggia",
-          "pt": "casaco de chuva",
-          "no": "regnjakke"
-        }
-      },
-      {
-        "id": "gloves-9",
-        "label": "gloves",
-        "x": 64.5746532169699,
-        "y": 58.31145220683176,
-        "w": 10.97207297372579,
-        "h": 14.538706433681357,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "guantes",
-          "fr": "gants",
-          "de": "Handschuhe",
-          "it": "guanti",
-          "pt": "luvas",
-          "no": "hansker"
-        }
-      },
-      {
-        "id": "fishing-crane-10",
-        "label": "fishing crane",
-        "x": 38,
-        "y": 0,
-        "w": 26.290010008356276,
-        "h": 14.1996352507958,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "grúa de pesca",
-          "fr": "grue de pêche",
-          "de": "Fischereikran",
-          "it": "gru da pesca",
-          "pt": "guindaste de pesca",
-          "no": "fiskekran"
-        }
-      },
-      {
-        "id": "deck-11",
-        "label": "deck",
-        "x": 69.77658647873771,
-        "y": 88.67677830531025,
-        "w": 8.65413132949864,
-        "h": 11.323221694689746,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cubierta",
-          "fr": "pont",
-          "de": "Deck",
-          "it": "ponte",
-          "pt": "convés",
-          "no": "dekk"
-        }
-      },
-      {
-        "id": "hood-12",
-        "label": "hood",
-        "x": 15.337271957106905,
-        "y": 29.216840678755965,
-        "w": 14.368421214371812,
-        "h": 20.607056278917124,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "capucha",
-          "fr": "capuche",
-          "de": "Kapuze",
-          "it": "cappuccio",
-          "pt": "capuz",
-          "no": "hette"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the fisherman",
-        "target": "fisherman-1",
-        "translations": {
-          "es": "Encuentra pescador",
-          "fr": "Trouve pêcheur",
-          "de": "Finde Fischer",
-          "it": "Trova pescatore",
-          "pt": "Encontre pescador",
-          "no": "Finn fisker"
-        }
-      },
-      {
-        "prompt": "Find the crab pot",
-        "target": "crab-pot-2",
-        "translations": {
-          "es": "Encuentra trampa para cangrejos",
-          "fr": "Trouve casier à crabes",
-          "de": "Finde Krabbenreuse",
-          "it": "Trova nassa per granchi",
-          "pt": "Encontre armadilha para caranguejos",
-          "no": "Finn krabbeteine"
-        }
-      },
-      {
-        "prompt": "Find the crab",
-        "target": "crab-3",
-        "translations": {
-          "es": "Encuentra cangrejo",
-          "fr": "Trouve crabe",
-          "de": "Finde Krabbe",
-          "it": "Trova granchio",
-          "pt": "Encontre caranguejo",
-          "no": "Finn krabbe"
-        }
-      },
-      {
-        "prompt": "Find the rope",
-        "target": "rope-4",
-        "translations": {
-          "es": "Encuentra cuerda",
-          "fr": "Trouve corde",
-          "de": "Finde Seil",
-          "it": "Trova corda",
-          "pt": "Encontre corda",
-          "no": "Finn tau"
-        }
-      },
-      {
-        "prompt": "Find the orange buoy",
-        "target": "orange-buoy-5",
-        "translations": {
-          "es": "Encuentra boya naranja",
-          "fr": "Trouve bouée orange",
-          "de": "Finde orange Boje",
-          "it": "Trova boa arancione",
-          "pt": "Encontre boia laranja",
-          "no": "Finn oransje bøye"
-        }
-      },
-      {
-        "prompt": "Find the fishing boat",
-        "target": "fishing-boat-6",
-        "translations": {
-          "es": "Encuentra barco pesquero",
-          "fr": "Trouve bateau de pêche",
-          "de": "Finde Fischerboot",
-          "it": "Trova peschereccio",
-          "pt": "Encontre barco de pesca",
-          "no": "Finn fiskebåt"
-        }
-      },
-      {
-        "prompt": "Find the ocean waves",
-        "target": "ocean-waves-7",
-        "translations": {
-          "es": "Encuentra olas del océano",
-          "fr": "Trouve vagues de l’océan",
-          "de": "Finde Meereswellen",
-          "it": "Trova onde dell’oceano",
-          "pt": "Encontre ondas do oceano",
-          "no": "Finn havbølger"
-        }
-      },
-      {
-        "prompt": "Find the rain jacket",
-        "target": "rain-jacket-8",
-        "translations": {
-          "es": "Encuentra chaqueta impermeable",
-          "fr": "Trouve veste de pluie",
-          "de": "Finde Regenjacke",
-          "it": "Trova giacca antipioggia",
-          "pt": "Encontre casaco de chuva",
-          "no": "Finn regnjakke"
-        }
-      },
-      {
-        "prompt": "Find the gloves",
-        "target": "gloves-9",
-        "translations": {
-          "es": "Encuentra guantes",
-          "fr": "Trouve gants",
-          "de": "Finde Handschuhe",
-          "it": "Trova guanti",
-          "pt": "Encontre luvas",
-          "no": "Finn hansker"
-        }
-      },
-      {
-        "prompt": "Find the fishing crane",
-        "target": "fishing-crane-10",
-        "translations": {
-          "es": "Encuentra grúa de pesca",
-          "fr": "Trouve grue de pêche",
-          "de": "Finde Fischereikran",
-          "it": "Trova gru da pesca",
-          "pt": "Encontre guindaste de pesca",
-          "no": "Finn fiskekran"
-        }
-      }
-    ]
-  },
-  "cruise-ship": {
-    "title": "Cruise Ship",
-    "image": "images/cruise-ship.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "lounge-chair-4",
-        "label": "lounge chair",
-        "x": 3,
-        "y": 75,
-        "w": 35,
-        "h": 22,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tumbona",
-          "fr": "chaise longue",
-          "de": "Liegestuhl",
-          "it": "sdraio",
-          "pt": "espreguiçadeira",
-          "no": "solstol"
-        }
-      },
-      {
-        "id": "cruise-ship-1",
-        "label": "cruise ship",
-        "x": 31.417832341471055,
-        "y": 14.151205419947743,
-        "w": 22.152522518801625,
-        "h": 18.5581640556101,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "crucero",
-          "fr": "bateau de croisière",
-          "de": "Kreuzfahrtschiff",
-          "it": "nave da crociera",
-          "pt": "navio de cruzeiro",
-          "no": "cruiseskip"
-        }
-      },
-      {
-        "id": "swimming-pool-2",
-        "label": "swimming pool",
-        "x": 58.430713582772746,
-        "y": 64.94612610835327,
-        "w": 29.728245715349168,
-        "h": 30.053873891646738,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "piscina",
-          "fr": "piscine",
-          "de": "Schwimmbecken",
-          "it": "piscina",
-          "pt": "piscina",
-          "no": "svømmebasseng"
-        }
-      },
-      {
-        "id": "passengers-3",
-        "label": "passengers",
-        "x": 51.66917404140672,
-        "y": 42.05387389164674,
-        "w": 22.934486937140587,
-        "h": 12.388859660396802,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pasajeros",
-          "fr": "passagers",
-          "de": "Passagiere",
-          "it": "passeggeri",
-          "pt": "passageiros",
-          "no": "passasjerer"
-        }
-      },
-      {
-        "id": "sun-hat-5",
-        "label": "sun hat",
-        "x": 0.10741128493183083,
-        "y": 54.01584813474639,
-        "w": 15.509130934917167,
-        "h": 10.119511857353794,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "sombrero para el sol",
-          "fr": "chapeau de soleil",
-          "de": "Sonnenhut",
-          "it": "cappello da sole",
-          "pt": "chapéu de sol",
-          "no": "solhatt"
-        }
-      },
-      {
-        "id": "whale-6",
-        "label": "whale",
-        "x": 73.50912786185272,
-        "y": 25.24309694779832,
-        "w": 10.61438843190372,
-        "h": 13.076043393104186,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "ballena",
-          "fr": "baleine",
-          "de": "Wal",
-          "it": "balena",
-          "pt": "baleia",
-          "no": "hval"
-        }
-      },
-      {
-        "id": "sunset-sky-7",
-        "label": "sunset sky",
-        "x": 78.8399599665749,
-        "y": 7.758263052314285,
-        "w": 20.535986445081512,
-        "h": 19.48483254203462,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cielo al atardecer",
-          "fr": "ciel au coucher du soleil",
-          "de": "Abendhimmel",
-          "it": "cielo al tramonto",
-          "pt": "céu ao pôr do sol",
-          "no": "solnedgangshimmel"
-        }
-      },
-      {
-        "id": "ship-railing-8",
-        "label": "ship railing",
-        "x": 82.1127857673356,
-        "y": 48.67677830531025,
-        "w": 16.860364868628952,
-        "h": 3.5504691542922586,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "barandilla del barco",
-          "fr": "rambarde du navire",
-          "de": "Schiffsreling",
-          "it": "ringhiera della nave",
-          "pt": "corrimão do navio",
-          "no": "skipsrekke"
-        }
-      },
-      {
-        "id": "deck-10",
-        "label": "deck",
-        "x": 1,
-        "y": 62,
-        "w": 31,
-        "h": 18,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cubierta",
-          "fr": "pont",
-          "de": "Deck",
-          "it": "ponte",
-          "pt": "convés",
-          "no": "dekk"
-        }
-      },
-      {
-        "id": "lifebuoy-12",
-        "label": "lifebuoy",
-        "x": 74.894739429949,
-        "y": 53.2851959377894,
-        "w": 6.475827889706979,
-        "h": 10.052512538084713,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "salvavidas",
-          "fr": "bouée de sauvetage",
-          "de": "Rettungsring",
-          "it": "salvagente",
-          "pt": "boia salva-vidas",
-          "no": "livbøye"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the cruise ship",
-        "target": "cruise-ship-1",
-        "translations": {
-          "es": "Encuentra crucero",
-          "fr": "Trouve bateau de croisière",
-          "de": "Finde Kreuzfahrtschiff",
-          "it": "Trova nave da crociera",
-          "pt": "Encontre navio de cruzeiro",
-          "no": "Finn cruiseskip"
-        }
-      },
-      {
-        "prompt": "Find the swimming pool",
-        "target": "swimming-pool-2",
-        "translations": {
-          "es": "Encuentra piscina",
-          "fr": "Trouve piscine",
-          "de": "Finde Schwimmbecken",
-          "it": "Trova piscina",
-          "pt": "Encontre piscina",
-          "no": "Finn svømmebasseng"
-        }
-      },
-      {
-        "prompt": "Find the passengers",
-        "target": "passengers-3",
-        "translations": {
-          "es": "Encuentra pasajeros",
-          "fr": "Trouve passagers",
-          "de": "Finde Passagiere",
-          "it": "Trova passeggeri",
-          "pt": "Encontre passageiros",
-          "no": "Finn passasjerer"
-        }
-      },
-      {
-        "prompt": "Find the lounge chair",
-        "target": "lounge-chair-4",
-        "translations": {
-          "es": "Encuentra tumbona",
-          "fr": "Trouve chaise longue",
-          "de": "Finde Liegestuhl",
-          "it": "Trova sdraio",
-          "pt": "Encontre espreguiçadeira",
-          "no": "Finn solstol"
-        }
-      },
-      {
-        "prompt": "Find the sun hat",
-        "target": "sun-hat-5",
-        "translations": {
-          "es": "Encuentra sombrero para el sol",
-          "fr": "Trouve chapeau de soleil",
-          "de": "Finde Sonnenhut",
-          "it": "Trova cappello da sole",
-          "pt": "Encontre chapéu de sol",
-          "no": "Finn solhatt"
-        }
-      },
-      {
-        "prompt": "Find the whale",
-        "target": "whale-6",
-        "translations": {
-          "es": "Encuentra ballena",
-          "fr": "Trouve baleine",
-          "de": "Finde Wal",
-          "it": "Trova balena",
-          "pt": "Encontre baleia",
-          "no": "Finn hval"
-        }
-      },
-      {
-        "prompt": "Find the sunset sky",
-        "target": "sunset-sky-7",
-        "translations": {
-          "es": "Encuentra cielo al atardecer",
-          "fr": "Trouve ciel au coucher du soleil",
-          "de": "Finde Abendhimmel",
-          "it": "Trova cielo al tramonto",
-          "pt": "Encontre céu ao pôr do sol",
-          "no": "Finn solnedgangshimmel"
-        }
-      },
-      {
-        "prompt": "Find the ship railing",
-        "target": "ship-railing-8",
-        "translations": {
-          "es": "Encuentra barandilla del barco",
-          "fr": "Trouve rambarde du navire",
-          "de": "Finde Schiffsreling",
-          "it": "Trova ringhiera della nave",
-          "pt": "Encontre corrimão do navio",
-          "no": "Finn skipsrekke"
-        }
-      },
-      {
-        "prompt": "Find the water slide",
-        "target": "water-slide-9",
-        "translations": {
-          "es": "Encuentra tobogán acuático",
-          "fr": "Trouve toboggan aquatique",
-          "de": "Finde Wasserrutsche",
-          "it": "Trova scivolo acquatico",
-          "pt": "Encontre toboágua",
-          "no": "Finn vannsklie"
-        }
-      },
-      {
-        "prompt": "Find the deck",
-        "target": "deck-10",
-        "translations": {
-          "es": "Encuentra cubierta",
-          "fr": "Trouve pont",
-          "de": "Finde Deck",
-          "it": "Trova ponte",
-          "pt": "Encontre convés",
-          "no": "Finn dekk"
-        }
-      }
-    ]
-  },
-  "future-world": {
-    "title": "Future World",
-    "image": "images/future-world.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "family-2",
-        "label": "family",
-        "x": 9,
-        "y": 37,
-        "w": 44,
-        "h": 62,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "familia",
-          "fr": "famille",
-          "de": "Familie",
-          "it": "famiglia",
-          "pt": "família",
-          "no": "familie"
-        }
-      },
-      {
-        "id": "robot-1",
-        "label": "robot",
-        "x": 54,
-        "y": 27,
-        "w": 15,
-        "h": 61,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "robot",
-          "fr": "robot",
-          "de": "Roboter",
-          "it": "robot",
-          "pt": "robô",
-          "no": "robot"
-        }
-      },
-      {
-        "id": "flying-car-3",
-        "label": "flying car",
-        "x": 52.151449466159534,
-        "y": 1.4151159294391604,
-        "w": 9.271748138521946,
-        "h": 7.349477963732102,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "coche volador",
-          "fr": "voiture volante",
-          "de": "fliegendes Auto",
-          "it": "auto volante",
-          "pt": "carro voador",
-          "no": "flyvende bil"
-        }
-      },
-      {
-        "id": "skyscraper-4",
-        "label": "skyscraper",
-        "x": 45.12889538575686,
-        "y": 0,
-        "w": 5.84962512301477,
-        "h": 15.03530169632688,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rascacielos",
-          "fr": "gratte-ciel",
-          "de": "Wolkenkratzer",
-          "it": "grattacielo",
-          "pt": "arranha-céu",
-          "no": "skyskraper"
-        }
-      },
-      {
-        "id": "sky-bridge-5",
-        "label": "sky bridge",
-        "x": 8.181519524653474,
-        "y": 18.311454913730593,
-        "w": 63.97958895181706,
-        "h": 12.173380335202863,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "puente elevado",
-          "fr": "passerelle aérienne",
-          "de": "Himmelsbrücke",
-          "it": "ponte sospeso",
-          "pt": "passarela elevada",
-          "no": "luftbro"
-        }
-      },
-      {
-        "id": "flower-garden-6",
-        "label": "flower garden",
-        "x": 90.75617274162337,
-        "y": 58.497957969656966,
-        "w": 9.24382725837662,
-        "h": 10.18514440926318,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "jardín de flores",
-          "fr": "jardin fleuri",
-          "de": "Blumengarten",
-          "it": "giardino fiorito",
-          "pt": "jardim de flores",
-          "no": "blomsterhage"
-        }
-      },
-      {
-        "id": "spaceport-sign-7",
-        "label": "spaceport sign",
-        "x": 84.69817565685523,
-        "y": 28.01312542762234,
-        "w": 15.301824343144768,
-        "h": 7.403349148480006,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "letrero del puerto espacial",
-          "fr": "panneau du port spatial",
-          "de": "Weltraumbahnhof-Schild",
-          "it": "insegna dello spazioporto",
-          "pt": "placa do porto espacial",
-          "no": "skilt til romhavnen"
-        }
-      },
-      {
-        "id": "pedestrians-8",
-        "label": "pedestrians",
-        "x": 72,
-        "y": 46,
-        "w": 19.764769455017834,
-        "h": 15.94205287526253,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "peatones",
-          "fr": "piétons",
-          "de": "Fußgänger",
-          "it": "pedoni",
-          "pt": "pedestres",
-          "no": "fotgjengere"
-        }
-      },
-      {
-        "id": "city-street-9",
-        "label": "city street",
-        "x": 76.5467261906957,
-        "y": 81.6111403396032,
-        "w": 17.003217621394036,
-        "h": 17.631956608195125,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "calle de la ciudad",
-          "fr": "rue de la ville",
-          "de": "Stadtstraße",
-          "it": "strada cittadina",
-          "pt": "rua da cidade",
-          "no": "bygate"
-        }
-      },
-      {
-        "id": "futuristic-tower-10",
-        "label": "futuristic tower",
-        "x": 66.43072587503052,
-        "y": 3.9737450844070596,
-        "w": 6.984968043817474,
-        "h": 15.15889084711966,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "torre futurista",
-          "fr": "tour futuriste",
-          "de": "futuristischer Turm",
-          "it": "torre futuristica",
-          "pt": "torre futurista",
-          "no": "futuristisk tårn"
-        }
-      },
-      {
-        "id": "backpack-11",
-        "label": "backpack",
-        "x": 27.058001694364812,
-        "y": 74.0316908556951,
-        "w": 4.836733125987529,
-        "h": 16.82118507814438,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mochila",
-          "fr": "sac à dos",
-          "de": "Rucksack",
-          "it": "zaino",
-          "pt": "mochila",
-          "no": "ryggsekk"
-        }
-      },
-      {
-        "id": "trees-12",
-        "label": "trees",
-        "x": 0,
-        "y": 0.3232216946897468,
-        "w": 7.481203140376846,
-        "h": 10.196911190222334,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "árboles",
-          "fr": "arbres",
-          "de": "Bäume",
-          "it": "alberi",
-          "pt": "árvores",
-          "no": "trær"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the robot",
-        "target": "robot-1",
-        "translations": {
-          "es": "Encuentra robot",
-          "fr": "Trouve robot",
-          "de": "Finde Roboter",
-          "it": "Trova robot",
-          "pt": "Encontre robô",
-          "no": "Finn robot"
-        }
-      },
-      {
-        "prompt": "Find the family",
-        "target": "family-2",
-        "translations": {
-          "es": "Encuentra familia",
-          "fr": "Trouve famille",
-          "de": "Finde Familie",
-          "it": "Trova famiglia",
-          "pt": "Encontre família",
-          "no": "Finn familie"
-        }
-      },
-      {
-        "prompt": "Find the flying car",
-        "target": "flying-car-3",
-        "translations": {
-          "es": "Encuentra coche volador",
-          "fr": "Trouve voiture volante",
-          "de": "Finde fliegendes Auto",
-          "it": "Trova auto volante",
-          "pt": "Encontre carro voador",
-          "no": "Finn flyvende bil"
-        }
-      },
-      {
-        "prompt": "Find the skyscraper",
-        "target": "skyscraper-4",
-        "translations": {
-          "es": "Encuentra rascacielos",
-          "fr": "Trouve gratte-ciel",
-          "de": "Finde Wolkenkratzer",
-          "it": "Trova grattacielo",
-          "pt": "Encontre arranha-céu",
-          "no": "Finn skyskraper"
-        }
-      },
-      {
-        "prompt": "Find the sky bridge",
-        "target": "sky-bridge-5",
-        "translations": {
-          "es": "Encuentra puente elevado",
-          "fr": "Trouve passerelle aérienne",
-          "de": "Finde Himmelsbrücke",
-          "it": "Trova ponte sospeso",
-          "pt": "Encontre passarela elevada",
-          "no": "Finn luftbro"
-        }
-      },
-      {
-        "prompt": "Find the flower garden",
-        "target": "flower-garden-6",
-        "translations": {
-          "es": "Encuentra jardín de flores",
-          "fr": "Trouve jardin fleuri",
-          "de": "Finde Blumengarten",
-          "it": "Trova giardino fiorito",
-          "pt": "Encontre jardim de flores",
-          "no": "Finn blomsterhage"
-        }
-      },
-      {
-        "prompt": "Find the spaceport sign",
-        "target": "spaceport-sign-7",
-        "translations": {
-          "es": "Encuentra letrero del puerto espacial",
-          "fr": "Trouve panneau du port spatial",
-          "de": "Finde Weltraumbahnhof-Schild",
-          "it": "Trova insegna dello spazioporto",
-          "pt": "Encontre placa do porto espacial",
-          "no": "Finn skilt til romhavnen"
-        }
-      },
-      {
-        "prompt": "Find the pedestrians",
-        "target": "pedestrians-8",
-        "translations": {
-          "es": "Encuentra peatones",
-          "fr": "Trouve piétons",
-          "de": "Finde Fußgänger",
-          "it": "Trova pedoni",
-          "pt": "Encontre pedestres",
-          "no": "Finn fotgjengere"
-        }
-      },
-      {
-        "prompt": "Find the city street",
-        "target": "city-street-9",
-        "translations": {
-          "es": "Encuentra calle de la ciudad",
-          "fr": "Trouve rue de la ville",
-          "de": "Finde Stadtstraße",
-          "it": "Trova strada cittadina",
-          "pt": "Encontre rua da cidade",
-          "no": "Finn bygate"
-        }
-      },
-      {
-        "prompt": "Find the futuristic tower",
-        "target": "futuristic-tower-10",
-        "translations": {
-          "es": "Encuentra torre futurista",
-          "fr": "Trouve tour futuriste",
-          "de": "Finde futuristischer Turm",
-          "it": "Trova torre futuristica",
-          "pt": "Encontre torre futurista",
-          "no": "Finn futuristisk tårn"
-        }
-      }
-    ]
-  },
-  "jungle": {
-    "title": "Jungle",
-    "image": "images/jungle.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "waterfall-4",
-        "label": "waterfall",
-        "x": 44.1611207687283,
-        "y": 31.595292204856804,
-        "w": 12.430719728901629,
-        "h": 23.658207463439815,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cascada",
-          "fr": "cascade",
-          "de": "Wasserfall",
-          "it": "cascata",
-          "pt": "cachoeira",
-          "no": "foss"
-        }
-      },
-      {
-        "id": "tree-branch-8",
-        "label": "tree branch",
-        "x": 18,
-        "y": 0,
-        "w": 35.918368099525985,
-        "h": 7.819822371132936,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rama de árbol",
-          "fr": "branche d’arbre",
-          "de": "Ast",
-          "it": "ramo",
-          "pt": "galho de árvore",
-          "no": "tregren"
-        }
-      },
-      {
-        "id": "jaguar-1",
-        "label": "jaguar",
-        "x": 0,
-        "y": 26,
-        "w": 26.375940265527518,
-        "h": 36.754185758875295,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "jaguar",
-          "fr": "jaguar",
-          "de": "Jaguar",
-          "it": "giaguaro",
-          "pt": "onça-pintada",
-          "no": "jaguar"
-        }
-      },
-      {
-        "id": "sloth-2",
-        "label": "sloth",
-        "x": 23.5606897038328,
-        "y": 0,
-        "w": 19.120298672362406,
-        "h": 24.091891527850578,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "perezoso",
-          "fr": "paresseux",
-          "de": "Faultier",
-          "it": "bradipo",
-          "pt": "bicho-preguiça",
-          "no": "dovendyr"
-        }
-      },
-      {
-        "id": "parrot-3",
-        "label": "parrot",
-        "x": 76,
-        "y": 6,
-        "w": 23.194414594745158,
-        "h": 14.96558643718084,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "loro",
-          "fr": "perroquet",
-          "de": "Papagei",
-          "it": "pappagallo",
-          "pt": "papagaio",
-          "no": "papegøye"
-        }
-      },
-      {
-        "id": "river-5",
-        "label": "river",
-        "x": 54.28570857859461,
-        "y": 54.45722033322791,
-        "w": 12.490872138147278,
-        "h": 10.482104421112899,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "río",
-          "fr": "rivière",
-          "de": "Fluss",
-          "it": "fiume",
-          "pt": "rio",
-          "no": "elv"
-        }
-      },
-      {
-        "id": "butterfly-6",
-        "label": "butterfly",
-        "x": 29,
-        "y": 72,
-        "w": 12.555316757961265,
-        "h": 14.904027118362183,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mariposa",
-          "fr": "papillon",
-          "de": "Schmetterling",
-          "it": "farfalla",
-          "pt": "borboleta",
-          "no": "sommerfugl"
-        }
-      },
-      {
-        "id": "flowers-7",
-        "label": "flowers",
-        "x": 56.80021553244775,
-        "y": 11.555438641587209,
-        "w": 9.48443074923032,
-        "h": 16.065637965707058,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "flores",
-          "fr": "fleurs",
-          "de": "Blumen",
-          "it": "fiori",
-          "pt": "flores",
-          "no": "blomster"
-        }
-      },
-      {
-        "id": "monkey-9",
-        "label": "monkey",
-        "x": 68.1074097483996,
-        "y": 21.377092879437647,
-        "w": 15.534911855907204,
-        "h": 18.861922714573435,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mono",
-          "fr": "singe",
-          "de": "Affe",
-          "it": "scimmia",
-          "pt": "macaco",
-          "no": "ape"
-        }
-      },
-      {
-        "id": "green-leaves-10",
-        "label": "green leaves",
-        "x": 49.71643138056068,
-        "y": 85.53012407558052,
-        "w": 20.583243784235474,
-        "h": 7.873693555880841,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "hojas verdes",
-          "fr": "feuilles vertes",
-          "de": "grüne Blätter",
-          "it": "foglie verdi",
-          "pt": "folhas verdes",
-          "no": "grønne blader"
-        }
-      },
-      {
-        "id": "rocks-12",
-        "label": "logs",
-        "x": 56,
-        "y": 73,
-        "w": 32,
-        "h": 27,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rocas",
-          "fr": "rochers",
-          "de": "Felsen",
-          "it": "rocce",
-          "pt": "rochas",
-          "no": "steiner"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the jaguar",
-        "target": "jaguar-1",
-        "translations": {
-          "es": "Encuentra jaguar",
-          "fr": "Trouve jaguar",
-          "de": "Finde Jaguar",
-          "it": "Trova giaguaro",
-          "pt": "Encontre onça-pintada",
-          "no": "Finn jaguar"
-        }
-      },
-      {
-        "prompt": "Find the sloth",
-        "target": "sloth-2",
-        "translations": {
-          "es": "Encuentra perezoso",
-          "fr": "Trouve paresseux",
-          "de": "Finde Faultier",
-          "it": "Trova bradipo",
-          "pt": "Encontre bicho-preguiça",
-          "no": "Finn dovendyr"
-        }
-      },
-      {
-        "prompt": "Find the parrot",
-        "target": "parrot-3",
-        "translations": {
-          "es": "Encuentra loro",
-          "fr": "Trouve perroquet",
-          "de": "Finde Papagei",
-          "it": "Trova pappagallo",
-          "pt": "Encontre papagaio",
-          "no": "Finn papegøye"
-        }
-      },
-      {
-        "prompt": "Find the waterfall",
-        "target": "waterfall-4",
-        "translations": {
-          "es": "Encuentra cascada",
-          "fr": "Trouve cascade",
-          "de": "Finde Wasserfall",
-          "it": "Trova cascata",
-          "pt": "Encontre cachoeira",
-          "no": "Finn foss"
-        }
-      },
-      {
-        "prompt": "Find the river",
-        "target": "river-5",
-        "translations": {
-          "es": "Encuentra río",
-          "fr": "Trouve rivière",
-          "de": "Finde Fluss",
-          "it": "Trova fiume",
-          "pt": "Encontre rio",
-          "no": "Finn elv"
-        }
-      },
-      {
-        "prompt": "Find the butterfly",
-        "target": "butterfly-6",
-        "translations": {
-          "es": "Encuentra mariposa",
-          "fr": "Trouve papillon",
-          "de": "Finde Schmetterling",
-          "it": "Trova farfalla",
-          "pt": "Encontre borboleta",
-          "no": "Finn sommerfugl"
-        }
-      },
-      {
-        "prompt": "Find the flowers",
-        "target": "flowers-7",
-        "translations": {
-          "es": "Encuentra flores",
-          "fr": "Trouve fleurs",
-          "de": "Finde Blumen",
-          "it": "Trova fiori",
-          "pt": "Encontre flores",
-          "no": "Finn blomster"
-        }
-      },
-      {
-        "prompt": "Find the tree branch",
-        "target": "tree-branch-8",
-        "translations": {
-          "es": "Encuentra rama de árbol",
-          "fr": "Trouve branche d’arbre",
-          "de": "Finde Ast",
-          "it": "Trova ramo",
-          "pt": "Encontre galho de árvore",
-          "no": "Finn tregren"
-        }
-      },
-      {
-        "prompt": "Find the monkey",
-        "target": "monkey-9",
-        "translations": {
-          "es": "Encuentra mono",
-          "fr": "Trouve singe",
-          "de": "Finde Affe",
-          "it": "Trova scimmia",
-          "pt": "Encontre macaco",
-          "no": "Finn ape"
-        }
-      },
-      {
-        "prompt": "Find the green leaves",
-        "target": "green-leaves-10",
-        "translations": {
-          "es": "Encuentra hojas verdes",
-          "fr": "Trouve feuilles vertes",
-          "de": "Finde grüne Blätter",
-          "it": "Trova foglie verdi",
-          "pt": "Encontre folhas verdes",
-          "no": "Finn grønne blader"
-        }
-      }
-    ]
-  },
-  "rain-forest": {
-    "title": "Rain Forest",
-    "image": "images/rainforest.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "toucan-1",
-        "label": "toucan",
-        "x": 2.28893541918197,
-        "y": 0.6346752549709223,
-        "w": 26.85177122829894,
-        "h": 14.780439321018822,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tucán",
-          "fr": "toucan",
-          "de": "Tukan",
-          "it": "tucano",
-          "pt": "tucano",
-          "no": "tukan"
-        }
-      },
-      {
-        "id": "snake-2",
-        "label": "snake",
-        "x": 66.69925024602954,
-        "y": 8.135354578302517,
-        "w": 24.634799480086663,
-        "h": 22.007690840969587,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "serpiente",
-          "fr": "serpent",
-          "de": "Schlange",
-          "it": "serpente",
-          "pt": "cobra",
-          "no": "slange"
-        }
-      },
-      {
-        "id": "waterfall-3",
-        "label": "waterfall",
-        "x": 47.47261026831295,
-        "y": 14.78179796768201,
-        "w": 15.888291894903162,
-        "h": 22.48211524870824,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cascada",
-          "fr": "cascade",
-          "de": "Wasserfall",
-          "it": "cascata",
-          "pt": "cachoeira",
-          "no": "foss"
-        }
-      },
-      {
-        "id": "frog-4",
-        "label": "frog",
-        "x": 54.78303439791661,
-        "y": 51.377090172538814,
-        "w": 10.458646755175838,
-        "h": 15.94204746146486,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rana",
-          "fr": "grenouille",
-          "de": "Frosch",
-          "it": "rana",
-          "pt": "sapo",
-          "no": "frosk"
-        }
-      },
-      {
-        "id": "butterfly-5",
-        "label": "butterfly",
-        "x": 31.0601493361812,
-        "y": 13.397910501478998,
-        "w": 14.522019858879965,
-        "h": 15.538703726782522,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mariposa",
-          "fr": "papillon",
-          "de": "Schmetterling",
-          "it": "farfalla",
-          "pt": "borboleta",
-          "no": "sommerfugl"
-        }
-      },
-      {
-        "id": "river-6",
-        "label": "river",
-        "x": 39.10204294865696,
-        "y": 39.75146846554892,
-        "w": 12.099893770308341,
-        "h": 26.512444750841333,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "río",
-          "fr": "rivière",
-          "de": "Fluss",
-          "it": "fiume",
-          "pt": "rio",
-          "no": "elv"
-        }
-      },
-      {
-        "id": "flowers-7",
-        "label": "flowers",
-        "x": 3,
-        "y": 35,
-        "w": 8.336197367932595,
-        "h": 15.47034576085025,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "flores",
-          "fr": "fleurs",
-          "de": "Blumen",
-          "it": "fiori",
-          "pt": "flores",
-          "no": "blomster"
-        }
-      },
-      {
-        "id": "tree-branch-8",
-        "label": "tree branch",
-        "x": 29.334049726116202,
-        "y": 0,
-        "w": 7.547799243337777,
-        "h": 16.11950915045496,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rama de árbol",
-          "fr": "branche d’arbre",
-          "de": "Ast",
-          "it": "ramo",
-          "pt": "galho de árvore",
-          "no": "tregren"
-        }
-      },
-      {
-        "id": "bird-9",
-        "label": "praying mantis",
-        "x": 12.943072894809497,
-        "y": 34.95110506979414,
-        "w": 17.373794160243346,
-        "h": 19.337708475874116,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pájaro",
-          "fr": "oiseau",
-          "de": "Vogel",
-          "it": "uccello",
-          "pt": "pássaro",
-          "no": "fugl"
-        }
-      },
-      {
-        "id": "leaves-10",
-        "label": "leaves",
-        "x": 51.489791402844084,
-        "y": 1.4191945763275633,
-        "w": 18.025777847925596,
-        "h": 7.831587798642673,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "hojas",
-          "fr": "feuilles",
-          "de": "Blätter",
-          "it": "foglie",
-          "pt": "folhas",
-          "no": "blader"
-        }
-      },
-      {
-        "id": "tree-roots-11",
-        "label": "tree roots",
-        "x": 71.78732353542051,
-        "y": 72.70303998815028,
-        "w": 8.878620592334403,
-        "h": 27.29696001184972,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "raíces de árbol",
-          "fr": "racines d'arbre",
-          "de": "Baumwurzeln",
-          "it": "radici dell'albero",
-          "pt": "raízes de árvore",
-          "no": "trerøtter"
-        }
-      },
-      {
-        "id": "pink-flower-12",
-        "label": "pink flower",
-        "x": 71.87647756011467,
-        "y": 40.25894237564588,
-        "w": 8.312564088758952,
-        "h": 6.873692202431421,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "flor rosa",
-          "fr": "fleur rose",
-          "de": "rosa Blume",
-          "it": "fiore rosa",
-          "pt": "flor rosa",
-          "no": "rosa blomst"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the toucan",
-        "target": "toucan-1",
-        "translations": {
-          "es": "Encuentra tucán",
-          "fr": "Trouve toucan",
-          "de": "Finde Tukan",
-          "it": "Trova tucano",
-          "pt": "Encontre tucano",
-          "no": "Finn tukan"
-        }
-      },
-      {
-        "prompt": "Find the snake",
-        "target": "snake-2",
-        "translations": {
-          "es": "Encuentra serpiente",
-          "fr": "Trouve serpent",
-          "de": "Finde Schlange",
-          "it": "Trova serpente",
-          "pt": "Encontre cobra",
-          "no": "Finn slange"
-        }
-      },
-      {
-        "prompt": "Find the waterfall",
-        "target": "waterfall-3",
-        "translations": {
-          "es": "Encuentra cascada",
-          "fr": "Trouve cascade",
-          "de": "Finde Wasserfall",
-          "it": "Trova cascata",
-          "pt": "Encontre cachoeira",
-          "no": "Finn foss"
-        }
-      },
-      {
-        "prompt": "Find the frog",
-        "target": "frog-4",
-        "translations": {
-          "es": "Encuentra rana",
-          "fr": "Trouve grenouille",
-          "de": "Finde Frosch",
-          "it": "Trova rana",
-          "pt": "Encontre sapo",
-          "no": "Finn frosk"
-        }
-      },
-      {
-        "prompt": "Find the butterfly",
-        "target": "butterfly-5",
-        "translations": {
-          "es": "Encuentra mariposa",
-          "fr": "Trouve papillon",
-          "de": "Finde Schmetterling",
-          "it": "Trova farfalla",
-          "pt": "Encontre borboleta",
-          "no": "Finn sommerfugl"
-        }
-      },
-      {
-        "prompt": "Find the river",
-        "target": "river-6",
-        "translations": {
-          "es": "Encuentra río",
-          "fr": "Trouve rivière",
-          "de": "Finde Fluss",
-          "it": "Trova fiume",
-          "pt": "Encontre rio",
-          "no": "Finn elv"
-        }
-      },
-      {
-        "prompt": "Find the flowers",
-        "target": "flowers-7",
-        "translations": {
-          "es": "Encuentra flores",
-          "fr": "Trouve fleurs",
-          "de": "Finde Blumen",
-          "it": "Trova fiori",
-          "pt": "Encontre flores",
-          "no": "Finn blomster"
-        }
-      },
-      {
-        "prompt": "Find the tree branch",
-        "target": "tree-branch-8",
-        "translations": {
-          "es": "Encuentra rama de árbol",
-          "fr": "Trouve branche d’arbre",
-          "de": "Finde Ast",
-          "it": "Trova ramo",
-          "pt": "Encontre galho de árvore",
-          "no": "Finn tregren"
-        }
-      },
-      {
-        "prompt": "Find the bird",
-        "target": "bird-9",
-        "translations": {
-          "es": "Encuentra pájaro",
-          "fr": "Trouve oiseau",
-          "de": "Finde Vogel",
-          "it": "Trova uccello",
-          "pt": "Encontre pássaro",
-          "no": "Finn fugl"
-        }
-      },
-      {
-        "prompt": "Find the leaves",
-        "target": "leaves-10",
-        "translations": {
-          "es": "Encuentra hojas",
-          "fr": "Trouve feuilles",
-          "de": "Finde Blätter",
-          "it": "Trova foglie",
-          "pt": "Encontre folhas",
-          "no": "Finn blader"
-        }
-      }
-    ]
-  },
-  "roller-coaster": {
-    "title": "Roller Coaster",
-    "image": "images/roller-coaster.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "amusement-park-10",
-        "label": "amusement park",
-        "x": 46,
-        "y": 13.212762031867562,
-        "w": 54,
-        "h": 67,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "parque de atracciones",
-          "fr": "parc d'attractions",
-          "de": "Vergnügungspark",
-          "it": "parco divertimenti",
-          "pt": "parque de diversões",
-          "no": "fornøyelsespark"
-        }
-      },
-      {
-        "id": "roller-coaster-track-4",
-        "label": "roller coaster track",
-        "x": 0,
-        "y": 0,
-        "w": 48,
-        "h": 65,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "vía de montaña rusa",
-          "fr": "rail de montagnes russes",
-          "de": "Achterbahnschiene",
-          "it": "binario delle montagne russe",
-          "pt": "trilho da montanha-russa",
-          "no": "berg-og-dal-bane-skinne"
-        }
-      },
-      {
-        "id": "roller-coaster-car-1",
-        "label": "roller coaster car",
-        "x": 15.28571165165905,
-        "y": 81.3010440725358,
-        "w": 46.0128889239628,
-        "h": 14.346760670405725,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "vagón de montaña rusa",
-          "fr": "wagon de montagnes russes",
-          "de": "Achterbahnwagen",
-          "it": "vagone delle montagne russe",
-          "pt": "carrinho da montanha-russa",
-          "no": "berg-og-dal-banevogn"
-        }
-      },
-      {
-        "id": "front-rider-2",
-        "label": "front rider",
-        "x": 17.19656223656155,
-        "y": 40.56903593581445,
-        "w": 15.48872142326644,
-        "h": 34.1181450899941,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pasajero delantero",
-          "fr": "passager à l'avant",
-          "de": "vorderer Fahrgast",
-          "it": "passeggero davanti",
-          "pt": "passageiro da frente",
-          "no": "passasjer foran"
-        }
-      },
-      {
-        "id": "passenger-3",
-        "label": "passenger",
-        "x": 14.123525512949772,
-        "y": 10.170654921179988,
-        "w": 11.212670318450606,
-        "h": 23.1036637226074,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pasajero",
-          "fr": "passager",
-          "de": "Fahrgast",
-          "it": "passeggero",
-          "pt": "passageiro",
-          "no": "passasjer"
-        }
-      },
-      {
-        "id": "ferris-wheel-5",
-        "label": "ferris wheel",
-        "x": 58.34264643951066,
-        "y": 2.526936945823369,
-        "w": 25.583243784235474,
-        "h": 25.009049487632776,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "noria",
-          "fr": "grande roue",
-          "de": "Riesenrad",
-          "it": "ruota panoramica",
-          "pt": "roda-gigante",
-          "no": "pariserhjul"
-        }
-      },
-      {
-        "id": "carnival-tent-6",
-        "label": "carnival tent",
-        "x": 51.54242783399847,
-        "y": 26.779077967456793,
-        "w": 8.834587020703356,
-        "h": 7.4807538951462185,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "carpa de feria",
-          "fr": "chapiteau de fête foraine",
-          "de": "Jahrmarktzelt",
-          "it": "tenda da luna park",
-          "pt": "tenda de parque de diversões",
-          "no": "tivolitelt"
-        }
-      },
-      {
-        "id": "crowd-7",
-        "label": "crowd",
-        "x": 76.00107458917431,
-        "y": 69.0538630640514,
-        "w": 10.035449150494358,
-        "h": 24.269353216840678,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "multitud",
-          "fr": "foule",
-          "de": "Menschenmenge",
-          "it": "folla",
-          "pt": "multidão",
-          "no": "folkemengde"
-        }
-      },
-      {
-        "id": "blue-sky-8",
-        "label": "blue sky",
-        "x": 45.67024555751658,
-        "y": 0,
-        "w": 9.452199220129998,
-        "h": 14.065637965707056,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cielo azul",
-          "fr": "ciel bleu",
-          "de": "blauer Himmel",
-          "it": "cielo azzurro",
-          "pt": "céu azul",
-          "no": "blå himmel"
-        }
-      },
-      {
-        "id": "safety-bar-9",
-        "label": "safety bar",
-        "x": 10,
-        "y": 71,
-        "w": 52.15252405533384,
-        "h": 8.674055598186206,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "barra de seguridad",
-          "fr": "barre de sécurité",
-          "de": "Sicherheitsbügel",
-          "it": "barra di sicurezza",
-          "pt": "barra de segurança",
-          "no": "sikkerhetsbøyle"
-        }
-      },
-      {
-        "id": "red-rails-11",
-        "label": "red rails",
-        "x": 0,
-        "y": 0,
-        "w": 11.939849895552687,
-        "h": 39.56631864248807,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rieles rojos",
-          "fr": "rails rouges",
-          "de": "rote Schienen",
-          "it": "binari rossi",
-          "pt": "trilhos vermelhos",
-          "no": "røde skinner"
-        }
-      },
-      {
-        "id": "colorful-flags-12",
-        "label": "colorful flags",
-        "x": 70.03329997214574,
-        "y": 57.881854910005906,
-        "w": 17.059071673942455,
-        "h": 5.077407453565047,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "banderas de colores",
-          "fr": "drapeaux colorés",
-          "de": "bunte Fahnen",
-          "it": "bandiere colorate",
-          "pt": "bandeiras coloridas",
-          "no": "fargerike flagg"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the roller coaster car",
-        "target": "roller-coaster-car-1",
-        "translations": {
-          "es": "Encuentra vagón de montaña rusa",
-          "fr": "Trouve wagon de montagnes russes",
-          "de": "Finde Achterbahnwagen",
-          "it": "Trova vagone delle montagne russe",
-          "pt": "Encontre carrinho da montanha-russa",
-          "no": "Finn berg-og-dal-banevogn"
-        }
-      },
-      {
-        "prompt": "Find the front rider",
-        "target": "front-rider-2",
-        "translations": {
-          "es": "Encuentra pasajero delantero",
-          "fr": "Trouve passager à l'avant",
-          "de": "Finde vorderer Fahrgast",
-          "it": "Trova passeggero davanti",
-          "pt": "Encontre passageiro da frente",
-          "no": "Finn passasjer foran"
-        }
-      },
-      {
-        "prompt": "Find the passenger",
-        "target": "passenger-3",
-        "translations": {
-          "es": "Encuentra pasajero",
-          "fr": "Trouve passager",
-          "de": "Finde Fahrgast",
-          "it": "Trova passeggero",
-          "pt": "Encontre passageiro",
-          "no": "Finn passasjer"
-        }
-      },
-      {
-        "prompt": "Find the roller coaster track",
-        "target": "roller-coaster-track-4",
-        "translations": {
-          "es": "Encuentra vía de montaña rusa",
-          "fr": "Trouve rail de montagnes russes",
-          "de": "Finde Achterbahnschiene",
-          "it": "Trova binario delle montagne russe",
-          "pt": "Encontre trilho da montanha-russa",
-          "no": "Finn berg-og-dal-bane-skinne"
-        }
-      },
-      {
-        "prompt": "Find the ferris wheel",
-        "target": "ferris-wheel-5",
-        "translations": {
-          "es": "Encuentra noria",
-          "fr": "Trouve grande roue",
-          "de": "Finde Riesenrad",
-          "it": "Trova ruota panoramica",
-          "pt": "Encontre roda-gigante",
-          "no": "Finn pariserhjul"
-        }
-      },
-      {
-        "prompt": "Find the carnival tent",
-        "target": "carnival-tent-6",
-        "translations": {
-          "es": "Encuentra carpa de feria",
-          "fr": "Trouve chapiteau de fête foraine",
-          "de": "Finde Jahrmarktzelt",
-          "it": "Trova tenda da luna park",
-          "pt": "Encontre tenda de parque de diversões",
-          "no": "Finn tivolitelt"
-        }
-      },
-      {
-        "prompt": "Find the crowd",
-        "target": "crowd-7",
-        "translations": {
-          "es": "Encuentra multitud",
-          "fr": "Trouve foule",
-          "de": "Finde Menschenmenge",
-          "it": "Trova folla",
-          "pt": "Encontre multidão",
-          "no": "Finn folkemengde"
-        }
-      },
-      {
-        "prompt": "Find the blue sky",
-        "target": "blue-sky-8",
-        "translations": {
-          "es": "Encuentra cielo azul",
-          "fr": "Trouve ciel bleu",
-          "de": "Finde blauer Himmel",
-          "it": "Trova cielo azzurro",
-          "pt": "Encontre céu azul",
-          "no": "Finn blå himmel"
-        }
-      },
-      {
-        "prompt": "Find the safety bar",
-        "target": "safety-bar-9",
-        "translations": {
-          "es": "Encuentra barra de seguridad",
-          "fr": "Trouve barre de sécurité",
-          "de": "Finde Sicherheitsbügel",
-          "it": "Trova barra di sicurezza",
-          "pt": "Encontre barra de segurança",
-          "no": "Finn sikkerhetsbøyle"
-        }
-      },
-      {
-        "prompt": "Find the amusement park",
-        "target": "amusement-park-10",
-        "translations": {
-          "es": "Encuentra parque de atracciones",
-          "fr": "Trouve parc d'attractions",
-          "de": "Finde Vergnügungspark",
-          "it": "Trova parco divertimenti",
-          "pt": "Encontre parque de diversões",
-          "no": "Finn fornøyelsespark"
-        }
-      }
-    ]
-  },
-  "safari": {
-    "title": "Safari",
-    "image": "images/safari.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "safari-jeep-1",
-        "label": "safari jeep",
-        "x": 7.894739429949004,
-        "y": 80.53373288603815,
-        "w": 48.21267339151505,
-        "h": 19.466267113961848,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "jeep de safari",
-          "fr": "jeep de safari",
-          "de": "Safari-Jeep",
-          "it": "jeep da safari",
-          "pt": "jipe de safári",
-          "no": "safarijeep"
-        }
-      },
-      {
-        "id": "driver-2",
-        "label": "driver",
-        "x": 0,
-        "y": 25,
-        "w": 22,
-        "h": 55,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "conductor",
-          "fr": "conducteur",
-          "de": "Fahrer",
-          "it": "autista",
-          "pt": "motorista",
-          "no": "sjåfør"
-        }
-      },
-      {
-        "id": "tourist-3",
-        "label": "tourist",
-        "x": 24.509130934917167,
-        "y": 17.307373559943354,
-        "w": 23,
-        "h": 41,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "turista",
-          "fr": "touriste",
-          "de": "Tourist",
-          "it": "turista",
-          "pt": "turista",
-          "no": "turist"
-        }
-      },
-      {
-        "id": "binoculars-4",
-        "label": "binoculars",
-        "x": 11.129967670132839,
-        "y": 61.66365287768791,
-        "w": 14,
-        "h": 20,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "binoculares",
-          "fr": "jumelles",
-          "de": "Fernglas",
-          "it": "binocolo",
-          "pt": "binóculos",
-          "no": "kikkert"
-        }
-      },
-      {
-        "id": "elephant-5",
-        "label": "elephant",
-        "x": 57,
-        "y": 23,
-        "w": 20.0794827221254,
-        "h": 18.831587798642673,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "elefante",
-          "fr": "éléphant",
-          "de": "Elefant",
-          "it": "elefante",
-          "pt": "elefante",
-          "no": "elefant"
-        }
-      },
-      {
-        "id": "giraffe-6",
-        "label": "giraffe",
-        "x": 82.22234162101937,
-        "y": 14.745136271242524,
-        "w": 13.174009692691097,
-        "h": 14.262549155929392,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "jirafa",
-          "fr": "girafe",
-          "de": "Giraffe",
-          "it": "giraffa",
-          "pt": "girafa",
-          "no": "sjiraff"
-        }
-      },
-      {
-        "id": "zebra-7",
-        "label": "zebra",
-        "x": 78.18152567078236,
-        "y": 34.92892203384251,
-        "w": 21.281419441090705,
-        "h": 14.726568136270917,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cebra",
-          "fr": "zèbre",
-          "de": "Zebra",
-          "it": "zebra",
-          "pt": "zebra",
-          "no": "sebra"
-        }
-      },
-      {
-        "id": "waterhole-8",
-        "label": "waterhole",
-        "x": 60.557459790181,
-        "y": 49.40199050181681,
-        "w": 37.818474329217636,
-        "h": 12.726568136270917,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "abrevadero",
-          "fr": "point d'eau",
-          "de": "Wasserstelle",
-          "it": "pozza d'acqua",
-          "pt": "bebedouro natural",
-          "no": "vannhull"
-        }
-      },
-      {
-        "id": "acacia-tree-9",
-        "label": "acacia tree",
-        "x": 50.268524370999025,
-        "y": 3.595293558306222,
-        "w": 8.100968359482653,
-        "h": 19.145765419497316,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "acacia",
-          "fr": "acacia",
-          "de": "Akazie",
-          "it": "acacia",
-          "pt": "acácia",
-          "no": "akasietre"
-        }
-      },
-      {
-        "id": "savanna-grass-10",
-        "label": "savanna grass",
-        "x": 69.02470325875129,
-        "y": 71.6070616927148,
-        "w": 28,
-        "h": 22,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "hierba de la sabana",
-          "fr": "herbe de la savane",
-          "de": "Savannengras",
-          "it": "erba della savana",
-          "pt": "capim da savana",
-          "no": "savannegress"
-        }
-      },
-      {
-        "id": "camera-11",
-        "label": "camera",
-        "x": 22.842106071859064,
-        "y": 19.965583730282006,
-        "w": 8.83136632624488,
-        "h": 10.37709287943765,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cámara",
-          "fr": "appareil photo",
-          "de": "Kamera",
-          "it": "macchina fotografica",
-          "pt": "câmera",
-          "no": "kamera"
-        }
-      },
-      {
-        "id": "hat-12",
-        "label": "hat",
-        "x": 5,
-        "y": 25,
-        "w": 15,
-        "h": 15,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "sombrero",
-          "fr": "chapeau",
-          "de": "Hut",
-          "it": "cappello",
-          "pt": "chapéu",
-          "no": "hatt"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the safari jeep",
-        "target": "safari-jeep-1",
-        "translations": {
-          "es": "Encuentra jeep de safari",
-          "fr": "Trouve jeep de safari",
-          "de": "Finde Safari-Jeep",
-          "it": "Trova jeep da safari",
-          "pt": "Encontre jipe de safári",
-          "no": "Finn safarijeep"
-        }
-      },
-      {
-        "prompt": "Find the driver",
-        "target": "driver-2",
-        "translations": {
-          "es": "Encuentra conductor",
-          "fr": "Trouve conducteur",
-          "de": "Finde Fahrer",
-          "it": "Trova autista",
-          "pt": "Encontre motorista",
-          "no": "Finn sjåfør"
-        }
-      },
-      {
-        "prompt": "Find the tourist",
-        "target": "tourist-3",
-        "translations": {
-          "es": "Encuentra turista",
-          "fr": "Trouve touriste",
-          "de": "Finde Tourist",
-          "it": "Trova turista",
-          "pt": "Encontre turista",
-          "no": "Finn turist"
-        }
-      },
-      {
-        "prompt": "Find the binoculars",
-        "target": "binoculars-4",
-        "translations": {
-          "es": "Encuentra binoculares",
-          "fr": "Trouve jumelles",
-          "de": "Finde Fernglas",
-          "it": "Trova binocolo",
-          "pt": "Encontre binóculos",
-          "no": "Finn kikkert"
-        }
-      },
-      {
-        "prompt": "Find the elephant",
-        "target": "elephant-5",
-        "translations": {
-          "es": "Encuentra elefante",
-          "fr": "Trouve éléphant",
-          "de": "Finde Elefant",
-          "it": "Trova elefante",
-          "pt": "Encontre elefante",
-          "no": "Finn elefant"
-        }
-      },
-      {
-        "prompt": "Find the giraffe",
-        "target": "giraffe-6",
-        "translations": {
-          "es": "Encuentra jirafa",
-          "fr": "Trouve girafe",
-          "de": "Finde Giraffe",
-          "it": "Trova giraffa",
-          "pt": "Encontre girafa",
-          "no": "Finn sjiraff"
-        }
-      },
-      {
-        "prompt": "Find the zebra",
-        "target": "zebra-7",
-        "translations": {
-          "es": "Encuentra cebra",
-          "fr": "Trouve zèbre",
-          "de": "Finde Zebra",
-          "it": "Trova zebra",
-          "pt": "Encontre zebra",
-          "no": "Finn sebra"
-        }
-      },
-      {
-        "prompt": "Find the waterhole",
-        "target": "waterhole-8",
-        "translations": {
-          "es": "Encuentra abrevadero",
-          "fr": "Trouve point d'eau",
-          "de": "Finde Wasserstelle",
-          "it": "Trova pozza d'acqua",
-          "pt": "Encontre bebedouro natural",
-          "no": "Finn vannhull"
-        }
-      },
-      {
-        "prompt": "Find the acacia tree",
-        "target": "acacia-tree-9",
-        "translations": {
-          "es": "Encuentra acacia",
-          "fr": "Trouve acacia",
-          "de": "Finde Akazie",
-          "it": "Trova acacia",
-          "pt": "Encontre acácia",
-          "no": "Finn akasietre"
-        }
-      },
-      {
-        "prompt": "Find the savanna grass",
-        "target": "savanna-grass-10",
-        "translations": {
-          "es": "Encuentra hierba de la sabana",
-          "fr": "Trouve herbe de la savane",
-          "de": "Finde Savannengras",
-          "it": "Trova erba della savana",
-          "pt": "Encontre capim da savana",
-          "no": "Finn savannegress"
-        }
-      }
-    ]
-  },
-  "ship-storm": {
-    "title": "Ship Storm",
-    "image": "images/ship-storm.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "ocean-waves-5",
-        "label": "ocean waves",
-        "x": 53.729320304523476,
-        "y": 15.550470507741675,
-        "w": 33.831363253180434,
-        "h": 32.9157911924225,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "olas del océano",
-          "fr": "vagues de l’océan",
-          "de": "Meereswellen",
-          "it": "onde dell’oceano",
-          "pt": "ondas do oceano",
-          "no": "havbølger"
-        }
-      },
-      {
-        "id": "captain-1",
-        "label": "captain",
-        "x": 9.559613578126273,
-        "y": 45.90810576525058,
-        "w": 19.586466015226176,
-        "h": 46.83431050576672,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "capitán",
-          "fr": "capitaine",
-          "de": "Kapitän",
-          "it": "capitano",
-          "pt": "capitão",
-          "no": "kaptein"
-        }
-      },
-      {
-        "id": "ship-wheel-2",
-        "label": "ship wheel",
-        "x": 30.365197446848892,
-        "y": 61.18922305615158,
-        "w": 25,
-        "h": 37,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "timón",
-          "fr": "barre du navire",
-          "de": "Steuerrad",
-          "it": "timone",
-          "pt": "leme",
-          "no": "skipsratt"
-        }
-      },
-      {
-        "id": "crew-member-3",
-        "label": "crew member",
-        "x": 32.12030174542685,
-        "y": 32,
-        "w": 10.578948500602689,
-        "h": 25.116789150229746,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tripulante",
-          "fr": "membre d'équipage",
-          "de": "Besatzungsmitglied",
-          "it": "membro dell'equipaggio",
-          "pt": "tripulante",
-          "no": "besetningsmedlem"
-        }
-      },
-      {
-        "id": "bridge-window-4",
-        "label": "bridge window",
-        "x": 59.452203829726656,
-        "y": 12.205071190897977,
-        "w": 31.41783080493883,
-        "h": 45.52013559181092,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "ventana del puente de mando",
-          "fr": "fenêtre de la passerelle",
-          "de": "Brückenfenster",
-          "it": "finestra del ponte di comando",
-          "pt": "janela da ponte de comando",
-          "no": "vindu på kommandobroen"
-        }
-      },
-      {
-        "id": "radar-screen-6",
-        "label": "radar screen",
-        "x": 56,
-        "y": 69,
-        "w": 20,
-        "h": 29,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pantalla de radar",
-          "fr": "écran radar",
-          "de": "Radarbildschirm",
-          "it": "schermo radar",
-          "pt": "tela de radar",
-          "no": "radarskjerm"
-        }
-      },
-      {
-        "id": "navigation-display-7",
-        "label": "navigation display",
-        "x": 77,
-        "y": 70,
-        "w": 20,
-        "h": 28,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pantalla de navegación",
-          "fr": "écran de navigation",
-          "de": "Navigationsanzeige",
-          "it": "schermo di navigazione",
-          "pt": "tela de navegação",
-          "no": "navigasjonsskjerm"
-        }
-      },
-      {
-        "id": "rain-8",
-        "label": "rain",
-        "x": 67.96133322811161,
-        "y": 0.9434101684763014,
-        "w": 32.038666771888394,
-        "h": 9.504287457064521,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "lluvia",
-          "fr": "pluie",
-          "de": "Regen",
-          "it": "pioggia",
-          "pt": "chuva",
-          "no": "regn"
-        }
-      },
-      {
-        "id": "dark-clouds-9",
-        "label": "dark clouds",
-        "x": 68.08915402469417,
-        "y": 2.0814847470040316,
-        "w": 14.336192758335935,
-        "h": 10.292888132208406,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "nubes oscuras",
-          "fr": "nuages sombres",
-          "de": "dunkle Wolken",
-          "it": "nuvole scure",
-          "pt": "nuvens escuras",
-          "no": "mørke skyer"
-        }
-      },
-      {
-        "id": "control-panel-10",
-        "label": "control panel",
-        "x": 40.37594026552752,
-        "y": 72.01176407406032,
-        "w": 58,
-        "h": 18,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "panel de control",
-          "fr": "panneau de commande",
-          "de": "Bedienfeld",
-          "it": "pannello di controllo",
-          "pt": "painel de controle",
-          "no": "kontrollpanel"
-        }
-      },
-      {
-        "id": "windshield-wiper-11",
-        "label": "windshield wiper",
-        "x": 80.5864675517584,
-        "y": 6.622907120562351,
-        "w": 11.332975136941899,
-        "h": 23.342673902820813,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "limpiaparabrisas",
-          "fr": "essuie-glace",
-          "de": "Scheibenwischer",
-          "it": "tergicristallo",
-          "pt": "limpador de para-brisa",
-          "no": "vindusvisker"
-        }
-      },
-      {
-        "id": "ship-railing-12",
-        "label": "ship railing",
-        "x": 59.60150565406981,
-        "y": 44.64644338937949,
-        "w": 30,
-        "h": 20,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "barandilla del barco",
-          "fr": "rambarde du navire",
-          "de": "Schiffsreling",
-          "it": "ringhiera della nave",
-          "pt": "corrimão do navio",
-          "no": "skipsrekke"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the captain",
-        "target": "captain-1",
-        "translations": {
-          "es": "Encuentra capitán",
-          "fr": "Trouve capitaine",
-          "de": "Finde Kapitän",
-          "it": "Trova capitano",
-          "pt": "Encontre capitão",
-          "no": "Finn kaptein"
-        }
-      },
-      {
-        "prompt": "Find the ship wheel",
-        "target": "ship-wheel-2",
-        "translations": {
-          "es": "Encuentra timón",
-          "fr": "Trouve barre du navire",
-          "de": "Finde Steuerrad",
-          "it": "Trova timone",
-          "pt": "Encontre leme",
-          "no": "Finn skipsratt"
-        }
-      },
-      {
-        "prompt": "Find the crew member",
-        "target": "crew-member-3",
-        "translations": {
-          "es": "Encuentra tripulante",
-          "fr": "Trouve membre d'équipage",
-          "de": "Finde Besatzungsmitglied",
-          "it": "Trova membro dell'equipaggio",
-          "pt": "Encontre tripulante",
-          "no": "Finn besetningsmedlem"
-        }
-      },
-      {
-        "prompt": "Find the bridge window",
-        "target": "bridge-window-4",
-        "translations": {
-          "es": "Encuentra ventana del puente de mando",
-          "fr": "Trouve fenêtre de la passerelle",
-          "de": "Finde Brückenfenster",
-          "it": "Trova finestra del ponte di comando",
-          "pt": "Encontre janela da ponte de comando",
-          "no": "Finn vindu på kommandobroen"
-        }
-      },
-      {
-        "prompt": "Find the ocean waves",
-        "target": "ocean-waves-5",
-        "translations": {
-          "es": "Encuentra olas del océano",
-          "fr": "Trouve vagues de l’océan",
-          "de": "Finde Meereswellen",
-          "it": "Trova onde dell’oceano",
-          "pt": "Encontre ondas do oceano",
-          "no": "Finn havbølger"
-        }
-      },
-      {
-        "prompt": "Find the radar screen",
-        "target": "radar-screen-6",
-        "translations": {
-          "es": "Encuentra pantalla de radar",
-          "fr": "Trouve écran radar",
-          "de": "Finde Radarbildschirm",
-          "it": "Trova schermo radar",
-          "pt": "Encontre tela de radar",
-          "no": "Finn radarskjerm"
-        }
-      },
-      {
-        "prompt": "Find the navigation display",
-        "target": "navigation-display-7",
-        "translations": {
-          "es": "Encuentra pantalla de navegación",
-          "fr": "Trouve écran de navigation",
-          "de": "Finde Navigationsanzeige",
-          "it": "Trova schermo di navigazione",
-          "pt": "Encontre tela de navegação",
-          "no": "Finn navigasjonsskjerm"
-        }
-      },
-      {
-        "prompt": "Find the rain",
-        "target": "rain-8",
-        "translations": {
-          "es": "Encuentra lluvia",
-          "fr": "Trouve pluie",
-          "de": "Finde Regen",
-          "it": "Trova pioggia",
-          "pt": "Encontre chuva",
-          "no": "Finn regn"
-        }
-      },
-      {
-        "prompt": "Find the dark clouds",
-        "target": "dark-clouds-9",
-        "translations": {
-          "es": "Encuentra nubes oscuras",
-          "fr": "Trouve nuages sombres",
-          "de": "Finde dunkle Wolken",
-          "it": "Trova nuvole scure",
-          "pt": "Encontre nuvens escuras",
-          "no": "Finn mørke skyer"
-        }
-      },
-      {
-        "prompt": "Find the control panel",
-        "target": "control-panel-10",
-        "translations": {
-          "es": "Encuentra panel de control",
-          "fr": "Trouve panneau de commande",
-          "de": "Finde Bedienfeld",
-          "it": "Trova pannello di controllo",
-          "pt": "Encontre painel de controle",
-          "no": "Finn kontrollpanel"
-        }
-      }
-    ]
-  },
-  "ship-wreck": {
-    "title": "Ship Wreck",
-    "image": "images/shipwreck.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "shipwreck-1",
-        "label": "shipwreck",
-        "x": 44.413535521306045,
-        "y": 25.232691520401193,
-        "w": 27.902249261911383,
-        "h": 21.703918647512072,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "naufragio",
-          "fr": "épave",
-          "de": "Schiffswrack",
-          "it": "relitto",
-          "pt": "naufrágio",
-          "no": "skipsvrak"
-        }
-      },
-      {
-        "id": "scuba-diver-2",
-        "label": "scuba diver",
-        "x": 26.208379644414485,
-        "y": 52.32322169468975,
-        "w": 10.512350092843423,
-        "h": 29.038020343102676,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/scuba-diver.mp3",
-        "translations": {
-          "es": "buceador",
-          "fr": "plongeur",
-          "de": "Taucher",
-          "it": "subacqueo",
-          "pt": "mergulhador",
-          "no": "dykker"
-        }
-      },
-      {
-        "id": "second-diver-3",
-        "label": "second diver",
-        "x": 5.082705721382208,
-        "y": 49.64508203581747,
-        "w": 10.693877300158004,
-        "h": 25.323221694689746,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "segundo buzo",
-          "fr": "deuxième plongeur",
-          "de": "zweiter Taucher",
-          "it": "secondo subacqueo",
-          "pt": "segundo mergulhador",
-          "no": "andre dykker"
-        }
-      },
-      {
-        "id": "sea-turtle-4",
-        "label": "sea turtle",
-        "x": 0,
-        "y": 0,
-        "w": 32,
-        "h": 26,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tortuga marina",
-          "fr": "tortue de mer",
-          "de": "Meeresschildkröte",
-          "it": "tartaruga marina",
-          "pt": "tartaruga marinha",
-          "no": "havskilpadde"
-        }
-      },
-      {
-        "id": "shark-5",
-        "label": "shark",
-        "x": 76,
-        "y": 1,
-        "w": 24,
-        "h": 18,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tiburón",
-          "fr": "requin",
-          "de": "Hai",
-          "it": "squalo",
-          "pt": "tubarão",
-          "no": "hai"
-        }
-      },
-      {
-        "id": "coral-reef-6",
-        "label": "coral reef",
-        "x": 0,
-        "y": 79,
-        "w": 60,
-        "h": 20,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "arrecife de coral",
-          "fr": "récif corallien",
-          "de": "Korallenriff",
-          "it": "barriera corallina",
-          "pt": "recife de coral",
-          "no": "korallrev"
-        }
-      },
-      {
-        "id": "tropical-fish-7",
-        "label": "tropical fish",
-        "x": 37.74006619626655,
-        "y": 69.33770847587411,
-        "w": 20.864663225326183,
-        "h": 14.200997957807244,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "peces tropicales",
-          "fr": "poissons tropicaux",
-          "de": "tropische Fische",
-          "it": "pesci tropicali",
-          "pt": "peixes tropicais",
-          "no": "tropiske fisk"
-        }
-      },
-      {
-        "id": "ship-mast-8",
-        "label": "ship mast",
-        "x": 63.226639977716594,
-        "y": 0,
-        "w": 3.962398598092585,
-        "h": 23.89994576457495,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mástil del barco",
-          "fr": "mât du navire",
-          "de": "Schiffsmast",
-          "it": "albero della nave",
-          "pt": "mastro do navio",
-          "no": "skipsmast"
-        }
-      },
-      {
-        "id": "wooden-hull-9",
-        "label": "wooden hull",
-        "x": 56.974222152074404,
-        "y": 55.0552298314111,
-        "w": 20.70461704577219,
-        "h": 20.26527456995228,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "casco de madera",
-          "fr": "coque en bois",
-          "de": "Holzrumpf",
-          "it": "scafo di legno",
-          "pt": "casco de madeira",
-          "no": "treskrog"
-        }
-      },
-      {
-        "id": "blue-water-10",
-        "label": "blue water",
-        "x": 50.697101067680926,
-        "y": 3.973745084407061,
-        "w": 6.400640451214366,
-        "h": 14.700314574127395,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "agua azul",
-          "fr": "eau bleue",
-          "de": "blaues Wasser",
-          "it": "acqua blu",
-          "pt": "água azul",
-          "no": "blått vann"
-        }
-      },
-      {
-        "id": "air-tank-11",
-        "label": "air tank",
-        "x": 4.1331899011235365,
-        "y": 43.68446914627984,
-        "w": 6.407089522792427,
-        "h": 9.496596616094937,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tanque de aire",
-          "fr": "bouteille d'air",
-          "de": "Druckluftflasche",
-          "it": "bombola d'aria",
-          "pt": "cilindro de ar",
-          "no": "lufttank"
-        }
-      },
-      {
-        "id": "sea-plants-12",
-        "label": "sea plants",
-        "x": 80,
-        "y": 80,
-        "w": 19,
-        "h": 19,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "plantas marinas",
-          "fr": "plantes marines",
-          "de": "Meerespflanzen",
-          "it": "piante marine",
-          "pt": "plantas marinhas",
-          "no": "sjøplanter"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the shipwreck",
-        "target": "shipwreck-1",
-        "translations": {
-          "es": "Encuentra naufragio",
-          "fr": "Trouve épave",
-          "de": "Finde Schiffswrack",
-          "it": "Trova relitto",
-          "pt": "Encontre naufrágio",
-          "no": "Finn skipsvrak"
-        }
-      },
-      {
-        "prompt": "Find the scuba diver",
-        "target": "scuba-diver-2",
-        "translations": {
-          "es": "Encuentra buceador",
-          "fr": "Trouve plongeur",
-          "de": "Finde Taucher",
-          "it": "Trova subacqueo",
-          "pt": "Encontre mergulhador",
-          "no": "Finn dykker"
-        }
-      },
-      {
-        "prompt": "Find the second diver",
-        "target": "second-diver-3",
-        "translations": {
-          "es": "Encuentra segundo buzo",
-          "fr": "Trouve deuxième plongeur",
-          "de": "Finde zweiter Taucher",
-          "it": "Trova secondo subacqueo",
-          "pt": "Encontre segundo mergulhador",
-          "no": "Finn andre dykker"
-        }
-      },
-      {
-        "prompt": "Find the sea turtle",
-        "target": "sea-turtle-4",
-        "translations": {
-          "es": "Encuentra tortuga marina",
-          "fr": "Trouve tortue de mer",
-          "de": "Finde Meeresschildkröte",
-          "it": "Trova tartaruga marina",
-          "pt": "Encontre tartaruga marinha",
-          "no": "Finn havskilpadde"
-        }
-      },
-      {
-        "prompt": "Find the shark",
-        "target": "shark-5",
-        "translations": {
-          "es": "Encuentra tiburón",
-          "fr": "Trouve requin",
-          "de": "Finde Hai",
-          "it": "Trova squalo",
-          "pt": "Encontre tubarão",
-          "no": "Finn hai"
-        }
-      },
-      {
-        "prompt": "Find the coral reef",
-        "target": "coral-reef-6",
-        "translations": {
-          "es": "Encuentra arrecife de coral",
-          "fr": "Trouve récif corallien",
-          "de": "Finde Korallenriff",
-          "it": "Trova barriera corallina",
-          "pt": "Encontre recife de coral",
-          "no": "Finn korallrev"
-        }
-      },
-      {
-        "prompt": "Find the tropical fish",
-        "target": "tropical-fish-7",
-        "translations": {
-          "es": "Encuentra peces tropicales",
-          "fr": "Trouve poissons tropicaux",
-          "de": "Finde tropische Fische",
-          "it": "Trova pesci tropicali",
-          "pt": "Encontre peixes tropicais",
-          "no": "Finn tropiske fisk"
-        }
-      },
-      {
-        "prompt": "Find the ship mast",
-        "target": "ship-mast-8",
-        "translations": {
-          "es": "Encuentra mástil del barco",
-          "fr": "Trouve mât du navire",
-          "de": "Finde Schiffsmast",
-          "it": "Trova albero della nave",
-          "pt": "Encontre mastro do navio",
-          "no": "Finn skipsmast"
-        }
-      },
-      {
-        "prompt": "Find the wooden hull",
-        "target": "wooden-hull-9",
-        "translations": {
-          "es": "Encuentra casco de madera",
-          "fr": "Trouve coque en bois",
-          "de": "Finde Holzrumpf",
-          "it": "Trova scafo di legno",
-          "pt": "Encontre casco de madeira",
-          "no": "Finn treskrog"
-        }
-      },
-      {
-        "prompt": "Find the blue water",
-        "target": "blue-water-10",
-        "translations": {
-          "es": "Encuentra agua azul",
-          "fr": "Trouve eau bleue",
-          "de": "Finde blaues Wasser",
-          "it": "Trova acqua blu",
-          "pt": "Encontre água azul",
-          "no": "Finn blått vann"
-        }
-      }
-    ]
-  },
-  "shopping-mall": {
-    "title": "Shopping Mall",
-    "image": "images/shopping-mall.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "family-11",
-        "label": "family",
-        "x": 13.509127861852726,
-        "y": 42.10277152875144,
-        "w": 57.85499192275742,
-        "h": 46.57672136298636,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "familia",
-          "fr": "famille",
-          "de": "Familie",
-          "it": "famiglia",
-          "pt": "família",
-          "no": "familie"
-        }
-      },
-      {
-        "id": "shopping-cart-1",
-        "label": "shopping cart",
-        "x": 11.922664919690993,
-        "y": 83.46129898011631,
-        "w": 31.91621892117737,
-        "h": 16.53870101988369,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "carrito de compras",
-          "fr": "chariot",
-          "de": "Einkaufswagen",
-          "it": "carrello",
-          "pt": "carrinho de compras",
-          "no": "handlevogn"
-        }
-      },
-      {
-        "id": "mother-2",
-        "label": "mother",
-        "x": 23.327605264134807,
-        "y": 39.487552542259834,
-        "w": 16.092371646088196,
-        "h": 31.22452610592788,
-        "rotation": 0,
-        "z": 0,
-        "sound": "sounds/talking-people.mp3",
-        "translations": {
-          "es": "madre",
-          "fr": "mère",
-          "de": "Mutter",
-          "it": "madre",
-          "pt": "mãe",
-          "no": "mor"
-        }
-      },
-      {
-        "id": "child-3",
-        "label": "child",
-        "x": 47.67024863058103,
-        "y": 51.10773966259697,
-        "w": 12.218043264322139,
-        "h": 38.377090172538814,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "niño",
-          "fr": "enfant",
-          "de": "Kind",
-          "it": "bambino",
-          "pt": "criança",
-          "no": "barn"
-        }
-      },
-      {
-        "id": "shopping-bags-4",
-        "label": "shopping bags",
-        "x": 78.51879916442148,
-        "y": 67.94612610835327,
-        "w": 7.914075888957644,
-        "h": 32.05387389164674,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "bolsas de compras",
-          "fr": "sacs de courses",
-          "de": "Einkaufstaschen",
-          "it": "borse della spesa",
-          "pt": "sacolas de compras",
-          "no": "handleposer"
-        }
-      },
-      {
-        "id": "clothing-store-5",
-        "label": "clothing store",
-        "x": 0,
-        "y": 0,
-        "w": 22.755102762045738,
-        "h": 34.53870101988369,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "tienda de ropa",
-          "fr": "magasin de vêtements",
-          "de": "Bekleidungsgeschäft",
-          "it": "negozio di abbigliamento",
-          "pt": "loja de roupas",
-          "no": "klesbutikk"
-        }
-      },
-      {
-        "id": "sale-sign-6",
-        "label": "sale sign",
-        "x": 18.659507348434616,
-        "y": 26.13535457830252,
-        "w": 6.179376492433747,
-        "h": 13.714798648412929,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cartel de rebajas",
-          "fr": "panneau de soldes",
-          "de": "Sonderangebotsschild",
-          "it": "cartello dei saldi",
-          "pt": "placa de promoção",
-          "no": "salgsskilt"
-        }
-      },
-      {
-        "id": "glass-roof-7",
-        "label": "glass roof",
-        "x": 71.6401724259582,
-        "y": 0,
-        "w": 7.273897316870557,
-        "h": 17.17337492140519,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "techo de cristal",
-          "fr": "toit en verre",
-          "de": "Glasdach",
-          "it": "tetto di vetro",
-          "pt": "telhado de vidro",
-          "no": "glasstak"
-        }
-      },
-      {
-        "id": "palm-tree-8",
-        "label": "palm tree",
-        "x": 55.83888230433614,
-        "y": 0,
-        "w": 5.693877300158004,
-        "h": 45.3494779637321,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "palmera",
-          "fr": "palmier",
-          "de": "Palme",
-          "it": "palma",
-          "pt": "palmeira",
-          "no": "palmetre"
-        }
-      },
-      {
-        "id": "shop-window-10",
-        "label": "shop window",
-        "x": 27.133187596325207,
-        "y": 20.892257630504194,
-        "w": 11.555316757961265,
-        "h": 8.696233220340154,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "escaparate",
-          "fr": "vitrine de magasin",
-          "de": "Schaufenster",
-          "it": "vetrina del negozio",
-          "pt": "vitrine de loja",
-          "no": "butikkvindu"
-        }
-      },
-      {
-        "id": "teddy-bear-12",
-        "label": "teddy bear",
-        "x": 52.77765837898063,
-        "y": 60.82390101802134,
-        "w": 7.138560542196739,
-        "h": 27.135355931751935,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "oso de peluche",
-          "fr": "ours en peluche",
-          "de": "Teddybär",
-          "it": "orsacchiotto",
-          "pt": "ursinho de pelúcia",
-          "no": "teddybjørn"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the shopping cart",
-        "target": "shopping-cart-1",
-        "translations": {
-          "es": "Encuentra carrito de compras",
-          "fr": "Trouve chariot",
-          "de": "Finde Einkaufswagen",
-          "it": "Trova carrello",
-          "pt": "Encontre carrinho de compras",
-          "no": "Finn handlevogn"
-        }
-      },
-      {
-        "prompt": "Find the mother",
-        "target": "mother-2",
-        "translations": {
-          "es": "Encuentra madre",
-          "fr": "Trouve mère",
-          "de": "Finde Mutter",
-          "it": "Trova madre",
-          "pt": "Encontre mãe",
-          "no": "Finn mor"
-        }
-      },
-      {
-        "prompt": "Find the child",
-        "target": "child-3",
-        "translations": {
-          "es": "Encuentra niño",
-          "fr": "Trouve enfant",
-          "de": "Finde Kind",
-          "it": "Trova bambino",
-          "pt": "Encontre criança",
-          "no": "Finn barn"
-        }
-      },
-      {
-        "prompt": "Find the shopping bags",
-        "target": "shopping-bags-4",
-        "translations": {
-          "es": "Encuentra bolsas de compras",
-          "fr": "Trouve sacs de courses",
-          "de": "Finde Einkaufstaschen",
-          "it": "Trova borse della spesa",
-          "pt": "Encontre sacolas de compras",
-          "no": "Finn handleposer"
-        }
-      },
-      {
-        "prompt": "Find the clothing store",
-        "target": "clothing-store-5",
-        "translations": {
-          "es": "Encuentra tienda de ropa",
-          "fr": "Trouve magasin de vêtements",
-          "de": "Finde Bekleidungsgeschäft",
-          "it": "Trova negozio di abbigliamento",
-          "pt": "Encontre loja de roupas",
-          "no": "Finn klesbutikk"
-        }
-      },
-      {
-        "prompt": "Find the sale sign",
-        "target": "sale-sign-6",
-        "translations": {
-          "es": "Encuentra cartel de rebajas",
-          "fr": "Trouve panneau de soldes",
-          "de": "Finde Sonderangebotsschild",
-          "it": "Trova cartello dei saldi",
-          "pt": "Encontre placa de promoção",
-          "no": "Finn salgsskilt"
-        }
-      },
-      {
-        "prompt": "Find the glass roof",
-        "target": "glass-roof-7",
-        "translations": {
-          "es": "Encuentra techo de cristal",
-          "fr": "Trouve toit en verre",
-          "de": "Finde Glasdach",
-          "it": "Trova tetto di vetro",
-          "pt": "Encontre telhado de vidro",
-          "no": "Finn glasstak"
-        }
-      },
-      {
-        "prompt": "Find the palm tree",
-        "target": "palm-tree-8",
-        "translations": {
-          "es": "Encuentra palmera",
-          "fr": "Trouve palmier",
-          "de": "Finde Palme",
-          "it": "Trova palma",
-          "pt": "Encontre palmeira",
-          "no": "Finn palmetre"
-        }
-      },
-      {
-        "prompt": "Find the escalator",
-        "target": "escalator-9",
-        "translations": {
-          "es": "Encuentra escalera mecánica",
-          "fr": "Trouve escalier mécanique",
-          "de": "Finde Rolltreppe",
-          "it": "Trova scala mobile",
-          "pt": "Encontre escada rolante",
-          "no": "Finn rulletrapp"
-        }
-      },
-      {
-        "prompt": "Find the shop window",
-        "target": "shop-window-10",
-        "translations": {
-          "es": "Encuentra escaparate",
-          "fr": "Trouve vitrine de magasin",
-          "de": "Finde Schaufenster",
-          "it": "Trova vetrina del negozio",
-          "pt": "Encontre vitrine de loja",
-          "no": "Finn butikkvindu"
-        }
-      }
-    ]
-  },
-  "ski-jump": {
-    "title": "Ski Jump",
-    "image": "images/ski-jump.jpg",
-    "lessons": [
-      {
-        "text": "Look carefully at this scene.",
-        "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
-        }
-      },
-      {
-        "text": "What can you see in this picture?",
-        "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
-        }
-      },
-      {
-        "text": "There are many interesting details here.",
-        "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
-        }
-      },
-      {
-        "text": "Look at the objects in the picture.",
-        "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
-        }
-      },
-      {
-        "text": "Describe what is happening.",
-        "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
-        }
-      }
-    ],
-    "hotspots": [
-      {
-        "id": "ski-jumper-1",
-        "label": "ski jumper",
-        "x": 42,
-        "y": 3,
-        "w": 24.277121084393478,
-        "h": 51.173380335202864,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "saltador de esquí",
-          "fr": "sauteur à ski",
-          "de": "Skispringer",
-          "it": "saltatore con gli sci",
-          "pt": "saltador de esqui",
-          "no": "skihopper"
-        }
-      },
-      {
-        "id": "skis-2",
-        "label": "skis",
-        "x": 28.783031324852175,
-        "y": 51.718882709099,
-        "w": 20.250265574229132,
-        "h": 13.334985768750066,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "esquís",
-          "fr": "skis",
-          "de": "Skier",
-          "it": "sci",
-          "pt": "esquis",
-          "no": "ski"
-        }
-      },
-      {
-        "id": "ski-helmet-3",
-        "label": "ski helmet",
-        "x": 62,
-        "y": 3,
-        "w": 6.138560542196739,
-        "h": 10.065639319156473,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "casco de esquí",
-          "fr": "casque de ski",
-          "de": "Skihelm",
-          "it": "casco da sci",
-          "pt": "capacete de esqui",
-          "no": "skihjelm"
-        }
-      },
-      {
-        "id": "jump-ramp-4",
-        "label": "jump ramp",
-        "x": 11.707842349827331,
-        "y": 12.961974243099656,
-        "w": 14.612246936216211,
-        "h": 56.708002708198144,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rampa de salto",
-          "fr": "tremplin de saut",
-          "de": "Sprungschanze",
-          "it": "trampolino per il salto",
-          "pt": "rampa de salto",
-          "no": "hoppbakke"
-        }
-      },
-      {
-        "id": "snowy-mountain-5",
-        "label": "snowy mountain",
-        "x": 75.49087213814728,
-        "y": 50.11045966282219,
-        "w": 24.509127861852722,
-        "h": 11.72384542914687,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "montaña nevada",
-          "fr": "montagne enneigée",
-          "de": "verschneiter Berg",
-          "it": "montagna innevata",
-          "pt": "montanha nevada",
-          "no": "snødekt fjell"
-        }
-      },
-      {
-        "id": "pine-trees-6",
-        "label": "pine trees",
-        "x": 51.380232476095856,
-        "y": 71.74785085767007,
-        "w": 20.83673619905197,
-        "h": 9.600260338702341,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "pinos",
-          "fr": "pins",
-          "de": "Kiefern",
-          "it": "pini",
-          "pt": "pinheiros",
-          "no": "furutrær"
-        }
-      },
-      {
-        "id": "spectators-7",
-        "label": "spectators",
-        "x": 0,
-        "y": 73.6885532069659,
-        "w": 23.295379881163367,
-        "h": 23.797646102428402,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "espectadores",
-          "fr": "spectateurs",
-          "de": "Zuschauer",
-          "it": "spettatori",
-          "pt": "espectadores",
-          "no": "tilskuere"
-        }
-      },
-      {
-        "id": "blue-sky-8",
-        "label": "blue sky",
-        "x": 74,
-        "y": 0,
-        "w": 23.17400354656221,
-        "h": 19.808054236724367,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cielo azul",
-          "fr": "ciel bleu",
-          "de": "blauer Himmel",
-          "it": "cielo azzurro",
-          "pt": "céu azul",
-          "no": "blå himmel"
-        }
-      },
-      {
-        "id": "ski-suit-9",
-        "label": "ski suit",
-        "x": 51.342643366446225,
-        "y": 1.4191945763275633,
-        "w": 7.082703416583879,
-        "h": 47.838389152655125,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "traje de esquí",
-          "fr": "combinaison de ski",
-          "de": "Skianzug",
-          "it": "tuta da sci",
-          "pt": "macacão de esqui",
-          "no": "skidress"
-        }
-      },
-      {
-        "id": "ski-boots-10",
-        "label": "ski boots",
-        "x": 42.01073974561419,
-        "y": 53.91987525310858,
-        "w": 6.647691477113906,
-        "h": 11.241735594236298,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "botas de esquí",
-          "fr": "chaussures de ski",
-          "de": "Skischuhe",
-          "it": "scarponi da sci",
-          "pt": "botas de esqui",
-          "no": "skistøvler"
-        }
-      },
-      {
-        "id": "stadium-11",
-        "label": "stadium",
-        "x": 0,
-        "y": 55.99727729287595,
-        "w": 14.421051499397311,
-        "h": 24.931644740966565,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "estadio",
-          "fr": "stade",
-          "de": "Stadion",
-          "it": "stadio",
-          "pt": "estádio",
-          "no": "stadion"
-        }
-      },
-      {
-        "id": "snow-12",
-        "label": "snow",
-        "x": 34.17830343979167,
-        "y": 86.01585354854406,
-        "w": 6.926961739855998,
-        "h": 11.564951875128376,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "nieve",
-          "fr": "neige",
-          "de": "Schnee",
-          "it": "neve",
-          "pt": "neve",
-          "no": "snø"
-        }
-      }
-    ],
-    "overlays": [],
-    "challenges": [
-      {
-        "prompt": "Find the ski jumper",
-        "target": "ski-jumper-1",
-        "translations": {
-          "es": "Encuentra saltador de esquí",
-          "fr": "Trouve sauteur à ski",
-          "de": "Finde Skispringer",
-          "it": "Trova saltatore con gli sci",
-          "pt": "Encontre saltador de esqui",
-          "no": "Finn skihopper"
-        }
-      },
-      {
-        "prompt": "Find the skis",
-        "target": "skis-2",
-        "translations": {
-          "es": "Encuentra esquís",
-          "fr": "Trouve skis",
-          "de": "Finde Skier",
-          "it": "Trova sci",
-          "pt": "Encontre esquis",
-          "no": "Finn ski"
-        }
-      },
-      {
-        "prompt": "Find the ski helmet",
-        "target": "ski-helmet-3",
-        "translations": {
-          "es": "Encuentra casco de esquí",
-          "fr": "Trouve casque de ski",
-          "de": "Finde Skihelm",
-          "it": "Trova casco da sci",
-          "pt": "Encontre capacete de esqui",
-          "no": "Finn skihjelm"
-        }
-      },
-      {
-        "prompt": "Find the jump ramp",
-        "target": "jump-ramp-4",
-        "translations": {
-          "es": "Encuentra rampa de salto",
-          "fr": "Trouve tremplin de saut",
-          "de": "Finde Sprungschanze",
-          "it": "Trova trampolino per il salto",
-          "pt": "Encontre rampa de salto",
-          "no": "Finn hoppbakke"
-        }
-      },
-      {
-        "prompt": "Find the snowy mountain",
-        "target": "snowy-mountain-5",
-        "translations": {
-          "es": "Encuentra montaña nevada",
-          "fr": "Trouve montagne enneigée",
-          "de": "Finde verschneiter Berg",
-          "it": "Trova montagna innevata",
-          "pt": "Encontre montanha nevada",
-          "no": "Finn snødekt fjell"
-        }
-      },
-      {
-        "prompt": "Find the pine trees",
-        "target": "pine-trees-6",
-        "translations": {
-          "es": "Encuentra pinos",
-          "fr": "Trouve pins",
-          "de": "Finde Kiefern",
-          "it": "Trova pini",
-          "pt": "Encontre pinheiros",
-          "no": "Finn furutrær"
-        }
-      },
-      {
-        "prompt": "Find the spectators",
-        "target": "spectators-7",
-        "translations": {
-          "es": "Encuentra espectadores",
-          "fr": "Trouve spectateurs",
-          "de": "Finde Zuschauer",
-          "it": "Trova spettatori",
-          "pt": "Encontre espectadores",
-          "no": "Finn tilskuere"
-        }
-      },
-      {
-        "prompt": "Find the blue sky",
-        "target": "blue-sky-8",
-        "translations": {
-          "es": "Encuentra cielo azul",
-          "fr": "Trouve ciel bleu",
-          "de": "Finde blauer Himmel",
-          "it": "Trova cielo azzurro",
-          "pt": "Encontre céu azul",
-          "no": "Finn blå himmel"
-        }
-      },
-      {
-        "prompt": "Find the ski suit",
-        "target": "ski-suit-9",
-        "translations": {
-          "es": "Encuentra traje de esquí",
-          "fr": "Trouve combinaison de ski",
-          "de": "Finde Skianzug",
-          "it": "Trova tuta da sci",
-          "pt": "Encontre macacão de esqui",
-          "no": "Finn skidress"
-        }
-      },
-      {
-        "prompt": "Find the ski boots",
-        "target": "ski-boots-10",
-        "translations": {
-          "es": "Encuentra botas de esquí",
-          "fr": "Trouve chaussures de ski",
-          "de": "Finde Skischuhe",
-          "it": "Trova scarponi da sci",
-          "pt": "Encontre botas de esqui",
-          "no": "Finn skistøvler"
-        }
-      }
-    ]
-  },
   "space-station": {
     "title": "Space Station",
     "image": "images/space-station.jpg",
@@ -41875,471 +42113,233 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
       }
     ]
   },
-  "sailboat-storm": {
-    "title": "Sailboat Storm",
-    "image": "images/Stormy-Sailboat.jpg",
+  "congratulations": {
+    "title": "congratulations",
+    "image": "images/everest-celebration.jpg",
     "lessons": [
       {
-        "text": "Look carefully at this scene.",
+        "text": "Congratulations for achieving this level of language education. ",
         "translations": {
-          "es": "Observa esta escena con atención.",
-          "fr": "Observe attentivement cette scène.",
-          "de": "Schau dir diese Szene genau an.",
-          "it": "Osserva attentamente questa scena.",
-          "pt": "Observe esta cena com atenção.",
-          "no": "Se nøye på denne scenen."
+          "en": "",
+          "es": "Enhorabuena por alcanzar este nivel de enseñanza de idiomas.",
+          "fr": "Félicitations pour avoir atteint ce niveau d'enseignement des langues.",
+          "de": "Herzlichen Glückwunsch zum Erreichen dieses Sprachniveaus.",
+          "it": "Congratulazioni per aver raggiunto questo livello di istruzione linguistica.",
+          "pt": "Parabéns por atingir esse nível de ensino de idiomas.",
+          "no": "Gratulerer med å ha oppnådd dette nivået av språkopplæring."
         }
       },
       {
-        "text": "What can you see in this picture?",
+        "text": "We are at a very high elevation and have reached the mountains summit.",
         "translations": {
-          "es": "¿Qué puedes ver en esta imagen?",
-          "fr": "Que vois-tu sur cette image ?",
-          "de": "Was kannst du auf diesem Bild sehen?",
-          "it": "Che cosa riesci a vedere in questa immagine?",
-          "pt": "O que você consegue ver nesta imagem?",
-          "no": "Hva kan du se på dette bildet?"
+          "en": "",
+          "es": "Estamos a una altitud muy alta y hemos llegado a la cima de la montaña.",
+          "fr": "Nous sommes à une très haute altitude et avons atteint le sommet des montagnes.",
+          "de": "Wir befinden uns auf einer sehr hohen Erhebung und haben den Berggipfel erreicht.",
+          "it": "Siamo ad altissima quota e abbiamo raggiunto la vetta delle montagne.",
+          "pt": "Estamos em uma elevação muito alta e chegamos ao cume das montanhas.",
+          "no": "Vi er i veldig høy høyde og har nådd toppen av fjellet."
         }
       },
       {
-        "text": "There are many interesting details here.",
+        "text": "There is someone or something floating down on a parachute.",
         "translations": {
-          "es": "Hay muchos detalles interesantes aquí.",
-          "fr": "Il y a beaucoup de détails intéressants ici.",
-          "de": "Hier gibt es viele interessante Einzelheiten.",
-          "it": "Qui ci sono molti dettagli interessanti.",
-          "pt": "Há muitos detalhes interessantes aqui.",
-          "no": "Det er mange interessante detaljer her."
+          "en": "",
+          "es": "Hay alguien o algo flotando en un paracaídas.",
+          "fr": "Il y a quelqu'un ou quelque chose qui flotte sur un parachute.",
+          "de": "Da schwebt jemand oder etwas auf einem Fallschirm.",
+          "it": "C'è qualcuno o qualcosa che galleggia su un paracadute.",
+          "pt": "Há alguém ou algo flutuando num pára-quedas.",
+          "no": "Det er noen eller noe som svever ned i en fallskjerm."
         }
       },
       {
-        "text": "Look at the objects in the picture.",
+        "text": "The oxygen is low at this elevation and we are required to bring oxygen tanks with us.",
         "translations": {
-          "es": "Mira los objetos de la imagen.",
-          "fr": "Regarde les objets sur cette image.",
-          "de": "Sieh dir die Gegenstände auf dem Bild an.",
-          "it": "Guarda gli oggetti nell’immagine.",
-          "pt": "Olhe para os objetos na imagem.",
-          "no": "Se på gjenstandene i bildet."
+          "en": "",
+          "es": "El oxígeno es bajo a esta altura y estamos obligados a traer tanques de oxígeno con nosotros.",
+          "fr": "L'oxygène est faible à cette altitude et nous sommes tenus d'apporter des réservoirs d'oxygène avec nous.",
+          "de": "Der Sauerstoff ist in dieser Höhe niedrig und wir müssen Sauerstofftanks mitbringen.",
+          "it": "L'ossigeno è basso a questa altitudine e siamo tenuti a portare con noi bombole di ossigeno.",
+          "pt": "O oxigénio é baixo nesta elevação e somos obrigados a trazer tanques de oxigénio connosco.",
+          "no": "Oksygennivået er lavt i denne høyden, og vi må ta med oss ​​oksygentanker."
         }
       },
       {
-        "text": "Describe what is happening.",
+        "text": "The two teachers and the language website developer and his dog have reached the summit of mount Everest. It is very cold and we must climb back down the mountain very soon.",
         "translations": {
-          "es": "Describe lo que está pasando.",
-          "fr": "Décris ce qui se passe.",
-          "de": "Beschreibe, was gerade passiert.",
-          "it": "Descrivi quello che sta succedendo.",
-          "pt": "Descreva o que está acontecendo.",
-          "no": "Beskriv hva som skjer."
-        }
-      },
-      {
-        "text": "Which colors can you recognize?",
-        "translations": {
-          "es": "¿Qué colores puedes identificar?",
-          "fr": "Quelles couleurs peux-tu reconnaître ?",
-          "de": "Welche Farben kannst du erkennen?",
-          "it": "Quali colori riesci a riconoscere?",
-          "pt": "Quais cores você consegue identificar?",
-          "no": "Hvilke farger kan du kjenne igjen?"
-        }
-      },
-      {
-        "text": "Look at the background of the scene.",
-        "translations": {
-          "es": "Observa el fondo de la escena.",
-          "fr": "Observe l’arrière-plan de la scène.",
-          "de": "Betrachte den Hintergrund der Szene.",
-          "it": "Osserva lo sfondo della scena.",
-          "pt": "Observe o fundo da cena.",
-          "no": "Se på bakgrunnen i scenen."
-        }
-      },
-      {
-        "text": "Which people or animals can you see?",
-        "translations": {
-          "es": "¿Qué personas o animales puedes ver?",
-          "fr": "Quelles personnes ou quels animaux vois-tu ?",
-          "de": "Welche Menschen oder Tiere kannst du sehen?",
-          "it": "Quali persone o animali riesci a vedere?",
-          "pt": "Que pessoas ou animais você consegue ver?",
-          "no": "Hvilke mennesker eller dyr kan du se?"
-        }
-      },
-      {
-        "text": "Learn new words with this adventure.",
-        "translations": {
-          "es": "Aprende nuevas palabras con esta aventura.",
-          "fr": "Apprends de nouveaux mots avec cette aventure.",
-          "de": "Lerne mit diesem Abenteuer neue Wörter.",
-          "it": "Impara nuove parole con questa avventura.",
-          "pt": "Aprenda novas palavras com esta aventura.",
-          "no": "Lær nye ord med dette eventyret."
-        }
-      },
-      {
-        "text": "Explore the picture and discover something new.",
-        "translations": {
-          "es": "Explora la imagen y descubre algo nuevo.",
-          "fr": "Explore l’image et découvre quelque chose de nouveau.",
-          "de": "Erkunde das Bild und entdecke etwas Neues.",
-          "it": "Esplora l’immagine e scopri qualcosa di nuovo.",
-          "pt": "Explore a imagem e descubra algo novo.",
-          "no": "Utforsk bildet og oppdag noe nytt."
+          "en": "",
+          "es": "Los dos profesores y el desarrollador del sitio web de idiomas y su perro han alcanzado la cima del monte Everest. Hace mucho frío y debemos volver a bajar la montaña muy pronto.",
+          "fr": "Les deux professeurs et le développeur du site de langue et son chien ont atteint le sommet du mont Everest. Il fait très froid et il faut redescendre la montagne très vite.",
+          "de": "Die beiden Lehrer und der Sprachwebsite-Entwickler haben mit seinem Hund den Gipfel des Mount Everest erreicht. Es ist sehr kalt und wir müssen sehr bald wieder den Berg hinunter.",
+          "it": "I due insegnanti, lo sviluppatore del sito web linguistico e il suo cane hanno raggiunto la vetta dell'Everest. Fa molto freddo e dobbiamo ridiscendere la montagna molto presto.",
+          "pt": "Os dois professores, o desenvolvedor do site de idiomas e seu cão chegaram ao cume do Monte Everest. Está muito frio e devemos descer a montanha muito em breve.",
+          "no": "De to lærerne, språknettutvikleren og hunden hans har nådd toppen av Mount Everest. Det er veldig kaldt, og vi må klatre ned fjellet igjen veldig snart."
         }
       }
     ],
     "hotspots": [
       {
-        "id": "dark-clouds-9",
-        "label": "dark clouds",
-        "x": 0,
-        "y": 0,
-        "w": 100,
-        "h": 35,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
+        "id": "hotspot-1792621582717",
+        "label": "Look who is coming! It's the fat guy again.",
+        "x": 69.3684111016607,
+        "y": 0.22253425985377895,
+        "w": 27.421057297978805,
+        "h": 67.22207150896581,
+        "sound": "sounds/parachute.mp3",
         "translations": {
-          "es": "nubes oscuras",
-          "fr": "nuages sombres",
-          "de": "dunkle Wolken",
-          "it": "nuvole scure",
-          "pt": "nuvens escuras",
-          "no": "mørke skyer"
-        }
+          "en": "",
+          "es": "¡Mira quién viene! Es Buzz matar en un paracaídas",
+          "fr": "Regarde qui arrive ! C'est Buzz kill en parachute",
+          "de": "Schau, wer kommt! Es ist Buzz Kill im Fallschirm",
+          "it": "Guarda chi arriva! È Buzz che uccide con un paracadute",
+          "pt": "Olha quem está vindo! É Buzz matar num pára-quedas",
+          "no": "Se hvem som kommer! Det er Buzz drept i fallskjerm"
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
-        "id": "white-sail-2",
-        "label": "white sail",
-        "x": 41.355529217344575,
-        "y": 0,
-        "w": 17.18797013276376,
-        "h": 35.60162169226437,
-        "rotation": 0,
-        "z": 0,
+        "id": "hotspot-1792636742124",
+        "label": "Congratulations on your language achievments",
+        "x": 23.21052708295575,
+        "y": 60.58414314738727,
+        "w": 41.9473728370139,
+        "h": 22.252198066717835,
         "sound": "",
         "translations": {
-          "es": "vela blanca",
-          "fr": "voile blanche",
-          "de": "weißes Segel",
-          "it": "vela bianca",
-          "pt": "vela branca",
-          "no": "hvitt seil"
-        }
+          "en": "",
+          "es": "Enhorabuena por tus logros lingüísticos",
+          "fr": "Félicitations pour vos réalisations linguistiques",
+          "de": "Herzlichen Glückwunsch zu Ihren Sprachleistungen",
+          "it": "Congratulazioni per i tuoi risultati linguistici",
+          "pt": "Parabéns pelas suas conquistas linguísticas",
+          "no": "Gratulerer med språkprestasjonene dine"
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
-        "id": "sailboat-1",
-        "label": "sailboat",
-        "x": 24.959184049762992,
-        "y": 59.79539661535866,
-        "w": 27.091297056913895,
-        "h": 9.037549829947196,
-        "rotation": 0,
-        "z": 0,
+        "id": "hotspot-1792636982204",
+        "label": "woman language teacher",
+        "x": 9.315789660720613,
+        "y": 17.561431214961424,
+        "w": 11.00000018069619,
+        "h": 57.11543188791857,
         "sound": "",
         "translations": {
-          "es": "velero",
-          "fr": "voilier",
-          "de": "Segelboot",
-          "it": "barca a vela",
-          "pt": "veleiro",
-          "no": "seilbåt"
-        }
+          "en": "",
+          "es": "mujer profesora de idiomas",
+          "fr": "professeur de langue femme",
+          "de": "frau Sprachlehrerin",
+          "it": "insegnante di lingua donna",
+          "pt": "professora de língua feminina",
+          "no": "kvinnelig språklærer"
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
-        "id": "ocean-waves-3",
-        "label": "ocean waves",
-        "x": 0,
-        "y": 73.8673654219227,
-        "w": 93.0923716460882,
-        "h": 16.522852885137297,
-        "rotation": 0,
-        "z": 0,
+        "id": "hotspot-1792637171813",
+        "label": "Man Language Teacher",
+        "x": 24.052631559926716,
+        "y": 11.070928219283442,
+        "w": 9.368422003664158,
+        "h": 48.95595377669346,
         "sound": "",
         "translations": {
-          "es": "olas del océano",
-          "fr": "vagues de l’océan",
-          "de": "Meereswellen",
-          "it": "onde dell’oceano",
-          "pt": "ondas do oceano",
-          "no": "havbølger"
-        }
+          "en": "",
+          "es": "Profesor de idiomas",
+          "fr": "Professeur de langue",
+          "de": "Sprachlehrer",
+          "it": "Insegnante di lingue",
+          "pt": "professor de línguas",
+          "no": "Mannlig språklærer"
+        },
+        "rotation": 0,
+        "z": 0
       },
       {
-        "id": "lightning-4",
-        "label": "lightning",
-        "x": 78.24919866771593,
-        "y": 1.70303457435261,
-        "w": 19.088077898987635,
-        "h": 30.953816949322846,
-        "rotation": 0,
-        "z": 0,
+        "id": "hotspot-1792637441276",
+        "label": "Website Developer",
+        "x": 37.99999825327017,
+        "y": 22.66110304489235,
+        "w": 9.000000542088571,
+        "h": 38.1075598172638,
         "sound": "",
         "translations": {
-          "es": "relámpago",
-          "fr": "éclair",
-          "de": "Blitz",
-          "it": "fulmine",
-          "pt": "relâmpago",
-          "no": "lyn"
-        }
-      },
-      {
-        "id": "sailor-5",
-        "label": "sailor",
-        "x": 10.471534142606416,
-        "y": 40.29152542519696,
-        "w": 16,
-        "h": 23,
+          "en": "",
+          "es": "Webmaster",
+          "fr": "DÉVELOPPEUR DE SITE",
+          "de": "Website Hersteller",
+          "it": "Sviluppatore di siti web",
+          "pt": "Website Developer",
+          "no": "Nettstedutvikler"
+        },
         "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "marinero",
-          "fr": "marin",
-          "de": "Seemann",
-          "it": "marinaio",
-          "pt": "marinheiro",
-          "no": "sjømann"
-        }
-      },
-      {
-        "id": "mast-6",
-        "label": "mast",
-        "x": 44.08485566799693,
-        "y": 0,
-        "w": 9.764769455017834,
-        "h": 46.30465626661697,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "mástil",
-          "fr": "mât",
-          "de": "Mast",
-          "it": "albero maestro",
-          "pt": "mastro",
-          "no": "mast"
-        }
-      },
-      {
-        "id": "rope-7",
-        "label": "rope",
-        "x": 29.325459158850634,
-        "y": 37.98551321881563,
-        "w": 11.158971590379686,
-        "h": 5.789494222449264,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cuerda",
-          "fr": "corde",
-          "de": "Seil",
-          "it": "corda",
-          "pt": "corda",
-          "no": "tau"
-        }
-      },
-      {
-        "id": "boat-hull-8",
-        "label": "boat hull",
-        "x": 4.850696639124633,
-        "y": 62.80805965052203,
-        "w": 22.530613499209977,
-        "h": 13.674061011983875,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "casco del barco",
-          "fr": "coque du bateau",
-          "de": "Bootsrumpf",
-          "it": "scafo della barca",
-          "pt": "casco do barco",
-          "no": "båtskrog"
-        }
-      },
-      {
-        "id": "storm-spray-10",
-        "label": "storm spray",
-        "x": 51.60902163216107,
-        "y": 43.336347122312084,
-        "w": 28.931257023488783,
-        "h": 9.846079993624713,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "rocío de la tormenta",
-          "fr": "embruns de tempête",
-          "de": "Sturmgischt",
-          "it": "spruzzi della tempesta",
-          "pt": "respingos da tempestade",
-          "no": "stormsprøyt"
-        }
-      },
-      {
-        "id": "boat-cabin-11",
-        "label": "boat cabin",
-        "x": 30.66594720081935,
-        "y": 47.65821287723748,
-        "w": 8.99033177049568,
-        "h": 12.349477963732102,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "cabina del barco",
-          "fr": "cabine du bateau",
-          "de": "Bootskabine",
-          "it": "cabina della barca",
-          "pt": "cabine do barco",
-          "no": "båtkabin"
-        }
-      },
-      {
-        "id": "railing-12",
-        "label": "railing",
-        "x": 7.952739587781593,
-        "y": 53.07741286736272,
-        "w": 36.74435840683489,
-        "h": 6.349477963732102,
-        "rotation": 0,
-        "z": 0,
-        "sound": "",
-        "translations": {
-          "es": "barandilla",
-          "fr": "rambarde",
-          "de": "Geländer",
-          "it": "ringhiera",
-          "pt": "corrimão",
-          "no": "rekkverk"
-        }
+        "z": 0
       }
     ],
     "overlays": [],
     "challenges": [
       {
-        "prompt": "Find the sailboat",
-        "target": "sailboat-1",
+        "prompt": "Find the fat guy in a parachute",
+        "target": "hotspot-1792621582717",
         "translations": {
-          "es": "Encuentra velero",
-          "fr": "Trouve voilier",
-          "de": "Finde Segelboot",
-          "it": "Trova barca a vela",
-          "pt": "Encontre veleiro",
-          "no": "Finn seilbåt"
+          "es": "Encuentra a la abeja gorda en un paracaídas",
+          "fr": "Trouvez la grosse guy en parachute",
+          "de": "Finde die dicke Biene im Fallschirm",
+          "it": "Trova l'ape grassa su un paracadute",
+          "pt": "Encontre a abelha gorda num pára-quedas",
+          "no": "Finn den fete bien i en fallskjerm"
         }
       },
       {
-        "prompt": "Find the white sail",
-        "target": "white-sail-2",
+        "prompt": "This sign is for you! You deserve it!",
+        "target": "hotspot-1792636742124",
         "translations": {
-          "es": "Encuentra vela blanca",
-          "fr": "Trouve voile blanche",
-          "de": "Finde weißes Segel",
-          "it": "Trova vela bianca",
-          "pt": "Encontre vela branca",
-          "no": "Finn hvitt seil"
+          "es": "¡Este letrero es para ti! ¡Te lo mereces!",
+          "fr": "Ce signe est pour vous ! Tu le mérites !",
+          "de": "Dieses Schild ist für dich! Du hast es dir verdient!",
+          "it": "Questo cartello è per te! Te lo meriti!",
+          "pt": "Este sinal é para você! Você merece!",
+          "no": "Dette skiltet er til deg! Du fortjener det!"
         }
       },
       {
-        "prompt": "Find the ocean waves",
-        "target": "ocean-waves-3",
+        "prompt": "Find Woman Language Teacher",
+        "target": "hotspot-1792636982204",
         "translations": {
-          "es": "Encuentra olas del océano",
-          "fr": "Trouve vagues de l’océan",
-          "de": "Finde Meereswellen",
-          "it": "Trova onde dell’oceano",
-          "pt": "Encontre ondas do oceano",
-          "no": "Finn havbølger"
+          "es": "Encuentra a una mujer profesora de idiomas",
+          "fr": "Trouver une professeure de langue féminine",
+          "de": "Sprachlehrerin für Frauen finden",
+          "it": "Trova insegnante di lingua donna",
+          "pt": "Encontrar Professora de Língua Feminina",
+          "no": "Finn kvinnelig språklærer"
         }
       },
       {
-        "prompt": "Find the lightning",
-        "target": "lightning-4",
+        "prompt": "Find the man language teacher",
+        "target": "hotspot-1792637171813",
         "translations": {
-          "es": "Encuentra relámpago",
-          "fr": "Trouve éclair",
-          "de": "Finde Blitz",
-          "it": "Trova fulmine",
-          "pt": "Encontre relâmpago",
-          "no": "Finn lyn"
+          "es": "Encuentra al profesor de idiomas Man",
+          "fr": "Trouver le professeur de langue Man",
+          "de": "Finden Sie den MAN-Sprachlehrer",
+          "it": "Trova l'insegnante di lingue uomo",
+          "pt": "Encontre o professor de idiomas Man",
+          "no": "Finn den mannlige språklæreren"
         }
       },
       {
-        "prompt": "Find the sailor",
-        "target": "sailor-5",
+        "prompt": "Find the Language Website Developer and His Dog",
+        "target": "hotspot-1792637441276",
         "translations": {
-          "es": "Encuentra marinero",
-          "fr": "Trouve marin",
-          "de": "Finde Seemann",
-          "it": "Trova marinaio",
-          "pt": "Encontre marinheiro",
-          "no": "Finn sjømann"
-        }
-      },
-      {
-        "prompt": "Find the mast",
-        "target": "mast-6",
-        "translations": {
-          "es": "Encuentra mástil",
-          "fr": "Trouve mât",
-          "de": "Finde Mast",
-          "it": "Trova albero maestro",
-          "pt": "Encontre mastro",
-          "no": "Finn mast"
-        }
-      },
-      {
-        "prompt": "Find the rope",
-        "target": "rope-7",
-        "translations": {
-          "es": "Encuentra cuerda",
-          "fr": "Trouve corde",
-          "de": "Finde Seil",
-          "it": "Trova corda",
-          "pt": "Encontre corda",
-          "no": "Finn tau"
-        }
-      },
-      {
-        "prompt": "Find the boat hull",
-        "target": "boat-hull-8",
-        "translations": {
-          "es": "Encuentra casco del barco",
-          "fr": "Trouve coque du bateau",
-          "de": "Finde Bootsrumpf",
-          "it": "Trova scafo della barca",
-          "pt": "Encontre casco do barco",
-          "no": "Finn båtskrog"
-        }
-      },
-      {
-        "prompt": "Find the dark clouds",
-        "target": "dark-clouds-9",
-        "translations": {
-          "es": "Encuentra nubes oscuras",
-          "fr": "Trouve nuages sombres",
-          "de": "Finde dunkle Wolken",
-          "it": "Trova nuvole scure",
-          "pt": "Encontre nuvens escuras",
-          "no": "Finn mørke skyer"
-        }
-      },
-      {
-        "prompt": "Find the storm spray",
-        "target": "storm-spray-10",
-        "translations": {
-          "es": "Encuentra rocío de la tormenta",
-          "fr": "Trouve embruns de tempête",
-          "de": "Finde Sturmgischt",
-          "it": "Trova spruzzi della tempesta",
-          "pt": "Encontre respingos da tempestade",
-          "no": "Finn stormsprøyt"
+          "es": "Encuentra al desarrollador del sitio web de idiomas y a su perro",
+          "fr": "Trouver le développeur de site Web de langue et son chien",
+          "de": "Finden Sie den Sprachwebsite-Entwickler und seinen Hund",
+          "it": "Trova lo sviluppatore del sito web in lingua e il suo cane",
+          "pt": "Encontre o desenvolvedor do site Language e o cão dele",
+          "no": "Finn språknettutvikleren og hunden hans"
         }
       }
     ]
