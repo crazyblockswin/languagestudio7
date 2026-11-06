@@ -37593,7 +37593,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 16.522852885137297,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/waves-crashing.mp3",
         "translations": {
           "es": "olas del océano",
           "fr": "vagues de l’océan",
@@ -38005,7 +38005,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 32.9157911924225,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/stormy-seas.mp3",
         "translations": {
           "es": "olas del océano",
           "fr": "vagues de l’océan",
