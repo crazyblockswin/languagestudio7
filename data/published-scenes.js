@@ -37612,7 +37612,7 @@ window.TAB_SCENES=Object.assign(window.TAB_SCENES||{},{
         "h": 30.953816949322846,
         "rotation": 0,
         "z": 0,
-        "sound": "",
+        "sound": "sounds/stormy-seas.mp3",
         "translations": {
           "es": "relámpago",
           "fr": "éclair",
